@@ -1,0 +1,17 @@
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\bin\Debug\02-HolaMundoWpfVB.exe.config
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\bin\Debug\02-HolaMundoWpfVB.exe
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\bin\Debug\02-HolaMundoWpfVB.pdb
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\bin\Debug\02-HolaMundoWpfVB.xml
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.vbprojAssemblyReference.cache
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\MainWindow.g.vb
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\Application.g.vb
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB_MarkupCompile.cache
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB_MarkupCompile.lref
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\MainWindow.baml
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.g.resources
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\_02_HolaMundoWpfVB.Resources.resources
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.vbproj.GenerateResource.cache
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.vbproj.CoreCompileInputs.cache
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.exe
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.xml
+D:\GitHub Manuel\02-HolaMundo\02-HolaMundoWpfVB\obj\Debug\02-HolaMundoWpfVB.pdb
