@@ -10,7 +10,7 @@ Class MainWindow
     ''' <param name="sender"></param>
     ''' <param name="e"></param>
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
-        Dim persona As clsPersona
+        Dim persona As New clsPersona
 
         persona.Nombre = txbNombre.Text
 

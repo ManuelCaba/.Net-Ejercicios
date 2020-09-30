@@ -131,5 +131,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\02-HolaMundoWpfCSharp\02-HolaMundoWpfCSharp.csproj">
+      <Project>{F11C1DBE-A4C5-4320-B58C-9E2A2DE86577}</Project>
+      <Name>02-HolaMundoWpfCSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
