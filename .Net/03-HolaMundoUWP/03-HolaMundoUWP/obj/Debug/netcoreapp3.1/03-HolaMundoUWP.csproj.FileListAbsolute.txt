@@ -1,0 +1,13 @@
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.exe
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.deps.json
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.runtimeconfig.json
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.runtimeconfig.dev.json
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.dll
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\Debug\netcoreapp3.1\03-HolaMundoUWP.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.AssemblyInfoInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.AssemblyInfo.cs
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.dll
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\Debug\netcoreapp3.1\03-HolaMundoUWP.genruntimeconfig.cache
