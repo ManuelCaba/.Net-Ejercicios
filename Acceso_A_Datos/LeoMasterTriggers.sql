@@ -37,12 +37,14 @@ HAVING COUNT(*) > 1
 
 --Prueba
 
-SELECT C.* FROM LM_Contrincantes AS C
+SELECT C.*, P.Ronda FROM LM_Contrincantes AS C
+INNER JOIN LM_Partidos AS P ON C.ID = P.Contrincante1 OR C.ID = P.Contrincante2
 INNER JOIN LM_Modalidades AS M ON C.Modalidad = M.ID
 WHERE (C.Tenista1 = 'ACH' OR C.Tenista2 = 'ACH') AND C.Edicion = 2000 AND M.Simple = 0
 
 SELECT * FROM LM_Contrincantes
 SELECT * FROM LM_Partidos
+WHERE Edicion = 2000 AND Modalidad = 'SF'
 
 --7.- Haz un trigger que al insertar un partido, compruebe que el tanteo de todos los sets es
 --correcto y en caso contrario anule la operación. El tanteo es correcto en los siguientes casos: Si
@@ -106,16 +108,6 @@ AS
 
 	END
 GO
-
-SELECT
-  (SELECT Max(v) 
-   FROM (VALUES (Set11), (Set12), (Set21), (Set22), (Set31), (Set32), (Set41), (Set42), (Set51), (Set52)) AS Value(v)) AS [MaxSet]
-FROM LM_Partidos WHERE Edicion = 2000 AND Numero = 1
-
-SELECT
-  (SELECT Min(v) 
-   FROM (VALUES (Set11), (Set12), (Set21), (Set22), (Set31), (Set32), (Set41), (Set42), (Set51), (Set52)) AS Value(v)) AS [MaxSet]
-FROM LM_Partidos WHERE Edicion = 2000 AND Numero = 1
 
 
 --8.- Queremos evitar que se introduzcan palabras que terminen en “azo”
