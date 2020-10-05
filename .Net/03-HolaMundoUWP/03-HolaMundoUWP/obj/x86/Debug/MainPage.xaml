@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="_03_HolaMundoUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_03_HolaMundoUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBox x:ConnectionId='2' x:Name="txbNombre" HorizontalAlignment="Left" Margin="769,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="32" Width="181" FontSize="18"/>
+        <TextBlock x:ConnectionId='3' x:Name="txkNombre" HorizontalAlignment="Left" Margin="604,484,0,0" Text="Nombre" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="106"                                                 FontSize="24"/>
+        <Button x:ConnectionId='4' x:Name="btnSaludar" Content="Saludar" Margin="0,604,0,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Center" Width="219"                         />
+        <TextBlock x:ConnectionId='5' x:Name="txkErrorNombre" HorizontalAlignment="Left" Margin="990,474,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="276"                                                 FontSize="24" FocusVisualPrimaryBrush="Red" Foreground="Red"/>
+    </Grid>
+</Page>
+
