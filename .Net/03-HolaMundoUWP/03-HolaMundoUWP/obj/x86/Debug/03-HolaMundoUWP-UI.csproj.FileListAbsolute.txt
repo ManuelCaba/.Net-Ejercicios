@@ -44,3 +44,7 @@ D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\MultipleQual
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP-Clases.dll
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP-Clases.pdb
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP-Clases.pri
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\03-HolaMundoUWP-Clases.pri.xml

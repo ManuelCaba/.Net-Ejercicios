@@ -40,7 +40,6 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
-      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootEvent Name="Click" />
     </RootType>

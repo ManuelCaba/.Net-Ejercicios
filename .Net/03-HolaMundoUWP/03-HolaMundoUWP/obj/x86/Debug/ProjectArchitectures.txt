@@ -1,1 +1,2 @@
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\03-HolaMundoUWP-UI.csproj;x86
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\03-HolaMundoUWP-Clases.csproj;x86

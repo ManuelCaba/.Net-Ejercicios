@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _03_HolaMundoUWP_Clases;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -35,12 +36,15 @@ namespace _03_HolaMundoUWP
 
         private async void btnSaludar_Click(object sender, RoutedEventArgs e)
         {
-            String nombre = txbNombre.Text;
+            //Instanciamos objeto de tipo persona
+            ClsPersona persona = new ClsPersona();
 
-            if (!String.IsNullOrEmpty(nombre))
+            persona.Nombre = txbNombre.Text;
+
+            if (!String.IsNullOrEmpty(persona.Nombre))
             {
                 txkErrorNombre.Text = "";
-                var dialogo = new MessageDialog($"Hola {nombre}");
+                var dialogo = new MessageDialog($"Hola {persona.Nombre}");
                 await dialogo.ShowAsync();
 
             }

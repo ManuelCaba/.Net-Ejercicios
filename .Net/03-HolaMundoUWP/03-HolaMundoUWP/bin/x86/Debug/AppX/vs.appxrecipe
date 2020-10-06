@@ -30,17 +30,21 @@
     <AppXManifest Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-06T11:59:37.466</Modified>
+      <Modified>2020-10-06T12:36:44.412</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.exe">
       <PackagePath>entrypoint\03-HolaMundoUWP.exe</PackagePath>
-      <Modified>2020-10-06T11:59:36.776</Modified>
+      <Modified>2020-10-06T12:36:43.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T17:16:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.dll">
+      <PackagePath>03-HolaMundoUWP-Clases.dll</PackagePath>
+      <Modified>2020-10-06T12:34:54.241</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -86,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.xr.xml">
       <PackagePath>03-HolaMundoUWP.xr.xml</PackagePath>
-      <Modified>2020-10-06T11:57:38.613</Modified>
+      <Modified>2020-10-06T12:36:42.916</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-06T11:59:36.577</Modified>
+      <Modified>2020-10-06T12:36:42.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-06T11:59:36.577</Modified>
+      <Modified>2020-10-06T12:36:42.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +106,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-06T11:52:08.269</Modified>
+      <Modified>2020-10-06T12:35:03.772</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\03-HolaMundoUWP.exe">
       <PackagePath>03-HolaMundoUWP.exe</PackagePath>
-      <Modified>2020-10-06T11:59:37.431</Modified>
+      <Modified>2020-10-06T12:36:44.391</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
