@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-HolaMundoUWP", "03-HolaMundoUWP\03-HolaMundoUWP.csproj", "{FA730F77-4C78-482C-8BC5-07398EAF4078}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-HolaMundoUWP-UI", "03-HolaMundoUWP\03-HolaMundoUWP-UI.csproj", "{FA730F77-4C78-482C-8BC5-07398EAF4078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
