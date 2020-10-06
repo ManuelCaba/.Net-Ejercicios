@@ -8158,11 +8158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
-      "projectName": "03-HolaMundoUWP-UI",
-      "projectPath": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
+      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj",
+      "projectName": "03-HolaMundoUWP-Clases",
+      "projectPath": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj",
       "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\obj\\",
+      "outputPath": "D:\\GitHub Manuel\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

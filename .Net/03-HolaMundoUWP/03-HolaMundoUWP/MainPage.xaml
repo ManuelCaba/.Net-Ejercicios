@@ -8,8 +8,8 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Margin="769,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="32" Width="181" FontSize="18"/>
+    <Grid RenderTransformOrigin="0.5,0.5">
+        <TextBox x:Name="txbNombre" HorizontalAlignment="Left" Margin="751,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Height="32" Width="181" FontSize="18" RenderTransformOrigin="0.5,0.5"/>
         <TextBlock x:Name="txkNombre" HorizontalAlignment="Left" Margin="604,484,0,0" Text="Nombre" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="106" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="24"/>
         <Button x:Name="btnSaludar" Content="Saludar" Margin="0,604,0,0" VerticalAlignment="Top" FontSize="24" HorizontalAlignment="Center" Width="219" Click="btnSaludar_Click"/>
         <TextBlock x:Name="txkErrorNombre" HorizontalAlignment="Left" Margin="990,474,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="276" SelectionChanged="TextBlock_SelectionChanged_1" FontSize="24" FocusVisualPrimaryBrush="Red" Foreground="Red"/>

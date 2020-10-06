@@ -13,17 +13,17 @@ namespace _03_HolaMundoUWP
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
-        private global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+        private global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks"," 10.0.18362.1")]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        private global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlMetaDataProvider _AppProvider
+        private global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
             get
             {
                 if (__appProvider == null)
                 {
-                    __appProvider = new global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlMetaDataProvider();
+                    __appProvider = new global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlMetaDataProvider();
                 }
                 return __appProvider;
             }
@@ -61,7 +61,7 @@ namespace _03_HolaMundoUWP
     }
 }
 
-namespace _03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo
+namespace _03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo
 {
     /// <summary>
     /// Main class for providing metadata for the app or library
@@ -70,15 +70,15 @@ namespace _03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed class XamlMetaDataProvider : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
+        private global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlTypeInfoProvider _provider = null;
 
-        private global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlTypeInfoProvider Provider
+        private global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlTypeInfoProvider Provider
         {
             get
             {
                 if (_provider == null)
                 {
-                    _provider = new global::_03_HolaMundoUWP._3_HolaMundoUWP_XamlTypeInfo.XamlTypeInfoProvider();
+                    _provider = new global::_03_HolaMundoUWP._3_HolaMundoUWP_UI_XamlTypeInfo.XamlTypeInfoProvider();
                 }
                 return _provider;
             }

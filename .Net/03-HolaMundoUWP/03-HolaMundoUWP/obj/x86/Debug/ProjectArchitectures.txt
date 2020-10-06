@@ -1,1 +1,1 @@
-D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\03-HolaMundoUWP.csproj;x86
+D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\03-HolaMundoUWP-UI.csproj;x86
