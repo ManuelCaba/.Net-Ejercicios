@@ -39,10 +39,11 @@ namespace _03_HolaMundoUWP
             //Instanciamos objeto de tipo persona
             ClsPersona persona = new ClsPersona();
 
-            persona.Nombre = txbNombre.Text;
+            String nombre = txbNombre.Text;
 
-            if (!String.IsNullOrEmpty(persona.Nombre))
+            if (!String.IsNullOrEmpty(nombre))
             {
+                persona.Nombre = nombre;
                 txkErrorNombre.Text = "";
                 var dialogo = new MessageDialog($"Hola {persona.Nombre}");
                 await dialogo.ShowAsync();
