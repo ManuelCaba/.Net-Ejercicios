@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HolaMundoWP-UI", "01-HolaMundoWP-UI\01-HolaMundoWP-UI.csproj", "{CFCEE20D-F447-4BA3-A27B-A2B6E656D0EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-HolaMundoWF-Entities", "01-HolaMundoWF-Entities\01-HolaMundoWF-Entities.csproj", "{6F4D2304-4539-4E00-8D7B-398E838DC16E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFCEE20D-F447-4BA3-A27B-A2B6E656D0EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCEE20D-F447-4BA3-A27B-A2B6E656D0EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCEE20D-F447-4BA3-A27B-A2B6E656D0EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCEE20D-F447-4BA3-A27B-A2B6E656D0EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4D2304-4539-4E00-8D7B-398E838DC16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4D2304-4539-4E00-8D7B-398E838DC16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4D2304-4539-4E00-8D7B-398E838DC16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4D2304-4539-4E00-8D7B-398E838DC16E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94998505-ACEB-467E-B09A-892537452505}
+	EndGlobalSection
+EndGlobal
