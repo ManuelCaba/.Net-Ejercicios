@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-7UOCHNI</Machine>
+    <WindowsUser>emane</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>986b9991-a1f3-4607-9764-4006db606968</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>B24DEE8FEC79E267E264C5CEC157478FB57E9ADBEEBF0CED89132F08664C54F9</RegisteredManifestChecksum>
+    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7FA67E581966CE53A2F17D7125D5EA861F94B165EE04EEB4B72DFE966BA67435</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>986b9991-a1f3-4607-9764-4006db606968_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>986b9991-a1f3-4607-9764-4006db606968_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>986b9991-a1f3-4607-9764-4006db606968</RegisteredPackageID>
@@ -27,90 +27,90 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-06T12:36:44.412</Modified>
+      <Modified>2020-10-07T08:49:52.340</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.exe">
       <PackagePath>entrypoint\03-HolaMundoUWP.exe</PackagePath>
-      <Modified>2020-10-06T12:36:43.125</Modified>
+      <Modified>2020-10-07T08:49:50.754</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2020-02-27T17:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.dll">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.dll">
       <PackagePath>03-HolaMundoUWP-Clases.dll</PackagePath>
-      <Modified>2020-10-06T12:34:54.241</Modified>
+      <Modified>2020-10-07T08:49:42.030</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-05T08:49:02.349</Modified>
+      <Modified>2020-10-02T12:36:31.680</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-05T08:49:02.346</Modified>
+      <Modified>2020-09-21T14:16:57.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.346</Modified>
+      <Modified>2020-09-21T14:16:57.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.346</Modified>
+      <Modified>2020-09-21T14:16:57.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.346</Modified>
+      <Modified>2020-09-21T14:16:57.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.347</Modified>
+      <Modified>2020-09-21T14:16:57.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.347</Modified>
+      <Modified>2020-09-21T14:16:57.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-05T08:49:02.347</Modified>
+      <Modified>2020-09-21T14:16:57.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.xr.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\03-HolaMundoUWP.xr.xml">
       <PackagePath>03-HolaMundoUWP.xr.xml</PackagePath>
-      <Modified>2020-10-06T12:36:42.916</Modified>
+      <Modified>2020-10-07T08:39:18.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-06T12:36:42.942</Modified>
+      <Modified>2020-10-07T08:49:50.482</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-06T12:36:42.942</Modified>
+      <Modified>2020-10-07T08:49:50.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-06T12:35:03.772</Modified>
+      <Modified>2020-10-07T08:49:51.273</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\03-HolaMundoUWP.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP\bin\x86\Debug\Core\03-HolaMundoUWP.exe">
       <PackagePath>03-HolaMundoUWP.exe</PackagePath>
-      <Modified>2020-10-06T12:36:44.391</Modified>
+      <Modified>2020-10-07T08:49:52.332</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

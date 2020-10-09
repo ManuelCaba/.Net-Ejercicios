@@ -22,3 +22,27 @@ D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\pri.r
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\qualifiers.txt
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\qualifiers.txt.intermediate
 D:\GitHub Manuel\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.dll
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\03-HolaMundoUWP-Clases.pri
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\03-HolaMundoUWP-Clases.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\03-HolaMundoUWP-Clases.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\03-HolaMundoUWP-Clases.csproj.CopyComplete
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\03-HolaMundoUWP-Clases.dll
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\03-HolaMundoUWP-Clases.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\priconfig.xml
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\priconfig.xml.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\unfiltered.layout.resfiles
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\filtered.layout.resfiles
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\excluded.layout.resfiles
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\resources.resfiles
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\resources.resfiles.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\pri.resfiles
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\pri.resfiles.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\qualifiers.txt
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Escritorio\.Net-Ejercicios\.Net\03-HolaMundoUWP\03-HolaMundoUWP-Clases\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
