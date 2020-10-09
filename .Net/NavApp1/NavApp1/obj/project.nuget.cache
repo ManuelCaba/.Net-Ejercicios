@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1WXf6et0ewlqnJRoFOJTL3A92n29JXfKi4odYVjcjQHVw4kQ5L1RdtjJ+Gr/0NpeVS4lPJU3o+OEgegs+tBinA==",
+  "dgSpecHash": "OMVXuRDUPUQHnjh0TQOqLc4qNAb1a8Ls6Z9k35tsPV/wNWDK1EOdsTS1ZrNVZdjDJlaz/yb07komzNIxDQJjDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emane\\source\\repos\\NavApp1\\NavApp1\\BlanckApp.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\.Net\\NavApp1\\NavApp1\\BlanckApp.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

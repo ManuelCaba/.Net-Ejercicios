@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CIOyxZF1B6MUgL0AROi1QdbciNNYynqCd/A22UP9AjIhy3tMw+bCsC5AVFJAzooqlVwM3zbCWg+kHW4T/IJHHg==",
+  "dgSpecHash": "8mtxn1K4Os+VJZObpCknTe5AK+qxXbzRWw0cFIVzYfl9Yf4CYtW9dP6sXyZBKnnI0DviB2FM/okjzoo9KF7+9A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\emane\\source\\repos\\BackNav\\BackNav\\BackNav.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\.Net\\BackNav\\BackNav\\BackNav.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

@@ -1,1 +1,1 @@
-C:\Users\emane\source\repos\NavApp1\NavApp1\BlanckApp.csproj;x86
+D:\GitHub Manuel\.Net\NavApp1\NavApp1\BlanckApp.csproj;x86

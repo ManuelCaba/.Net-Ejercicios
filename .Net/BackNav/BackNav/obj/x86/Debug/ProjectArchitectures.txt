@@ -1,1 +1,1 @@
-C:\Users\emane\source\repos\BackNav\BackNav\BackNav.csproj;x86
+D:\GitHub Manuel\.Net\BackNav\BackNav\BackNav.csproj;x86

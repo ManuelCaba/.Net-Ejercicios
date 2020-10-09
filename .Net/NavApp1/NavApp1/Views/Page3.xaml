@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock x:Name="pageTitle" HorizontalAlignment="Left" Margin="62,66,0,0" Text="Page 3" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="48"/>
         <HyperlinkButton x:Name="btcPage1" Content="Click to go to page 1" Margin="133,500,0,0" VerticalAlignment="Top" FontSize="48" Click="HyperlinkButton_Click"/>
-        <HyperlinkButton x:Name="btcPage2" Content="Click to go to page 2" Margin="931,500,0,0" VerticalAlignment="Top" FontSize="48" Click="HyperlinkButton_Click1"/>
+        <HyperlinkButton x:Name="btcPage2" Content="Click to go to page 2" Margin="748,500,0,0" VerticalAlignment="Top" FontSize="48" Click="HyperlinkButton_Click1"/>
 
     </Grid>
 </Page>

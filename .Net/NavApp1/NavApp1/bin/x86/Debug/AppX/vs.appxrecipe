@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>2eb8e1d2-87e6-42c4-b74c-63d1e038e5be</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\emane\source\repos\NavApp1\NavApp1\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\NavApp1\NavApp1\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>53C7545C3CFB3FD4B39423B22346DB2619093D9F898D1AA25D994BACD880DFE7</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>BA7B208D1A5E83E7753A97E1474EDB01BFE3EB5FED15E26FD105E290CE08511E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2eb8e1d2-87e6-42c4-b74c-63d1e038e5be_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2eb8e1d2-87e6-42c4-b74c-63d1e038e5be_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2eb8e1d2-87e6-42c4-b74c-63d1e038e5be</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-07T11:51:24.524</Modified>
+      <Modified>2020-10-09T11:02:50.571</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\NavApp1.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\NavApp1.exe">
       <PackagePath>entrypoint\NavApp1.exe</PackagePath>
-      <Modified>2020-10-07T11:51:23.976</Modified>
+      <Modified>2020-10-09T11:02:49.377</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,77 +44,77 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-07T10:18:14.874</Modified>
+      <Modified>2020-10-09T08:49:57.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-21T14:16:57.877</Modified>
+      <Modified>2020-10-09T08:49:57.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.882</Modified>
+      <Modified>2020-10-09T08:49:57.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.883</Modified>
+      <Modified>2020-10-09T08:49:57.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.884</Modified>
+      <Modified>2020-10-09T08:49:57.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.885</Modified>
+      <Modified>2020-10-09T08:49:57.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.886</Modified>
+      <Modified>2020-10-09T08:49:57.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.887</Modified>
+      <Modified>2020-10-09T08:49:57.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\NavApp1.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\NavApp1.xr.xml">
       <PackagePath>NavApp1.xr.xml</PackagePath>
-      <Modified>2020-10-07T11:50:32.018</Modified>
+      <Modified>2020-10-09T08:49:57.586</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-07T11:43:44.204</Modified>
+      <Modified>2020-10-09T11:02:49.161</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\Views\Page3.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\Views\Page3.xbf">
       <PackagePath>Views\Page3.xbf</PackagePath>
-      <Modified>2020-10-07T11:43:44.204</Modified>
+      <Modified>2020-10-09T11:02:49.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\Views\Page2.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\Views\Page2.xbf">
       <PackagePath>Views\Page2.xbf</PackagePath>
-      <Modified>2020-10-07T11:43:44.204</Modified>
+      <Modified>2020-10-09T11:02:49.162</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\Views\Page1.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\Views\Page1.xbf">
       <PackagePath>Views\Page1.xbf</PackagePath>
-      <Modified>2020-10-07T11:51:23.760</Modified>
+      <Modified>2020-10-09T11:02:49.162</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-07T10:40:14.015</Modified>
+      <Modified>2020-10-09T11:00:36.839</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\NavApp1\NavApp1\bin\x86\Debug\Core\NavApp1.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\NavApp1\NavApp1\bin\x86\Debug\Core\NavApp1.exe">
       <PackagePath>NavApp1.exe</PackagePath>
-      <Modified>2020-10-07T11:51:24.515</Modified>
+      <Modified>2020-10-09T11:02:50.551</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

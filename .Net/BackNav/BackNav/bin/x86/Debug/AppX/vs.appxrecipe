@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>2c76b1a5-195f-4875-a291-07043a880507</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\emane\source\repos\BackNav\BackNav\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\BackNav\BackNav\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>93FB9AFCE05EF6367AFC8A1FCB9E5E98E1DBD154A8CB859E31873287491F4B51</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A7CBA5624CFA5C133A3D7415CD90B3DF2E7A51881FF2D87457B3F4F01F4FCF75</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>2c76b1a5-195f-4875-a291-07043a880507_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>2c76b1a5-195f-4875-a291-07043a880507_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>2c76b1a5-195f-4875-a291-07043a880507</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-07T14:28:27.837</Modified>
+      <Modified>2020-10-09T11:17:48.534</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\BackNav.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\BackNav.exe">
       <PackagePath>entrypoint\BackNav.exe</PackagePath>
-      <Modified>2020-10-07T14:28:26.819</Modified>
+      <Modified>2020-10-09T11:17:46.413</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-07T13:36:35.250</Modified>
+      <Modified>2020-10-09T08:49:57.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-21T14:16:57.877</Modified>
+      <Modified>2020-10-09T08:49:57.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.882</Modified>
+      <Modified>2020-10-09T08:49:57.424</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.883</Modified>
+      <Modified>2020-10-09T08:49:57.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.884</Modified>
+      <Modified>2020-10-09T08:49:57.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.885</Modified>
+      <Modified>2020-10-09T08:49:57.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.886</Modified>
+      <Modified>2020-10-09T08:49:57.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.887</Modified>
+      <Modified>2020-10-09T08:49:57.426</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\BackNav.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\BackNav.xr.xml">
       <PackagePath>BackNav.xr.xml</PackagePath>
-      <Modified>2020-10-07T14:28:26.428</Modified>
+      <Modified>2020-10-09T08:49:57.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-07T14:28:26.445</Modified>
+      <Modified>2020-10-09T11:17:46.182</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\Views\Page2.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\Views\Page2.xbf">
       <PackagePath>Views\Page2.xbf</PackagePath>
-      <Modified>2020-10-07T14:28:26.445</Modified>
+      <Modified>2020-10-09T11:17:46.183</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\Views\Page1.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\Views\Page1.xbf">
       <PackagePath>Views\Page1.xbf</PackagePath>
-      <Modified>2020-10-07T14:28:26.446</Modified>
+      <Modified>2020-10-09T11:17:46.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-07T14:18:16.830</Modified>
+      <Modified>2020-10-09T11:17:46.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\source\repos\BackNav\BackNav\bin\x86\Debug\Core\BackNav.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\BackNav\BackNav\bin\x86\Debug\Core\BackNav.exe">
       <PackagePath>BackNav.exe</PackagePath>
-      <Modified>2020-10-07T14:28:27.829</Modified>
+      <Modified>2020-10-09T11:17:48.491</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
