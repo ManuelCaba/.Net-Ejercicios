@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else
         {
-            numero2 = Double.parseDouble(this.etxNumero1.getText().toString());
+            numero2 = Double.parseDouble(this.etxNumero2.getText().toString());
         }
 
         double suma = numero1 + numero2;
