@@ -26,10 +26,15 @@ namespace PruebaBotonexXAML
         {
             this.InitializeComponent();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn2_Click(object sender, RoutedEventArgs e)
         {
-            if (stackPanel.FindName("btn3") == null)
+            //Buscamos si existe el botón 3
+            if (stkBotones.FindName("btn3") == null)
             {
                 Button btn3 = new Button();
 
@@ -48,7 +53,7 @@ namespace PruebaBotonexXAML
                 btn3.Click += btn3_Click;
 
 
-                stackPanel.Children.Add(btn3);
+                stkBotones.Children.Add(btn3);
             }
         }
 

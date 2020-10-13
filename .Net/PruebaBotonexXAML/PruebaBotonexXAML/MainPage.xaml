@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel x:Name="stackPanel">
+    <StackPanel x:Name="stkBotones">
         <Button Name ="btn1"
                 Content="Boton 1"
                 HorizontalAlignment="Center"
