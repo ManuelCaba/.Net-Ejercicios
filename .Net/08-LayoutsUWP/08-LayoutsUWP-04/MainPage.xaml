@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="_08_LayoutsUWP_04.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_08_LayoutsUWP_04"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+
+    <RelativePanel>
+        <Border x:Name="txbTitulo"
+                BorderBrush="Black" 
+                BorderThickness="1"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                Margin="5">
+            <TextBlock Text="T10 Minimal App2 Project 1 Main Page"
+                   TextAlignment="Left"
+                   Padding="5">
+            </TextBlock>
+        </Border>
+        <Border x:Name="txbLoremIpsum"
+                BorderBrush="Black" 
+                BorderThickness="1"
+                RelativePanel.Below="txbTitulo"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                Margin="5">
+            <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
+                       TextAlignment="Left"
+                       TextWrapping="Wrap"
+                       Padding="5"
+                       >
+            </TextBlock>
+        </Border>
+        <Border x:Name="txbBody"
+                BorderBrush="Black" 
+                BorderThickness="1"
+                RelativePanel.Below="txbLoremIpsum"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                Margin="5">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <VariableSizedWrapGrid Grid.Column="0">
+                    <Border> 
+                        <Rectangle MinHeight="100"
+                                   MinWidth="100"
+                                   Fill="Red"></Rectangle>
+                    </Border>
+                </VariableSizedWrapGrid>
+                <VariableSizedWrapGrid Grid.Column="1"
+                                       Grid.RowSpan="4">
+                    <Border>
+                        <Rectangle MinHeight="100"
+                                   MinWidth="100"
+                                   Fill="Red"></Rectangle>
+                    </Border>
+                </VariableSizedWrapGrid>
+            </Grid>
+           
+        </Border>
+
+
+    </RelativePanel>
+</Page>

@@ -8,10 +8,39 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel Height="1000" VerticalAlignment="Bottom">
-        <Button Content="Button" HorizontalAlignment="Center" Height="36"/>
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Stretch"/>
-        <TextBox HorizontalAlignment="Center" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Stretch"/>
+    <Border BorderBrush="Blue" 
+            BorderThickness="5" 
+            CornerRadius="50">
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Center">
+            <Button Content="Hello World (With Padding)"
+                    HorizontalAlignment="Center" 
+                    BorderBrush="Black"
+                    Padding="10"
+                    Margin="5"
+                    Height="50" Width="196"/>
+            <Button HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Content="Button2"
+                    Margin="5"/>
+            <Button HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Content="Button3"
+                    Margin="5"/>
+            <Button HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Content="AnotherHello"
+                    Margin="5"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock HorizontalAlignment="Center" 
+                           Text="Nombre:" 
+                           TextWrapping="Wrap" 
+                           VerticalAlignment="Stretch"
+                           Margin="5"/>
+                <TextBox VerticalAlignment="Center"
+                         Margin="5" Width="126"/>
+            </StackPanel>
+        </StackPanel>
+    </Border>
 
-    </StackPanel>
 </Page>
