@@ -13,10 +13,10 @@
     <RelativePanel>
         <Border x:ConnectionId='2' x:Name="txbTitulo"
                 BorderBrush="Black" 
-                BorderThickness="1"
+                BorderThickness="2"
                 RelativePanel.AlignLeftWithPanel="True"
                 RelativePanel.AlignRightWithPanel="True"
-                Margin="5">
+                Margin="8">
             <TextBlock Text="T10 Minimal App2 Project 1 Main Page"
                    TextAlignment="Left"
                    Padding="5">
@@ -24,42 +24,123 @@
         </Border>
         <Border x:ConnectionId='3' x:Name="txbLoremIpsum"
                 BorderBrush="Black" 
-                BorderThickness="1"
+                BorderThickness="2"
                 RelativePanel.Below="txbTitulo"
                 RelativePanel.AlignLeftWithPanel="True"
                 RelativePanel.AlignRightWithPanel="True"
-                Margin="5">
+                Margin="8"
+                MinHeight="80">
             <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
                        TextAlignment="Left"
                        TextWrapping="Wrap"
-                       Padding="5"
-                       >
+                       Padding="5">
             </TextBlock>
         </Border>
         <Border x:ConnectionId='4' x:Name="txbBody"
                 BorderBrush="Black" 
-                BorderThickness="1"
+                BorderThickness="2"
                 RelativePanel.Below="txbLoremIpsum"
                 RelativePanel.AlignLeftWithPanel="True"
                 RelativePanel.AlignRightWithPanel="True"
-                Margin="5">
+                RelativePanel.Above="txbBase"
+                Margin="8">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
 
-                <VariableSizedWrapGrid Grid.Column="0">
-                    <Border>
-                        <Rectangle MinHeight="100"
-                                   MinWidth="100"
-                                   Fill="Red"></Rectangle>
+                <VariableSizedWrapGrid Grid.Column="0" 
+                                       Orientation="Horizontal" 
+                                       HorizontalAlignment="Center">
+                    <Border BorderThickness="2"
+                            Margin="8"
+                            BorderBrush="Black">
+                        <Rectangle MinHeight="150"
+                                   MinWidth="150"
+                                   Fill="Orange"></Rectangle>
+                    </Border>
+                    <Border BorderThickness="2"
+                            Margin="8"
+                            BorderBrush="Black">
+                        <Rectangle MinHeight="150"
+                                   MinWidth="150"
+                                   Fill="CadetBlue"></Rectangle>
+                    </Border>
+                    <Border BorderThickness="2"
+                            Margin="8"
+                            BorderBrush="Black">
+                        <Rectangle MinHeight="150"
+                                   MinWidth="150"
+                                   Fill="GreenYellow"></Rectangle>
                     </Border>
                 </VariableSizedWrapGrid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Border BorderBrush="Black" 
+                            BorderThickness="2"
+                            Margin="8"
+                            Grid.Row="0">
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
+                                   TextAlignment="Left"
+                                   TextWrapping="Wrap"
+                                   Padding="5">
+                        </TextBlock>
+                    </Border>
+
+                    <Border BorderBrush="Black" 
+                            BorderThickness="2"
+                            Margin="8"
+                            Grid.Row="1">
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
+                                   TextAlignment="Left"
+                                   TextWrapping="Wrap"
+                                   Padding="5">
+                        </TextBlock>
+                    </Border>
+
+                    <Border BorderBrush="Black" 
+                            BorderThickness="2"
+                            Margin="8"
+                            Grid.Row="2">
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
+                                   TextAlignment="Left"
+                                   TextWrapping="Wrap"
+                                   Padding="5">
+                        </TextBlock>
+                    </Border>
+
+                    <Border BorderBrush="Black" 
+                            BorderThickness="2"
+                            Margin="8"
+                            Grid.Row="3">
+                        <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum mi non felis rutrum interdum. Integer sit amet semper ligula. Donec et laoreet ipsum. Cras vel vehicula ipsum. Phasellus pellentesque ut eros ac rhoncus."
+                                   TextAlignment="Left"
+                                   TextWrapping="Wrap"
+                                   Padding="5">
+                        </TextBlock>
+                    </Border>
+
+                </Grid>
             </Grid>
            
         </Border>
 
+        <Border x:ConnectionId='5' x:Name="txbBase"
+                BorderBrush="Black" 
+                BorderThickness="2"
+                RelativePanel.AlignBottomWithPanel="True"
+                RelativePanel.AlignLeftWithPanel="True"
+                RelativePanel.AlignRightWithPanel="True"
+                MinHeight="30"
+                Margin="8">
+        </Border>
 
     </RelativePanel>
 </Page>

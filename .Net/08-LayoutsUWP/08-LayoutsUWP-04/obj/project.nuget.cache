@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XqsCPH337iyDG6zFbbT8iCYGGLaL1cCD/UE60wiQ+FTLNuz0SFV5TULVybNQJ1E+RY/bMCAUorbCfYiROEbxPg==",
+  "dgSpecHash": "Z0DSn6MV3chS2V6YNw3lDrRp6tuqVJ5B+2lHouP3NMvzJAym/oJEG711uUjgutHUh3Oq4wZuN5QYg/TZ6cR/7g==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Manuel\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-04\\08-LayoutsUWP-04.csproj",
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-04\\08-LayoutsUWP-04.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",
