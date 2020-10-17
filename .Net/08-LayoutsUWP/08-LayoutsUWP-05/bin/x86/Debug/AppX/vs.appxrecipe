@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-16T15:03:55.662</Modified>
+      <Modified>2020-10-17T09:44:06.402</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\08-LayoutsUWP-05.exe">
       <PackagePath>entrypoint\08-LayoutsUWP-05.exe</PackagePath>
-      <Modified>2020-10-16T15:03:54.370</Modified>
+      <Modified>2020-10-17T09:44:05.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,7 +86,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\08-LayoutsUWP-05.xr.xml">
       <PackagePath>08-LayoutsUWP-05.xr.xml</PackagePath>
-      <Modified>2020-10-16T15:03:53.976</Modified>
+      <Modified>2020-10-17T09:44:05.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -94,7 +94,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-16T15:03:54.008</Modified>
+      <Modified>2020-10-17T09:44:05.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-05\bin\x86\Debug\Core\08-LayoutsUWP-05.exe">
       <PackagePath>08-LayoutsUWP-05.exe</PackagePath>
-      <Modified>2020-10-16T15:03:55.650</Modified>
+      <Modified>2020-10-17T09:44:06.396</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -26,78 +26,80 @@
                 <AppBarButton Icon="Find"></AppBarButton>
             </StackPanel>
 
-            <ListView Grid.Column="0"
+            <RelativePanel Grid.Column="0"
                       RelativePanel.Above="stpMovementButtons"
                       RelativePanel.Below="stpButtons"
                       RelativePanel.AlignLeftWithPanel="True"
                       RelativePanel.AlignRightWithPanel="True">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"></ColumnDefinition>
-                        <ColumnDefinition Width="auto"></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
 
-                    <StackPanel Grid.Column="0">
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                        <TextBlock Text="Fernando Galiana" 
-                           FontSize="30"
-                           Margin="8"></TextBlock>
-                    </StackPanel>
+                <ListView RelativePanel.AlignLeftWithPanel="True"
+                          RelativePanel.AlignRightWithPanel="True">
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                    <TextBlock Text="Fernando Galiana" 
+                        FontSize="30"
+                        Margin="8"></TextBlock>
+                </ListView>
 
-                    <StackPanel VerticalAlignment="Bottom"
-                                HorizontalAlignment="Right"
-                                Grid.Column="1"
-                                AreScrollSnapPointsRegular="False">
-                        <AppBarButton Icon="Add"
+                <StackPanel RelativePanel.AlignBottomWithPanel="True"
+                            RelativePanel.AlignRightWithPanel="True"
+                            Margin="10">
+                    <TextBlock Text="Añadir" 
+                               HorizontalAlignment="Center"></TextBlock>
+                    <AppBarButton Icon="Add"></AppBarButton>
+                </StackPanel>
 
-                                  Grid.Column="1"></AppBarButton>
-                    </StackPanel>
+ 
 
 
-                </Grid>
-                
-            </ListView>
+            </RelativePanel>
+
 
             <StackPanel x:ConnectionId='3' x:Name="stpMovementButtons"
                         Orientation="Horizontal"
