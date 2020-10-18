@@ -10,28 +10,28 @@
 
     <StackPanel>
         <StackPanel Orientation="Horizontal">
-            <AppBarButton Name="abbAdd"
+            <AppBarButton x:ConnectionId='15' Name="abbAdd"
                           Icon="Add"
-                          Click="nuevoFormulario"></AppBarButton>
-            <AppBarButton Name="abbSave" 
+                                                 ></AppBarButton>
+            <AppBarButton x:ConnectionId='16' Name="abbSave" 
                           Icon="Save"
-                          Click="guardarFormulario"></AppBarButton>
-            <AppBarButton Name="abbDelete" 
+                                                   ></AppBarButton>
+            <AppBarButton x:ConnectionId='17' Name="abbDelete" 
                           Icon="Delete"
-                         Click="borrarFormulario"></AppBarButton>
+                                                 ></AppBarButton>
         </StackPanel>
 
         <RelativePanel>
-            <StackPanel x:Name="stpNombre"
+            <StackPanel x:ConnectionId='3' x:Name="stpNombre"
                         Orientation="Horizontal"
                         Margin="10"
                         RelativePanel.Above="stpApellidos"
                         RelativePanel.AlignRightWith="stpApellidos">
-                <TextBlock x:Name="txkNombre"
+                <TextBlock x:ConnectionId='13' x:Name="txkNombre"
                            Text="Nombre:"
                            VerticalAlignment="Center"></TextBlock>
 
-                <TextBox x:Name="txbNombre"
+                <TextBox x:ConnectionId='14' x:Name="txbNombre"
                          HorizontalAlignment="Right"
                          TextWrapping="Wrap"
                          MinWidth="500"
@@ -39,60 +39,61 @@
                          RelativePanel.RightOf="txkNombre"
                          VerticalAlignment="Center"></TextBox>
             </StackPanel>
-            <TextBlock x:Name="txkErrorNombre"
+            <TextBlock x:ConnectionId='4' x:Name="txkErrorNombre"
                        VerticalAlignment="Center"
                        Foreground="Red"
                        RelativePanel.RightOf="stpNombre"
                        RelativePanel.AlignTopWith="stpNombre"
                        RelativePanel.AlignBottomWith="stpNombre"></TextBlock>
             
-            <StackPanel x:Name="stpApellidos"
+            <StackPanel x:ConnectionId='5' x:Name="stpApellidos"
                         Orientation="Horizontal"
                         Margin="10"
                         RelativePanel.Above="stpFecha"
                         RelativePanel.AlignRightWith="stpFecha">
-                <TextBlock x:Name="txkApellidos"
+                <TextBlock x:ConnectionId='11' x:Name="txkApellidos"
                            Text="Apellidos:"
                            VerticalAlignment="Center"></TextBlock>
 
-                <TextBox x:Name="txbApellidos"
+                <TextBox x:ConnectionId='12' x:Name="txbApellidos"
                          HorizontalAlignment="Right"
                          TextWrapping="Wrap"
                          MinWidth="500"
                          Margin="10"
                          VerticalAlignment="Center"></TextBox>
             </StackPanel>
-            <TextBlock x:Name="txkErrorApellidos"
+            <TextBlock x:ConnectionId='6' x:Name="txkErrorApellidos"
                        VerticalAlignment="Center"
                        Foreground="Red"
                        RelativePanel.RightOf="stpApellidos"
                        RelativePanel.AlignTopWith="stpApellidos"
                        RelativePanel.AlignBottomWith="stpApellidos"></TextBlock>
 
-            <StackPanel x:Name="stpFecha"
+            <StackPanel x:ConnectionId='7' x:Name="stpFecha"
                         Orientation="Horizontal"
                         Margin="10"
                         RelativePanel.AlignBottomWithPanel="true">
-                <TextBlock x:Name="txkFecha"
+                <TextBlock x:ConnectionId='9' x:Name="txkFecha"
                            Text="Fecha de Nacimiento:"
                            VerticalAlignment="Center"></TextBlock>
 
-                <TextBox x:Name="txbFecha"
+                <TextBox x:ConnectionId='10' x:Name="txbFecha"
                          HorizontalAlignment="Right"
                          TextWrapping="Wrap"
                          MinWidth="500"
                          Margin="10"
                          VerticalAlignment="Center"></TextBox>
             </StackPanel>
-            <TextBlock x:Name="txkErrorFecha"
+            <TextBlock x:ConnectionId='8' x:Name="txkErrorFecha"
                        VerticalAlignment="Center"
                        Foreground="Red"
                        RelativePanel.RightOf="stpFecha"
                        RelativePanel.AlignTopWith="stpFecha"
                        RelativePanel.AlignBottomWith="stpFecha"></TextBlock>
         </RelativePanel>
-        <TextBlock x:Name="txkFormularioGuardado"
+        <TextBlock x:ConnectionId='2' x:Name="txkFormularioGuardado"
                        Foreground="Green"
                        Margin="10"></TextBlock>
     </StackPanel>
 </Page>
+

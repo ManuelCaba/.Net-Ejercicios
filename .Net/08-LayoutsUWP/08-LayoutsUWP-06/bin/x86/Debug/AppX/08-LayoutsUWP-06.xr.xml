@@ -28,8 +28,9 @@
       <RootMethod Name="SetAlignBottomWithPanel" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
-      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -40,7 +41,9 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Name" />
       <RootProperty Name="Icon" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="_08_LayoutsUWP_06.MainPage" />
   </Roots.RootTypes>

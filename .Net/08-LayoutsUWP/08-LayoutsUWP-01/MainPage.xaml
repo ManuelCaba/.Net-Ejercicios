@@ -38,7 +38,8 @@
                            VerticalAlignment="Stretch"
                            Margin="5"/>
                 <TextBox VerticalAlignment="Center"
-                         Margin="5" MinWidth="30"/>
+                         Margin="5" MinWidth="30"
+                         TextWrapping="Wrap"/>
             </StackPanel>
         </StackPanel>
     </Border>
