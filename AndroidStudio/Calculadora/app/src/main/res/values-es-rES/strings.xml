@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="rdb_restar">Restar</string>
+    <string name="rdb_sumar">Sumar</string>
+    <string name="rdb_multiplicar">Multiplicar</string>
+    <string name="rdb_dividir">Dividir</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="rdb_restar">Subtract</string>
+    <string name="rdb_sumar">Plus</string>
+    <string name="rdb_multiplicar">Multiply</string>
+    <string name="rdb_dividir">Divide</string>
+</resources>
