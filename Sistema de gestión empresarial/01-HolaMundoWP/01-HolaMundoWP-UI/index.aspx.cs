@@ -16,6 +16,11 @@ namespace _01_HolaMundoWP_UI
 
         }
 
+        /// <summary>
+        /// Método que saluda según el nombre introducido en el campo de nombre
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         protected void btnSaludar_Click(object sender, EventArgs e)
         {
             clsPersona persona = new clsPersona();

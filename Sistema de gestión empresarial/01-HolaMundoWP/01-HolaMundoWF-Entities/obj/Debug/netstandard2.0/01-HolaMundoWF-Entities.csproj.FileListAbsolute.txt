@@ -7,3 +7,12 @@ D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\01-HolaMundoWP\01-
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.csproj.CoreCompileInputs.cache
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.dll
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\bin\Debug\netstandard2.0\01-HolaMundoWF-Entities.deps.json
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\bin\Debug\netstandard2.0\01-HolaMundoWF-Entities.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\bin\Debug\netstandard2.0\01-HolaMundoWF-Entities.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.csprojAssemblyReference.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.AssemblyInfoInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.AssemblyInfo.cs
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\01-HolaMundoWP\01-HolaMundoWF-Entities\obj\Debug\netstandard2.0\01-HolaMundoWF-Entities.pdb

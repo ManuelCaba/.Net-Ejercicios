@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj": {}
+    "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj": {}
   },
   "projects": {
-    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj": {
+    "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
+        "projectUniqueName": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
         "projectName": "01-HolaMundoWF-Entities",
-        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
-        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
-        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\obj\\",
+        "projectPath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
+        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

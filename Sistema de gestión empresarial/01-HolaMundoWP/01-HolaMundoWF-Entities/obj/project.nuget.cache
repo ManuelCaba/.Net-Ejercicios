@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Hhun2mUdK10qY1GcvhjHToBt4eY/LcdiRO+QnjWvgb2Icpg5ec1pxe+Tv0YkkhC+dsnLqoPjaF2LEBdeK7AtgA==",
+  "dgSpecHash": "iqReL22votQT3nW3oEr/o0ie5aHL19Fu1/5jX7aBkMxtZo8/T8DZ4SZavkWFcZ3iStlsOmRkEfL2MvYfKdMaIg==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\01-HolaMundoWP\\01-HolaMundoWF-Entities\\01-HolaMundoWF-Entities.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\emane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\emane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\mcaballero\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mcaballero\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
