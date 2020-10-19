@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">CheckBoxText</string>
+    <string name="edit_text">Write...</string>
+    <string name="chb_bold">Bold</string>
+    <string name="chb_giant_font">Giant Font</string>
+    <string name="chb_tiny_font">Tiny Font</string>
+    <string name="chb_red">Red</string>
 </resources>

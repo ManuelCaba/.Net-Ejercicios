@@ -13,45 +13,45 @@
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:hint="Escribir..."
+        android:hint="@string/edit_text"
         android:gravity="start"
         android:lines="10"
         android:background="@android:color/transparent"/>
 
     <CheckBox
         android:id="@+id/chbNegrita"
-        android:layout_marginTop="30dp"
-        android:text="Negrita"
+        android:text="@string/chb_bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/edtTexto"
+        app:layout_constraintBottom_toTopOf="@id/chbGigante"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
     <CheckBox
         android:id="@+id/chbGigante"
-        android:text="Fuente Gigante"
+        android:text="@string/chb_giant_font"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/chbNegrita"
+        app:layout_constraintBottom_toTopOf="@id/chbMinusculo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
     <CheckBox
         android:id="@+id/chbMinusculo"
-        android:text="Fuente Minuscula"
+        android:text="@string/chb_tiny_font"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/chbGigante"
+        app:layout_constraintBottom_toTopOf="@id/chbRojo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
     <CheckBox
         android:id="@+id/chbRojo"
-        android:text="Rojo"
+        android:layout_marginBottom="30dp"
+        android:text="@string/chb_red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/chbMinusculo"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
 
