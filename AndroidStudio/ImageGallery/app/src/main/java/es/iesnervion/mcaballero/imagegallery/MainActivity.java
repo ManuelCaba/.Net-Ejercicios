@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         imgView = findViewById(R.id.imgView);
     }
 
-    public void imagenAnterior(View v) {
+    public void imagenAnterior(View v){
 
         if(imagenActual == 0)
         {
