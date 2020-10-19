@@ -11,8 +11,27 @@
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    @{
+        string format = "HH:mm";
+        var now = DateTime.Now.ToString(format);
+    }
+    <div>
+        @Html.ActionLink("Lista de Productos", "ListadoProductos", "Productos")      
         <h1>Hola Mundo</h1>
+        <h2>Hola son las @now</h2>
+        @{ 
+            int hora = int.Parse(now.Split(':')[0]);
+
+            if(hora >= 12)
+            {
+                <p>Hemos pasado de las 12 del mediodía</p>
+            }
+            else
+            {
+                <p>Todavía no hemos pasado de las 12 del mediodía</p>
+            }
+        }
+        
     </div>
 </body>
 </html>
