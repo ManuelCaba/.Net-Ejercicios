@@ -104,8 +104,7 @@
             <StackPanel x:Name="stpMovementButtons"
                         Orientation="Horizontal"
                         HorizontalAlignment="Center"
-                        RelativePanel.AlignLeftWithPanel="True"
-                        RelativePanel.AlignRightWithPanel="True"
+                        RelativePanel.AlignHorizontalCenterWithPanel="True"
                         RelativePanel.AlignBottomWithPanel="True">
                 <AppBarButton Icon="Back"></AppBarButton>
                 <AppBarButton Icon="Forward"/>
