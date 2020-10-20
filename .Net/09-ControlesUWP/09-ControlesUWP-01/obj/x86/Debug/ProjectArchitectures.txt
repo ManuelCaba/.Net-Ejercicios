@@ -1,1 +1,1 @@
-D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\09-ControlesUWP-01.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\09-ControlesUWP-01.csproj;x86

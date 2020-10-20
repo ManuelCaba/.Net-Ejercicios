@@ -11,15 +11,15 @@
 
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
         
         <StackPanel Grid.Column="0" Grid.Row="0">
@@ -74,12 +74,148 @@
             <TextBlock Text="Pivot"
                        HorizontalAlignment="Center"></TextBlock>
 
-            <Pivot>
-                <PivotItem Header="DAM">
+            <Pivot Margin="5">
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="DAM"></TextBlock>
+                            <SymbolIcon Symbol="Accept"
+                                        Margin="5,0,0,0"></SymbolIcon>
+                        </StackPanel>
+                    </PivotItem.Header>
                 </PivotItem>
-                <PivotItem Header="DAW"></PivotItem>
-                <PivotItem Header="ASIR"></PivotItem>
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="DAW"></TextBlock>
+                            <SymbolIcon Symbol="WebCam"
+                                        Margin="5,0,0,0"></SymbolIcon>
+                        </StackPanel>
+                    </PivotItem.Header>
+                </PivotItem>
+
+                <PivotItem>
+                    <PivotItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="ASIR"></TextBlock>
+                            <SymbolIcon Symbol="Switch"
+                                        Margin="5,0,0,0"></SymbolIcon>
+                        </StackPanel>
+                    </PivotItem.Header>
+                </PivotItem>
+
             </Pivot>
         </StackPanel>
+
+        <RelativePanel Grid.Column="3" Grid.Row="0">
+            
+            <TextBlock Name="txbTextBox"
+                       Text="TextBox"
+                       RelativePanel.AlignHorizontalCenterWithPanel="True"></TextBlock>
+
+            <TextBox Margin="10"
+                     RelativePanel.AlignLeftWithPanel="True"
+                     RelativePanel.AlignRightWithPanel="True"
+                     RelativePanel.AlignBottomWithPanel="True"
+                     RelativePanel.Below="txbTextBox"
+                     AutomationProperties.Name="multi-line TextBox"
+                     TextWrapping="Wrap" 
+                     AcceptsReturn="True" 
+                     IsSpellCheckEnabled="True"/>
+            
+        </RelativePanel>
+
+        <RelativePanel Grid.Column="0" Grid.Row="1">
+
+            <TextBlock Name="txbContraseña"
+                       Text="Password"
+                       RelativePanel.AlignHorizontalCenterWithPanel="True"></TextBlock>
+
+            <PasswordBox Margin="10"
+                         RelativePanel.AlignLeftWithPanel="True"
+                         RelativePanel.AlignRightWithPanel="True"
+                         RelativePanel.Below="txbContraseña"
+                         Header="Contraseña"
+                         PlaceholderText="Introduce su contraseña"/>
+
+        </RelativePanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="1">
+
+            <TextBlock Text="ListBox"
+                       HorizontalAlignment="Center"></TextBlock>
+
+            <ListBox Margin="10">
+                <ListBoxItem Content="Productos"></ListBoxItem>
+                <ListBoxItem Content="Reembolsos"></ListBoxItem>
+                <ListBoxItem Content="Servicio Técnico"></ListBoxItem>
+                <ListBoxItem Content="Cuenta"></ListBoxItem>
+                <ListBoxItem Content="Ayuda"></ListBoxItem>
+                <ListBoxItem Content="Contáctanos"></ListBoxItem>
+            </ListBox>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="2" Grid.Row="1">
+
+            <TextBlock Text="ComboBox"
+                       HorizontalAlignment="Center"></TextBlock>
+
+            <ComboBox Margin="10">
+                <ComboBoxItem Content="Productos"></ComboBoxItem>
+                <ComboBoxItem Content="Reembolsos"></ComboBoxItem>
+                <ComboBoxItem Content="Servicio Técnico"></ComboBoxItem>
+                <ComboBoxItem Content="Cuenta"></ComboBoxItem>
+                <ComboBoxItem Content="Ayuda"></ComboBoxItem>
+                <ComboBoxItem Content="Contáctanos"></ComboBoxItem>
+            </ComboBox>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="1">
+
+            <TextBlock Text="Binding"
+                       HorizontalAlignment="Center"></TextBlock>
+
+            <Slider Orientation="Horizontal" 
+                    Margin="10"
+                    Value="{Binding ElementName=pgbBingind, Path=Value, Mode=TwoWay}" 
+                    Minimum="0" Maximum="100"/>
+            
+            <ProgressBar x:Name="pgbBingind" 
+                         Margin="10"
+                         Height="20" 
+                         IsIndeterminate="False" 
+                         Minimum="0" 
+                         Maximum="100"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="2">
+
+            <TextBlock Text="CalendarView"
+                       HorizontalAlignment="Center"></TextBlock>
+
+            <CalendarView Margin="10"
+                          HorizontalAlignment="Center"></CalendarView>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="2">
+
+            <TextBlock Text="CalendarDatePicker y DatePicker"
+                       HorizontalAlignment="Center"></TextBlock>
+
+            <CalendarDatePicker Margin="10" 
+                                HorizontalAlignment="Center"></CalendarDatePicker>
+            <DatePicker Margin="10"
+                        HorizontalAlignment="Center"></DatePicker>
+
+        </StackPanel>
+
+
+
     </Grid>
 </Page>

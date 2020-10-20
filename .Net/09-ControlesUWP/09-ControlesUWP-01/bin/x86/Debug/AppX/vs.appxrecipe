@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-7UOCHNI</Machine>
+    <WindowsUser>emane</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>88113621-ddbe-4fad-bfb0-eb22a544b960</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>16CDAE40B1CC0CFBA776D45117A3B81E6FD851DDA76BF129DB69952B3F342C7F</RegisteredManifestChecksum>
+    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>A227AAF48A77C3912E4C75E2462E6A0B97BCAA7DB71996ADD0A19C8367B3FDA3</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>88113621-ddbe-4fad-bfb0-eb22a544b960_1.0.0.0_x86__e3hfh0k2gtk7e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>88113621-ddbe-4fad-bfb0-eb22a544b960_e3hfh0k2gtk7e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>88113621-ddbe-4fad-bfb0-eb22a544b960</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T12:19:55.644</Modified>
+      <Modified>2020-10-20T18:08:15.562</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.exe">
       <PackagePath>entrypoint\09-ControlesUWP-01.exe</PackagePath>
-      <Modified>2020-10-20T12:19:54.696</Modified>
+      <Modified>2020-10-20T18:08:14.853</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-20T11:24:59.576</Modified>
+      <Modified>2020-10-20T14:09:35.583</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.553</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-10-20T14:09:35.577</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.xr.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.xr.xml">
       <PackagePath>09-ControlesUWP-01.xr.xml</PackagePath>
-      <Modified>2020-10-20T12:19:54.483</Modified>
+      <Modified>2020-10-20T18:06:01.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-20T12:18:34.141</Modified>
+      <Modified>2020-10-20T18:08:14.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Pagina2.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Pagina2.xbf">
       <PackagePath>Pagina2.xbf</PackagePath>
-      <Modified>2020-10-20T12:19:54.506</Modified>
+      <Modified>2020-10-20T18:08:14.548</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-20T12:19:54.506</Modified>
+      <Modified>2020-10-20T18:08:14.547</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-20T12:18:34.940</Modified>
+      <Modified>2020-10-20T14:37:54.812</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\09-ControlesUWP-01.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\09-ControlesUWP-01.exe">
       <PackagePath>09-ControlesUWP-01.exe</PackagePath>
-      <Modified>2020-10-20T12:19:55.626</Modified>
+      <Modified>2020-10-20T18:08:15.554</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
