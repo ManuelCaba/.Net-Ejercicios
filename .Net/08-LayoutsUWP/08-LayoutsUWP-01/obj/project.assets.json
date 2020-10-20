@@ -8151,18 +8151,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emane\\.nuget\\packages\\": {},
+    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\08-LayoutsUWP-01.csproj",
+      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\08-LayoutsUWP-01.csproj",
       "projectName": "08-LayoutsUWP-01",
-      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\08-LayoutsUWP-01.csproj",
-      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
-      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\obj\\",
+      "projectPath": "D:\\GitHub Manuel\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\08-LayoutsUWP-01.csproj",
+      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub Manuel\\.Net\\08-LayoutsUWP\\08-LayoutsUWP-01\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,7 +8170,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
