@@ -27,7 +27,12 @@ namespace _09_ControlesUWP_01
             this.InitializeComponent();
         }
 
-       public void siguientePagina(Object sender, RoutedEventArgs e)
+        /// <summary>
+        /// Método que al pulsar un botón se mande a la página 2
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void siguientePagina(Object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Pagina2));      
         }

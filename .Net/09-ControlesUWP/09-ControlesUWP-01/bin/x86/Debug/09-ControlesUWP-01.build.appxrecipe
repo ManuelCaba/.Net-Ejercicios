@@ -34,6 +34,9 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SampleMedia\CGI Animated Short Film- %27Ice Pepper%27 by ESMA - CGMeetup.mp4">
+      <PackagePath>Assets\SampleMedia\CGI Animated Short Film- %27Ice Pepper%27 by ESMA - CGMeetup.mp4</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
