@@ -12,17 +12,26 @@
 </head>
 <body>
     @{
+        //Se toma la hora y minutos de la fecha actual
         string format = "HH:mm";
-        var now = DateTime.Now.ToString(format);
+        string now = DateTime.Now.ToString(format);
     }
     <div>
         @Html.ActionLink("Lista de Productos", "ListadoProductos", "Productos")      
         <h1>Hola Mundo</h1>
         <h2>Hola son las @now</h2>
         @{ 
+            //Se toma la hora de la variable utilizada anteriormente
+            
             int hora = int.Parse(now.Split(':')[0]);
 
-            if(hora >= 12)
+            //De otra forma
+
+            //int hora = DateTime.Now.Hour;
+
+
+            //Según la hora se dice si ha pasado el mediodía o no
+            if (hora >= 12)
             {
                 <p>Hemos pasado de las 12 del mediodía</p>
             }
