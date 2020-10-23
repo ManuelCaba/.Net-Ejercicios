@@ -208,7 +208,7 @@
         app:layout_constraintRight_toRightOf="@id/guidelineVertical725"/>
 
     <Button
-        android:id="@+id/Resta"
+        android:id="@+id/btnResta"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="-"
@@ -248,7 +248,7 @@
         app:layout_constraintRight_toRightOf="@id/guidelineVertical725"/>
 
     <Button
-        android:id="@+id/Multiplicacion"
+        android:id="@+id/btnMultiplicacion"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="x"
@@ -290,6 +290,7 @@
         app:layout_constraintRight_toRightOf="@id/guidelineVertical95"/>
 
     <TextView
+        android:id="@+id/txvSolucion"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:textIsSelectable="false"
@@ -303,6 +304,7 @@
         app:layout_constraintRight_toRightOf="@id/guidelineVertical95"></TextView>
 
     <TextView
+        android:id="@+id/txvOperaciones"
         android:background="@null"
         android:layout_width="0dp"
         android:layout_height="0dp"
