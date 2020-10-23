@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:28:08.226</Modified>
+      <Modified>2020-10-23T11:48:38.424</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.exe">
       <PackagePath>entrypoint\09-VisualState.exe</PackagePath>
-      <Modified>2020-10-23T06:28:05.246</Modified>
+      <Modified>2020-10-23T11:48:37.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,15 +90,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.xr.xml">
       <PackagePath>09-VisualState.xr.xml</PackagePath>
-      <Modified>2020-10-23T06:23:53.683</Modified>
+      <Modified>2020-10-23T11:48:37.683</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-23T06:28:04.961</Modified>
+      <Modified>2020-10-23T11:48:37.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-23T06:28:04.962</Modified>
+      <Modified>2020-10-23T11:48:37.690</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\09-VisualState.exe">
       <PackagePath>09-VisualState.exe</PackagePath>
-      <Modified>2020-10-23T06:28:08.183</Modified>
+      <Modified>2020-10-23T11:48:38.413</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
