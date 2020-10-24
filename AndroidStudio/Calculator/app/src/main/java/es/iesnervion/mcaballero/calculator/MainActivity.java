@@ -29,6 +29,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnAC;
     private Button btnDivision;
 
+    double resultado = 0;
+    String operador = "0", mostrar = "0", reserva = "0";
+
     //TextViews Solucion
     private TextView txvSolucion;
     private TextView txvOperaciones;
@@ -47,7 +50,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
         btnSuma = findViewById(R.id.btnSuma);
-        btn4 = findViewById(R.id.btn5);
+        btn4 = findViewById(R.id.btn4);
+        btn5 = findViewById(R.id.btn5);
         btn6 = findViewById(R.id.btn6);
         btnResta = findViewById(R.id.btnResta);
         btn7 = findViewById(R.id.btn7);
@@ -87,11 +91,121 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnActual = findViewById(v.getId());
         double resultado = 0;
 
-        if(btnActual.getText().toString().matches("1|2|3|4|5|6|7|8|9|0"))
+        switch(v.getId())
         {
-
+            case R.id.btnPunto:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + ".";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btnComa:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + ".";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn0:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "0";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn1:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "1";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn2:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "2";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn3:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "3";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn4:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "4";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn5:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "5";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn6:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "6";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn7:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "7";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn8:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "8";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btn9:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "9";
+                txvOperaciones.setText(mostrar);
+            break;
+            case R.id.btnSuma:
+                reserva = txvOperaciones.getText().toString();
+                operador = "+";
+                txvOperaciones.setText("");
+            break;
+            case R.id.btnResta:
+                reserva = txvOperaciones.getText().toString();
+                operador = "-";
+                txvOperaciones.setText("");
+            break;
+            case R.id.btnMultiplicacion:
+                reserva = txvOperaciones.getText().toString();
+                operador = "*";
+                txvOperaciones.setText("");
+            break;
+            case R.id.btnDivision:
+                reserva = txvOperaciones.getText().toString();
+                operador = "/";
+                txvOperaciones.setText("");
+            break;
+            case R.id.btnAC:
+                mostrar = "";
+                txvOperaciones.setText(mostrar);
+                txvSolucion.setText(mostrar);
+                reserva = "";
+                operador = "";
+            break;
+            case R.id.btnIgual:
+                mostrar = txvOperaciones.getText().toString();
+                mostrar = mostrar + "1";
+                if(operador.equals("-")){
+                    this.resultado = Double.parseDouble(reserva) - Double.parseDouble(txvOperaciones.getText().toString());
+                    txvOperaciones.setText(String.valueOf(this.resultado));
+                    txvSolucion.setText(String.valueOf(this.resultado));
+                }
+                if(operador.equals("+")){
+                    this.resultado = Double.parseDouble(reserva) + Double.parseDouble(txvOperaciones.getText().toString());
+                    txvOperaciones.setText(String.valueOf(this.resultado));
+                    txvSolucion.setText(String.valueOf(this.resultado));
+                }
+                if(operador.equals("/")){
+                    this.resultado = Double.parseDouble(reserva) / Double.parseDouble(txvOperaciones.getText().toString());
+                    txvOperaciones.setText(String.valueOf(this.resultado));
+                    txvSolucion.setText(String.valueOf(this.resultado));
+                }
+                if(operador.equals("*")){
+                    this.resultado = Double.parseDouble(reserva) * Double.parseDouble(txvOperaciones.getText().toString());
+                    txvOperaciones.setText(String.valueOf(this.resultado));
+                    txvSolucion.setText(String.valueOf(this.resultado));
+                }
         }
 
-
     }
+
+
 }
