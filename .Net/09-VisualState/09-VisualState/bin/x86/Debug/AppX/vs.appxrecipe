@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-7UOCHNI</Machine>
+    <WindowsUser>emane</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>478437eb-df8b-4461-bd9f-6b955b602a71</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>22D6C22A6ACDD554EB30B7AC059377BAF24D48B19C57839BDA69417ED328E040</RegisteredManifestChecksum>
+    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5B3D224EF31B6609F3833279C46072484BF30002EE902F75D35C2C10EE3EF56E</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>478437eb-df8b-4461-bd9f-6b955b602a71_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>478437eb-df8b-4461-bd9f-6b955b602a71_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>478437eb-df8b-4461-bd9f-6b955b602a71</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T11:48:38.424</Modified>
+      <Modified>2020-10-24T13:38:39.514</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.exe">
       <PackagePath>entrypoint\09-VisualState.exe</PackagePath>
-      <Modified>2020-10-23T11:48:37.867</Modified>
+      <Modified>2020-10-24T13:38:38.939</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\Images\imgprueba.jpg">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\Images\imgprueba.jpg">
       <PackagePath>Assets\Images\imgprueba.jpg</PackagePath>
-      <Modified>2020-10-23T06:23:53.587</Modified>
+      <Modified>2020-10-21T11:38:14.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-23T06:23:53.594</Modified>
+      <Modified>2020-10-21T11:22:49.115</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-23T06:23:53.587</Modified>
+      <Modified>2020-09-21T14:16:57.877</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.587</Modified>
+      <Modified>2020-09-21T14:16:57.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.587</Modified>
+      <Modified>2020-09-21T14:16:57.883</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.588</Modified>
+      <Modified>2020-09-21T14:16:57.884</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.588</Modified>
+      <Modified>2020-09-21T14:16:57.885</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.588</Modified>
+      <Modified>2020-09-21T14:16:57.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-23T06:23:53.589</Modified>
+      <Modified>2020-09-21T14:16:57.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.xr.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\09-VisualState.xr.xml">
       <PackagePath>09-VisualState.xr.xml</PackagePath>
-      <Modified>2020-10-23T11:48:37.683</Modified>
+      <Modified>2020-10-24T13:26:51.451</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-23T11:48:37.690</Modified>
+      <Modified>2020-10-24T13:26:51.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-23T11:48:37.690</Modified>
+      <Modified>2020-10-24T13:38:38.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-23T06:28:05.821</Modified>
+      <Modified>2020-10-24T10:59:14.246</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\09-VisualState.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\bin\x86\Debug\Core\09-VisualState.exe">
       <PackagePath>09-VisualState.exe</PackagePath>
-      <Modified>2020-10-23T11:48:38.413</Modified>
+      <Modified>2020-10-24T13:38:39.509</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

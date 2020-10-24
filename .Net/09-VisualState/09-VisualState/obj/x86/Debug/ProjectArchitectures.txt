@@ -1,1 +1,1 @@
-D:\GitHub Manuel\.Net\09-VisualState\09-VisualState\09-VisualState.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\09-VisualState\09-VisualState\09-VisualState.csproj;x86

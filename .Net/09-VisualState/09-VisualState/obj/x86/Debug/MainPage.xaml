@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <RelativePanel>
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
@@ -19,18 +19,74 @@
                     </VisualState.StateTriggers>
 
                     <VisualState.Setters>
-                        <Setter Target="stpOpciones.Orientation" 
+                        <Setter Target="stpOpciones.(RelativePanel.AlignBottomWithPanel)"
+                                Value="False"></Setter>
+                        <Setter Target="stpOpciones.(RelativePanel.AlignRightWithPanel)"
+                                Value="True"></Setter>
+                        <Setter Target="stpOpciones.Orientation"
                                 Value="Horizontal"></Setter>
-                        <Setter Target="mainGrid.ColumnDefinitions[0].Width"
+                        <Setter Target="srvScroll.(RelativePanel.Below)"
+                                Value="stpOpciones"></Setter>
+                        <Setter Target="srvScroll.(RelativePanel.AlignLeftWithPanel)"
+                                Value="True"></Setter>
+                        <Setter Target="srvScroll.(RelativePanel.AlignTopWithPanel)"
+                                Value="False"></Setter>
+                        <Setter Target="gridImages.ColumnDefinitions[0].Width"
                                 Value="*"></Setter>
-                        <Setter Target="mainGrid.ColumnDefinitions[1].Width"
-                                Value="0*"></Setter>
-                        <Setter Target="mainGrid.RowDefinitions[0].Height"
+                        <Setter Target="gridImages.RowDefinitions[0].Height"
                                 Value="auto"></Setter>
-                        <Setter Target="mainGrid.RowDefinitions[1].Height"
-                                Value ="*"></Setter>
-                        <Setter Target="scvImages.Width"
-                                Value ="auto"></Setter>
+                        <Setter Target="gridImages.ColumnDefinitions[1].Width"
+                                Value="0*"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[1].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.ColumnDefinitions[2].Width"
+                                Value="0"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[2].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[3].Height"
+                                Value="*"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[4].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[5].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[6].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[7].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="gridImages.RowDefinitions[8].Height"
+                                Value="auto"></Setter>
+                        <Setter Target="image2.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image2.(Grid.Row)" 
+                                Value="1"></Setter>
+                        <Setter Target="image3.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image3.(Grid.Row)" 
+                                Value="2"></Setter>
+                        <Setter Target="image4.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image4.(Grid.Row)" 
+                                Value="3"></Setter>
+                        <Setter Target="image5.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image5.(Grid.Row)" 
+                                Value="4"></Setter>
+                        <Setter Target="image6.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image6.(Grid.Row)" 
+                                Value="5"></Setter>
+                        <Setter Target="image7.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image7.(Grid.Row)" 
+                                Value="6"></Setter>
+                        <Setter Target="image8.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image8.(Grid.Row)" 
+                                Value="7"></Setter>
+                        <Setter Target="image9.(Grid.Column)" 
+                                Value="0"></Setter>
+                        <Setter Target="image9.(Grid.Row)" 
+                                Value="8"></Setter>
                     </VisualState.Setters>
                 </VisualState>
 
@@ -42,34 +98,26 @@
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
+        <StackPanel x:ConnectionId='4' Name="stpOpciones"
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignBottomWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True"
+                    Background="AliceBlue"
+                    Orientation="Vertical"
+                    Height="auto">
+            <AppBarButton Icon="Add" Label="Añadir"></AppBarButton>
+            <AppBarButton Icon="Go" Label="Ir"></AppBarButton>
+            <AppBarButton Icon="Target" Label="Objetivo"></AppBarButton>
+            <AppBarButton Icon="AddFriend" Label="Añadir"></AppBarButton>
+        </StackPanel>
 
-        <Grid x:ConnectionId='4' x:Name="mainGrid">
+        <ScrollViewer x:ConnectionId='5' x:Name="srvScroll" 
+              RelativePanel.RightOf="stpOpciones"
+              RelativePanel.AlignRightWithPanel="True"
+              RelativePanel.AlignBottomWithPanel="True"
+              RelativePanel.AlignTopWithPanel="True">
 
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="auto"></ColumnDefinition>
-                <ColumnDefinition Width="*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-
-            <Grid.RowDefinitions>
-                <RowDefinition Height="*"></RowDefinition>
-                <RowDefinition Height="0*"></RowDefinition>
-            </Grid.RowDefinitions>
-
-            <StackPanel x:ConnectionId='5' Grid.Column="0"
-                        Grid.Row="0"
-                        Name="stpOpciones"
-                        Background="AliceBlue"
-                        Orientation="Vertical"
-                        Height="auto">
-                <AppBarButton Icon="Add" Label="Añadir"></AppBarButton>
-                <AppBarButton Icon="Go" Label="Ir"></AppBarButton>
-                <AppBarButton Icon="Target" Label="Objetivo"></AppBarButton>
-                <AppBarButton Icon="AddFriend" Label="Añadir"></AppBarButton>
-            </StackPanel>
-
-            <Grid x:ConnectionId='6' x:Name="gridImages" 
-                  Grid.Column="1"
-                  Grid.Row="0">
+            <Grid x:ConnectionId='6' Name="gridImages" VerticalAlignment="Center">
 
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -78,60 +126,61 @@
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="*"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
-                    <RowDefinition Height="*"></RowDefinition>
+                    <RowDefinition Height="300"></RowDefinition>
+                    <RowDefinition Height="300"></RowDefinition>
+                    <RowDefinition Height="300"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
+                    <RowDefinition Height="0*"></RowDefinition>
                 </Grid.RowDefinitions>
 
-                <Image Grid.Column="0" 
-                       Grid.Row="0"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="1" 
-                       Grid.Row="0"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="2" 
-                       Grid.Row="0"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="0" 
-                       Grid.Row="1"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="1" 
-                       Grid.Row="1"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="2" 
-                       Grid.Row="1"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="0" 
-                       Grid.Row="2"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="1" 
-                       Grid.Row="2"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
-                <Image Grid.Column="2" 
-                       Grid.Row="2"
-                       Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='7' Name="image1"
+                   Grid.Column="0" 
+                   Grid.Row="0"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='8' Name="image2" 
+                   Grid.Column="1" 
+                   Grid.Row="0"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='9' Name="image3"
+                   Grid.Column="2" 
+                   Grid.Row="0"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='10' Name="image4"
+                   Grid.Column="0" 
+                   Grid.Row="1"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='11' x:Name="image5" 
+                   Grid.Column="1" 
+                   Grid.Row="1"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='12' Name="image6" 
+                   Grid.Column="2" 
+                   Grid.Row="1"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='13' Name="image7" 
+                   Grid.Column="0" 
+                   Grid.Row="2"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='14' Name="image8" 
+                   Grid.Column="1" 
+                   Grid.Row="2"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
+                <Image x:ConnectionId='15' Name="image9" 
+                   Grid.Column="2" 
+                   Grid.Row="2"
+                   Source="/Assets/Images/imgprueba.jpg"></Image>
 
             </Grid>
 
-            <ScrollViewer x:ConnectionId='7' x:Name="scvImages"
-                          Grid.Column="0" 
-                          Grid.Row="1"
-                          Width="0">
-                <StackPanel>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                    <Image Source="/Assets/Images/imgprueba.jpg"></Image>
-                </StackPanel>
-            </ScrollViewer>
+        </ScrollViewer>
+        
+        
+ 
 
-        </Grid>
-
-    </Grid>
+    </RelativePanel>
 </Page>
 
