@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_HolaMundoWF_Entities
+namespace _07_MVCInicioUI.Models
 {
     public class clsPersona
     {

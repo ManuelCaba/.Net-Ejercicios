@@ -1,4 +1,4 @@
-﻿@model _07_MVCInicioUI.Models.clsListaPersonas
+﻿@model _07_MVCInicioUI.Models.clsPersona
 @{
     Layout = null;
 }
@@ -14,16 +14,18 @@
     <div>
         <p>@ViewData["Saludo"]</p>
 
-        <p>@ViewBag.Fecha</p> <br>
+        <p>@ViewBag.Fecha</p>
+
+        <p>
+            @Model.ID <br>
+            @Model.nombre <br>
+            @Model.apellidos <br>
+            @Model.edad <br>
+        </p>
+
+        <p>@Html.ActionLink("Lista de Personas", "ListadoPersonas", "Home")</p>
 
 
-        <p>@Model.ID</p>
-
-        <p>@Model.nombre</p>
-
-        <p>@Model.apellidos</p>
-
-        <p>@Model.edad</p>
     </div>
 </body>
 </html>
