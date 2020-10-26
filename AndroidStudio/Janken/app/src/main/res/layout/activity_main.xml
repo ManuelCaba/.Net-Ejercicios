@@ -89,21 +89,21 @@
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:checked="true"
-            android:text="Piedra" />
+            android:text="@string/option_rock" />
 
         <RadioButton
             android:id="@+id/rdbPapel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="Papel" />
+            android:text="@string/option_paper" />
 
         <RadioButton
             android:id="@+id/rdbTijeras"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:text="Tijeras" />
+            android:text="@string/option_scissors" />
     </RadioGroup>
 
     <!-- Image User -->
@@ -126,7 +126,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="10dp"
-        android:text="Jugar"
+        android:text="@string/option_play"
         android:onClick="jugar"
         app:layout_constraintBottom_toTopOf="@id/hgl55"
         app:layout_constraintLeft_toRightOf="@id/vgl10"
@@ -163,12 +163,14 @@
             android:id="@+id/txvResultado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Has ganado"/>
+            android:text=""/>
 
         <Button
+            android:id="@+id/btnNuevaPartida"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver a Jugar"/>
+            android:onClick="nuevaPartida"
+            android:text="@string/option_playagain"/>
 
     </LinearLayout>
 

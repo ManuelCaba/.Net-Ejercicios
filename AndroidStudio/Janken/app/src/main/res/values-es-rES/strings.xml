@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jan-ken</string>
+    <string name="option_rock">Piedra</string>
+    <string name="option_paper">Papel</string>
+    <string name="option_scissors">Tijeras</string>
+    <string name="option_play">Jugar</string>
+    <string name="option_playagain">Volver a jugar</string>
+    <string name="play_won">Has ganado!</string>
+    <string name="play_lost">Lástima, has perdido</string>
+    <string name="play_tie">Empate</string>
+</resources>

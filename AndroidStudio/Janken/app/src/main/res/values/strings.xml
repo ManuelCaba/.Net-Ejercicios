@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Jan-ken</string>
+    <string name="option_rock">Rock</string>
+    <string name="option_paper">Paper</string>
+    <string name="option_scissors">Scissors</string>
+    <string name="option_play">Play</string>
+    <string name="option_playagain">Play Again</string>
+    <string name="play_won">You\'ve won!</string>
+    <string name="play_lost">Too bad, you lost</string>
+    <string name="play_tie">Tie</string>
 </resources>

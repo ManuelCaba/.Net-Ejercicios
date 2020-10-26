@@ -85,13 +85,13 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 switch (opcionUsuario)
                 {
                     case 0:
-                        txvResultado.setText("Empate");
+                        txvResultado.setText(R.string.play_tie);
                     break;
                     case 1:
-                        txvResultado.setText("Has Ganado!");
+                        txvResultado.setText(R.string.play_won);
                     break;
                     case 2:
-                        txvResultado.setText("Lástima, has perdido");
+                        txvResultado.setText(R.string.play_lost);
                     break;
                 }
 
@@ -102,13 +102,13 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 switch (opcionUsuario)
                 {
                     case 0:
-                        txvResultado.setText("Lástima, has perdido");
+                        txvResultado.setText(R.string.play_lost);
                     break;
                     case 1:
-                        txvResultado.setText("Empate");
+                        txvResultado.setText(R.string.play_tie);
                     break;
                     case 2:
-                        txvResultado.setText("Has Ganado!");
+                        txvResultado.setText(R.string.play_won);
                     break;
                 }
 
@@ -119,13 +119,13 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
                 switch (opcionUsuario)
                 {
                     case 0:
-                        txvResultado.setText("Has Ganado!");
+                        txvResultado.setText(R.string.play_won);
                     break;
                     case 1:
-                        txvResultado.setText("Lástima, has perdido");
+                        txvResultado.setText(R.string.play_lost);
                     break;
                     case 2:
-                        txvResultado.setText("Empate");
+                        txvResultado.setText(R.string.play_tie);
                     break;
                 }
 
@@ -138,5 +138,21 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
         //Desactivamos el botón jugar
         btnJugar.setClickable(false);
+    }
+
+    /*
+    Método que se ejecuta cuando el botón nueva partida es pulsado.
+    Comienza una nueva partida.
+    */
+    public void nuevaPartida(View view) {
+
+        //Limpiamos la elección de la IA
+        imgIA.setImageResource(0);
+
+        //Activamos el botón jugar
+        btnJugar.setClickable(true);
+
+        //Se pone invisible el layout de fin de partida
+        lilFinPartida.setVisibility(View.INVISIBLE);
     }
 }
