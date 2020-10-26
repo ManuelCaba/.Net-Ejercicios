@@ -1,0 +1,29 @@
+﻿@model _07_MVCInicioUI.Models.clsListaPersonas
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>@ViewData["Saludo"]</p>
+
+        <p>@ViewBag.Fecha</p> <br>
+
+
+        <p>@Model.ID</p>
+
+        <p>@Model.nombre</p>
+
+        <p>@Model.apellidos</p>
+
+        <p>@Model.edad</p>
+    </div>
+</body>
+</html>
