@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-28T12:42:17.011</Modified>
+      <Modified>2020-10-28T14:20:28.355</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\Solarizr.exe">
       <PackagePath>entrypoint\Solarizr.exe</PackagePath>
-      <Modified>2020-10-28T12:42:16.481</Modified>
+      <Modified>2020-10-28T14:20:27.302</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,7 +90,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\Solarizr.xr.xml">
       <PackagePath>Solarizr.xr.xml</PackagePath>
-      <Modified>2020-10-28T12:42:16.237</Modified>
+      <Modified>2020-10-28T14:20:27.051</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
@@ -98,7 +98,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\AppointmentsPage.xbf">
       <PackagePath>AppointmentsPage.xbf</PackagePath>
-      <Modified>2020-10-28T12:42:16.245</Modified>
+      <Modified>2020-10-28T14:20:27.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>
@@ -118,7 +118,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\Core\Solarizr.exe">
       <PackagePath>Solarizr.exe</PackagePath>
-      <Modified>2020-10-28T12:42:17.006</Modified>
+      <Modified>2020-10-28T14:20:28.336</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

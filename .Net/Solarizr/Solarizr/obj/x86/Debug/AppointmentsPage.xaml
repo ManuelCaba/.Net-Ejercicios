@@ -10,62 +10,12 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
         <!--Bacground-->
         <Grid.Background>
             <ImageBrush Stretch="UniformToFill" 
                         ImageSource="/Assets/Images/mainbackground.jpg"
                         Opacity="0.8"></ImageBrush>
         </Grid.Background>
-
-        <Hub Header="Solarizr">
-
-            <HubSection MinWidth="600" IsHeaderInteractive="True">
-                <HubSection.Header>
-                    <TextBlock Text="LATEST"
-                               Foreground="White"
-                               FontSize="30"></TextBlock>
-                </HubSection.Header>
-
-                <DataTemplate>
-                    <Grid>
-                        
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                        </Grid.ColumnDefinitions>
-
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                            <RowDefinition Height="*"></RowDefinition>
-                        </Grid.RowDefinitions>
-
-                        <Maps:MapControl Grid.Column="0"
-                                         Grid.Row="0"
-                                         ZoomInteractionMode="GestureAndControl"
-                                         TiltInteractionMode="GestureAndControl"   
-                                         MapServiceToken="EnterYourAuthenticationKeyHere"/>
-
-                    </Grid>
-                </DataTemplate>
-                
-            </HubSection>
-
-            <HubSection>
-                <HubSection.Header>
-                    <TextBlock Text="APPOINTMENTS"
-                               Foreground="White"
-                               FontSize="30"></TextBlock>
-                </HubSection.Header>
-            </HubSection>
-
-        </Hub>
-
-
-
     </Grid>
 </Page>
 
