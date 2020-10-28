@@ -1,0 +1,140 @@
+﻿<Page
+    x:Class="Solarizr.LoginPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Solarizr"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <!--Bacground-->
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" 
+                        ImageSource="/Assets/Images/mainbackground.jpg"
+                        Opacity="0.8"></ImageBrush>
+        </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="1.5*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="0.8*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.Row="1"
+                   Grid.ColumnSpan="3"
+                   Fill="GhostWhite"></Rectangle>
+
+        <Rectangle Grid.Row="2"
+                   Grid.ColumnSpan="3"
+                   Fill="White"></Rectangle>
+
+        <RelativePanel Grid.Column="1"
+                    Grid.Row="1">
+
+
+            <Border x:ConnectionId='3' Name="brdBackSymbol"
+                    BorderThickness="1"
+                    BorderBrush="Black"
+                    CornerRadius="40"
+                    RelativePanel.AlignVerticalCenterWithPanel="True">
+                <SymbolIcon x:ConnectionId='4' Symbol="Back"
+                        MinHeight="40"
+                        MinWidth="40"
+                                             ></SymbolIcon>
+            </Border>
+
+
+            <TextBlock RelativePanel.RightOf="brdBackSymbol"
+                       RelativePanel.AlignVerticalCenterWith="brdBackSymbol"
+                       Margin="20,0,0,0"
+                       Text="Connecting to a service"
+                       TextWrapping="Wrap"
+                       FontSize="35"></TextBlock>
+            
+        </RelativePanel>
+
+        <Grid Grid.Column="1"
+              Grid.Row="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Column="1"
+                       Grid.Row="0"
+                       Text="Sign in"
+                       FontSize="30"
+                       Foreground="Gray"
+                       Margin="0,20,0,25"></TextBlock>
+
+            <TextBlock Grid.Column="1"
+                       Grid.Row="1"
+                       Text="Sign in with your organizational account"
+                       FontSize="15"
+                       Foreground="Black"
+                       TextWrapping="Wrap"
+                       Margin="0,0,0,25"></TextBlock>
+
+            <TextBox Grid.Column="1"
+                     Grid.Row="2"
+                     PlaceholderText="someone@example.com"
+                     IsSpellCheckEnabled="False"
+                     FontSize="15"
+                     Foreground="Black"
+                     Margin="0,0,0,10"></TextBox>
+
+            <PasswordBox Grid.Column="1"
+                         Grid.Row="3"
+                         PlaceholderText="Password"
+                         FontSize="15"
+                         Foreground="Black"></PasswordBox>
+
+            <CheckBox Grid.Column="1"
+                      Grid.Row="4"
+                      Margin="0,0,0,25">
+                <x:String>Keep me signed in</x:String>
+            </CheckBox>
+
+            <Button x:ConnectionId='2' Grid.Column="1"
+                    Grid.Row="5"
+                    Content="Sign in"
+                                                
+                    Foreground="White"
+                    Background="#FF0080FF"
+                    Margin="0,0,0,25"></Button>
+
+            <TextBlock Grid.Column="1"
+                       Grid.Row="6"
+                       Text="Can't access your account?"
+                       Foreground="#FF077291" FocusVisualPrimaryBrush="#FF11F1C9"></TextBlock>
+            
+
+        </Grid>
+        
+        
+
+    </Grid>
+</Page>
+
