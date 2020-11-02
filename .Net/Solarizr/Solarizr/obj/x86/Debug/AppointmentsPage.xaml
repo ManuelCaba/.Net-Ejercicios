@@ -16,6 +16,385 @@
                         ImageSource="/Assets/Images/mainbackground.jpg"
                         Opacity="0.8"></ImageBrush>
         </Grid.Background>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="5*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal"
+                    Grid.Column="0"
+                    Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    VerticalAlignment="Center"
+                    Margin="20">
+
+            <TextBlock Text="S"
+                       VerticalAlignment="Center"
+                       FontSize="50"
+                       Foreground="#FFF39F1B"></TextBlock>
+
+            <Image Source="/Assets/Images/solarizr.png" 
+                   Width="50"/>
+
+            <TextBlock Text="LARIZR"
+                       VerticalAlignment="Center"
+                       FontSize="50"
+                       Foreground="#FFF39F1B"></TextBlock>
+
+        </StackPanel>
+
+        <Grid Grid.Column="0"
+              Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2.5*"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Maps:MapControl x:ConnectionId='8' Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30,0,0,0"
+                             MaxWidth="400"
+                             MaxHeight="400"
+                             x:Name="Mapa"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+            <Border x:ConnectionId='9' Grid.Column="1"
+                    Grid.Row="1"
+                    BorderThickness="1"
+                    Background="Black"
+                    Opacity="0.8"
+                    Margin="0,0,30,0"
+                                            
+                    IsTapEnabled="True">
+
+                <RelativePanel Margin="15">
+                    <TextBlock x:ConnectionId='10' Name="txbFecha"
+                               Text="Saturday, Sept 30"
+                               FontSize="50"
+                               Foreground="White"
+                               RelativePanel.AlignTopWithPanel="True"
+                               RelativePanel.AlignLeftWithPanel="True"></TextBlock>
+
+                    <TextBlock x:ConnectionId='11' x:Name="txbHora" 
+                               Text="2:45"
+                               FontSize="50"
+                               Foreground="White" 
+                               FontWeight="Bold"
+                               RelativePanel.Below="txbFecha"></TextBlock>
+
+
+                    <TextBlock x:ConnectionId='12' x:Name="txbDireccion" 
+                               Text="Calle Tintilla, 6"
+                               FontSize="40"
+                               TextWrapping="Wrap"
+                               Foreground="White"
+                               RelativePanel.Below="txbHora"></TextBlock>
+
+                    <Border BorderThickness="1"
+                            Height="1"
+                            RelativePanel.Above="stpButtons"
+                            BorderBrush="White"
+                            RelativePanel.AlignLeftWithPanel="True"
+                            RelativePanel.AlignRightWithPanel="True"
+                            Margin="10"></Border>
+
+                    <StackPanel x:ConnectionId='13' x:Name="stpButtons" 
+                                Orientation="Horizontal"
+                                RelativePanel.AlignBottomWithPanel="True"
+                                RelativePanel.AlignHorizontalCenterWithPanel="True">
+
+                        <AppBarButton Icon="Calendar"
+                                      Foreground="White"></AppBarButton>
+                        <AppBarButton Icon="Phone"
+                                      Foreground="White"></AppBarButton>
+                        <AppBarButton Icon="Go"
+                                      Foreground="White"></AppBarButton>
+                        <AppBarButton Icon="Edit"
+                                      Foreground="White"></AppBarButton>
+                    </StackPanel>
+
+                </RelativePanel>
+
+            </Border>
+
+            <TextBlock></TextBlock>
+
+        </Grid>
+
+        <ListView Grid.Column="1"
+                  Grid.Row="1" 
+                  VerticalAlignment="Center"
+                  ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollMode="Enabled"                  
+                  ScrollViewer.VerticalScrollMode="Disabled"
+                  ItemsSource="{Binding Collection}">
+
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical">
+
+                    <Border x:ConnectionId='6' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                        <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                        <StackPanel Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                            </StackPanel>
+
+
+                            <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                        </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <Border x:ConnectionId='7' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                            <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                    <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                                </StackPanel>
+
+
+                                <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+
+                    <Border x:ConnectionId='4' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                            <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                    <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                                </StackPanel>
+
+
+                                <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <Border x:ConnectionId='5' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                            <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                    <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                                </StackPanel>
+
+
+                                <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical">
+
+                    <Border x:ConnectionId='2' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                            <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                    <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                                </StackPanel>
+
+
+                                <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <Border x:ConnectionId='3' Background="Black"
+                            Opacity="0.8"
+                                                    
+                            IsTapEnabled="True">
+                        <StackPanel Orientation="Horizontal"
+                                MaxWidth="700"
+                                MinHeight="275">
+                            <Maps:MapControl Grid.Column="0"
+                             Grid.Row="1"
+                             Margin="30"
+                             MinWidth="200"
+                             MinHeight="200"
+                             MaxHeight="200"
+                             MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                            <StackPanel Orientation="Vertical">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="12:15pm"
+                                           FontSize="30"
+                                           Margin="0,0,20,0"
+                                           Foreground="White" 
+                                           FontWeight="Bold"></TextBlock>
+
+                                    <TextBlock Text="10/01/2020"
+                                           FontSize="30"
+                                           Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+                                </StackPanel>
+
+
+                                <TextBlock Text="Calle Tintilla, 6"
+                                       TextWrapping="Wrap"
+                                       FontSize="20"
+                                       Margin="0,20,0,0"
+                                       Foreground="White" FocusVisualPrimaryBrush="#FF686767"></TextBlock>
+
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+            </StackPanel>
+
+        </ListView>
+
+
+
+
+
     </Grid>
 </Page>
 

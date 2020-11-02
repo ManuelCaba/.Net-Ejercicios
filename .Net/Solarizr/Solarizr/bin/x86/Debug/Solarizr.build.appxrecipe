@@ -37,8 +37,8 @@
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\Assets\Images\mainbackground.jpg">
       <PackagePath>Assets\Images\mainbackground.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\Assets\Images\solarizr.png">
+      <PackagePath>Assets\Images\solarizr.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -67,6 +67,9 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\Solarizr.xr.xml">
       <PackagePath>Solarizr.xr.xml</PackagePath>
     </AppxPackagedFile>
@@ -75,6 +78,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\AppointmentsPage.xbf">
       <PackagePath>AppointmentsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\DetailsPage.xbf">
+      <PackagePath>DetailsPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\LoginPage.xbf">
       <PackagePath>LoginPage.xbf</PackagePath>

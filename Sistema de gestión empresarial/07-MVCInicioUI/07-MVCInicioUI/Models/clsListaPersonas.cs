@@ -7,7 +7,7 @@ namespace _07_MVCInicioUI.Models
 {
     public class clsListaPersonas
     {
-        #region Atributos
+        #region Propiedades
         public List<clsPersona> listaPersonas { get; set; }
         #endregion
 

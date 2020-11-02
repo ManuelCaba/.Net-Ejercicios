@@ -27,6 +27,11 @@ namespace Solarizr
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// Método que te envía a la página Login
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void goToLogin(Object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(LoginPage));

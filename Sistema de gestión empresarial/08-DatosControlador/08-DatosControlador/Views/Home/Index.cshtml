@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>
+            @Html.ActionLink("Ir a Saludo", "Saludo", "Home", new { nombre = "Manuel" }, null)
+        </p>
+
+        <form method="post">
+            <input type="text" name="nombre" placeholder="Nombre" />
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

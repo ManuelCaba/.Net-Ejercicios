@@ -14,10 +14,11 @@
     <div>
         <table cellspacing="20">
             <tr>
-                <td>ID</td>
-                <td>Nombre</td>
-                <td>Apellidos</td>
-                <td>Edad</td>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellidos</th>
+                <th>Edad</th>
+            </tr>
 
                 @foreach(_07_MVCInicioUI.Models.clsPersona persona in Model.listaPersonas)
                 {
@@ -28,7 +29,7 @@
                         <td>@persona.edad</td>
                     </tr>
                 }
-            </tr>
+            
         </table>
 
         <p>@Html.ActionLink("Index", "Index", "Home")</p>

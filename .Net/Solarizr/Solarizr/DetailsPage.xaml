@@ -1,0 +1,239 @@
+﻿<Page
+    x:Class="Solarizr.DetailsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Solarizr"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <RelativePanel>
+
+        <!--Bacground-->
+
+        <Image Source="/Assets/Images/mainbackground.jpg"
+               Stretch="UniformToFill"
+               Opacity="0.8"/>
+
+        <StackPanel x:Name="stpLogo" 
+                    RelativePanel.AlignLeftWithPanel="True"
+                    RelativePanel.AlignTopWithPanel="True"
+                    Orientation="Horizontal"
+                    Margin="20">
+
+            <Border Name="brdBackSymbol"
+                    BorderThickness="1"
+                    BorderBrush="Black"
+                    CornerRadius="40"
+                    RelativePanel.AlignVerticalCenterWithPanel="True">
+
+                <SymbolIcon Symbol="Back"
+                            Tapped="goToAppointmentsPage"
+                            IsTapEnabled="True"
+                            MinHeight="60"
+                            MinWidth="60"></SymbolIcon>
+            </Border>
+
+            <TextBlock Text="S"
+                       VerticalAlignment="Center"
+                       FontSize="50"
+                       Foreground="#FFF39F1B"
+                       Margin="20,0,0,0"></TextBlock>
+
+            <Image Source="/Assets/Images/solarizr.png" 
+                   Width="50"/>
+
+            <TextBlock Text="LARIZR"
+                       VerticalAlignment="Center"
+                       FontSize="50"
+                       Foreground="#FFF39F1B"></TextBlock>
+
+        </StackPanel>
+
+
+        <ListView RelativePanel.Below="stpLogo"
+                  VerticalAlignment="Center"
+                  ScrollViewer.VerticalScrollBarVisibility="Disabled" 
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollMode="Enabled"                  
+                  ScrollViewer.VerticalScrollMode="Disabled"
+                  ItemsSource="{Binding Collection}">
+
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Maps:MapControl Grid.Column="0"
+                                     Grid.Row="0"
+                                     Margin="30,0,0,0"
+                                     Width="400"
+                                     Height="400"
+                                     x:Name="Mapa"
+                                     MapServiceToken="8yJ6qhK8CMSDpUTJ7DDv~UU6P-s0mwm0Ud2Egp_EqCg~AgC35sUiwbQkm-HbZDNwQqNRWkURkqOGTRSb0-o0nTZg2_YBeHlPWRvqXnarYDEx"/>
+
+                    <Border Grid.Column="1"
+                            Grid.Row="0"
+                            BorderThickness="1"
+                            Background="Black"
+                            Opacity="0.8"
+                            Margin="0,0,30,0">
+
+                        <RelativePanel Margin="15">
+                            <TextBlock Name="txbFecha"
+                                       Text="Saturday, Sept 30"
+                                       FontSize="50"
+                                       Foreground="White"
+                                       RelativePanel.AlignTopWithPanel="True"
+                                       RelativePanel.AlignLeftWithPanel="True"></TextBlock>
+
+                            <TextBlock x:Name="txbHora" 
+                                       Text="2:45"
+                                       FontSize="50"
+                                       Foreground="White" 
+                                       FontWeight="Bold"
+                                       RelativePanel.Below="txbFecha"></TextBlock>
+
+
+                            <TextBlock x:Name="txbDireccion" 
+                                       Text="Calle Tintilla, 6"
+                                       FontSize="40"
+                                       TextWrapping="Wrap"
+                                       Foreground="White"
+                                       RelativePanel.Below="txbHora"></TextBlock>
+
+                            <Border BorderThickness="1"
+                                    Height="1"
+                                    RelativePanel.Above="stpButtons"
+                                    BorderBrush="White"
+                                    RelativePanel.AlignLeftWithPanel="True"
+                                    RelativePanel.AlignRightWithPanel="True"
+                                    Margin="10"></Border>
+
+                            <StackPanel x:Name="stpButtons" 
+                                        Orientation="Horizontal"
+                                        RelativePanel.AlignBottomWithPanel="True"
+                                        RelativePanel.AlignHorizontalCenterWithPanel="True">
+
+                                <AppBarButton Icon="Calendar"
+                                              Foreground="White"></AppBarButton>
+                                <AppBarButton Icon="Phone"
+                                              Foreground="White"></AppBarButton>
+                                <AppBarButton Icon="Go"
+                                              Foreground="White"></AppBarButton>
+                                <AppBarButton Icon="Edit"
+                                              Foreground="White"></AppBarButton>
+                            </StackPanel>
+
+                        </RelativePanel>
+
+                    </Border>
+                    
+                    <Border Grid.Column="0"
+                            Grid.ColumnSpan="2"
+                            Grid.Row="1"
+                            BorderThickness="1"
+                            Background="Black"
+                            Opacity="0.8"
+                            MaxHeight="350"
+                            Margin="20,20,20,0">
+
+                        <StackPanel Margin="20,20,20,0">
+                            <TextBlock Text="Bob Smith"
+                                       FontSize="40"
+                                       Foreground="White" 
+                                       FontWeight="Bold"/>
+
+                            <TextBlock Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula purus, mollis id eros a, pulvinar suscipit risus. Vestibulum dolor mi, egestas sit amet faucibus eu, eleifend sed libero. In vitae eros rutrum, eleifend elit id, viverra sapien. "
+                                       TextWrapping="Wrap"
+                                       FontSize="30"
+                                       Foreground="White"
+                                       Margin="0,20,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                </Grid>
+
+                <VariableSizedWrapGrid Orientation="Horizontal"
+                                       MaxWidth="400"
+                                       Grid.Column="1">
+                    <Rectangle Fill="Black"
+                               Opacity="0.8"
+                               MinWidth="150"
+                               MinHeight="150"
+                               Margin="20"></Rectangle>
+                    <Rectangle Fill="Black"
+                               Opacity="0.8"
+                               MinWidth="150"
+                               MinHeight="120"
+                               Margin="20"></Rectangle>
+                    <Rectangle Fill="Black"
+                               Opacity="0.8"
+                               MinWidth="150"
+                               MinHeight="150"
+                               Margin="20"></Rectangle>
+                </VariableSizedWrapGrid>
+
+                <StackPanel Grid.Column="3"
+                            Orientation="Vertical">
+                    
+                    <TextBlock Text="Status"
+                               FontSize="25"
+                               Foreground="White"
+                               Margin="10" 
+                               FontWeight="Bold"></TextBlock>
+
+                    <ComboBox Margin="10"
+                              MinWidth="300">
+                        <x:String>Pending</x:String>
+                        <x:String>Aproved</x:String>
+                        <x:String>Denied</x:String>
+                    </ComboBox>
+
+                    <Border Background="White"
+                            BorderBrush="Black"
+                            BorderThickness="2"
+                            Opacity="0.5"
+                            Margin="10">
+
+                        <TextBox MinHeight="200"
+                                 IsSpellCheckEnabled="True"
+                                 PlaceholderText="Write a comment"
+                                 MinWidth="300"
+                                 TextWrapping="Wrap"
+                                 Foreground="Black"
+                                 Margin="10"></TextBox>
+                    </Border>
+
+                </StackPanel>
+
+            </Grid>
+
+        </ListView>
+
+        <AppBarButton Icon="Save"
+                      Tapped="guardarFormulario"
+                      IsTapEnabled="True"
+                      RelativePanel.AlignRightWithPanel="True"
+                      RelativePanel.AlignBottomWithPanel="True"
+                      Foreground="White"></AppBarButton>
+
+    </RelativePanel>
+</Page>
