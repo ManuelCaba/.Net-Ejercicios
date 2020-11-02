@@ -1,0 +1,25 @@
+﻿@model _08_DatosControlador.Models.clsPersona
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div> 
+        <form method="post">
+            <input name="ID" type="number" placeholder="ID"/> <br>
+            @Html.TextBox("nombre", null, new {@Placeholder = "Nombre" }) <br>
+            @Html.TextBoxFor(m => m.apellidos, new {@PlaceHolder = "Apellidos"}) <br>
+            <input name="edad" type="number" placeholder="Edad"/> <br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

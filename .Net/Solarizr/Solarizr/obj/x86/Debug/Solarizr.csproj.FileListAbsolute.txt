@@ -53,3 +53,8 @@ D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\AppointmentsP
 D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\AppointmentsPage.g.cs
 D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\AppointmentsPage.xaml
 D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\AppointmentsPage.xbf
+D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\bin\x86\Debug\DetailsPage.xbf
+D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\DetailsPage.g.i.cs
+D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\DetailsPage.g.cs
+D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\DetailsPage.xaml
+D:\Escritorio\.Net-Ejercicios\.Net\Solarizr\Solarizr\obj\x86\Debug\DetailsPage.xbf

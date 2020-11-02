@@ -28,11 +28,21 @@ namespace Solarizr
             this.InitializeComponent();
         }
 
+        /// <summary>
+        /// Método que te envía a la página MainPage
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void goToMainPage(Object sender, TappedRoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
         }
 
+        /// <summary>
+        /// Método que te envía a la página AppointmentsPage
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public void goToAppointmentsPage(Object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(AppointmentsPage));
