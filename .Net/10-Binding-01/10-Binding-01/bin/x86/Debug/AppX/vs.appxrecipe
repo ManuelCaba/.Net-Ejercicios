@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-7UOCHNI</Machine>
+    <WindowsUser>emane</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>aae8daad-2099-46bc-b336-9489659f6c6e</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9F44FA6203CC28D195657478709F43349BC59C22BE3EA67E2D9D0F54F4114CDC</RegisteredManifestChecksum>
+    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>30A853B4D0FA467156EBCDE82C930D69DB7D26B43BF2077BB1B693C567CDF3AC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>aae8daad-2099-46bc-b336-9489659f6c6e_1.0.0.0_x86__e3hfh0k2gtk7e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>aae8daad-2099-46bc-b336-9489659f6c6e_e3hfh0k2gtk7e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>aae8daad-2099-46bc-b336-9489659f6c6e</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-03T13:13:26.169</Modified>
+      <Modified>2020-11-04T10:23:47.318</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\10-Binding-01.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\10-Binding-01.exe">
       <PackagePath>entrypoint\10-Binding-01.exe</PackagePath>
-      <Modified>2020-11-03T13:13:25.602</Modified>
+      <Modified>2020-11-04T10:23:44.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,69 +44,69 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T17:36:56.000</Modified>
+      <Modified>2019-03-18T16:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-11-03T12:36:56.043</Modified>
+      <Modified>2020-11-03T15:26:39.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.325</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.342</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.343</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.344</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-03T15:26:39.345</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\10-Binding-01.xr.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\10-Binding-01.xr.xml">
       <PackagePath>10-Binding-01.xr.xml</PackagePath>
-      <Modified>2020-11-03T13:13:25.383</Modified>
+      <Modified>2020-11-03T15:26:39.460</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-11-03T12:55:34.772</Modified>
+      <Modified>2020-11-04T10:23:44.167</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-11-03T13:13:25.387</Modified>
+      <Modified>2020-11-04T10:23:44.167</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T16:33:42.000</Modified>
+      <Modified>2019-03-18T15:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-03T12:40:39.637</Modified>
+      <Modified>2020-11-04T10:23:44.854</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\Core\10-Binding-01.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\10-Binding-01\10-Binding-01\bin\x86\Debug\Core\10-Binding-01.exe">
       <PackagePath>10-Binding-01.exe</PackagePath>
-      <Modified>2020-11-03T13:13:26.164</Modified>
+      <Modified>2020-11-04T10:23:47.303</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
