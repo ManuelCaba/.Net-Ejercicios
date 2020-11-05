@@ -42,7 +42,15 @@ namespace _08_DatosControlador.Models
         [HttpPost]
         public ActionResult Editar(clsPersona persona)
         {
-            return View("PersonaModificada", persona);
+            if(ModelState.IsValid)
+            {
+                return View("PersonaModificada", persona);
+            }
+            else
+            {
+                return View(persona);
+            }
+            
         }
 
 
