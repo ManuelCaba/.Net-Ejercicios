@@ -30,15 +30,19 @@ namespace _08_DatosControlador.Models
 
         public ActionResult Editar()
         {
-            return View();
+            clsPersona persona = new clsPersona();
+
+            persona.ID = 5;
+            persona.nombre = "Manuel";
+            persona.apellidos = "Caballero";
+
+            return View(persona);
         }
 
         [HttpPost]
         public ActionResult Editar(clsPersona persona)
         {
-            ViewBag.persona = persona;
-
-            return View("PersonaModificada");
+            return View("PersonaModificada", persona);
         }
 
 

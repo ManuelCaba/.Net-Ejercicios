@@ -13,7 +13,7 @@
 <body>
     <div> 
         <form method="post">
-            <input name="ID" type="number" placeholder="ID"/> <br>
+            <input name="ID" type="number" placeholder="ID" value=@Model.ID /> <br>
             @Html.TextBox("nombre", null, new {@Placeholder = "Nombre" }) <br>
             @Html.TextBoxFor(m => m.apellidos, new {@PlaceHolder = "Apellidos"}) <br>
             <input name="edad" type="number" placeholder="Edad"/> <br>
