@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Roots >
   <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="PersonaSeleccionada" />
+    <RootPropertyPathName Name="Direccion" />
+    <RootPropertyPathName Name="Telefono" />
+    <RootPropertyPathName Name="FechaNacimiento" />
+    <RootPropertyPathName Name="Apellidos" />
     <RootPropertyPathName Name="Nombre" />
+    <RootPropertyPathName Name="ListadoPersonas" />
+    <RootPropertyPathName Name="NombreCompleto" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
@@ -11,25 +18,86 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="_10_Binding_03.Models.clsListados" />
+    <RootType FullName="_10_Binding_03.ViewModels.MainPageVM" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
+      <RootMethod Name="GetAlignLeftWithPanel" />
+      <RootMethod Name="SetAlignLeftWithPanel" />
+      <RootMethod Name="GetAlignTopWithPanel" />
+      <RootMethod Name="SetAlignTopWithPanel" />
+      <RootMethod Name="GetAlignBottomWithPanel" />
+      <RootMethod Name="SetAlignBottomWithPanel" />
+      <RootMethod Name="GetAlignRightWithPanel" />
+      <RootMethod Name="SetAlignRightWithPanel" />
+      <RootMethod Name="GetRightOf" />
+      <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetBelow" />
+      <RootMethod Name="SetBelow" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateManager">
+      <RootMethod Name="GetVisualStateGroups" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualStateGroup">
+      <RootProperty Name="States" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.VisualState">
+      <RootProperty Name="StateTriggers" />
+      <RootProperty Name="Setters" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.AdaptiveTrigger">
+      <RootProperty Name="MinWindowWidth" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Target" />
+      <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.DataTemplate">
-      <RootProperty Name="Template" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Background" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="BorderThickness" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
       <RootProperty Name="Children" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
       <RootProperty Name="Text" />
-      <RootProperty Name="FontWeight" />
+      <RootProperty Name="Name" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="_10_Binding_03.MainPage" />
   </Roots.RootTypes>
