@@ -1,0 +1,80 @@
+﻿@model _08_DatosControlador.Models.clsPersonaDepartamentos
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Editar</title>
+</head>
+<body>
+    <div> 
+        <form method="post">
+            <p>
+                @Html.EditorFor(m => m.Persona.ID)
+                @Html.ValidationMessageFor(m => m.Persona.ID)
+            </p>
+
+            <p>
+                @Html.TextBox("Persona.Nombre", null, new { @Placeholder = "Nombre" })
+                @Html.ValidationMessageFor(m => m.Persona.Nombre)
+            </p>
+
+            <p>
+                @Html.TextBoxFor(m => m.Persona.Apellidos, new { @PlaceHolder = "Apellidos" })
+                @Html.ValidationMessageFor(m => m.Persona.Apellidos)
+            </p>
+
+            <p>
+                @if (Model.Persona.FechaNacimiento == new DateTime())
+                {
+                    <input name="fechaNacimiento" placeholder="Fecha Nacimiento" />
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.Persona.FechaNacimiento, new { @PlaceHolder = "Fecha de Nacimiento" })
+                }
+                @Html.ValidationMessageFor(m => m.Persona.FechaNacimiento)
+            </p>
+
+            <p>
+                @Html.TextBoxFor(m => m.Persona.Direccion, new { @PlaceHolder = "Dirección" })
+                @Html.ValidationMessageFor(m => m.Persona.Direccion)
+            </p>
+
+            <p>
+                @Html.TextBoxFor(m => m.Persona.Telefono, new { @PlaceHolder = "Teléfono" })
+                @Html.ValidationMessageFor(m => m.Persona.Telefono)
+            </p>
+
+            <p>
+                @*@Html.DropDownListFor(m => m.Departamentos)*@
+                <select name="Persona.Departamento.ID">
+                    @foreach (_08_DatosControlador.Models.clsDepartamento departamento in Model.Departamentos)
+                    {
+                        if (Model.Persona.Departamento.ID == departamento.ID)
+                        {
+                            <option value=@departamento.ID selected="selected">@departamento.Nombre</option>
+                        }
+                        else
+                        {
+                            <option value=@departamento.ID>@departamento.Nombre</option>
+                        }
+
+                    }
+                </select>
+            </p>
+
+
+
+            
+            
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

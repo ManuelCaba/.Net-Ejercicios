@@ -1,0 +1,25 @@
+﻿@model _08_DatosControlador.Models.clsPersona
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>PersonaModificada</title>
+</head>
+<body>
+    <div>
+        <label>@Model.ID</label> <br>
+        <label>@Model.Nombre</label> <br>
+        <label>@Model.Apellidos</label> <br>
+        <label>@Model.FechaNacimiento</label> <br>
+        <label>@Model.Direccion</label> <br>
+        <label>@Model.Telefono</label> <br>
+        <label>@Model.Departamento.Nombre</label>
+    </div>
+</body>
+</html>
