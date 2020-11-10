@@ -13,33 +13,34 @@ namespace _10_Binding_03.ViewModels
     {
         #region Atributos
         private clsPersona personaSeleccionada;
-    #endregion
+        #endregion
 
-    #region Propiedades
-    public ObservableCollection<clsPersona> ListadoPersonas { get; set; }
-    public clsPersona PersonaSeleccionada 
-    { 
-            get
-            {
-                return personaSeleccionada;
-            }
+        #region Propiedades
+        public ObservableCollection<clsPersona> ListadoPersonas { get; }
+        public clsPersona PersonaSeleccionada 
+        { 
+                get
+                {
+                    return personaSeleccionada;
+                }
 
-            set
-            {
-                personaSeleccionada = value;
-                NotifyPropertyChanged("PersonaSeleccionada");
-            }
-    }
+                set
+                {
+                    personaSeleccionada = value;
+                    NotifyPropertyChanged("PersonaSeleccionada");
+                }
+        }
 
-    public event PropertyChangedEventHandler PropertyChanged;
-    #endregion
+        public event PropertyChangedEventHandler PropertyChanged;
+        #endregion
 
         #region Constructores
         public MainPageVM()
-    {
-        ListadoPersonas = clsListados.listadoPersonas();
-    }
-    #endregion
+        {
+            //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
+            ListadoPersonas = clsListados.listadoPersonas();
+        }
+        #endregion
 
         #region INotifyPropertyChanged
 

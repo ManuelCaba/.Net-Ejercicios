@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace _10_Binding_03.Models
 {
-    class clsListados
+    public class clsListados
     {
         /*
          * Función que devuelve un ObservableCollection de clsPersona ya inicializados

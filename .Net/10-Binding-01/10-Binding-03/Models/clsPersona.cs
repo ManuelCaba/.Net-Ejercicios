@@ -17,7 +17,6 @@ namespace _10_Binding_03.Models
         public String NombreCompleto
         {
             get { return Nombre+" "+Apellidos; }
-            set { NombreCompleto = value; }
         }
 
         public String Telefono { get; set; }
