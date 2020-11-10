@@ -169,7 +169,6 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, Adap
                 if (results != null && results.count > 0) {
                     items.clear();
                     items.addAll(filterList);
-                    notifyDataSetChanged();
                 }
             }
         };
