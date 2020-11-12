@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, Adap
     Spinner spnEquipos;
     Button btnAdd;
 
-    private static final ArrayList<Equipo> equipos = new ArrayList<Equipo>();
+    private static final ArrayList<Equipo> equipos = new ArrayList<Equipo>(); //Para implementar la interfaz filter se recomienda ArrayList
     ArrayList<String> nombreEquipos = new ArrayList<String>();
     Equipo equipoSeleccionado;
 
@@ -81,10 +81,16 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, Adap
 
     @Override
     public void onClick(View v) {
-        if(nombreEquipos .size() < 4)
+        if(equipoSeleccionado != null)
         {
-            nombreEquipos.add(equipoSeleccionado.getEquipo());
-            adapter.notifyDataSetChanged();
+            if(nombreEquipos .size() < 4)
+            {
+                if(!nombreEquipos.contains(equipoSeleccionado.getEquipo()))
+                {
+                    nombreEquipos.add(equipoSeleccionado.getEquipo());
+                    adapter.notifyDataSetChanged();
+                }
+            }
         }
     }
 
