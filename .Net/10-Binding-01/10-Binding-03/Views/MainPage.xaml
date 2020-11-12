@@ -24,7 +24,7 @@
                     </VisualState.StateTriggers>
 
                     <VisualState.Setters>
-                        <Setter Target="lvwPersonas.(RelativePanel.AlignBottonWithPanel)"
+                        <Setter Target="lvwPersonas.(RelativePanel.AlignBottomWithPanel)"
                                 Value="False"></Setter>
                         <Setter Target="lvwPersonas.(RelativePanel.AlignRightWithPanel)"
                                 Value="True"></Setter>
@@ -41,7 +41,7 @@
 
                 <VisualState x:Name="Base">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="500"></AdaptiveTrigger>
+                        <AdaptiveTrigger MinWindowWidth="900"></AdaptiveTrigger>
                     </VisualState.StateTriggers>
                 </VisualState>
 
