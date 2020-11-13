@@ -123,6 +123,7 @@
     <Compile Include="Models\clsPersona.cs" />
     <Compile Include="ViewModels\Utilidades\clsVMBase.cs" />
     <Compile Include="ViewModels\MainPageVM.cs" />
+    <Compile Include="ViewModels\Utilidades\DelegateCommand.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

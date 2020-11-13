@@ -42,7 +42,10 @@ namespace _11_BindingCommand_01.ViewModels
         #region Métodos
         public void eliminarPersona(Object sender, RoutedEventArgs e)
         {
-            ListadoPersonas.Remove(PersonaSeleccionada);
+            if(personaSeleccionada != null)
+            {
+                ListadoPersonas.Remove(PersonaSeleccionada);
+            }
         }
         #endregion
     }
