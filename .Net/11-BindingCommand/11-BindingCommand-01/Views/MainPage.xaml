@@ -13,9 +13,23 @@
                       Icon="Delete"
                       Click="{x:Bind ViewModel.eliminarPersona}"
                       RelativePanel.AlignTopWithPanel="True"/>
+
+        <StackPanel Orientation="Horizontal"
+                    RelativePanel.RightOf="abbDelete"
+                    Margin="40,0,0,0">
+
+            <TextBox PlaceholderText="Buscar..."
+                     Text="{x:Bind UpdateSourceTrigger = PropertyChanged, Path = ViewModel.Buscar, Mode = TwoWay}"
+                     MinWidth="500"
+                     VerticalContentAlignment="Center"
+                     FontSize="20"/>
+            <AppBarButton Command="{x:Bind Path = ViewModel.BuscarCommand}" Icon="Find"/>
+
+        </StackPanel>
+        
         <ListView x:Name="lvwPersonas" 
                   SelectedItem="{x:Bind Path = ViewModel.PersonaSeleccionada, Mode=TwoWay}"
-                  ItemsSource="{x:Bind Path = ViewModel.ListadoPersonas}"
+                  ItemsSource="{x:Bind Path = ViewModel.ListadoPersonasBuscadas}"
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignRightWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True"

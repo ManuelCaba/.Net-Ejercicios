@@ -11,10 +11,12 @@ namespace _11_BindingCommand_01.ViewModels
     {
         #region Atributos
         private clsPersona personaSeleccionada;
+        private String buscar;
         #endregion
 
         #region Propiedades
         public ObservableCollection<clsPersona> ListadoPersonas { get; set; }
+        public ObservableCollection<clsPersona> ListadoPersonasBuscadas { get; set; }
 
         public clsPersona PersonaSeleccionada 
         { 
@@ -29,13 +31,31 @@ namespace _11_BindingCommand_01.ViewModels
                     NotifyPropertyChanged("ViewModel.PersonaSeleccionada");
                 }
         }
+
+        public String Buscar
+        {
+            get
+            {
+                return buscar;
+            }
+
+            set
+            {
+                buscar = value;
+                BuscarCommand.RaiseCanExecuteChanged();
+            }
+        }
+
+        public DelegateCommand BuscarCommand { get; }
         #endregion
 
         #region Constructores
         public MainPageVM()
         {
+            BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
             //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
             ListadoPersonas = clsListados.listadoPersonas();
+            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>();
         }
         #endregion
 
@@ -46,6 +66,31 @@ namespace _11_BindingCommand_01.ViewModels
             {
                 ListadoPersonas.Remove(PersonaSeleccionada);
             }
+        }
+
+        private void BuscarCommand_Executed()
+        {
+            ListadoPersonasBuscadas.Clear();
+
+            foreach(clsPersona persona in ListadoPersonas)
+            {
+                if(persona.Nombre.Contains(buscar) || persona.Apellidos.Contains(buscar))
+                {
+                    ListadoPersonasBuscadas.Add(persona);
+                }
+            }
+        }
+
+        private bool BuscarCommand_CanExecute()
+        {
+            bool canExecute = true;
+
+            if(String.IsNullOrEmpty(buscar))
+            {
+                canExecute = false;
+            }
+
+            return canExecute;
         }
         #endregion
     }

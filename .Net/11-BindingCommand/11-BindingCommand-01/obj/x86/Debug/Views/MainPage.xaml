@@ -13,9 +13,23 @@
                       Icon="Delete"
                                                                 
                       RelativePanel.AlignTopWithPanel="True"/>
+
+        <StackPanel Orientation="Horizontal"
+                    RelativePanel.RightOf="abbDelete"
+                    Margin="40,0,0,0">
+
+            <TextBox x:ConnectionId='5' PlaceholderText="Buscar..."
+                                                                                                                  
+                     MinWidth="500"
+                     VerticalContentAlignment="Center"
+                     FontSize="20"/>
+            <AppBarButton x:ConnectionId='6'                                                   Icon="Find"/>
+
+        </StackPanel>
+        
         <ListView x:ConnectionId='3' x:Name="lvwPersonas" 
                                                                                            
-                                                                         
+                                                                                 
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignRightWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True"
