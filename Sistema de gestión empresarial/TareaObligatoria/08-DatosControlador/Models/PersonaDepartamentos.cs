@@ -5,7 +5,7 @@ using System.Web;
 
 namespace _08_DatosControlador.Models
 {
-    public class clsPersonaDepartamentos
+    public class PersonaDepartamentos
     {
         #region Propiedades
         public clsPersona Persona { get; set; }
@@ -13,13 +13,13 @@ namespace _08_DatosControlador.Models
         #endregion
 
         #region Constructores
-        public clsPersonaDepartamentos(clsPersona persona)
+        public PersonaDepartamentos(clsPersona persona)
         {
             this.Persona = persona;
             this.Departamentos = clsListados.listadoDepartamentos();
         }
 
-        public clsPersonaDepartamentos()
+        public PersonaDepartamentos()
         {
             this.Persona = new clsPersona();
             this.Departamentos = clsListados.listadoDepartamentos();

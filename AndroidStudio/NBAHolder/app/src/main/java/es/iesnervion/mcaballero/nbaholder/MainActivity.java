@@ -1,7 +1,5 @@
 package es.iesnervion.mcaballero.nbaholder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ListActivity;
 import android.content.Context;
 import android.os.Bundle;
@@ -46,6 +44,29 @@ public class MainActivity extends ListActivity {
             super(c, resourceId, textId, objects);
         }
 
+        public int getViewTypeCount()
+        {
+
+            return 2;
+        }
+
+        public int getItemViewType(int position)
+        {
+            return position%2;
+        }
+
+        public int getItemLayout(int position)
+        {
+            int itemLayout = R.layout.row;
+
+            if (getItemViewType(position) == 1)
+            {
+                itemLayout = R.layout.inverserow;
+            }
+
+            return  itemLayout;
+        }
+
         public View getView(int position, View convertView, ViewGroup parent)
         {
             View row = convertView;
@@ -55,7 +76,7 @@ public class MainActivity extends ListActivity {
 
             if (row == null){
                 LayoutInflater inflater = getLayoutInflater();
-                row = inflater.inflate(R.layout.row, parent, false);
+                row = inflater.inflate(getItemLayout(position), parent, false);
 
                 txvEquipo = (TextView) row.findViewById(R.id.txvEquipo);
                 imvLogo = (ImageView) row.findViewById(R.id.imvLogo);

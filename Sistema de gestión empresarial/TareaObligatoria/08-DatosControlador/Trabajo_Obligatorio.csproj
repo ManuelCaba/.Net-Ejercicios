@@ -100,8 +100,7 @@
     <Compile Include="Models\clsDepartamento.cs" />
     <Compile Include="Models\clsListados.cs" />
     <Compile Include="Models\clsPersona.cs" />
-    <Compile Include="Models\clsPersonaDepartamentos.cs" />
-    <Compile Include="Models\PersonaDepartamento.cs" />
+    <Compile Include="Models\PersonaDepartamentos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

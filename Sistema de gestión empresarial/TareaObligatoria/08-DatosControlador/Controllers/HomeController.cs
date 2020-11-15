@@ -30,7 +30,7 @@ namespace _08_DatosControlador.Models
 
         public ActionResult Editar()
         {
-            clsPersonaDepartamentos personaDepartamentos = new clsPersonaDepartamentos();
+            PersonaDepartamentos personaDepartamentos = new PersonaDepartamentos();
 
             personaDepartamentos.Persona.ID = 1;
             personaDepartamentos.Persona.Nombre = "Manuel";
@@ -42,7 +42,7 @@ namespace _08_DatosControlador.Models
         }
 
         [HttpPost]
-        public ActionResult Editar(clsPersonaDepartamentos personaDepartamentos)
+        public ActionResult Editar(PersonaDepartamentos personaDepartamentos)
         {
             clsPersona persona = personaDepartamentos.Persona;
 
