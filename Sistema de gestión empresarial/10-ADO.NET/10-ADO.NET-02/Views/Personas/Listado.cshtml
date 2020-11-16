@@ -47,7 +47,10 @@
                 @Html.DisplayFor(modelItem => item.Apellidos)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                @if (!item.FechaNacimiento.Equals(new DateTime()))
+                {
+                    @Html.DisplayFor(modelItem => item.FechaNacimiento)
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Direccion)

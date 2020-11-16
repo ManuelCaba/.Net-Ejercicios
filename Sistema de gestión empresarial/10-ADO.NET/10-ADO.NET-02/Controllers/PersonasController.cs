@@ -2,8 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace _10_ADO.NET_02.Controllers
@@ -29,19 +27,19 @@ namespace _10_ADO.NET_02.Controllers
 
                 miLector = sqlCommand.ExecuteReader();
 
-                if(miLector.HasRows)
+                if (miLector.HasRows)
                 {
-                    while(miLector.Read())
+                    while (miLector.Read())
                     {
                         oPersona = new clsPersona();
                         oPersona.ID = (int)miLector["ID"];
                         oPersona.Nombre = (String)miLector["Nombre"];
-                        oPersona.Apellidos = miLector["Apellidos"] == null ? null : (String)miLector["Apellidos"];
-                        oPersona.FechaNacimiento = (DateTime)miLector["FechaNacimiento"];
-                        oPersona.Foto = (byte[])miLector["Foto"];
-                        oPersona.Direccion = (String)miLector["Direccion"];
-                        oPersona.Telefono = (String)miLector["Telefono"];
-                        oPersona.IDDepartamento = (int)miLector["IDDepartamento"];
+                        oPersona.Apellidos = miLector["Apellidos"] == DBNull.Value ? null : (String)miLector["Apellidos"];
+                        oPersona.FechaNacimiento = miLector["FechaNacimiento"] == DBNull.Value ? new DateTime() : (DateTime)miLector["FechaNacimiento"];
+                        oPersona.Foto = miLector["Foto"] == DBNull.Value ? null : (byte[])miLector["Foto"];
+                        oPersona.Direccion = miLector["Direccion"] == DBNull.Value ? null : (String)miLector["Direccion"];
+                        oPersona.Telefono = miLector["Telefono"] == DBNull.Value ? null : (String)miLector["Telefono"];
+                        oPersona.IDDepartamento = miLector["IDDepartamento"] == DBNull.Value ? 0 : (int)miLector["IDDepartamento"];
                         listadoPersonas.Add(oPersona);
                     }
                 }
