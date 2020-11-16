@@ -31,7 +31,11 @@ namespace _10_ADO.NET_01.Controllers
             }
             catch(SqlException)
             {
-                ViewBag.State = "Error";
+                ViewBag.State = sqlConnection.State.ToString(); ;
+            }
+            finally
+            {
+                sqlConnection.Close();
             }
 
 
