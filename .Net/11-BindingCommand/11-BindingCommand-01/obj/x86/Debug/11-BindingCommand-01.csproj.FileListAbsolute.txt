@@ -89,3 +89,4 @@ D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\obj\x8
 D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\ProjectArchitectures.txt
 D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>10f0035b-1932-414e-9f1d-13b77ce2fe61</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>CE7BDB02BA60A2F63FE617420D204009434C1BB31C0680254937426D68E8E50A</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>BE0227BF81F3A91D85ED2EBF47FB517D5954BE7CD7C1B3092C71A23034455319</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>10f0035b-1932-414e-9f1d-13b77ce2fe61_1.0.0.0_x86__e3hfh0k2gtk7e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>10f0035b-1932-414e-9f1d-13b77ce2fe61_e3hfh0k2gtk7e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>10f0035b-1932-414e-9f1d-13b77ce2fe61</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-13T14:48:16.615</Modified>
+      <Modified>2020-11-17T13:09:44.617</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\11-BindingCommand-01.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\11-BindingCommand-01.exe">
       <PackagePath>entrypoint\11-BindingCommand-01.exe</PackagePath>
-      <Modified>2020-11-13T14:48:16.112</Modified>
+      <Modified>2020-11-17T13:09:44.054</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,69 +44,69 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-11-12T18:16:31.251</Modified>
+      <Modified>2020-11-11T11:36:19.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-11-12T18:16:31.223</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.224</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.225</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.230</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.231</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.232</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-12T18:16:31.233</Modified>
+      <Modified>2020-09-17T10:59:15.093</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\11-BindingCommand-01.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\11-BindingCommand-01.xr.xml">
       <PackagePath>11-BindingCommand-01.xr.xml</PackagePath>
-      <Modified>2020-11-13T14:48:15.907</Modified>
+      <Modified>2020-11-17T11:29:08.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-11-13T14:48:15.914</Modified>
+      <Modified>2020-11-17T13:09:43.856</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-11-13T14:48:15.914</Modified>
+      <Modified>2020-11-17T13:09:43.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-11-13T14:24:11.572</Modified>
+      <Modified>2020-11-17T11:57:45.599</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\11-BindingCommand-01.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\11-BindingCommand-01.exe">
       <PackagePath>11-BindingCommand-01.exe</PackagePath>
-      <Modified>2020-11-13T14:48:16.610</Modified>
+      <Modified>2020-11-17T13:09:44.609</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

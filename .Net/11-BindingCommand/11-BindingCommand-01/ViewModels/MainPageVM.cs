@@ -10,12 +10,12 @@ namespace _11_BindingCommand_01.ViewModels
     public class MainPageVM : clsVMBase
     {
         #region Atributos
+        private ObservableCollection<clsPersona> ListadoPersonas;
         private clsPersona personaSeleccionada;
         private String buscar;
         #endregion
 
         #region Propiedades
-        public ObservableCollection<clsPersona> ListadoPersonas { get; set; }
         public ObservableCollection<clsPersona> ListadoPersonasBuscadas { get; set; }
 
         public clsPersona PersonaSeleccionada 
@@ -43,6 +43,22 @@ namespace _11_BindingCommand_01.ViewModels
             {
                 buscar = value;
                 BuscarCommand.RaiseCanExecuteChanged();
+
+                if(String.IsNullOrEmpty(buscar))
+                {
+                    ListadoPersonasBuscadas.Clear();
+
+                    foreach (clsPersona persona in ListadoPersonas)
+                    {
+                        if (persona.Nombre.ToLower().Contains(buscar.ToLower()) || persona.Apellidos.ToLower().Contains(buscar.ToLower()))
+                        {
+                            ListadoPersonasBuscadas.Add(persona);
+                        }
+                    }
+                    //ObservableCollection<clsPersona> aux = new ObservableCollection<clsPersona>(ListadoPersonas);
+                    //ListadoPersonasBuscadas = aux;
+                    //NotifyPropertyChanged("ViewModel.ListadoPersonasBuscadas");
+                }
             }
         }
 
@@ -55,7 +71,7 @@ namespace _11_BindingCommand_01.ViewModels
             BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
             //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
             ListadoPersonas = clsListados.listadoPersonas();
-            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>();
+            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(ListadoPersonas);
         }
         #endregion
 
@@ -74,7 +90,7 @@ namespace _11_BindingCommand_01.ViewModels
 
             foreach(clsPersona persona in ListadoPersonas)
             {
-                if(persona.Nombre.Contains(buscar) || persona.Apellidos.Contains(buscar))
+                if(persona.Nombre.ToLower().Contains(buscar.ToLower()) || persona.Apellidos.ToLower().Contains(buscar.ToLower()))
                 {
                     ListadoPersonasBuscadas.Add(persona);
                 }
