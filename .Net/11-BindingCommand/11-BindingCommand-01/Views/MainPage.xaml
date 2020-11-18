@@ -9,13 +9,25 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
+
+        <MenuBar Name="menubarListaPersonas"
+                 RelativePanel.AlignTopWithPanel="True"
+                 RelativePanel.AlignLeftWithPanel="True">
+            <MenuBarItem Title="Persona">
+                <MenuFlyoutItem Text="Eliminar"
+                                Command="{x:Bind ViewModel.EliminarCommand}"/>
+            </MenuBarItem>
+        </MenuBar>
+
+
         <AppBarButton Name="abbDelete" 
-                      Icon="Delete"
-                      Click="{x:Bind ViewModel.eliminarPersona}"
-                      RelativePanel.AlignTopWithPanel="True"/>
+                Icon="Delete"
+                Command="{x:Bind ViewModel.EliminarCommand}"
+                RelativePanel.Below="menubarListaPersonas"/>
 
         <StackPanel Orientation="Horizontal"
                     RelativePanel.RightOf="abbDelete"
+                    RelativePanel.Below="menubarListaPersonas"
                     Margin="40,0,0,0">
 
             <TextBox PlaceholderText="Buscar..."
@@ -27,9 +39,10 @@
 
         </StackPanel>
         
-        <ListView x:Name="lvwPersonas" 
+        <ListView x:Name="lvwPersonas"
+                  RightTapped="SelectedPerson_RightTapped"
                   SelectedItem="{x:Bind Path = ViewModel.PersonaSeleccionada, Mode=TwoWay}"
-                  ItemsSource="{x:Bind Path = ViewModel.ListadoPersonasBuscadas}"
+                  ItemsSource="{x:Bind Path = ViewModel.ListadoPersonasBuscadas, Mode=OneWay}"
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignRightWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True"
@@ -48,6 +61,15 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.Resources>
+                <MenuFlyout x:Name="allContactsMenuFlyout">
+                    <MenuFlyout.Items>
+                        <MenuFlyoutItem x:Name="Eliminar"  
+                                        Text="Eliminar" 
+                                        Command="{x:Bind ViewModel.EliminarCommand}"/>
+                    </MenuFlyout.Items>
+                </MenuFlyout>
+            </ListView.Resources>
         </ListView>
     </RelativePanel>
 </Page>

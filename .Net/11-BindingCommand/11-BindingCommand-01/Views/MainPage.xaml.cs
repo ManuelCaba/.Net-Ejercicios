@@ -1,6 +1,8 @@
-﻿using _11_BindingCommand_01.ViewModels;
+﻿using _11_BindingCommand_01.Models;
+using _11_BindingCommand_01.ViewModels;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -30,5 +32,13 @@ namespace _11_BindingCommand_01
             this.InitializeComponent();
             this.ViewModel = new MainPageVM();
         }
+
+        private void SelectedPerson_RightTapped(object sender, RightTappedRoutedEventArgs e)
+        {
+            ListView listView = (ListView)sender;
+            allContactsMenuFlyout.ShowAt(listView, e.GetPosition(listView));
+            ViewModel.PersonaSeleccionada = ((FrameworkElement)e.OriginalSource).DataContext as clsPersona;
+        }
+
     }
 }

@@ -9,27 +9,40 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <AppBarButton x:ConnectionId='2' Name="abbDelete" 
-                      Icon="Delete"
-                                                                
-                      RelativePanel.AlignTopWithPanel="True"/>
+
+        <MenuBar x:ConnectionId='2' Name="menubarListaPersonas"
+                 RelativePanel.AlignTopWithPanel="True"
+                 RelativePanel.AlignLeftWithPanel="True">
+            <MenuBarItem Title="Persona">
+                <MenuFlyoutItem x:ConnectionId='10' Text="Eliminar"
+                                                                            />
+            </MenuBarItem>
+        </MenuBar>
+
+
+        <AppBarButton x:ConnectionId='3' Name="abbDelete" 
+                Icon="Delete"
+                                                            
+                RelativePanel.Below="menubarListaPersonas"/>
 
         <StackPanel Orientation="Horizontal"
                     RelativePanel.RightOf="abbDelete"
+                    RelativePanel.Below="menubarListaPersonas"
                     Margin="40,0,0,0">
 
-            <TextBox x:ConnectionId='5' PlaceholderText="Buscar..."
+            <TextBox x:ConnectionId='8' PlaceholderText="Buscar..."
                                                                                                                   
                      MinWidth="500"
                      VerticalContentAlignment="Center"
                      FontSize="20"/>
-            <AppBarButton x:ConnectionId='6'                                                   Icon="Find"/>
+            <AppBarButton x:ConnectionId='9'                                                   Icon="Find"/>
 
         </StackPanel>
         
-        <ListView x:ConnectionId='3' x:Name="lvwPersonas" 
+        <ListView x:ConnectionId='4' x:Name="lvwPersonas"
+                                                          
                                                                                            
-                                                                                 
+                                                                                              
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignRightWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True"
@@ -48,6 +61,15 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
+            <ListView.Resources>
+                <MenuFlyout x:ConnectionId='6' x:Name="allContactsMenuFlyout">
+                    <MenuFlyout.Items>
+                        <MenuFlyoutItem x:ConnectionId='7' x:Name="Eliminar"  
+                                        Text="Eliminar" 
+                                                                                    />
+                    </MenuFlyout.Items>
+                </MenuFlyout>
+            </ListView.Resources>
         </ListView>
     </RelativePanel>
 </Page>
