@@ -3,6 +3,7 @@ package es.iesnervion.mcaballero.nbaholder;
 import android.app.ListActivity;
 import android.content.Context;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,7 @@ import android.widget.TextView;
 public class MainActivity extends ListActivity {
 
     TextView selection;
+    public static final String TAG = "MainActivity";
     private static final Equipo[] equipos={new Equipo("Boston Celtics", R.drawable.bostonceltics),
             new Equipo("Brooklyn Nets", R.drawable.brooklynnets),
             new Equipo("New York Knicks", R.drawable.newyorkknicks),
@@ -27,10 +29,62 @@ public class MainActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        //Log
+        Log.v(TAG, "On Create");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setListAdapter(new IconicAdapter<Equipo>(this, R.layout.row, R.id.txvEquipo, equipos));
         selection=(TextView)findViewById(R.id.selection);
+    }
+
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        //Log
+        Log.v(TAG, "On Start");
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+        //Log
+        Log.v(TAG, "On Resume");
+    }
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+        //Log
+        Log.v(TAG, "On Pause");
+    }
+
+    @Override
+    protected void onStop()
+    {
+        super.onStop();
+        //Log
+        Log.v(TAG, "On Stop");
+    }
+
+    @Override
+    protected void onRestart()
+    {
+        super.onRestart();
+        //Log
+        Log.v(TAG, "On Restart");
+    }
+
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+        //Log
+        Log.v(TAG, "On Destroy");
     }
 
     public void onListItemClick(ListView parent, View v, int position, long id) {
