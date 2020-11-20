@@ -41,9 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Listados\Class1.cs" />
-    <Compile Include="Manejadoras\Class1.cs" />
+    <Compile Include="Listados\clsListadoPersonas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +53,9 @@
       <Project>{9377f0fc-cffb-4eac-aaa9-08ac84e8c358}</Project>
       <Name>10-CRUDPersonas-Entidades</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Manejadoras\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

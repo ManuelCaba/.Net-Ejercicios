@@ -1,0 +1,6 @@
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\bin\Debug\10-CRUDPersonas-Entidades.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\bin\Debug\10-CRUDPersonas-Entidades.pdb
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\obj\Debug\10-CRUDPersonas-Entidades.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\obj\Debug\10-CRUDPersonas-Entidades.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\obj\Debug\10-CRUDPersonas-Entidades.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-Entidades\obj\Debug\10-CRUDPersonas-Entidades.pdb
