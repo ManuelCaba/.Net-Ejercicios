@@ -35,9 +35,7 @@ namespace _11_BindingCommand_01
 
         private void SelectedPerson_RightTapped(object sender, RightTappedRoutedEventArgs e)
         {
-            ListView listView = (ListView)sender;
-            allContactsMenuFlyout.ShowAt(listView, e.GetPosition(listView));
-            ViewModel.PersonaSeleccionada = ((FrameworkElement)e.OriginalSource).DataContext as clsPersona;
+            ViewModel.PersonaSeleccionada = (clsPersona) ((FrameworkElement)e.OriginalSource).DataContext;
         }
 
     }

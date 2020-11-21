@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj": {}
+  },
+  "projects": {
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj",
+        "projectName": "11-CRUDPersonasDepartamentos-BL",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "uap10.0.18362"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.18362": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "uap10.0.18362": {
+          "dependencies": {
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.10, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

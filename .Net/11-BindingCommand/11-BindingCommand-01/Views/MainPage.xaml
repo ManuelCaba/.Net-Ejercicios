@@ -15,6 +15,7 @@
                  RelativePanel.AlignLeftWithPanel="True">
             <MenuBarItem Title="Persona">
                 <MenuFlyoutItem Text="Eliminar"
+                                Icon="Delete"
                                 Command="{x:Bind ViewModel.EliminarCommand}"/>
             </MenuBarItem>
         </MenuBar>
@@ -61,15 +62,16 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
-            <ListView.Resources>
+            <ListView.ContextFlyout>
                 <MenuFlyout x:Name="allContactsMenuFlyout">
                     <MenuFlyout.Items>
                         <MenuFlyoutItem x:Name="Eliminar"  
                                         Text="Eliminar" 
+                                        Icon="Delete"
                                         Command="{x:Bind ViewModel.EliminarCommand}"/>
                     </MenuFlyout.Items>
                 </MenuFlyout>
-            </ListView.Resources>
+            </ListView.ContextFlyout>
         </ListView>
     </RelativePanel>
 </Page>
