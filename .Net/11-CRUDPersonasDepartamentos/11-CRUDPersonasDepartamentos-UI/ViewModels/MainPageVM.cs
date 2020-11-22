@@ -1,6 +1,5 @@
 ﻿using _10_CRUDPersonas_BL.Listados;
 using _11_CRUDPersonasDepartamentos_Entidades;
-using _11_CRUDPersonasDepartamentos_UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -17,7 +16,8 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         #endregion
 
         #region Propiedades
-        public ObservableCollection<clsPersonaNombreDepartamento> ListadoPersonas { get; }
+        public ObservableCollection<clsPersona> ListadoPersonas { get; }
+        public String NombreDepartamento { get; set; }
         public clsPersona PersonaSeleccionada
         {
             get
@@ -28,6 +28,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             set
             {
                 personaSeleccionada = value;
+                NombreDepartamento = new _11_CRUDPersonasDepartamentos_BL.Listados.clsListadoDepartamentos().nombreDepartamentoPorPersona(personaSeleccionada.ID);
                 NotifyPropertyChanged("PersonaSeleccionada");
             }
         }
@@ -39,20 +40,8 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
             clsListadoPersonas listadoPersonas = new clsListadoPersonas();
             //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
-            ListadoPersonas = listadoPersonas.listadoPersonas();
+            ListadoPersonas = new ObservableCollection<clsPersona>(listadoPersonas.listadoPersonas());
         }
-        #endregion
-
-        #region INotifyPropertyChanged
-
-        private void NotifyPropertyChanged(String property)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-            }
-        }
-
         #endregion
     }
 }

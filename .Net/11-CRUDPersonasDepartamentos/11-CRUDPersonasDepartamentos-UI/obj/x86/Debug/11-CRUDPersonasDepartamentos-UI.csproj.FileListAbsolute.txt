@@ -1,0 +1,11 @@
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\11-CRUDPersonasDepartamentos-UI.csprojAssemblyReference.cache
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\App.g.i.cs
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\App.g.cs
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\MainPage.g.i.cs
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\MainPage.g.cs
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\XamlTypeInfo.g.cs
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\App.xaml
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\MainPage.xaml
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\App.xbf
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\MainPage.xbf
+D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\XamlSaveStateFile.xml

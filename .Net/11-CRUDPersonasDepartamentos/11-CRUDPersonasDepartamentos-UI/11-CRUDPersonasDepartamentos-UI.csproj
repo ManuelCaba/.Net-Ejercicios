@@ -119,7 +119,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\clsPersonaNombreDepartamento.cs" />
     <Compile Include="ViewModels\MainPageVM.cs" />
     <Compile Include="ViewModels\Utilidades\clsVMBase.cs" />
     <Compile Include="ViewModels\Utilidades\DelegateCommand.cs" />
@@ -158,7 +157,9 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\11-CRUDPersonasDepartamentos-BL\11-CRUDPersonasDepartamentos-BL.csproj">
       <Project>{4f9f8b7e-7b09-4433-9391-ec9fb24259e1}</Project>
