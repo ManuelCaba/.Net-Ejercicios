@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _11_CRUDPersonasDepartamentos_UI.Views;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,6 +26,27 @@ namespace _11_CRUDPersonasDepartamentos_UI
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+
+        private void nvwItemInvoked(NavigationView sender, NavigationViewItemInvokedEventArgs args)
+        {
+            //First determine if the setting is selected
+            if (args.IsSettingsInvoked)
+            {
+                contentFrame.Navigate(typeof(MainPage));
+            }
+            else
+            {
+                //Selected content
+                switch (args.InvokedItem)
+                {
+                    case "Personas":
+                        contentFrame.Navigate(typeof(Personas));
+                        break;
+                }
+            }
+
         }
     }
 }
