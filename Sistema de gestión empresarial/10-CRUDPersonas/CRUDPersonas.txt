@@ -45,7 +45,7 @@ UI
 				- Entrada: Nada
 				- View: Listado -> List<clsPersonasConNombreDepartamento>
 			- Crear
-				- Entrada: IDPersona 
+				- Entrada: Nada
 				- View: Crear-> clsPersonaConListaDepartamentos (Vacío)
 			- Editar
 				- Entrada: IDPersona 
