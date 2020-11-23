@@ -44,6 +44,9 @@ namespace _11_CRUDPersonasDepartamentos_UI
                     case "Personas":
                         contentFrame.Navigate(typeof(Personas));
                         break;
+                    case "Departamentos":
+                        contentFrame.Navigate(typeof(Departamentos));
+                        break;
                 }
             }
 

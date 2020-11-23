@@ -79,6 +79,9 @@
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Departamentos.xbf">
+      <PackagePath>Views\Departamentos.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
     </AppxPackagedFile>

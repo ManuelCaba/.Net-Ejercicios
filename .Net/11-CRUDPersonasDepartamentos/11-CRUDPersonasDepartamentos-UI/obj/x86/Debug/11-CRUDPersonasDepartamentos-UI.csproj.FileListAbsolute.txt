@@ -71,3 +71,8 @@ D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasD
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Personas.g.cs
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Personas.xaml
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Personas.xbf
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Departamentos.xbf
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Departamentos.g.i.cs
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Departamentos.g.cs
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Departamentos.xaml
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\Views\Departamentos.xbf

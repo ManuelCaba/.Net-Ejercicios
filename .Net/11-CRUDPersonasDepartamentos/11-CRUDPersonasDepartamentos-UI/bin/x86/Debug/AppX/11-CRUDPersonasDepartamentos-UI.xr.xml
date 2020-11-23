@@ -30,6 +30,7 @@
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
     </RootType>
+    <RootType FullName="_11_CRUDPersonasDepartamentos_UI.Views.Departamentos" />
     <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
       <RootProperty Name="MenuItems" />
       <RootProperty Name="Content" />

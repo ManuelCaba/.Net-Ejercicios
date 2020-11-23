@@ -8,6 +8,7 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 11-CRUDPersonasDepartamentos-UI.xr.xml
 App.xbf
+Views\Departamentos.xbf
 Views\MainPage.xbf
 Views\Personas.xbf
 Properties\Default.rd.xml
