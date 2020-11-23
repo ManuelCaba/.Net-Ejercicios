@@ -82,3 +82,7 @@ D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.csproj.CopyComplete
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.dll
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.csprojAssemblyReference.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-UI\obj\Debug\10-CRUDPersonas-UI.pdb
