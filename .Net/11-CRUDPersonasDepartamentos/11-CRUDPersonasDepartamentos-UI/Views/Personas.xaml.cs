@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _11_CRUDPersonasDepartamentos_UI.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -22,9 +23,13 @@ namespace _11_CRUDPersonasDepartamentos_UI.Views
     /// </summary>
     public sealed partial class Personas : Page
     {
+        PersonasVM PersonasVM;
+
         public Personas()
         {
             this.InitializeComponent();
+
+            PersonasVM = new PersonasVM();
         }
     }
 }

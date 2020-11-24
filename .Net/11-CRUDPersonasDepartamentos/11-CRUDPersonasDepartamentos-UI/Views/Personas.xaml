@@ -13,7 +13,7 @@
     </Page.DataContext>-->
 
     <RelativePanel>
-        <VisualStateManager.VisualStateGroups>
+        <!--<VisualStateManager.VisualStateGroups>
 
             <VisualStateGroup>
 
@@ -46,39 +46,54 @@
 
             </VisualStateGroup>
 
-        </VisualStateManager.VisualStateGroups>
+        </VisualStateManager.VisualStateGroups>-->
+
+        <StackPanel x:Name="stpBuscar"
+                    Orientation="Horizontal"
+                    Margin="40,0,0,0">
+
+            <TextBox PlaceholderText="Buscar..."
+                     MinWidth="500"
+                     VerticalContentAlignment="Center"
+                     FontSize="20"/>
+            <AppBarButton Icon="Find"/>
+
+        </StackPanel>
 
         <StackPanel x:Name="stpOpcionesPersonas" 
-                    Orientation="Horizontal">
+                    Orientation="Horizontal"
+                    RelativePanel.RightOf="stpBuscar">
             <AppBarButton Icon="Add"></AppBarButton>
             <AppBarButton Icon="Delete"></AppBarButton>
             <AppBarButton Icon="Save"></AppBarButton>
         </StackPanel>
 
         <ListView x:Name="lvwPersonas" 
-                  SelectedItem="{Binding Path = PersonaSeleccionada, Mode=TwoWay}"
-                  ItemsSource="{Binding Path = ListadoPersonas}"
-                  RelativePanel.Below="stpOpcionesPersonas"
+                  SelectedItem="{x:Bind Path = PersonasVM.PersonaSeleccionada, Mode=TwoWay}"
+                  ItemsSource="{x:Bind Path = PersonasVM.ListadoPersonas}"
+                  RelativePanel.Below="stpBuscar"
                   RelativePanel.AlignLeftWithPanel="True"
-                  RelativePanel.AlignBottomWithPanel="True"
-                  BorderBrush="Black"
-                  BorderThickness="1">
+                  RelativePanel.AlignBottomWithPanel="True">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextBlock Text="{Binding NombreCompleto}"
-                                   Margin="20"
+                    <StackPanel Orientation="Horizontal"
+                                Margin="20">
+                        <TextBlock Text="{Binding Nombre}"
+                                   Margin="0,0,5,0"
                                    FontSize="20"/>
+                        <TextBlock Text="{Binding Apellidos}"
+                                   FontSize="20"/>
+                    </StackPanel>
+
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
         <Grid x:Name="grdFormulario" 
               RelativePanel.AlignRightWithPanel="true"
-              RelativePanel.RightOf="lvwPersonas"
+              RelativePanel.RightOf="stpBuscar"
               RelativePanel.Below="stpOpcionesPersonas"
-              RelativePanel.Above="apbAddPerson"
-              BorderBrush="Black"
-              BorderThickness="1">
+              RelativePanel.Above="apbAddPerson">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -86,6 +101,7 @@
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
                 <RowDefinition Height="auto"></RowDefinition>
                 <RowDefinition Height="auto"></RowDefinition>
                 <RowDefinition Height="auto"></RowDefinition>
@@ -151,9 +167,22 @@
                      MinWidth="30"
                      Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
 
+            <TextBlock Grid.Column="0"
+                       Grid.Row="4"
+                       Margin="20"
+                       FontSize="20"
+                       Text="Departamentos: "/>
+
+            <ComboBox Grid.Column="1"
+                     Grid.Row="4"
+                     Margin="20"
+                     FontSize="20"
+                     Background="White"
+                     Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
+
             <RelativePanel Grid.Column="0"
                            Grid.ColumnSpan="2"
-                           Grid.Row="4">
+                           Grid.Row="5">
 
                 <TextBlock Name="txbDireccion" 
                            Margin="20"

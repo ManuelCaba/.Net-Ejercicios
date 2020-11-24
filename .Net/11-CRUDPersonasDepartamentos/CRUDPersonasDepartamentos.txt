@@ -1,0 +1,66 @@
+Entidades
+	- clsPersona
+	- clsDepartamento
+DAL
+	- Conexion
+		- clsMyConnection
+			- getConnection() -> Devuelve una conexion abierta
+			- closeConnection(SQLConnection conexion) -> Cierra una conexion
+			
+	-Listados
+		- clsListadoPersonas
+			- listadoCompletoPersonas() -> List<clsPersona>
+		- clsListadoDepartamentos
+			- nombreDepartamentoPorID(int IDDepartamento) -> String nombreDepartamento
+			- listadoCompletoDepartamentos() -> List<clsDepartamento)
+	- Manejadoras
+		- clsManejadoraPersonas
+			- insertarPersona(clsPersona persona) -> int filasAfectadas
+			- actualizarPersona(clsPersona persona) -> int filasAfectadas
+			- eliminarPersona(int IDPersona) -> int filasAfectadas
+		- clsManejadoraDepartamentos
+			- insertarDepartamento(clsDepartamento departamento) -> int filasAfectadas
+			- actualizarDepartamento(clsDepartamento departamento) -> int filasAfectadas
+			- eliminarDepartamento(int IDDepartamento)-> int filasAfectadas
+BL
+	-Listados
+		- clsListadoPersonas
+			- listadoCompletoPersonas() -> List<clsPersona>
+		- clsListadoDepartamentos
+			- nombreDepartamentoPorID(int IDDepartamento) -> String nombreDepartamento
+			- listadoCompletoDepartamentos() -> List<clsDepartamento)
+	- Manejadoras
+		- clsManejadoraPersonas
+			- insertarPersona(clsPersona persona) -> int filasAfectadas
+			- actualizarPersona(clsPersona persona) -> int filasAfectadas
+			- eliminarPersona(int IDPersona) -> int filasAfectadas
+		- clsManejadoraDepartamentos
+			- insertarDepartamento(clsDepartamento departamento) -> int filasAfectadas
+			- actualizarDepartamento(clsDepartamento departamento) -> int filasAfectadas
+			- eliminarDepartamento(int IDDepartamento)-> int filasAfectadas
+UI
+	- Controllers
+		- PersonaController
+			- Listado
+				- Entrada: Nada
+				- View: Listado -> List<clsPersonasConNombreDepartamento>
+			- Crear
+				- Entrada: Nada
+				- View: Crear-> clsPersonaConListaDepartamentos (Vacío)
+			- Editar
+				- Entrada: IDPersona 
+				- View: Editar - > clsPersonaConListaDepartamentos
+			- Eliminar
+				- Entrada: IDPersona 
+				- View: Eliminar- > clsPersona
+			- Detalles
+				- Entrada: IDPersona 
+				- View: Detalles -> clsPersonaConNombreDepartamento
+	- ViewModels
+		- clsListadoPersonasConListadoDepartamentos
+		- clsDepartamento
+	- Views
+		- Persona
+			- Personas
+			- Departamentos
+	

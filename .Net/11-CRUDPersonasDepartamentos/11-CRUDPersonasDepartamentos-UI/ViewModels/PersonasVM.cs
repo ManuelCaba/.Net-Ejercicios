@@ -1,4 +1,5 @@
 ﻿using _10_CRUDPersonas_BL.Listados;
+using _11_CRUDPersonasDepartamentos_BL.Listados;
 using _11_CRUDPersonasDepartamentos_Entidades;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 {
-    public class MainPageVM : Utilidades.clsVMBase
+    public class PersonasVM : Utilidades.clsVMBase
     {
         #region Atributos
         private clsPersona personaSeleccionada;
@@ -17,7 +18,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
         #region Propiedades
         public ObservableCollection<clsPersona> ListadoPersonas { get; }
-        public String NombreDepartamento { get; set; }
+        public ObservableCollection<clsDepartamento> ListadoDepartamentos { get; set; }
         public clsPersona PersonaSeleccionada
         {
             get
@@ -28,19 +29,20 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             set
             {
                 personaSeleccionada = value;
-                NombreDepartamento = new _11_CRUDPersonasDepartamentos_BL.Listados.clsListadoDepartamentos().nombreDepartamentoPorPersona(personaSeleccionada.ID);
                 NotifyPropertyChanged("PersonaSeleccionada");
             }
         }
         #endregion
 
         #region Constructores
-        public MainPageVM()
+        public PersonasVM()
         {
 
             clsListadoPersonas listadoPersonas = new clsListadoPersonas();
+            clsListadoDepartamentos listadoDepartamentos = new clsListadoDepartamentos();
             //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
             ListadoPersonas = new ObservableCollection<clsPersona>(listadoPersonas.listadoPersonas());
+            ListadoDepartamentos = new ObservableCollection<clsDepartamento>(listadoDepartamentos.listadoDepartamentos());
         }
         #endregion
     }

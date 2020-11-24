@@ -1,4 +1,4 @@
-﻿@model IEnumerable<_10_CRUDPersonas_Entidades.clsPersona>
+﻿@model IEnumerable<_10_CRUDPersonas_UI.Models.clsPersonaConNombreDepartamento>
 
 @{
     ViewBag.Title = "Listado";
@@ -27,7 +27,7 @@
             @Html.DisplayNameFor(model => model.Telefono)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.IDDepartamento)
+            Departamento
         </th>
         <th></th>
     </tr>
@@ -50,7 +50,7 @@
             @Html.DisplayFor(modelItem => item.Telefono)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.IDDepartamento)
+            @Html.DisplayFor(modelItem => item.NombreDepartamento)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |

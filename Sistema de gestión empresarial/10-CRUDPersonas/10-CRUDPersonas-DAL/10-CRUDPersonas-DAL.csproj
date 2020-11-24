@@ -42,14 +42,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion\clsMyConnection.cs" />
+    <Compile Include="Listados\clsListadoDepartamentos.cs" />
     <Compile Include="Listados\clsListadoPersonas.cs" />
-    <Compile Include="Manejadoras\Class1.cs" />
+    <Compile Include="Manejadoras\clsManejadoraPersonas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\10-CRUDPersonas-Entidades\10-CRUDPersonas-Entidades.csproj">
-      <Project>{9377f0fc-cffb-4eac-aaa9-08ac84e8c358}</Project>
-      <Name>10-CRUDPersonas-Entidades</Name>
+    <ProjectReference Include="..\10-CRUDPersonas-Entidades\11-CRUDPersonas-Entidades.csproj">
+      <Project>{3512ef27-d26c-44a2-a92c-988d46de0206}</Project>
+      <Name>11-CRUDPersonas-Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

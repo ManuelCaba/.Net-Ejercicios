@@ -1,4 +1,5 @@
 ﻿using _10_CRUDPersonas_BL.Listados;
+using _10_CRUDPersonas_UI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +13,7 @@ namespace _10_CRUDPersonas_UI.Controllers
         // GET: Personas
         public ActionResult Listado()
         {
-            clsListadoPersonas clsListadoPersonas = new clsListadoPersonas();
-
-            return View(clsListadoPersonas.listadoPersonas());
+            return View(clsListadosPersonasConNombreDepartamento.listadoCompletoPersonas());
         }
     }
 }

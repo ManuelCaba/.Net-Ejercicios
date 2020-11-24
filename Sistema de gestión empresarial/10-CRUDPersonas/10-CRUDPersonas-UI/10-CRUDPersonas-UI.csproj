@@ -124,6 +124,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\clsListadosPersonasConNombreDepartamento.cs" />
+    <Compile Include="Models\clsPersonaConNombreDepartamento.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,9 +133,9 @@
     <None Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Personas\Listado.cshtml" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <Content Include="Views\Personas\Listado.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -143,16 +145,15 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\10-CRUDPersonas-BL\10-CRUDPersonas-BL.csproj">
       <Project>{76bb3e3e-2c3d-4d06-b701-dfe701596311}</Project>
       <Name>10-CRUDPersonas-BL</Name>
     </ProjectReference>
-    <ProjectReference Include="..\10-CRUDPersonas-Entidades\10-CRUDPersonas-Entidades.csproj">
-      <Project>{9377f0fc-cffb-4eac-aaa9-08ac84e8c358}</Project>
-      <Name>10-CRUDPersonas-Entidades</Name>
+    <ProjectReference Include="..\10-CRUDPersonas-Entidades\11-CRUDPersonas-Entidades.csproj">
+      <Project>{3512ef27-d26c-44a2-a92c-988d46de0206}</Project>
+      <Name>11-CRUDPersonas-Entidades</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -8,17 +8,13 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-        <NavigationView x:ConnectionId='2' x:Name="nvwPersonasDepartamentos" 
-                                                    >
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="People" Content="Personas" Tag="Personas" />
-                <NavigationViewItem Icon="World" Content="Departamentos" Tag="Departamentos" />
-            </NavigationView.MenuItems>
-            <Frame x:ConnectionId='3' x:Name="contentFrame"/>
-        </NavigationView>
-        
-    </Grid>
+    <NavigationView x:ConnectionId='2' x:Name="nvwPersonasDepartamentos" 
+                                                >
+        <NavigationView.MenuItems>
+            <NavigationViewItem Icon="People" Content="Personas" Tag="Personas" />
+            <NavigationViewItem Icon="World" Content="Departamentos" Tag="Departamentos" />
+        </NavigationView.MenuItems>
+        <Frame x:ConnectionId='3' x:Name="contentFrame"/>
+    </NavigationView>
 </Page>
 
