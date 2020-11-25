@@ -51,7 +51,7 @@ function isMethodGet($method)
 
 function acceptFormatJson($acceptFormat)
 {
-    return (strpos($acceptFormat, "application/json") || (strpos($acceptFormat, "*/*")));
+    return (strpos($acceptFormat, "application/json"!==FALSE) || (strpos($acceptFormat, "*/*")!==FALSE));
 }
 
 function getPathInfo()
