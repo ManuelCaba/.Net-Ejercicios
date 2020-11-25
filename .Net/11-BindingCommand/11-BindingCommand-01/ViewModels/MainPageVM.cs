@@ -58,15 +58,6 @@ namespace _11_BindingCommand_01.ViewModels
 
                 if(String.IsNullOrEmpty(buscar))
                 {
-
-                    //foreach (clsPersona persona in ListadoPersonas)
-                    //{
-                    //    if (persona.Nombre.ToLower().Contains(buscar.ToLower()) || persona.Apellidos.ToLower().Contains(buscar.ToLower()))
-                    //    {
-                    //        ListadoPersonasBuscadas.Add(persona);
-                    //    }
-                    //}
-
                     listadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonas);
                     NotifyPropertyChanged("ListadoPersonasBuscadas");
                 }
