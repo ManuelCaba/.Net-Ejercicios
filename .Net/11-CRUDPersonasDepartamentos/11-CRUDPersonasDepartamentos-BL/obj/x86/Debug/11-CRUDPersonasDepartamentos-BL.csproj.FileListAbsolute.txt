@@ -62,3 +62,35 @@ D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasD
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\qualifiers.txt
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.dll
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.pdb
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.pri
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.dll
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.pdb
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.pri
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pdb
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pri
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-BL.csprojAssemblyReference.cache
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-BL.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-BL.csproj.CopyComplete
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-DAL.pri.xml
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pri.xml
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-BL.dll
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\11-CRUDPersonasDepartamentos-BL.pdb
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\priconfig.xml
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\priconfig.xml.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\unfiltered.layout.resfiles
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\filtered.layout.resfiles
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\filtered.layout.resfiles.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\excluded.layout.resfiles
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\excluded.layout.resfiles.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\resources.resfiles
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\resources.resfiles.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\pri.resfiles
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\pri.resfiles.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\qualifiers.txt
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\qualifiers.txt.intermediate
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

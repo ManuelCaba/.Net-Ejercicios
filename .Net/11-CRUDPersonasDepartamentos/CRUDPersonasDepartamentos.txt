@@ -9,10 +9,9 @@ DAL
 			
 	-Listados
 		- clsListadoPersonas
-			- listadoCompletoPersonas() -> List<clsPersona>
+			- listadoCompletoPersonasDAL() -> List<clsPersona>
 		- clsListadoDepartamentos
-			- nombreDepartamentoPorID(int IDDepartamento) -> String nombreDepartamento
-			- listadoCompletoDepartamentos() -> List<clsDepartamento)
+			- listadoCompletoDepartamentosDAL() -> List<clsDepartamento)
 	- Manejadoras
 		- clsManejadoraPersonas
 			- insertarPersona(clsPersona persona) -> int filasAfectadas
@@ -25,10 +24,9 @@ DAL
 BL
 	-Listados
 		- clsListadoPersonas
-			- listadoCompletoPersonas() -> List<clsPersona>
+			- listadoCompletoPersonasBL() -> List<clsPersona>
 		- clsListadoDepartamentos
-			- nombreDepartamentoPorID(int IDDepartamento) -> String nombreDepartamento
-			- listadoCompletoDepartamentos() -> List<clsDepartamento)
+			- listadoCompletoDepartamentosBL() -> List<clsDepartamento)
 	- Manejadoras
 		- clsManejadoraPersonas
 			- insertarPersona(clsPersona persona) -> int filasAfectadas
@@ -37,30 +35,30 @@ BL
 		- clsManejadoraDepartamentos
 			- insertarDepartamento(clsDepartamento departamento) -> int filasAfectadas
 			- actualizarDepartamento(clsDepartamento departamento) -> int filasAfectadas
-			- eliminarDepartamento(int IDDepartamento)-> int filasAfectadas
+			- eliminarDepartamento(int IDDepartamento)-> int filasAfectadas (No permitir eliminar si hay personas)
 UI
-	- Controllers
-		- PersonaController
-			- Listado
-				- Entrada: Nada
-				- View: Listado -> List<clsPersonasConNombreDepartamento>
-			- Crear
-				- Entrada: Nada
-				- View: Crear-> clsPersonaConListaDepartamentos (Vacío)
-			- Editar
-				- Entrada: IDPersona 
-				- View: Editar - > clsPersonaConListaDepartamentos
-			- Eliminar
-				- Entrada: IDPersona 
-				- View: Eliminar- > clsPersona
-			- Detalles
-				- Entrada: IDPersona 
-				- View: Detalles -> clsPersonaConNombreDepartamento
 	- ViewModels
-		- clsListadoPersonasConListadoDepartamentos
-		- clsDepartamento
+		- PersonasVM
+			- TextoBuscado -> String, Consultable y Modificable
+			- ListadoPersonasCompleto -> List<clsPersona>
+			- ListadoPersonasFiltrado -> List<clsPersona>, Consultable 
+			- ListadoDepartamentos -> List<clsDepartamento>, Consultable
+			- PersonaSeleccionada -> clsPersona, Consultable y Modificable
+			- BuscarCommand -> DelegateCommand, Consultable
+			- EliminarCommand -> DelegateCommand, Consultable
+			- GuardarCommand -> DelegateCommand, Consultable
+			- InsertarCommand -> DelegateCommand, Consultable
+		- DepartamentosVM
+			- ListadoDepartamentosCompleto -> List<clsDepartamento>
+			- DepartamentoSeleccionado -> clsDepartamento, Consultable y Modificable
+			- EliminarCommand
+			- GuardarCommand
+			- InsertarCommand
+		- Utilidades
+			- clsVMBase
+			- DelegateCommand
 	- Views
-		- Persona
-			- Personas
-			- Departamentos
+		- MainPage
+		- Personas -> PersonasVM
+		- Departamentos -> DepartamentoVM
 	

@@ -8,10 +8,6 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <!--<Page.DataContext>
-        <models:MainPageVM x:Name="ViewModel"></models:MainPageVM>
-    </Page.DataContext>-->
-
     <RelativePanel>
         <!--<VisualStateManager.VisualStateGroups>
 
@@ -50,13 +46,16 @@
 
         <StackPanel x:ConnectionId='2' x:Name="stpBuscar"
                     Orientation="Horizontal"
-                    Margin="40,0,0,0">
+                    Margin="20,0,0,0">
 
-            <TextBox PlaceholderText="Buscar..."
-                     MinWidth="500"
+            <TextBox x:ConnectionId='15' PlaceholderText="Buscar..."
+                                                                                                             
+                     MinWidth="300"
+                     MaxHeight="35"
                      VerticalContentAlignment="Center"
-                     FontSize="20"/>
-            <AppBarButton Icon="Find"/>
+                     FontSize="15"/>
+            <AppBarButton x:ConnectionId='16' Icon="Find"
+                                                                                       />
 
         </StackPanel>
 
@@ -70,7 +69,7 @@
 
         <ListView x:ConnectionId='4' x:Name="lvwPersonas" 
                                                                                             
-                                                                          
+                                                                                               
                   RelativePanel.Below="stpBuscar"
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True">
@@ -80,9 +79,9 @@
                                 Margin="20">
                         <TextBlock Text="{Binding Nombre}"
                                    Margin="0,0,5,0"
-                                   FontSize="20"/>
+                                   FontSize="15"/>
                         <TextBlock Text="{Binding Apellidos}"
-                                   FontSize="20"/>
+                                   FontSize="15"/>
                     </StackPanel>
 
                 </DataTemplate>
@@ -117,13 +116,13 @@
                        FontSize="20"
                        Text="Nombre: "/>
 
-            <TextBox Grid.Column="1"
+            <TextBox x:ConnectionId='7' Grid.Column="1"
                      Grid.Row="0"
                      Margin="20"
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Nombre}"/>
+                                                                                              />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="1"
@@ -131,13 +130,13 @@
                        FontSize="20"
                        Text="Apellidos: "/>
 
-            <TextBox Grid.Column="1"
+            <TextBox x:ConnectionId='8' Grid.Column="1"
                      Grid.Row="1"
                      Margin="20"
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Apellidos}"/>
+                                                                                                 />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="2"
@@ -145,13 +144,13 @@
                        FontSize="20"
                        Text="Fecha de Nacimiento: "/>
 
-            <TextBox Grid.Column="1"
+            <TextBox x:ConnectionId='9' Grid.Column="1"
                      Grid.Row="2"
                      Margin="20"
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.FechaNacimiento}"/>
+                                                                                                       />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="3"
@@ -159,13 +158,13 @@
                        FontSize="20"
                        Text="Teléfono: "/>
 
-            <TextBox Grid.Column="1"
+            <TextBox x:ConnectionId='10' Grid.Column="1"
                      Grid.Row="3"
                      Margin="20"
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
+                                                                                                />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="4"
@@ -173,25 +172,28 @@
                        FontSize="20"
                        Text="Departamentos: "/>
 
-            <ComboBox Grid.Column="1"
-                     Grid.Row="4"
-                     Margin="20"
-                     FontSize="20"
-                     Background="White"
-                     Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
+            <ComboBox x:ConnectionId='11' Grid.Column="1"
+                      Grid.Row="4"
+                                                                                         
+                                                                                                         
+                      DisplayMemberPath="Nombre"
+                      SelectedValuePath="ID"
+                      Margin="20"
+                      FontSize="20"
+                      Background="White"/>
 
             <RelativePanel Grid.Column="0"
                            Grid.ColumnSpan="2"
                            Grid.Row="5">
 
-                <TextBlock x:ConnectionId='7' Name="txbDireccion" 
+                <TextBlock x:ConnectionId='12' Name="txbDireccion" 
                            Margin="20"
                            FontSize="20"
                            Text="Dirección: "
                            RelativePanel.AlignTopWithPanel="True"
                            RelativePanel.AlignLeftWithPanel="True"/>
 
-                <TextBox RelativePanel.AlignLeftWithPanel="True"
+                <TextBox x:ConnectionId='13' RelativePanel.AlignLeftWithPanel="True"
                          RelativePanel.AlignRightWithPanel="True"
                          RelativePanel.AlignBottomWithPanel="True"
                          RelativePanel.Below="txbDireccion"
@@ -199,7 +201,7 @@
                          TextWrapping="Wrap"
                          FontSize="20"
                          Background="White"
-                         Text="{Binding Path = PersonaSeleccionada.Direccion}"/>
+                                                                                                     />
 
             </RelativePanel>
 

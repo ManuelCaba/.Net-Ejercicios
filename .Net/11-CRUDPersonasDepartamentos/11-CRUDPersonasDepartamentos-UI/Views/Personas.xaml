@@ -8,10 +8,6 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <!--<Page.DataContext>
-        <models:MainPageVM x:Name="ViewModel"></models:MainPageVM>
-    </Page.DataContext>-->
-
     <RelativePanel>
         <!--<VisualStateManager.VisualStateGroups>
 
@@ -50,13 +46,16 @@
 
         <StackPanel x:Name="stpBuscar"
                     Orientation="Horizontal"
-                    Margin="40,0,0,0">
+                    Margin="20,0,0,0">
 
             <TextBox PlaceholderText="Buscar..."
-                     MinWidth="500"
+                     Text="{x:Bind Path=PersonasVM.Buscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     MinWidth="300"
+                     MaxHeight="35"
                      VerticalContentAlignment="Center"
-                     FontSize="20"/>
-            <AppBarButton Icon="Find"/>
+                     FontSize="15"/>
+            <AppBarButton Icon="Find"
+                          Command="{x:Bind Path=PersonasVM.BuscarCommand, Mode=OneWay}"/>
 
         </StackPanel>
 
@@ -70,7 +69,7 @@
 
         <ListView x:Name="lvwPersonas" 
                   SelectedItem="{x:Bind Path = PersonasVM.PersonaSeleccionada, Mode=TwoWay}"
-                  ItemsSource="{x:Bind Path = PersonasVM.ListadoPersonas}"
+                  ItemsSource="{x:Bind Path = PersonasVM.ListadoPersonasBuscadas, Mode=OneWay}"
                   RelativePanel.Below="stpBuscar"
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True">
@@ -80,9 +79,9 @@
                                 Margin="20">
                         <TextBlock Text="{Binding Nombre}"
                                    Margin="0,0,5,0"
-                                   FontSize="20"/>
+                                   FontSize="15"/>
                         <TextBlock Text="{Binding Apellidos}"
-                                   FontSize="20"/>
+                                   FontSize="15"/>
                     </StackPanel>
 
                 </DataTemplate>
@@ -123,7 +122,7 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Nombre}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Nombre, Mode=TwoWay}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="1"
@@ -137,7 +136,7 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Apellidos}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Apellidos, Mode=TwoWay}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="2"
@@ -151,7 +150,7 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.FechaNacimiento}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.FechaNacimiento, Mode=TwoWay}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="3"
@@ -165,7 +164,7 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Telefono, Mode=TwoWay}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="4"
@@ -174,11 +173,14 @@
                        Text="Departamentos: "/>
 
             <ComboBox Grid.Column="1"
-                     Grid.Row="4"
-                     Margin="20"
-                     FontSize="20"
-                     Background="White"
-                     Text="{Binding Path = PersonaSeleccionada.Telefono}"/>
+                      Grid.Row="4"
+                      ItemsSource="{x:Bind PersonasVM.ListadoDepartamentos, Mode=OneWay}"
+                      SelectedValue="{x:Bind PersonasVM.PersonaSeleccionada.IDDepartamento, Mode=TwoWay}"
+                      DisplayMemberPath="Nombre"
+                      SelectedValuePath="ID"
+                      Margin="20"
+                      FontSize="20"
+                      Background="White"/>
 
             <RelativePanel Grid.Column="0"
                            Grid.ColumnSpan="2"
@@ -199,7 +201,7 @@
                          TextWrapping="Wrap"
                          FontSize="20"
                          Background="White"
-                         Text="{Binding Path = PersonaSeleccionada.Direccion}"/>
+                         Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Direccion, Mode=TwoWay}"/>
 
             </RelativePanel>
 

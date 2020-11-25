@@ -11,6 +11,11 @@ namespace _11_CRUDPersonasDepartamentos_DAL.Listados
 {
     public class clsListadoDepartamentos
     {
+        /// <summary>
+        /// Devuelve una cadena con el nombre de d
+        /// </summary>
+        /// <param name="IDPersona"></param>
+        /// <returns></returns>
         public String nombreDepartamentoPorPersona(int IDPersona)
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
