@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace _10_CRUDPersonas_DAL.Listados
 {
-    public class clsListadoDepartamentos
+    public class clsListadoDepartamentosDAL
     {
-        public String nombreDepartamentoPorID(int IDDepartamento)
+        public String nombreDepartamentoPorIDDAL(int IDDepartamento)
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();
@@ -52,7 +52,7 @@ namespace _10_CRUDPersonas_DAL.Listados
             return nombreDepartamento;
         }
 
-        public List<clsDepartamento> listadoDepartamentos()
+        public List<clsDepartamento> listadoDepartamentosDAL()
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();

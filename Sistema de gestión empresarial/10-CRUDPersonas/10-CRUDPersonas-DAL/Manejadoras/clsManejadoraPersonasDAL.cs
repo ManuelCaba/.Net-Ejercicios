@@ -8,9 +8,9 @@ using System.Data.SqlClient;
 
 namespace _10_CRUDPersonas_DAL.Manejadoras
 {
-    public class clsManejadoraPersonas
+    public class clsManejadoraPersonasDAL
     {
-        public int eliminarPersona(int IDPersona)
+        public int eliminarPersonaDAL(int IDPersona)
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();

@@ -15,15 +15,15 @@ namespace _10_CRUDPersonas_UI.Models
         /// <returns></returns>
         public static List<clsPersonaConNombreDepartamento> listadoCompletoPersonas()
         {
-            clsListadoDepartamentos clsListadoDepartamentos = new clsListadoDepartamentos();
+            clsListadoDepartamentosBL clsListadoDepartamentos = new clsListadoDepartamentosBL();
 
-            List<clsPersona> listaPersonas = new clsListadoPersonas().listadoPersonas();
+            List<clsPersona> listaPersonas = new clsListadoPersonasBL().listadoPersonasBL();
             List<clsPersonaConNombreDepartamento> listadosPersonasConNombreDepartamento = new List<clsPersonaConNombreDepartamento>();
             clsPersonaConNombreDepartamento personaConNombreDepartamento;
 
             foreach (clsPersona persona in listaPersonas)
             {
-                personaConNombreDepartamento = new clsPersonaConNombreDepartamento(persona, clsListadoDepartamentos.nombreDepartamentoPorID(persona.IDDepartamento));
+                personaConNombreDepartamento = new clsPersonaConNombreDepartamento(persona, clsListadoDepartamentos.nombreDepartamentoPorIDBL(persona.IDDepartamento));
 
                 listadosPersonasConNombreDepartamento.Add(personaConNombreDepartamento);
             }
