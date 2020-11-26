@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
 namespace _10_CRUDPersonas_Entidades
@@ -9,6 +10,7 @@ namespace _10_CRUDPersonas_Entidades
         #region Propiedades
         public int ID { get; set; }
 
+        [Required]
         public String Nombre { get; set; }
 
         public String Apellidos { get; set; }
@@ -44,7 +46,7 @@ namespace _10_CRUDPersonas_Entidades
             ID = 0;
             Nombre = "";
             Apellidos = "";
-            FechaNacimiento = DateTime.Parse("14-12-2000");
+            FechaNacimiento = new DateTime();
             Foto = null;
             Direccion = "";
             Telefono = "";

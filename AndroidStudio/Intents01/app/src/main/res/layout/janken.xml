@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5B99E8F3"
+    tools:context=".MainActivity">
+
+    <!-- Líneas Horizontales -->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.55" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hgl95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <!-- Líneas Verticales -->
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vgl10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.10" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vgl90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.90" />
+
+    <!-- Elementos -->
+
+    <!-- Radio Group -->
+
+    <RadioGroup
+        android:id="@+id/rdgOpciones"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/hgl15"
+        app:layout_constraintLeft_toRightOf="@id/vgl10"
+        app:layout_constraintRight_toLeftOf="@id/vgl90"
+        app:layout_constraintTop_toBottomOf="@id/hgl05">
+
+        <RadioButton
+            android:id="@+id/rdbPiedra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:checked="true"
+            android:text="@string/option_rock" />
+
+        <RadioButton
+            android:id="@+id/rdbPapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/option_paper" />
+
+        <RadioButton
+            android:id="@+id/rdbTijeras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/option_scissors" />
+    </RadioGroup>
+
+    <!-- Image User -->
+
+    <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/piedra"
+        app:layout_constraintBottom_toTopOf="@id/hgl45"
+        app:layout_constraintLeft_toRightOf="@id/vgl10"
+        app:layout_constraintRight_toLeftOf="@id/vgl90"
+        app:layout_constraintTop_toBottomOf="@id/hgl15"/>
+
+    <!-- Button Jugar -->
+
+    <Button
+        android:id="@+id/btnJugar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:text="@string/option_play"
+        android:onClick="jugar"
+        app:layout_constraintBottom_toTopOf="@id/hgl55"
+        app:layout_constraintLeft_toRightOf="@id/vgl10"
+        app:layout_constraintRight_toLeftOf="@id/vgl90"
+        app:layout_constraintTop_toBottomOf="@id/hgl45"/>
+
+    <!-- Image IA -->
+
+    <ImageView
+        android:id="@+id/imgIA"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toTopOf="@id/hgl85"
+        app:layout_constraintLeft_toRightOf="@id/vgl10"
+        app:layout_constraintRight_toLeftOf="@id/vgl90"
+        app:layout_constraintTop_toBottomOf="@id/hgl55"/>
+
+    <!--Volver a Jugar -->
+
+    <LinearLayout
+        android:id="@+id/lilFinPartida"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/hgl95"
+        app:layout_constraintLeft_toRightOf="@id/vgl10"
+        app:layout_constraintRight_toLeftOf="@id/vgl90"
+        app:layout_constraintTop_toBottomOf="@id/hgl85">
+
+        <TextView
+            android:id="@+id/txvResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <Button
+            android:id="@+id/btnNuevaPartida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nuevaPartida"
+            android:text="@string/option_playagain"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

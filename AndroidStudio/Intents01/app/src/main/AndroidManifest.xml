@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".TextColour"/>
+        <activity android:name=".ImageGallery"/>
+        <activity android:name=".Plus"/>
+        <activity android:name=".SizeLetter"/>
+        <activity android:name=".CheckBoxText"/>
+        <activity android:name=".Calculator"/>
+        <activity android:name=".JanKen"/>
     </application>
 
 </manifest>
