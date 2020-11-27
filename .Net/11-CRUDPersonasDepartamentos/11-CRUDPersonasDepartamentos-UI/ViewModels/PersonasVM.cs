@@ -73,7 +73,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         {
             BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
             //EliminarCommand = new DelegateCommand(EliminarCommand_ExecutedAsync, EliminarCommand_CanExecute);
-            //CrearCommand = new DelegateCommand(CrearCommand_Executed, CrearCommand_CanExecute);
+            CrearCommand = new DelegateCommand(CrearCommand_Executed);
             //GuardarCommand = new DelegateCommand(GuardarCommand_ExecutedAsync, GuardarCommand_CanExecute);
             clsListadoPersonas listadoPersonas = new clsListadoPersonas();
             clsListadoDepartamentos listadoDepartamentos = new clsListadoDepartamentos();
@@ -101,7 +101,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             }
         }
 
-        private async void EliminarCommand_ExecutedAsync()
+        private async void EliminarCommand_Executed()
         {
             ContentDialog deleteFileDialog = new ContentDialog
             {
@@ -169,6 +169,13 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             }
 
             return canExecute;
+        }
+
+        private void CrearCommand_Executed()
+        {
+            personaSeleccionada = new clsPersona();
+
+            NotifyPropertyChanged("PersonaSeleccionada");
         }
         #endregion
     }

@@ -11,12 +11,9 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels.Utilidades
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
-        protected void NotifyPropertyChanged(String property)
+        protected void NotifyPropertyChanged(String property = null)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(property));
-            }
+             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(property));   
         }
     }
 }

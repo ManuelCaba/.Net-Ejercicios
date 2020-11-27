@@ -142,5 +142,4 @@ D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\qualifiers.txt.intermediate
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\ProjectArchitectures.txt
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json

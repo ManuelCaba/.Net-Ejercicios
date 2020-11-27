@@ -48,13 +48,13 @@
                     Orientation="Horizontal"
                     Margin="20,0,0,0">
 
-            <TextBox x:ConnectionId='15' PlaceholderText="Buscar..."
+            <TextBox x:ConnectionId='16' PlaceholderText="Buscar..."
                                                                                                              
                      MinWidth="300"
                      MaxHeight="35"
                      VerticalContentAlignment="Center"
                      FontSize="15"/>
-            <AppBarButton x:ConnectionId='16' Icon="Find"
+            <AppBarButton x:ConnectionId='17' Icon="Find"
                                                                                        />
 
         </StackPanel>
@@ -62,7 +62,8 @@
         <StackPanel x:ConnectionId='3' x:Name="stpOpcionesPersonas" 
                     Orientation="Horizontal"
                     RelativePanel.RightOf="stpBuscar">
-            <AppBarButton Icon="Add"></AppBarButton>
+            <AppBarButton x:ConnectionId='15' Icon="Add"
+                                                                         ></AppBarButton>
             <AppBarButton Icon="Delete"></AppBarButton>
             <AppBarButton Icon="Save"></AppBarButton>
         </StackPanel>

@@ -45,10 +45,10 @@ namespace _11_CRUDPersonasDepartamentos_Entidades
             Nombre = "";
             Apellidos = "";
             FechaNacimiento = DateTime.Parse("14-12-2000");
-            Foto = null;
+            Foto = new Byte[0];
             Direccion = "";
             Telefono = "";
-            IDDepartamento = 0;
+            IDDepartamento = 1;
         }
         #endregion
     }

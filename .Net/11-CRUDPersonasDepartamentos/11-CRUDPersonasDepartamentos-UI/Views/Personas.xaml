@@ -62,7 +62,8 @@
         <StackPanel x:Name="stpOpcionesPersonas" 
                     Orientation="Horizontal"
                     RelativePanel.RightOf="stpBuscar">
-            <AppBarButton Icon="Add"></AppBarButton>
+            <AppBarButton Icon="Add"
+                          Command="{x:Bind Path=PersonasVM.CrearCommand}"></AppBarButton>
             <AppBarButton Icon="Delete"></AppBarButton>
             <AppBarButton Icon="Save"></AppBarButton>
         </StackPanel>

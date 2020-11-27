@@ -50,7 +50,6 @@ D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pdb
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pri
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csprojAssemblyReference.cache
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csproj.CoreCompileInputs.cache
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csproj.CopyComplete
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll
