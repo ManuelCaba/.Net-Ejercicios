@@ -46,7 +46,7 @@ class PersonDAO extends DAO
             //Creamos el objeto producto y seteamos los valores
 
             $person = new Person();
-            $person->setIdPerson($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].$row["ID"]);
+            $person->setIdPerson($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'/'.$row["ID"]);
             $person->setName($row["Name"]);
             $person->setSurname($row["Surname"]);
             $person->setAge($row["Age"]);
@@ -84,7 +84,7 @@ class PersonDAO extends DAO
             //Creamos el objeto producto y seteamos los valores
 
             $person = new Person();
-            $person->setIdPerson($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].$row["ID"]);
+            $person->setIdPerson($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
             $person->setName($row["Name"]);
             $person->setSurname($row["Surname"]);
             $person->setAge($row["Age"]);
