@@ -40,5 +40,8 @@ namespace _10_CRUDPersonas_UI.Models
             this.listadoDepartamentos = clsListadoDepartamentosBL.listadoDepartamentosBL();
         }
         #endregion
+
+        #region Métodos
+        #endregion
     }
 }

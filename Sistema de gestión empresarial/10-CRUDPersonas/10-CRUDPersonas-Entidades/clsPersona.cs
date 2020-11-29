@@ -10,7 +10,7 @@ namespace _10_CRUDPersonas_Entidades
         #region Propiedades
         public int ID { get; set; }
 
-        [Required(ErrorMessage = "Campo Obligatorio")]
+        [Required, MinLength(3)]
         public String Nombre { get; set; }
 
         public String Apellidos { get; set; }
