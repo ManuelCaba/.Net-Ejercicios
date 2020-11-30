@@ -56,13 +56,14 @@ namespace _10_CRUDPersonas_UI.Controllers
             if(ModelState.IsValid)
             {
                 clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+                clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
 
-                clsPersona persona = new clsPersona();
-                persona.ID = personaConListadoDepartamentos.ID;
+                clsPersona persona = clsListadoPersonasBL.obtenerPersonaPorIDBL(personaConListadoDepartamentos.ID);
+
                 persona.Nombre = personaConListadoDepartamentos.Nombre;
                 persona.Apellidos = personaConListadoDepartamentos.Apellidos;
                 persona.FechaNacimiento = personaConListadoDepartamentos.FechaNacimiento;
-                persona.Foto = personaConListadoDepartamentos.Foto;
+                persona.Foto = personaConListadoDepartamentos.Foto == null ? persona.Foto : personaConListadoDepartamentos.Foto ;
                 persona.Direccion = personaConListadoDepartamentos.Direccion;
                 persona.Telefono = personaConListadoDepartamentos.Telefono;
                 persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
@@ -94,7 +95,7 @@ namespace _10_CRUDPersonas_UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(clsPersonaConListadoDepartamentos personaConListadoDepartamentos)
+        public ActionResult Create(clsPersonaConListadoDepartamentos personaConListadoDepartamentos, HttpPostedFileBase upload)
         {
             if (ModelState.IsValid)
             {
@@ -110,16 +111,34 @@ namespace _10_CRUDPersonas_UI.Controllers
                 persona.Telefono = personaConListadoDepartamentos.Telefono;
                 persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
 
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    using (var reader = new System.IO.BinaryReader(upload.InputStream))
+                    {
+                        persona.Foto = reader.ReadBytes(upload.ContentLength);
+                    };
+                }
+
                 clsManejadoraPersonasBL.crearPersonaBL(persona);
 
-                return View("Listado", clsListadosPersonasConNombreDepartamento.listadoCompletoPersonas());
+                return View("Edit", new clsPersonaConListadoDepartamentos(persona));
             }
             else
             {
                 return View(personaConListadoDepartamentos);
             }
-
-
         }
+
+        //Details
+        public ActionResult Details(int id)
+        {
+            clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
+            clsListadoDepartamentosBL clsListadoDepartamentosBL = new clsListadoDepartamentosBL();
+
+            clsPersona persona = clsListadoPersonasBL.obtenerPersonaPorIDBL(id);
+
+            return View(new clsPersonaConNombreDepartamento(persona, clsListadoDepartamentosBL.nombreDepartamentoPorIDBL(persona.IDDepartamento)));
+        }
+
     }
 }
