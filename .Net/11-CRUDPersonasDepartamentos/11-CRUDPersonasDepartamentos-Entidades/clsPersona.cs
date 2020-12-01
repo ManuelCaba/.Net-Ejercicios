@@ -44,7 +44,7 @@ namespace _11_CRUDPersonasDepartamentos_Entidades
             ID = 0;
             Nombre = "";
             Apellidos = "";
-            FechaNacimiento = DateTime.Parse("14-12-2000");
+            FechaNacimiento = new DateTime();
             Foto = new Byte[0];
             Direccion = "";
             Telefono = "";

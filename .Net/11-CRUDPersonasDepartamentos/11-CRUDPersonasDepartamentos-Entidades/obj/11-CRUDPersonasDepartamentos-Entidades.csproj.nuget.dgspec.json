@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {}
+    "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {}
   },
   "projects": {
-    "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {
+    "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj",
+        "projectUniqueName": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj",
         "projectName": "11-CRUDPersonasDepartamentos-Entidades",
-        "projectPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj",
-        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\obj\\",
+        "projectPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj",
+        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
