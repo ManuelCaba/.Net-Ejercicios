@@ -11,3 +11,12 @@ D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csproj.CopyComplete
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.dll
 D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.pdb
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-DAL.dll
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-DAL.pdb
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-Entidades.dll
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-Entidades.pdb
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csprojAssemblyReference.cache
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csproj.CoreCompileInputs.cache
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csproj.CopyComplete
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.dll
+D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.pdb

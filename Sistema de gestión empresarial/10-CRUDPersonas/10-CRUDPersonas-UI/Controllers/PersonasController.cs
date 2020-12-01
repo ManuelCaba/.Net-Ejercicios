@@ -4,6 +4,7 @@ using _10_CRUDPersonas_Entidades;
 using _10_CRUDPersonas_UI.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -50,23 +51,41 @@ namespace _10_CRUDPersonas_UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Edit(clsPersonaConListadoDepartamentos personaConListadoDepartamentos)
+        public ActionResult Edit(clsPersonaConListadoDepartamentos personaConListadoDepartamentos, HttpPostedFileBase upload)
         {
-            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+            if(ModelState.IsValid)
+            {
+                clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+                clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
 
-            clsPersona persona = new clsPersona();
-            persona.ID = personaConListadoDepartamentos.ID;
-            persona.Nombre = personaConListadoDepartamentos.Nombre;
-            persona.Apellidos = personaConListadoDepartamentos.Apellidos;
-            persona.FechaNacimiento = personaConListadoDepartamentos.FechaNacimiento;
-            persona.Foto = personaConListadoDepartamentos.Foto;
-            persona.Direccion = personaConListadoDepartamentos.Direccion;
-            persona.Telefono = personaConListadoDepartamentos.Telefono;
-            persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
+                clsPersona persona = clsListadoPersonasBL.obtenerPersonaPorIDBL(personaConListadoDepartamentos.ID);
 
-            clsManejadoraPersonasBL.editarPersonaBL(persona);
+                persona.Nombre = personaConListadoDepartamentos.Nombre;
+                persona.Apellidos = personaConListadoDepartamentos.Apellidos;
+                persona.FechaNacimiento = personaConListadoDepartamentos.FechaNacimiento;
+                persona.Foto = personaConListadoDepartamentos.Foto == null ? persona.Foto : personaConListadoDepartamentos.Foto ;
+                persona.Direccion = personaConListadoDepartamentos.Direccion;
+                persona.Telefono = personaConListadoDepartamentos.Telefono;
+                persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
 
-            return View("Listado", clsListadosPersonasConNombreDepartamento.listadoCompletoPersonas());
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    using (var reader = new System.IO.BinaryReader(upload.InputStream))
+                    {
+                        persona.Foto = reader.ReadBytes(upload.ContentLength);
+                    };
+                }
+
+                clsManejadoraPersonasBL.editarPersonaBL(persona);
+
+                
+                return View(new clsPersonaConListadoDepartamentos(persona));
+            }
+            else
+            {
+                return View(personaConListadoDepartamentos);
+            }
+
         }
 
         //Editar
@@ -76,23 +95,50 @@ namespace _10_CRUDPersonas_UI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Create(clsPersonaConListadoDepartamentos personaConListadoDepartamentos)
+        public ActionResult Create(clsPersonaConListadoDepartamentos personaConListadoDepartamentos, HttpPostedFileBase upload)
         {
-            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+            if (ModelState.IsValid)
+            {
+                clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
 
-            clsPersona persona = new clsPersona();
-            persona.ID = personaConListadoDepartamentos.ID;
-            persona.Nombre = personaConListadoDepartamentos.Nombre;
-            persona.Apellidos = personaConListadoDepartamentos.Apellidos;
-            persona.FechaNacimiento = personaConListadoDepartamentos.FechaNacimiento;
-            persona.Foto = personaConListadoDepartamentos.Foto;
-            persona.Direccion = personaConListadoDepartamentos.Direccion;
-            persona.Telefono = personaConListadoDepartamentos.Telefono;
-            persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
+                clsPersona persona = new clsPersona();
+                persona.ID = personaConListadoDepartamentos.ID;
+                persona.Nombre = personaConListadoDepartamentos.Nombre;
+                persona.Apellidos = personaConListadoDepartamentos.Apellidos;
+                persona.FechaNacimiento = personaConListadoDepartamentos.FechaNacimiento;
+                persona.Foto = personaConListadoDepartamentos.Foto;
+                persona.Direccion = personaConListadoDepartamentos.Direccion;
+                persona.Telefono = personaConListadoDepartamentos.Telefono;
+                persona.IDDepartamento = personaConListadoDepartamentos.IDDepartamento;
 
-            clsManejadoraPersonasBL.crearPersonaBL(persona);
+                if (upload != null && upload.ContentLength > 0)
+                {
+                    using (var reader = new System.IO.BinaryReader(upload.InputStream))
+                    {
+                        persona.Foto = reader.ReadBytes(upload.ContentLength);
+                    };
+                }
 
-            return View("Listado", clsListadosPersonasConNombreDepartamento.listadoCompletoPersonas());
+                clsManejadoraPersonasBL.crearPersonaBL(persona);
+
+                return View("Edit", new clsPersonaConListadoDepartamentos(persona));
+            }
+            else
+            {
+                return View(personaConListadoDepartamentos);
+            }
         }
+
+        //Details
+        public ActionResult Details(int id)
+        {
+            clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
+            clsListadoDepartamentosBL clsListadoDepartamentosBL = new clsListadoDepartamentosBL();
+
+            clsPersona persona = clsListadoPersonasBL.obtenerPersonaPorIDBL(id);
+
+            return View(new clsPersonaConNombreDepartamento(persona, clsListadoDepartamentosBL.nombreDepartamentoPorIDBL(persona.IDDepartamento)));
+        }
+
     }
 }

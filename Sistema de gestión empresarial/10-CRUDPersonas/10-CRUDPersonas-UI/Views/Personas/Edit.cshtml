@@ -6,15 +6,27 @@
 
 <h2>Edit</h2>
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("Edit", "Personas", FormMethod.Post, new { enctype = "multipart/form-data" }))
 {
     @Html.AntiForgeryToken()
-    
+
     <div class="form-horizontal">
         <h4>Persona</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         @Html.HiddenFor(model => model.ID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Foto, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @if (Model.Foto != null)
+            {
+                <img style="max-width:100px; max-height:100px;" src="data:image/*;base64,@(Convert.ToBase64String(Model.Foto))">
+            }
+            <input type="file" id="fotoFileUpload" name="upload" />
+        </div>
+        
+    </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.Nombre, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -57,7 +69,7 @@
         </div>
 
         <div class="form-group">
-            <label class = "control-label col-md-2">Departamento</label>
+            <label class="control-label col-md-2">Departamento</label>
             <div class="col-md-10">
                 @Html.DropDownListFor(model => model.IDDepartamento, new SelectList(Model.ListadoDepartamentos, "ID", "Nombre"))
             </div>
