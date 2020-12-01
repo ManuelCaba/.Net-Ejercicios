@@ -121,8 +121,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Conexion\clsMyConnection.cs" />
-    <Compile Include="Listados\clsListadoDepartamentos.cs" />
-    <Compile Include="Listados\clsListadoPersonas.cs" />
+    <Compile Include="Listados\clsListadoDepartamentosDAL.cs" />
+    <Compile Include="Listados\clsListadoPersonasDAL.cs" />
+    <Compile Include="Manejadoras\clsManejadoraPersonasDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\_11_CRUDPersonasDepartamentos_DAL.rd.xml" />
   </ItemGroup>
@@ -137,9 +138,7 @@
       <Name>11-CRUDPersonasDepartamentos-Entidades</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Manejadoras\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

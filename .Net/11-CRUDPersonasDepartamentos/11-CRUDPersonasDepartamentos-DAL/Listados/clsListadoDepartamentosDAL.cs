@@ -1,22 +1,14 @@
 ﻿using System;
-using _11_CRUDPersonasDepartamentos_DAL.Conexion;
 using System.Data.SqlClient;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using _11_CRUDPersonasDepartamentos_DAL.Conexion;
 using _11_CRUDPersonasDepartamentos_Entidades;
 
 namespace _11_CRUDPersonasDepartamentos_DAL.Listados
 {
-    public class clsListadoDepartamentos
+    public class clsListadoDepartamentosDAL
     {
-        /// <summary>
-        /// Devuelve una cadena con el nombre de d
-        /// </summary>
-        /// <param name="IDPersona"></param>
-        /// <returns></returns>
-        public String nombreDepartamentoPorPersona(int IDPersona)
+        public String nombreDepartamentoPorIDDAL(int IDDepartamento)
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();
@@ -24,8 +16,8 @@ namespace _11_CRUDPersonasDepartamentos_DAL.Listados
             SqlDataReader miLector;
             String nombreDepartamento = "";
 
-            sqlCommand.Parameters.Add("@IDPersona", System.Data.SqlDbType.Int).Value = IDPersona;
-            sqlCommand.CommandText = "SELECT D.Nombre AS NombreDepartamento FROM Personas AS P INNER JOIN Departamentos AS D ON P.IDDepartamento = D.ID WHERE P.ID = @IDPersona";
+            sqlCommand.Parameters.Add("@IDDepartamento", System.Data.SqlDbType.Int).Value = IDDepartamento;
+            sqlCommand.CommandText = "SELECT Nombre FROM Departamentos WHERE ID = @IDDepartamento";
 
             try
             {
@@ -39,7 +31,7 @@ namespace _11_CRUDPersonasDepartamentos_DAL.Listados
                 {
                     miLector.Read();
 
-                    nombreDepartamento = (String) miLector["NombreDepartamento"];
+                    nombreDepartamento = (String) miLector["Nombre"];
                 }
 
                 miLector.Close();
@@ -57,7 +49,7 @@ namespace _11_CRUDPersonasDepartamentos_DAL.Listados
             return nombreDepartamento;
         }
 
-        public List<clsDepartamento> listadoDepartamentos()
+        public List<clsDepartamento> listadoDepartamentosDAL()
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();

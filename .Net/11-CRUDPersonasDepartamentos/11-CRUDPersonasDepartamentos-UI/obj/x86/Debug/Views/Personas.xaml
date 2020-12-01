@@ -48,13 +48,13 @@
                     Orientation="Horizontal"
                     Margin="20,0,0,0">
 
-            <TextBox x:ConnectionId='16' PlaceholderText="Buscar..."
+            <TextBox x:ConnectionId='17' PlaceholderText="Buscar..."
                                                                                                              
                      MinWidth="300"
                      MaxHeight="35"
                      VerticalContentAlignment="Center"
                      FontSize="15"/>
-            <AppBarButton x:ConnectionId='17' Icon="Find"
+            <AppBarButton x:ConnectionId='18' Icon="Find"
                                                                                        />
 
         </StackPanel>
@@ -65,7 +65,8 @@
             <AppBarButton x:ConnectionId='15' Icon="Add"
                                                                          ></AppBarButton>
             <AppBarButton Icon="Delete"></AppBarButton>
-            <AppBarButton Icon="Save"></AppBarButton>
+            <AppBarButton x:ConnectionId='16' Icon="Save"
+                                                                           ></AppBarButton>
         </StackPanel>
 
         <ListView x:ConnectionId='4' x:Name="lvwPersonas" 
@@ -123,7 +124,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                                                                                              />
+                                                                                                                                   
+                                                                                 />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="1"
@@ -137,7 +139,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                                                                                                 />
+                                                                                                                                      
+                                                                                 />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="2"
@@ -151,7 +154,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                                                                                                       />
+                                                                                                                                            
+                                                                                 />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="3"
@@ -165,7 +169,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                                                                                                />
+                                                                                                                                     
+                                                                                 />
 
             <TextBlock Grid.Column="0"
                        Grid.Row="4"
@@ -175,8 +180,9 @@
 
             <ComboBox x:ConnectionId='11' Grid.Column="1"
                       Grid.Row="4"
+                                                                                       
                                                                                          
-                                                                                                         
+                                                                                                                                              
                       DisplayMemberPath="Nombre"
                       SelectedValuePath="ID"
                       Margin="20"
@@ -202,7 +208,8 @@
                          TextWrapping="Wrap"
                          FontSize="20"
                          Background="White"
-                                                                                                     />
+                                                                                                                                         
+                                                                                    />
 
             </RelativePanel>
 

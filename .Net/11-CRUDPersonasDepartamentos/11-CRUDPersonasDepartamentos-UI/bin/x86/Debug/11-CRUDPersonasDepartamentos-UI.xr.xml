@@ -89,6 +89,7 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="VerticalContentAlignment" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
       <RootProperty Name="ItemsSource" />
@@ -98,6 +99,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Background" />
+      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Path" />

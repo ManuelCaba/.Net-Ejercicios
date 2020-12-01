@@ -1,5 +1,4 @@
-﻿using _10_CRUDPersonas_BL.Listados;
-using _11_CRUDPersonasDepartamentos_BL.Listados;
+﻿using _11_CRUDPersonasDepartamentos_BL.Listados;
 using _11_CRUDPersonasDepartamentos_Entidades;
 using _11_CRUDPersonasDepartamentos_UI.Utilidades;
 using System;
@@ -19,6 +18,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         #region Atributos
         private String buscar;
         private clsPersona personaSeleccionada;
+        private clsPersona personaInmutable;
         private List<clsPersona> listadoPersonasCompleto;
         #endregion
 
@@ -39,9 +39,10 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
             set
             {
-                if(personaSeleccionada != value)
+                if(personaSeleccionada != value && value != null)
                 {
                     personaSeleccionada = value;
+                    personaInmutable = new clsPersona(value);
                     NotifyPropertyChanged("PersonaSeleccionada");
                 }
             }
@@ -74,15 +75,15 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
             //EliminarCommand = new DelegateCommand(EliminarCommand_ExecutedAsync, EliminarCommand_CanExecute);
             CrearCommand = new DelegateCommand(CrearCommand_Executed);
-            //GuardarCommand = new DelegateCommand(GuardarCommand_ExecutedAsync, GuardarCommand_CanExecute);
-            clsListadoPersonas listadoPersonas = new clsListadoPersonas();
-            clsListadoDepartamentos listadoDepartamentos = new clsListadoDepartamentos();
+            GuardarCommand = new DelegateCommand(GuardarCommand_Executed, GuardarCommand_CanExecute);
+            clsListadoPersonasBL listadoPersonas = new clsListadoPersonasBL();
+            clsListadoDepartamentosBL listadoDepartamentos = new clsListadoDepartamentosBL();
             //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
             try
             {
-                listadoPersonasCompleto = listadoPersonas.listadoPersonas();
+                listadoPersonasCompleto = listadoPersonas.listadoPersonasBL();
                 ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
-                ListadoDepartamentos = new ObservableCollection<clsDepartamento>(listadoDepartamentos.listadoDepartamentos());
+                ListadoDepartamentos = new ObservableCollection<clsDepartamento>(listadoDepartamentos.listadoDepartamentosBL());
             }
             catch(SqlException e)
             {
@@ -93,14 +94,8 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         #endregion
 
         #region Métodos
-        public void eliminarPersona(Object sender, RoutedEventArgs e)
-        {
-            if (personaSeleccionada != null)
-            {
-                listadoPersonasCompleto.Remove(PersonaSeleccionada);
-            }
-        }
 
+        //Eliminar
         private async void EliminarCommand_Executed()
         {
             ContentDialog deleteFileDialog = new ContentDialog
@@ -117,11 +112,12 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             /// En otro lugar, nada.
             if (result == ContentDialogResult.Primary)
             {
-                listadoPersonasCompleto.Remove(PersonaSeleccionada);
-                ListadoPersonasBuscadas.Remove(PersonaSeleccionada);
+                listadoPersonasCompleto.Remove(personaInmutable);
+                ListadoPersonasBuscadas.Remove(personaInmutable);
             }
 
             PersonaSeleccionada = null;
+            personaInmutable = null;
 
         }
 
@@ -129,7 +125,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         {
             bool canExecute = true;
 
-            if (PersonaSeleccionada == null)
+            if (personaSeleccionada == null)
             {
                 canExecute = false;
             }
@@ -137,6 +133,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             return canExecute;
         }
 
+        //Buscar
         private void BuscarCommand_Executed()
         {
             ListadoPersonasBuscadas.Clear();
@@ -171,11 +168,16 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             return canExecute;
         }
 
+        //Crear
         private void CrearCommand_Executed()
         {
-            PersonaSeleccionada = null;
+            personaSeleccionada = null;
+
+            NotifyPropertyChanged("PersonaSeleccionada");
 
             personaSeleccionada = new clsPersona();
+
+            personaInmutable = null;
 
             personaSeleccionada.ID = 0;
             personaSeleccionada.Nombre = "";
@@ -185,9 +187,64 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             personaSeleccionada.Direccion = "";
             personaSeleccionada.Telefono = "";
             personaSeleccionada.IDDepartamento = 1;
-            
 
             NotifyPropertyChanged("PersonaSeleccionada");
+
+            
+        }
+
+        //Guardar
+        private bool GuardarCommand_CanExecute()
+        {
+            bool canExecute = false;
+
+            if(personaSeleccionada != null)
+            {
+                if(!String.IsNullOrEmpty(personaSeleccionada.Nombre))
+                {
+                    if(personaInmutable == null)
+                    {
+                        canExecute = true;
+                    }
+                    else
+                    {
+                        //TODO Foto
+
+                        if (!personaInmutable.Nombre.Equals(personaSeleccionada.Nombre) ||
+                            !personaInmutable.Apellidos.Equals(personaSeleccionada.Apellidos) ||
+                            !personaInmutable.FechaNacimiento.Equals(personaSeleccionada.FechaNacimiento) ||
+                            !personaInmutable.Foto.Equals(personaSeleccionada.Foto) ||
+                            !personaInmutable.Direccion.Equals(personaSeleccionada.Direccion) ||
+                            !personaInmutable.Telefono.Equals(personaSeleccionada.Telefono) ||
+                            !personaInmutable.IDDepartamento.Equals(personaSeleccionada.IDDepartamento))
+                        {
+                            canExecute = true;
+                        }
+                    }
+                }
+            }            
+
+            return canExecute;
+        }
+
+        //Guardar
+        private void GuardarCommand_Executed()
+        {
+            if(PersonaSeleccionada.ID < 1)
+            {
+                //Crear Nuevo
+            }
+            else
+            {
+                //Actualizar
+            }
+        }
+        #endregion
+
+        #region Eventos
+        public void cambiarGuardarCommand(object sender, RoutedEventArgs e)
+        {
+            GuardarCommand.RaiseCanExecuteChanged();
         }
         #endregion
     }

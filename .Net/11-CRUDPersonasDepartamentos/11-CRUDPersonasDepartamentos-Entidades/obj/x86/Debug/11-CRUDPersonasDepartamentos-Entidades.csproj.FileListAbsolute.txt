@@ -22,7 +22,6 @@ D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamento
 D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\qualifiers.txt
 D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\qualifiers.txt.intermediate
 D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csprojAssemblyReference.cache
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csproj.CoreCompileInputs.cache
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll
 D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.pdb
@@ -70,3 +69,4 @@ D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\qualifiers.txt.intermediate
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csprojAssemblyReference.cache

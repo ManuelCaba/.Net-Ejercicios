@@ -1,5 +1,5 @@
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\11-CRUDPersonasDepartamentos-BL.csproj;x86
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-DAL\11-CRUDPersonasDepartamentos-DAL.csproj;x86
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\11-CRUDPersonasDepartamentos-Entidades.csproj;x86
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\11-CRUDPersonasDepartamentos-Entidades.csproj;x86
-D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\11-CRUDPersonasDepartamentos-UI.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\11-CRUDPersonasDepartamentos-BL.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-DAL\11-CRUDPersonasDepartamentos-DAL.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\11-CRUDPersonasDepartamentos-Entidades.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\11-CRUDPersonasDepartamentos-Entidades.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\11-CRUDPersonasDepartamentos-UI.csproj;x86

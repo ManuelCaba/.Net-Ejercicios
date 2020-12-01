@@ -65,7 +65,8 @@
             <AppBarButton Icon="Add"
                           Command="{x:Bind Path=PersonasVM.CrearCommand}"></AppBarButton>
             <AppBarButton Icon="Delete"></AppBarButton>
-            <AppBarButton Icon="Save"></AppBarButton>
+            <AppBarButton Icon="Save"
+                          Command="{x:Bind Path=PersonasVM.GuardarCommand}"></AppBarButton>
         </StackPanel>
 
         <ListView x:Name="lvwPersonas" 
@@ -123,7 +124,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Nombre, Mode=TwoWay}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="1"
@@ -137,7 +139,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Apellidos, Mode=TwoWay}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Apellidos, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="2"
@@ -151,7 +154,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.FechaNacimiento, Mode=TwoWay}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.FechaNacimiento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="3"
@@ -165,7 +169,8 @@
                      FontSize="20"
                      Background="White"
                      MinWidth="30"
-                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Telefono, Mode=TwoWay}"/>
+                     Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Telefono, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"/>
 
             <TextBlock Grid.Column="0"
                        Grid.Row="4"
@@ -175,8 +180,9 @@
 
             <ComboBox Grid.Column="1"
                       Grid.Row="4"
+                      SelectionChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"
                       ItemsSource="{x:Bind PersonasVM.ListadoDepartamentos, Mode=OneWay}"
-                      SelectedValue="{x:Bind PersonasVM.PersonaSeleccionada.IDDepartamento, Mode=TwoWay}"
+                      SelectedValue="{x:Bind PersonasVM.PersonaSeleccionada.IDDepartamento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
                       DisplayMemberPath="Nombre"
                       SelectedValuePath="ID"
                       Margin="20"
@@ -202,7 +208,8 @@
                          TextWrapping="Wrap"
                          FontSize="20"
                          Background="White"
-                         Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Direccion, Mode=TwoWay}"/>
+                        Text="{x:Bind Path = PersonasVM.PersonaSeleccionada.Direccion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        TextChanged="{x:Bind Path=PersonasVM.cambiarGuardarCommand}"/>
 
             </RelativePanel>
 

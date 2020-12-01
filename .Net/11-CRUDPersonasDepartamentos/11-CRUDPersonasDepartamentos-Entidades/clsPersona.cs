@@ -39,6 +39,18 @@ namespace _11_CRUDPersonasDepartamentos_Entidades
             this.IDDepartamento = IDDepartamento;
         }
 
+        public clsPersona(clsPersona persona)
+        {
+            this.ID = persona.ID;
+            Nombre = persona.Nombre;
+            Apellidos = persona.Apellidos;
+            FechaNacimiento = persona.FechaNacimiento;
+            Foto = persona.Foto;
+            Direccion = persona.Direccion;
+            Telefono = persona.Telefono;
+            this.IDDepartamento = persona.IDDepartamento;
+        }
+
         public clsPersona()
         {
             ID = 0;

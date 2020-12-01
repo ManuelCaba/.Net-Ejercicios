@@ -10,9 +10,13 @@ using System.Threading.Tasks;
 
 namespace _11_CRUDPersonasDepartamentos_DAL.Listados
 {
-    public class clsListadoPersonas
+    public class clsListadoPersonasDAL
     {
-        public List<clsPersona> listadoPersonas()
+        /// <summary>
+        /// Devuelve un listado completo de personas
+        /// </summary>
+        /// <returns></returns>
+        public List<clsPersona> listadoPersonasDAL()
         {
             clsMyConnection clsMyConnection = new clsMyConnection();
             SqlConnection sqlConnection = new SqlConnection();
@@ -61,6 +65,59 @@ namespace _11_CRUDPersonasDepartamentos_DAL.Listados
 
 
             return listadoPersonas;
+        }
+
+        /// <summary>
+        /// Devuelve una persona por su ID
+        /// </summary>
+        /// <param name="IDPersona"></param>
+        /// <returns></returns>
+        public clsPersona obtenerPersonaPorIDDAL(int IDPersona)
+        {
+            clsMyConnection clsMyConnection = new clsMyConnection();
+            SqlConnection sqlConnection = new SqlConnection();
+            SqlCommand sqlCommand = new SqlCommand();
+            SqlDataReader miLector;
+            clsPersona persona = new clsPersona();
+
+            sqlCommand.Parameters.Add("@IDPersona", System.Data.SqlDbType.Int).Value = IDPersona;
+            sqlCommand.CommandText = "SELECT ID, Nombre, Apellidos, FechaNacimiento, Foto, Direccion, Telefono, IDDepartamento FROM Personas WHERE ID = @IDPersona";
+
+            try
+            {
+                sqlConnection = clsMyConnection.getConnection();
+
+                sqlCommand.Connection = sqlConnection;
+
+                miLector = sqlCommand.ExecuteReader();
+
+                if (miLector.HasRows)
+                {
+                    miLector.Read();
+
+                    persona.ID = (int)miLector["ID"];
+                    persona.Nombre = (String)miLector["Nombre"];
+                    persona.Apellidos = miLector["Apellidos"] == DBNull.Value ? null : (String)miLector["Apellidos"];
+                    persona.FechaNacimiento = miLector["FechaNacimiento"] == DBNull.Value ? new DateTime() : (DateTime)miLector["FechaNacimiento"];
+                    persona.Foto = miLector["Foto"] == DBNull.Value ? null : (byte[])miLector["Foto"];
+                    persona.Direccion = miLector["Direccion"] == DBNull.Value ? null : (String)miLector["Direccion"];
+                    persona.Telefono = miLector["Telefono"] == DBNull.Value ? null : (String)miLector["Telefono"];
+                    persona.IDDepartamento = miLector["IDDepartamento"] == DBNull.Value ? 0 : (int)miLector["IDDepartamento"];
+                }
+
+                miLector.Close();
+            }
+            catch (SqlException)
+            {
+                throw;
+            }
+            finally
+            {
+                clsMyConnection.closeConnection(ref sqlConnection);
+            }
+
+
+            return persona;
         }
     }
 }
