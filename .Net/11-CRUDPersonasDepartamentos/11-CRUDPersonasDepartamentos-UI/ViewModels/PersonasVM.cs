@@ -173,7 +173,19 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
         private void CrearCommand_Executed()
         {
+            PersonaSeleccionada = null;
+
             personaSeleccionada = new clsPersona();
+
+            personaSeleccionada.ID = 0;
+            personaSeleccionada.Nombre = "";
+            personaSeleccionada.Apellidos = "";
+            personaSeleccionada.FechaNacimiento = new DateTime();
+            personaSeleccionada.Foto = null;
+            personaSeleccionada.Direccion = "";
+            personaSeleccionada.Telefono = "";
+            personaSeleccionada.IDDepartamento = 1;
+            
 
             NotifyPropertyChanged("PersonaSeleccionada");
         }

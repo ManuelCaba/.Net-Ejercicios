@@ -70,7 +70,7 @@
 
         <ListView x:Name="lvwPersonas" 
                   SelectedItem="{x:Bind Path = PersonasVM.PersonaSeleccionada, Mode=TwoWay}"
-                  ItemsSource="{x:Bind Path = PersonasVM.ListadoPersonasBuscadas, Mode=OneWay}"
+                  ItemsSource="{x:Bind Path = PersonasVM.ListadoPersonasBuscadas, Mode=TwoWay}"
                   RelativePanel.Below="stpBuscar"
                   RelativePanel.AlignLeftWithPanel="True"
                   RelativePanel.AlignBottomWithPanel="True">

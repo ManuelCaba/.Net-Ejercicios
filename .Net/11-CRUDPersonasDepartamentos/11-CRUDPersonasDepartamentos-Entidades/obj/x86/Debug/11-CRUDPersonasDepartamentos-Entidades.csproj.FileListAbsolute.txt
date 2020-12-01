@@ -69,3 +69,4 @@ D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\qualifiers.txt
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\qualifiers.txt.intermediate
 D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\obj\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.csprojAssemblyReference.cache
