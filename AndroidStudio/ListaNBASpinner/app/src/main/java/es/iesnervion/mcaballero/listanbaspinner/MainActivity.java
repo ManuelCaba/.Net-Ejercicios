@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity implements TextWatcher, Adap
             }
         }
     }
+    
 
     @Override
     public void beforeTextChanged(CharSequence s, int start, int count, int after) {
