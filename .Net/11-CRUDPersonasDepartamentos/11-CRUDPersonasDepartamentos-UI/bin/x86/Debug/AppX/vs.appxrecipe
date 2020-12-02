@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-01T17:36:56.105</Modified>
+      <Modified>2020-12-02T18:31:45.131</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.exe">
       <PackagePath>entrypoint\11-CRUDPersonasDepartamentos-UI.exe</PackagePath>
-      <Modified>2020-12-01T17:36:53.464</Modified>
+      <Modified>2020-12-02T18:31:44.021</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,15 +44,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-BL.dll</PackagePath>
-      <Modified>2020-12-01T17:33:22.557</Modified>
+      <Modified>2020-12-02T18:31:42.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-Entidades.dll</PackagePath>
-      <Modified>2020-12-01T17:33:20.239</Modified>
+      <Modified>2020-12-02T18:15:32.876</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-DAL.dll</PackagePath>
-      <Modified>2020-12-01T17:33:21.340</Modified>
+      <Modified>2020-12-02T18:31:40.188</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -98,23 +98,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.xr.xml">
       <PackagePath>11-CRUDPersonasDepartamentos-UI.xr.xml</PackagePath>
-      <Modified>2020-12-01T16:55:08.285</Modified>
+      <Modified>2020-12-02T18:07:38.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-01T17:36:53.269</Modified>
+      <Modified>2020-12-02T18:22:32.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
-      <Modified>2020-12-01T17:36:53.269</Modified>
+      <Modified>2020-12-02T18:22:32.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-12-01T17:36:53.270</Modified>
+      <Modified>2020-12-02T18:22:32.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Personas.xbf">
       <PackagePath>Views\Personas.xbf</PackagePath>
-      <Modified>2020-12-01T17:36:53.270</Modified>
+      <Modified>2020-12-02T18:22:32.381</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -122,11 +122,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-01T15:45:45.750</Modified>
+      <Modified>2020-12-02T18:31:44.535</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\11-CRUDPersonasDepartamentos-UI.exe">
       <PackagePath>11-CRUDPersonasDepartamentos-UI.exe</PackagePath>
-      <Modified>2020-12-01T17:36:56.100</Modified>
+      <Modified>2020-12-02T18:31:45.125</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

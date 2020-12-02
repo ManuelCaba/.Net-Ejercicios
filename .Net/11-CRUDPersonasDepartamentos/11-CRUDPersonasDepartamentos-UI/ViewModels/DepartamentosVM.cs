@@ -1,8 +1,8 @@
 ﻿using _11_CRUDPersonasDepartamentos_BL.Listados;
 using _11_CRUDPersonasDepartamentos_BL.Manejadoras;
+using _11_CRUDPersonasDepartamentos_BL.Excepciones;
 using _11_CRUDPersonasDepartamentos_Entidades;
 using _11_CRUDPersonasDepartamentos_UI.Utilidades;
-using _11_CRUDPersonasDepartamentos_UI.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -15,13 +15,13 @@ using Windows.UI.Xaml.Controls;
 
 namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 {
-    public class PersonasVM : Utilidades.clsVMBase
+    public class DepartamentosVM : Utilidades.clsVMBase
     {
         #region Atributos
         private String buscar;
-        private clsPersona personaSeleccionada;
-        private clsPersona personaInmutable;
-        private List<clsPersona> listadoPersonasCompleto;
+        private clsDepartamento departamentoSeleccionado;
+        private clsDepartamento departamentoInmutable;
+        private List<clsDepartamento> listadoDepartamentosCompleto;
         #endregion
 
         #region Propiedades
@@ -30,22 +30,21 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         public DelegateCommand GuardarCommand { get; }
         public DelegateCommand EliminarCommand { get; }
         public DelegateCommand CrearCommand { get; }
-        public ObservableCollection<clsPersona> ListadoPersonasBuscadas { get; set; }
-        public ObservableCollection<clsDepartamento> ListadoDepartamentos { get; }
-        public clsPersona PersonaSeleccionada
+        public ObservableCollection<clsDepartamento> ListadoDepartamentosBuscado { get; set; }
+        public clsDepartamento DepartamentoSeleccionado
         {
             get
             {
-                return personaSeleccionada;
+                return departamentoSeleccionado;
             }
 
             set
             {
-                if(personaSeleccionada != value && value != null)
+                if (departamentoSeleccionado != value && value != null)
                 {
-                    personaSeleccionada = value;
-                    personaInmutable = new clsPersona(value);
-                    NotifyPropertyChanged("PersonaSeleccionada");
+                    departamentoSeleccionado = value;
+                    departamentoInmutable = new clsDepartamento(value);
+                    NotifyPropertyChanged("DepartamentoSeleccionado");
                     EliminarCommand.RaiseCanExecuteChanged();
                 }
             }
@@ -65,30 +64,28 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
                 if (String.IsNullOrEmpty(buscar))
                 {
-                    ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
-                    NotifyPropertyChanged("ListadoPersonasBuscadas");
+                    ListadoDepartamentosBuscado = new ObservableCollection<clsDepartamento>(listadoDepartamentosCompleto);
+                    NotifyPropertyChanged("ListadoDepartamentosBuscado");
                 }
             }
         }
         #endregion
 
         #region Constructores
-        public PersonasVM()
+        public DepartamentosVM()
         {
             BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
             EliminarCommand = new DelegateCommand(EliminarCommand_Executed, EliminarCommand_CanExecute);
             CrearCommand = new DelegateCommand(CrearCommand_Executed);
             GuardarCommand = new DelegateCommand(GuardarCommand_Executed, GuardarCommand_CanExecute);
-            clsListadoPersonasBL listadoPersonas = new clsListadoPersonasBL();
-            clsListadoDepartamentosBL listadoDepartamentos = new clsListadoDepartamentosBL();
-            //Rellenamos el listado de personas porque hace falta nada mas entrar en la página
+            clsListadoDepartamentosBL listadoPersonas = new clsListadoDepartamentosBL();
+            //Rellenamos el listado de departamentos porque hace falta nada mas entrar en la página
             try
             {
-                listadoPersonasCompleto = listadoPersonas.listadoPersonasBL();
-                ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
-                ListadoDepartamentos = new ObservableCollection<clsDepartamento>(listadoDepartamentos.listadoDepartamentosBL());
+                listadoDepartamentosCompleto = listadoPersonas.listadoDepartamentosBL();
+                ListadoDepartamentosBuscado = new ObservableCollection<clsDepartamento>(listadoDepartamentosCompleto);
             }
-            catch(SqlException e)
+            catch (SqlException e)
             {
                 dialogErrorAsync();
             }
@@ -101,12 +98,12 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         //Eliminar
         private async void EliminarCommand_Executed()
         {
-            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+            clsManejadoraDepartamentosBL clsManejadoraDepartamentos = new clsManejadoraDepartamentosBL();
 
             ContentDialog deleteFileDialog = new ContentDialog
             {
-                Title = "Desea borrar la persona seleccionada?",
-                Content = "Si lo borras, no podras recuperarla. Quieres borrarlo?",
+                Title = "Desea borrar el departamento seleccionado?",
+                Content = "Si lo borras, no podras recuperarlo. Quieres borrarlo?",
                 PrimaryButtonText = "Borrar",
                 CloseButtonText = "Cancelar"
             };
@@ -119,21 +116,32 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
             {
                 try
                 {
-                    if(clsManejadoraPersonasBL.eliminarPersonaBL(personaInmutable.ID) > 0)
+                    if (clsManejadoraDepartamentos.eliminarDepartamentoBL(departamentoInmutable.ID) > 0)
                     {
-                        listadoPersonasCompleto.Remove(personaSeleccionada);
-                        ListadoPersonasBuscadas.Remove(personaSeleccionada);
+                        listadoDepartamentosCompleto.Remove(departamentoSeleccionado);
+                        ListadoDepartamentosBuscado.Remove(departamentoSeleccionado);
 
-                        personaSeleccionada = null;
+                        departamentoSeleccionado = null;
 
-                        NotifyPropertyChanged("PersonaSeleccionada");
+                        NotifyPropertyChanged("DepartamentoSeleccionado");
 
-                        personaInmutable = null;
+                        departamentoInmutable = null;
                     }
                 }
-                catch(SqlException)
+                catch (SqlException)
                 {
                     dialogErrorAsync();
+                }
+                catch(DepartmentContainsPeopleException)
+                {
+                    ContentDialog errorDelete = new ContentDialog
+                    {
+                        Title = "Error al borrar el departamento",
+                        Content = "Este departamento contiene personas",
+                        PrimaryButtonText = "Aceptar",
+                    };
+
+                    await errorDelete.ShowAsync();
                 }
 
             }
@@ -144,7 +152,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         {
             bool canExecute = true;
 
-            if (personaInmutable == null)
+            if (departamentoInmutable == null)
             {
                 canExecute = false;
             }
@@ -155,21 +163,14 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         //Buscar
         private void BuscarCommand_Executed()
         {
-            ListadoPersonasBuscadas.Clear();
+            ListadoDepartamentosBuscado.Clear();
 
-            foreach (clsPersona persona in listadoPersonasCompleto)
+            foreach (clsDepartamento departamento in listadoDepartamentosCompleto)
             {
-               
-                if (persona.Nombre.ToLower().Contains(buscar.ToLower()))
+
+                if (departamento.Nombre.ToLower().Contains(buscar.ToLower()))
                 {
-                    ListadoPersonasBuscadas.Add(persona);
-                }
-                else if (!String.IsNullOrEmpty(persona.Apellidos))
-                {
-                    if (persona.Apellidos.ToLower().Contains(buscar.ToLower()))
-                    {
-                        ListadoPersonasBuscadas.Add(persona);
-                    }
+                    ListadoDepartamentosBuscado.Add(departamento);
                 }
 
             }
@@ -190,24 +191,18 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         //Crear
         private void CrearCommand_Executed()
         {
-            personaSeleccionada = null;
+            departamentoSeleccionado = null;
 
-            NotifyPropertyChanged("PersonaSeleccionada");
+            NotifyPropertyChanged("DepartamentoSeleccionado");
 
-            personaSeleccionada = new clsPersona();
+            departamentoSeleccionado = new clsDepartamento();
 
-            personaInmutable = null;
+            departamentoInmutable = null;
 
-            personaSeleccionada.ID = 0;
-            personaSeleccionada.Nombre = "";
-            personaSeleccionada.Apellidos = "";
-            personaSeleccionada.FechaNacimiento = new DateTime();
-            personaSeleccionada.Foto = null;
-            personaSeleccionada.Direccion = "";
-            personaSeleccionada.Telefono = "";
-            personaSeleccionada.IDDepartamento = 1;
+            departamentoSeleccionado.ID = 0;
+            departamentoSeleccionado.Nombre = "";
 
-            NotifyPropertyChanged("PersonaSeleccionada");      
+            NotifyPropertyChanged("DepartamentoSeleccionado");
         }
 
         //Guardar
@@ -215,11 +210,11 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         {
             bool canExecute = false;
 
-            if(personaSeleccionada != null)
+            if (departamentoSeleccionado != null)
             {
-                if(!String.IsNullOrEmpty(personaSeleccionada.Nombre))
+                if (!String.IsNullOrEmpty(departamentoSeleccionado.Nombre))
                 {
-                    if(personaInmutable == null)
+                    if (departamentoInmutable == null)
                     {
                         canExecute = true;
                     }
@@ -227,18 +222,13 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
                     {
                         //TODO Foto
 
-                        if (!personaInmutable.Nombre.Equals(personaSeleccionada.Nombre) ||
-                            !personaInmutable.Apellidos.Equals(personaSeleccionada.Apellidos) ||
-                            !personaInmutable.FechaNacimiento.Equals(personaSeleccionada.FechaNacimiento) ||
-                            !personaInmutable.Direccion.Equals(personaSeleccionada.Direccion) ||
-                            !personaInmutable.Telefono.Equals(personaSeleccionada.Telefono) ||
-                            !personaInmutable.IDDepartamento.Equals(personaSeleccionada.IDDepartamento))
+                        if (!departamentoInmutable.Nombre.Equals(departamentoSeleccionado.Nombre))
                         {
                             canExecute = true;
                         }
                     }
                 }
-            }            
+            }
 
             return canExecute;
         }
@@ -246,32 +236,32 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
         //Guardar
         private void GuardarCommand_Executed()
         {
-            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
-            clsListadoPersonasBL listadoPersonas = new clsListadoPersonasBL();
+            clsManejadoraDepartamentosBL clsManejadoraDepartamentos = new clsManejadoraDepartamentosBL();
+            clsListadoDepartamentosBL listadoDepartamentos = new clsListadoDepartamentosBL();
 
             try
             {
-                if (PersonaSeleccionada.ID < 1)
+                if (DepartamentoSeleccionado.ID < 1)
                 {
-                    clsManejadoraPersonasBL.crearPersonaBL(personaSeleccionada);
+                    clsManejadoraDepartamentos.crearDepartamentoBL(departamentoSeleccionado);
                 }
                 else
                 {
-                    clsManejadoraPersonasBL.editarPersonaBL(personaSeleccionada);
+                    clsManejadoraDepartamentos.editarDepartamentoBL(departamentoSeleccionado);
                 }
 
-                personaInmutable = new clsPersona(personaSeleccionada);
+                departamentoInmutable = new clsDepartamento(departamentoSeleccionado);
 
                 GuardarCommand.RaiseCanExecuteChanged();
 
-                listadoPersonasCompleto = listadoPersonas.listadoPersonasBL();
-                ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
+                listadoDepartamentosCompleto = listadoDepartamentos.listadoDepartamentosBL();
+                ListadoDepartamentosBuscado = new ObservableCollection<clsDepartamento>(listadoDepartamentosCompleto);
 
-                NotifyPropertyChanged("ListadoPersonasBuscadas");
+                NotifyPropertyChanged("ListadoDepartamentosBuscado");
             }
             catch (SqlException e)
             {
-                dialogErrorAsync();
+                //dialogErrorAsync();
             }
         }
 
@@ -290,7 +280,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
             if (result == ContentDialogResult.Primary)
             {
-                MainPage.GetCurrent().SetNavigationToIndex(0);
+                MainPage.GetCurrent().SetNavigationToIndex(1);
             }
             else
             {
@@ -308,7 +298,7 @@ namespace _11_CRUDPersonasDepartamentos_UI.ViewModels
 
         public void recargarPagina(object sender, RoutedEventArgs e)
         {
-            MainPage.GetCurrent().SetNavigationToIndex(0);
+            MainPage.GetCurrent().SetNavigationToIndex(1);
         }
         #endregion
     }

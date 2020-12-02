@@ -120,8 +120,10 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Excepciones\DepartmentContainsPeopleException.cs" />
     <Compile Include="Listados\clsListadoDepartamentosBL.cs" />
     <Compile Include="Listados\clsListadoPersonasBL.cs" />
+    <Compile Include="Manejadoras\clsManejadoraDepartamentosBL.cs" />
     <Compile Include="Manejadoras\clsManejadoraPersonasBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\_11_CRUDPersonasDepartamentos_BL.rd.xml" />

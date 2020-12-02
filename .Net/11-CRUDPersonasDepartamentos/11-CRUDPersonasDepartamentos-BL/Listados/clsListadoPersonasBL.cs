@@ -26,5 +26,15 @@ namespace _11_CRUDPersonasDepartamentos_BL.Listados
         {
             return clsListadoPersonas.obtenerPersonaPorIDDAL(IDPersona);
         }
+
+        /// <summary>
+        /// Devuelve un listado de personas según un IDDepartamento
+        /// </summary>
+        /// <param name="IDDepartamento"></param>
+        /// <returns></returns>
+        public List<clsPersona> listadoPersonasPorIDDepmartamentoDAL(int IDDepartamento)
+        {
+            return clsListadoPersonas.listadoPersonasPorIDDepmartamentoDAL(IDDepartamento);
+        }
     }
 }

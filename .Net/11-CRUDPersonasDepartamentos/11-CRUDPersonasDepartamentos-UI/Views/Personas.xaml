@@ -64,9 +64,12 @@
                     RelativePanel.RightOf="stpBuscar">
             <AppBarButton Icon="Add"
                           Command="{x:Bind Path=PersonasVM.CrearCommand}"></AppBarButton>
-            <AppBarButton Icon="Delete"></AppBarButton>
+            <AppBarButton Icon="Delete"
+                          Command="{x:Bind Path=PersonasVM.EliminarCommand}"></AppBarButton>
             <AppBarButton Icon="Save"
                           Command="{x:Bind Path=PersonasVM.GuardarCommand}"></AppBarButton>
+            <AppBarButton Icon="Refresh"
+                          Click="{x:Bind Path=PersonasVM.recargarPagina}"></AppBarButton>
         </StackPanel>
 
         <ListView x:Name="lvwPersonas" 
@@ -94,7 +97,7 @@
               RelativePanel.AlignRightWithPanel="true"
               RelativePanel.RightOf="stpBuscar"
               RelativePanel.Below="stpOpcionesPersonas"
-              RelativePanel.Above="apbAddPerson">
+              RelativePanel.AlignBottomWithPanel="True">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -214,10 +217,5 @@
             </RelativePanel>
 
         </Grid>
-
-        <AppBarButton x:Name="apbAddPerson" 
-                      Icon="AddFriend"
-                      RelativePanel.AlignRightWithPanel="True"
-                      RelativePanel.AlignBottomWithPanel="True"></AppBarButton>
     </RelativePanel>
 </Page>

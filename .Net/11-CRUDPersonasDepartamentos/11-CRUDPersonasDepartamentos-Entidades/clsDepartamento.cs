@@ -21,6 +21,12 @@ namespace _11_CRUDPersonasDepartamentos_Entidades
             Nombre = nombre;
         }
 
+        public clsDepartamento(clsDepartamento departamento)
+        {
+            this.ID = departamento.ID;
+            Nombre = departamento.Nombre;
+        }
+
         public clsDepartamento()
         {
             ID = 0;

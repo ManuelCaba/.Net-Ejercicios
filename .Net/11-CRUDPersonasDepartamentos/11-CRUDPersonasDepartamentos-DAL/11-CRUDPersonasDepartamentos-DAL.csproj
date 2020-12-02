@@ -123,6 +123,7 @@
     <Compile Include="Conexion\clsMyConnection.cs" />
     <Compile Include="Listados\clsListadoDepartamentosDAL.cs" />
     <Compile Include="Listados\clsListadoPersonasDAL.cs" />
+    <Compile Include="Manejadoras\clsManejadoraDepartamentosDAL.cs" />
     <Compile Include="Manejadoras\clsManejadoraPersonasDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\_11_CRUDPersonasDepartamentos_DAL.rd.xml" />

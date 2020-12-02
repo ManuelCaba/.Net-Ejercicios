@@ -8,7 +8,86 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <RelativePanel>
 
-    </Grid>
+        <StackPanel x:Name="stpBuscar"
+                    Orientation="Horizontal"
+                    Margin="20,0,0,0">
+
+            <TextBox PlaceholderText="Buscar..."
+                     Text="{x:Bind Path=DepartamentosVM.Buscar, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     MinWidth="300"
+                     MaxHeight="35"
+                     VerticalContentAlignment="Center"
+                     FontSize="15"/>
+            <AppBarButton Icon="Find"
+                          Command="{x:Bind Path=DepartamentosVM.BuscarCommand, Mode=OneWay}"/>
+
+        </StackPanel>
+
+        <StackPanel x:Name="stpOpcionesDepartamentos" 
+                    Orientation="Horizontal"
+                    RelativePanel.RightOf="stpBuscar">
+            <AppBarButton Icon="Add"
+                          Command="{x:Bind Path=DepartamentosVM.CrearCommand}"></AppBarButton>
+            <AppBarButton Icon="Delete"
+                          Command="{x:Bind Path=DepartamentosVM.EliminarCommand}"></AppBarButton>
+            <AppBarButton Icon="Save"
+                          Command="{x:Bind Path=DepartamentosVM.GuardarCommand}"></AppBarButton>
+            <AppBarButton Icon="Refresh"
+                          Click="{x:Bind Path=DepartamentosVM.recargarPagina}"></AppBarButton>
+        </StackPanel>
+
+        <ListView x:Name="lvwDepartamentos" 
+                  SelectedItem="{x:Bind Path = DepartamentosVM.DepartamentoSeleccionado, Mode=TwoWay}"
+                  ItemsSource="{x:Bind Path = DepartamentosVM.ListadoDepartamentosBuscado, Mode=TwoWay}"
+                  RelativePanel.Below="stpBuscar"
+                  RelativePanel.AlignLeftWithPanel="True"
+                  RelativePanel.AlignBottomWithPanel="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal"
+                                Margin="20">
+                        <TextBlock Text="{Binding Nombre}"
+                                   Margin="0,0,5,0"
+                                   FontSize="15"/>
+                    </StackPanel>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Grid x:Name="grdFormulario" 
+              RelativePanel.AlignRightWithPanel="true"
+              RelativePanel.RightOf="stpBuscar"
+              RelativePanel.Below="stpOpcionesDepartamentos"
+              RelativePanel.AlignBottomWithPanel="True">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+
+            <TextBlock Grid.Column="0"
+                       Grid.Row="0"
+                       Margin="20"
+                       FontSize="20"
+                       Text="Nombre: "/>
+
+            <TextBox Grid.Column="1"
+                     Grid.Row="0"
+                     Margin="20"
+                     FontSize="20"
+                     Background="White"
+                     MinWidth="30"
+                     Text="{x:Bind Path = DepartamentosVM.DepartamentoSeleccionado.Nombre, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     TextChanged="{x:Bind Path=DepartamentosVM.cambiarGuardarCommand}"/>
+
+        </Grid>
+    </RelativePanel>
 </Page>

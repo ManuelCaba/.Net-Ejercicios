@@ -51,5 +51,25 @@ namespace _11_CRUDPersonasDepartamentos_UI
             }
 
         }
+
+        public static MainPage GetCurrent()
+        {
+            Frame appFrame = Window.Current.Content as Frame;
+            return appFrame.Content as MainPage;
+        }
+
+        public void SetNavigationToIndex(int index)
+        {
+            switch(index)
+            {
+                case 0:
+                    contentFrame.Navigate(typeof(Personas));
+                    break;
+                case 1:
+                    contentFrame.Navigate(typeof(Departamentos));
+                    break;
+            }
+            
+        }
     }
 }

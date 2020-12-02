@@ -12,30 +12,6 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
-    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
-      <RootProperty Name="ColumnDefinitions" />
-      <RootProperty Name="RowDefinitions" />
-      <RootProperty Name="Children" />
-      <RootMethod Name="GetColumn" />
-      <RootMethod Name="SetColumn" />
-      <RootMethod Name="GetRow" />
-      <RootMethod Name="SetRow" />
-      <RootMethod Name="GetColumnSpan" />
-      <RootMethod Name="SetColumnSpan" />
-    </RootType>
-    <RootType FullName="_11_CRUDPersonasDepartamentos_UI.Views.Departamentos" />
-    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
-      <RootProperty Name="MenuItems" />
-      <RootProperty Name="Content" />
-      <RootEvent Name="ItemInvoked" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
-      <RootProperty Name="Icon" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="Tag" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
-    <RootType FullName="_11_CRUDPersonasDepartamentos_UI.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
       <RootMethod Name="GetRightOf" />
@@ -48,8 +24,6 @@
       <RootMethod Name="SetAlignBottomWithPanel" />
       <RootMethod Name="GetAlignRightWithPanel" />
       <RootMethod Name="SetAlignRightWithPanel" />
-      <RootMethod Name="GetAbove" />
-      <RootMethod Name="SetAbove" />
       <RootMethod Name="GetAlignTopWithPanel" />
       <RootMethod Name="SetAlignTopWithPanel" />
     </RootType>
@@ -63,9 +37,16 @@
       <RootProperty Name="ItemsSource" />
       <RootProperty Name="ItemTemplate" />
     </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
-      <RootProperty Name="Icon" />
-      <RootProperty Name="Command" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -85,21 +66,11 @@
       <RootProperty Name="Background" />
       <RootProperty Name="MinWidth" />
       <RootProperty Name="Text" />
-      <RootProperty Name="TextWrapping" />
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="MaxHeight" />
       <RootProperty Name="VerticalContentAlignment" />
+      <RootProperty Name="TextWrapping" />
       <RootEvent Name="TextChanged" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
-      <RootProperty Name="ItemsSource" />
-      <RootProperty Name="SelectedValue" />
-      <RootProperty Name="DisplayMemberPath" />
-      <RootProperty Name="SelectedValuePath" />
-      <RootProperty Name="Margin" />
-      <RootProperty Name="FontSize" />
-      <RootProperty Name="Background" />
-      <RootEvent Name="SelectionChanged" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension">
       <RootProperty Name="Path" />
@@ -110,6 +81,34 @@
       <RootProperty Name="Template" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Command" />
+      <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="_11_CRUDPersonasDepartamentos_UI.Views.Departamentos" />
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationView">
+      <RootProperty Name="MenuItems" />
+      <RootProperty Name="Content" />
+      <RootEvent Name="ItemInvoked" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.NavigationViewItem">
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Tag" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="_11_CRUDPersonasDepartamentos_UI.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ComboBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="SelectedValue" />
+      <RootProperty Name="DisplayMemberPath" />
+      <RootProperty Name="SelectedValuePath" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Background" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
     <RootType FullName="_11_CRUDPersonasDepartamentos_UI.Views.Personas" />
   </Roots.RootTypes>
 </Roots>
