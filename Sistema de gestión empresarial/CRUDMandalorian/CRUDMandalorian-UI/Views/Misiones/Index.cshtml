@@ -1,0 +1,50 @@
+﻿@model CRUDMandalorian_UI.Models.clsListadoMisionesConMisionSeleccionada
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<form method="post">
+
+    <div class="form-group">
+        <label class="control-label col-md-2">Departamento</label>
+        <div class="col-md-10">
+            @Html.DropDownListFor(model => model.id, new SelectList(Model.listadoMisionesPendientes, "id", "nombre"))
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" name="boton" value="Ver Descripcion" class="btn btn-default" />
+        </div>
+    </div>
+
+    @if (!String.IsNullOrEmpty(Model.descripcion))
+    {
+        <div class="form-group">
+            <label class="control-label col-md-2">Descripcion: </label>
+            <label>@Model.descripcion</label>
+
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Créditos</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.creditos, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" name="boton" value="Guardar Precio" class="btn btn-default" />
+            </div>
+        </div>
+    }
+
+
+</form>
+
+
+

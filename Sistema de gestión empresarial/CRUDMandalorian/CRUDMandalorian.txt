@@ -1,0 +1,37 @@
+Entidades
+	- clsMision
+DAL
+	- Conexion
+		- clsMyConnection
+			- getConnection() -> Devuelve una conexion abierta
+			- closeConnection(SQLConnection conexion) -> Cierra una conexion
+			
+	-Listados
+		- clsListadoMisionesDAL
+			- listadoMisionesPendientesDAL() -> List<clsMision>
+	- Manejadoras
+		- clsManejadoraMisionesDAL
+			- modificarPrecioDAL(int IDMision, int precio) -> int filasAfectadas
+BL
+	-Listados
+		- clsListadoMisionesBL
+			- listadoMisionesPendientesBL() -> List<clsMision>
+	- Manejadoras
+		- clsManejadoraMisionesBL
+			- modificarPrecioBL(int IDMision, int precio) mision-> int filasAfectadas
+UI
+	-Controllers
+		- MisionesController
+			- Index
+				- Entrada: Nada
+				- View: Index-> clsListadoMisionesConMisionSeleccionada
+			- Index (HTTPOST)
+				- Entrada: clsListadoMisionesConMisionSeleccionada, String boton
+				- View: Index-> clsListadoMisionesConMisionSeleccionada
+	-Models
+		- clsListadoMisionesConMisionSeleccionada
+	-Views
+		- Misiones
+			- Index
+			- ErrorPage
+	

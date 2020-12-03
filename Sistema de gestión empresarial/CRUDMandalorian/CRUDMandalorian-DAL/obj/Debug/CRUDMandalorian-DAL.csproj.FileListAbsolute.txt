@@ -1,0 +1,9 @@
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\bin\Debug\CRUDMandalorian-DAL.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\bin\Debug\CRUDMandalorian-DAL.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\bin\Debug\CRUDMandalorian.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\bin\Debug\CRUDMandalorian.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\obj\Debug\CRUDMandalorian-DAL.csprojAssemblyReference.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\obj\Debug\CRUDMandalorian-DAL.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\obj\Debug\CRUDMandalorian-DAL.csproj.CopyComplete
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\obj\Debug\CRUDMandalorian-DAL.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\CRUDMandalorian\CRUDMandalorian-DAL\obj\Debug\CRUDMandalorian-DAL.pdb
