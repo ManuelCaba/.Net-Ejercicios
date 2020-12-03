@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
 
             Bitmap imageBitmap = (Bitmap) data.getParcelableExtra("data");
 
-            Matrix matrix = new Matrix();
+            /*Matrix matrix = new Matrix();
             matrix.postRotate(90);
-            imageBitmap =  Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);
+            imageBitmap =  Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);*/
 
             imvFoto.setImageBitmap(imageBitmap);
 
