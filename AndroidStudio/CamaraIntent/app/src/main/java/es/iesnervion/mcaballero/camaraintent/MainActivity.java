@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
@@ -30,6 +31,11 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_CODE_PHOTO) {
 
             Bitmap imageBitmap = (Bitmap) data.getParcelableExtra("data");
+
+            Matrix matrix = new Matrix();
+            matrix.postRotate(90);
+            imageBitmap =  Bitmap.createBitmap(imageBitmap, 0, 0, imageBitmap.getWidth(), imageBitmap.getHeight(), matrix, true);
+
             imvFoto.setImageBitmap(imageBitmap);
 
         }
