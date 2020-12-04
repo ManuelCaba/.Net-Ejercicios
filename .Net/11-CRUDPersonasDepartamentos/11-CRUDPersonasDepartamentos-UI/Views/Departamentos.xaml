@@ -61,23 +61,26 @@
               RelativePanel.AlignRightWithPanel="true"
               RelativePanel.RightOf="stpBuscar"
               RelativePanel.Below="stpOpcionesDepartamentos"
-              RelativePanel.AlignBottomWithPanel="True">
+              RelativePanel.AlignBottomWithPanel="True"
+              Background="#E0DFDF"
+              BorderBrush="Black"
+              BorderThickness="1"
+              Margin="2">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"></RowDefinition>
             </Grid.RowDefinitions>
 
-
-
             <TextBlock Grid.Column="0"
                        Grid.Row="0"
                        Margin="20"
                        FontSize="20"
-                       Text="Nombre: "/>
+                       Text="Departamento: "/>
 
             <TextBox Grid.Column="1"
                      Grid.Row="0"

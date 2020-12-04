@@ -97,7 +97,11 @@
               RelativePanel.AlignRightWithPanel="true"
               RelativePanel.RightOf="stpBuscar"
               RelativePanel.Below="stpOpcionesPersonas"
-              RelativePanel.AlignBottomWithPanel="True">
+              RelativePanel.AlignBottomWithPanel="True"
+              BorderBrush="Black"
+              BorderThickness="1"
+              Margin="2"
+              Background="#E0DFDF">
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"></ColumnDefinition>
