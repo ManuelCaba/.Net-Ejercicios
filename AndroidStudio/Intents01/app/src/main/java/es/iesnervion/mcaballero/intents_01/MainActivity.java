@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     ListView lvwOpciones;
 
+    private static final String OPEN_GALLERY = "android.intent.action.OPEN_GALLERY";
+
 
     ArrayList<String> opciones = new ArrayList<String>();
 
@@ -33,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         opciones.add("CheckBoxText");
         opciones.add("Calculator");
         opciones.add("Jan-Ken");
+        opciones.add("Gallery");
 
         //Creamos un nuevo adapter para la lista
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, opciones);
@@ -71,6 +74,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             case 6:
                 intent = new Intent(MainActivity.this, JanKen.class);
                 break;
+            case 7:
+                intent = new Intent(this.OPEN_GALLERY);
+                break;
+
         }
 
         if(intent != null)
