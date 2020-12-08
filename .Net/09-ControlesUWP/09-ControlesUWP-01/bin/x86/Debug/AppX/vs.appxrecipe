@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>DESKTOP-6F174NU</Machine>
+    <WindowsUser>Manuel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>88113621-ddbe-4fad-bfb0-eb22a544b960</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>A227AAF48A77C3912E4C75E2462E6A0B97BCAA7DB71996ADD0A19C8367B3FDA3</RegisteredManifestChecksum>
+    <LayoutDir>D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B5939EF0E1BD7A70C4F3C5CB2C6CA78E71B9B683E940C14877DA327062A695ED</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>88113621-ddbe-4fad-bfb0-eb22a544b960_1.0.0.0_x86__e3hfh0k2gtk7e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>88113621-ddbe-4fad-bfb0-eb22a544b960_e3hfh0k2gtk7e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>88113621-ddbe-4fad-bfb0-eb22a544b960</RegisteredPackageID>
@@ -27,94 +27,94 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-21T11:13:04.956</Modified>
+      <Modified>2020-12-07T11:51:41.898</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.exe">
       <PackagePath>entrypoint\09-ControlesUWP-01.exe</PackagePath>
-      <Modified>2020-10-21T11:13:04.310</Modified>
+      <Modified>2020-12-07T11:51:41.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T17:16:04.000</Modified>
+      <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SampleMedia\CGI Animated Short Film- %27Ice Pepper%27 by ESMA - CGMeetup.mp4">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SampleMedia\CGI Animated Short Film- %27Ice Pepper%27 by ESMA - CGMeetup.mp4">
       <PackagePath>Assets\SampleMedia\CGI Animated Short Film- %27Ice Pepper%27 by ESMA - CGMeetup.mp4</PackagePath>
-      <Modified>2020-10-21T11:05:53.546</Modified>
+      <Modified>2020-11-22T00:52:06.289</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-20T14:09:35.583</Modified>
+      <Modified>2020-11-22T00:52:06.293</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-10-20T14:09:35.513</Modified>
+      <Modified>2020-11-22T00:52:06.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.544</Modified>
+      <Modified>2020-11-22T00:52:06.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.553</Modified>
+      <Modified>2020-11-22T00:52:06.291</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.554</Modified>
+      <Modified>2020-11-22T00:52:06.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.560</Modified>
+      <Modified>2020-11-22T00:52:06.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.561</Modified>
+      <Modified>2020-11-22T00:52:06.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:09:35.577</Modified>
+      <Modified>2020-11-22T00:52:06.292</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.xr.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\09-ControlesUWP-01.xr.xml">
       <PackagePath>09-ControlesUWP-01.xr.xml</PackagePath>
-      <Modified>2020-10-21T11:13:04.091</Modified>
+      <Modified>2020-11-22T00:52:06.454</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-21T11:13:04.105</Modified>
+      <Modified>2020-12-07T11:51:41.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Pagina2.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Pagina2.xbf">
       <PackagePath>Pagina2.xbf</PackagePath>
-      <Modified>2020-10-21T11:13:04.105</Modified>
+      <Modified>2020-12-07T11:51:41.282</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-21T11:13:04.105</Modified>
+      <Modified>2020-12-07T11:51:41.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-21T11:10:57.324</Modified>
+      <Modified>2020-12-07T11:51:41.391</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\09-ControlesUWP-01.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\09-ControlesUWP\09-ControlesUWP-01\bin\x86\Debug\Core\09-ControlesUWP-01.exe">
       <PackagePath>09-ControlesUWP-01.exe</PackagePath>
-      <Modified>2020-10-21T11:13:04.948</Modified>
+      <Modified>2020-12-07T11:51:41.886</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

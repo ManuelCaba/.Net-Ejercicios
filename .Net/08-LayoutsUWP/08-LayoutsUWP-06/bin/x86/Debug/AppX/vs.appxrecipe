@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>DESKTOP-6F174NU</Machine>
+    <WindowsUser>Manuel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>d7d5bfc7-af11-48aa-95a3-1a4d79eb505e</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>4FA2486AEABC376916D2FDF0E5B0DE48E87E7BC8433754B66F2B0F3406D5A0D0</RegisteredManifestChecksum>
+    <LayoutDir>D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>E4F5C290FEF59AF1C6FD5DE2128570C81770D86780159250AC79D536C80C4F98</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d7d5bfc7-af11-48aa-95a3-1a4d79eb505e_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d7d5bfc7-af11-48aa-95a3-1a4d79eb505e_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>d7d5bfc7-af11-48aa-95a3-1a4d79eb505e</RegisteredPackageID>
@@ -27,86 +27,86 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-20T14:18:16.465</Modified>
+      <Modified>2020-12-07T11:48:40.890</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\08-LayoutsUWP-06.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\08-LayoutsUWP-06.exe">
       <PackagePath>entrypoint\08-LayoutsUWP-06.exe</PackagePath>
-      <Modified>2020-10-20T14:18:14.610</Modified>
+      <Modified>2020-12-07T11:48:39.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T17:16:04.000</Modified>
+      <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-17T09:45:59.419</Modified>
+      <Modified>2020-11-22T00:52:06.152</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-21T14:16:57.877</Modified>
+      <Modified>2020-11-22T00:52:06.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.882</Modified>
+      <Modified>2020-11-22T00:52:06.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.883</Modified>
+      <Modified>2020-11-22T00:52:06.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.884</Modified>
+      <Modified>2020-11-22T00:52:06.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.885</Modified>
+      <Modified>2020-11-22T00:52:06.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.886</Modified>
+      <Modified>2020-11-22T00:52:06.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-21T14:16:57.887</Modified>
+      <Modified>2020-11-22T00:52:06.151</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\08-LayoutsUWP-06.xr.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\08-LayoutsUWP-06.xr.xml">
       <PackagePath>08-LayoutsUWP-06.xr.xml</PackagePath>
-      <Modified>2020-10-18T15:19:37.807</Modified>
+      <Modified>2020-11-22T00:52:06.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-20T14:18:14.153</Modified>
+      <Modified>2020-12-07T11:48:39.702</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-20T14:18:14.153</Modified>
+      <Modified>2020-12-07T11:48:39.702</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-20T14:18:15.446</Modified>
+      <Modified>2020-12-07T11:48:40.083</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\Core\08-LayoutsUWP-06.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-06\bin\x86\Debug\Core\08-LayoutsUWP-06.exe">
       <PackagePath>08-LayoutsUWP-06.exe</PackagePath>
-      <Modified>2020-10-20T14:18:16.445</Modified>
+      <Modified>2020-12-07T11:48:40.873</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

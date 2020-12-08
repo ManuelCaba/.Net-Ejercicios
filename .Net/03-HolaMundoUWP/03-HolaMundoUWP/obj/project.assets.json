@@ -8261,18 +8261,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emane\\.nuget\\packages\\": {},
+    "C:\\Users\\Manuel\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
+      "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
       "projectName": "03-HolaMundoUWP-UI",
-      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
-      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
-      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\obj\\",
+      "projectPath": "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\03-HolaMundoUWP-UI.csproj",
+      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8280,7 +8280,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8294,8 +8294,8 @@
       "frameworks": {
         "uap10.0.17763": {
           "projectReferences": {
-            "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj": {
-              "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj"
+            "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj": {
+              "projectPath": "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj"
             }
           }
         }

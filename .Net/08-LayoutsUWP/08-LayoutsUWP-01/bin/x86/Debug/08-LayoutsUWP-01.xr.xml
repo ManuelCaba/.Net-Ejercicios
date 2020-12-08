@@ -39,7 +39,8 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
+      <RootProperty Name="MinWidth" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="_08_LayoutsUWP_01.MainPage" />
   </Roots.RootTypes>

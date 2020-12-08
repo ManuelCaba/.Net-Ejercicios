@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OOOtA8res9ndrqfZ/I8hI7bppUSwHSA1Bcn/lRsmARfS4wapzATtg2AUUPrim1tiOeuMJdZfERZ2Y52x3i1E9w==",
+  "dgSpecHash": "MRTZsh2vr6mVttc+e6pg2LkEe/OuCdie1ECbEOUg4Qg6WIPlF6FLFRQHad+Ji25kKmGtrCv4ZLhRmoPH1gIXPw==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj",
+  "projectFilePath": "D:\\.Net-Ejercicios\\.Net\\03-HolaMundoUWP\\03-HolaMundoUWP-Clases\\03-HolaMundoUWP-Clases.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-6F174NU</Machine>
+    <WindowsUser>Manuel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>4fe07819-e462-4b50-a39f-8c853c2fde1d</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>123E666B6230854D042BAE345BB30D4BC97BBEC77683D3BC02A50E88FADC2CDF</RegisteredManifestChecksum>
+    <LayoutDir>D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>69BC6C2A0C43DCFF5D6ED22215DBB69B9D3FC925B544C5B768DE8EA1A6E17B6C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>4fe07819-e462-4b50-a39f-8c853c2fde1d_1.0.0.0_x86__e3hfh0k2gtk7e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>4fe07819-e462-4b50-a39f-8c853c2fde1d_e3hfh0k2gtk7e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>4fe07819-e462-4b50-a39f-8c853c2fde1d</RegisteredPackageID>
@@ -27,86 +27,86 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-14T09:46:26.174</Modified>
+      <Modified>2020-12-07T11:48:39.887</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\08-LayoutsUWP-02.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\08-LayoutsUWP-02.exe">
       <PackagePath>entrypoint\08-LayoutsUWP-02.exe</PackagePath>
-      <Modified>2020-10-14T09:46:24.422</Modified>
+      <Modified>2020-12-07T11:48:38.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T17:16:04.000</Modified>
+      <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-14T08:50:26.841</Modified>
+      <Modified>2020-11-22T00:52:05.971</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.969</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-17T10:59:15.093</Modified>
+      <Modified>2020-11-22T00:52:05.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\08-LayoutsUWP-02.xr.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\08-LayoutsUWP-02.xr.xml">
       <PackagePath>08-LayoutsUWP-02.xr.xml</PackagePath>
-      <Modified>2020-10-14T08:56:27.346</Modified>
+      <Modified>2020-11-22T00:52:06.012</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-14T09:01:21.563</Modified>
+      <Modified>2020-12-07T11:48:38.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-14T09:01:21.563</Modified>
+      <Modified>2020-12-07T11:48:38.511</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-14T09:46:24.920</Modified>
+      <Modified>2020-12-07T11:48:38.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\Core\08-LayoutsUWP-02.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\08-LayoutsUWP\08-LayoutsUWP-02\bin\x86\Debug\Core\08-LayoutsUWP-02.exe">
       <PackagePath>08-LayoutsUWP-02.exe</PackagePath>
-      <Modified>2020-10-14T09:46:26.038</Modified>
+      <Modified>2020-12-07T11:48:39.860</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

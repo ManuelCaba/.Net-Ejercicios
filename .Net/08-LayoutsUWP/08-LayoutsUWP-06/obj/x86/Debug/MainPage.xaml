@@ -1,0 +1,99 @@
+﻿<Page
+    x:Class="_08_LayoutsUWP_06.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_08_LayoutsUWP_06"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <AppBarButton x:ConnectionId='15' Name="abbAdd"
+                          Icon="Add"
+                                                 ></AppBarButton>
+            <AppBarButton x:ConnectionId='16' Name="abbSave" 
+                          Icon="Save"
+                                                   ></AppBarButton>
+            <AppBarButton x:ConnectionId='17' Name="abbDelete" 
+                          Icon="Delete"
+                                                 ></AppBarButton>
+        </StackPanel>
+
+        <RelativePanel>
+            <StackPanel x:ConnectionId='3' x:Name="stpNombre"
+                        Orientation="Horizontal"
+                        Margin="10"
+                        RelativePanel.Above="stpApellidos"
+                        RelativePanel.AlignRightWith="stpApellidos">
+                <TextBlock x:ConnectionId='13' x:Name="txkNombre"
+                           Text="Nombre:"
+                           VerticalAlignment="Center"></TextBlock>
+
+                <TextBox x:ConnectionId='14' x:Name="txbNombre"
+                         HorizontalAlignment="Right"
+                         TextWrapping="Wrap"
+                         MinWidth="500"
+                         Margin="10"
+                         RelativePanel.RightOf="txkNombre"
+                         VerticalAlignment="Center"></TextBox>
+            </StackPanel>
+            <TextBlock x:ConnectionId='4' x:Name="txkErrorNombre"
+                       VerticalAlignment="Center"
+                       Foreground="Red"
+                       RelativePanel.RightOf="stpNombre"
+                       RelativePanel.AlignTopWith="stpNombre"
+                       RelativePanel.AlignBottomWith="stpNombre"></TextBlock>
+            
+            <StackPanel x:ConnectionId='5' x:Name="stpApellidos"
+                        Orientation="Horizontal"
+                        Margin="10"
+                        RelativePanel.Above="stpFecha"
+                        RelativePanel.AlignRightWith="stpFecha">
+                <TextBlock x:ConnectionId='11' x:Name="txkApellidos"
+                           Text="Apellidos:"
+                           VerticalAlignment="Center"></TextBlock>
+
+                <TextBox x:ConnectionId='12' x:Name="txbApellidos"
+                         HorizontalAlignment="Right"
+                         TextWrapping="Wrap"
+                         MinWidth="500"
+                         Margin="10"
+                         VerticalAlignment="Center"></TextBox>
+            </StackPanel>
+            <TextBlock x:ConnectionId='6' x:Name="txkErrorApellidos"
+                       VerticalAlignment="Center"
+                       Foreground="Red"
+                       RelativePanel.RightOf="stpApellidos"
+                       RelativePanel.AlignTopWith="stpApellidos"
+                       RelativePanel.AlignBottomWith="stpApellidos"></TextBlock>
+
+            <StackPanel x:ConnectionId='7' x:Name="stpFecha"
+                        Orientation="Horizontal"
+                        Margin="10"
+                        RelativePanel.AlignBottomWithPanel="true">
+                <TextBlock x:ConnectionId='9' x:Name="txkFecha"
+                           Text="Fecha de Nacimiento:"
+                           VerticalAlignment="Center"></TextBlock>
+
+                <TextBox x:ConnectionId='10' x:Name="txbFecha"
+                         HorizontalAlignment="Right"
+                         TextWrapping="Wrap"
+                         MinWidth="500"
+                         Margin="10"
+                         VerticalAlignment="Center"></TextBox>
+            </StackPanel>
+            <TextBlock x:ConnectionId='8' x:Name="txkErrorFecha"
+                       VerticalAlignment="Center"
+                       Foreground="Red"
+                       RelativePanel.RightOf="stpFecha"
+                       RelativePanel.AlignTopWith="stpFecha"
+                       RelativePanel.AlignBottomWith="stpFecha"></TextBlock>
+        </RelativePanel>
+        <TextBlock x:ConnectionId='2' x:Name="txkFormularioGuardado"
+                       Foreground="Green"
+                       Margin="10"></TextBlock>
+    </StackPanel>
+</Page>
+
