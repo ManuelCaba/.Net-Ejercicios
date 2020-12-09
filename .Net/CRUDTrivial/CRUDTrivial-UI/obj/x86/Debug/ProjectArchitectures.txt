@@ -1,0 +1,5 @@
+D:\GitHub Manuel\.Net\CRUDTrivial\CRUDTrivial-BL\CRUDTrivial-BL.csproj;x86
+D:\GitHub Manuel\.Net\CRUDTrivial\CRUDTrivial-DAL\CRUDTrivial-DAL.csproj;x86
+D:\GitHub Manuel\.Net\CRUDTrivial\CRUDTrivial-Entidades\CRUDTrivial-Entidades.csproj;x86
+D:\GitHub Manuel\.Net\CRUDTrivial\CRUDTrivial-Entidades\CRUDTrivial-Entidades.csproj;x86
+D:\GitHub Manuel\.Net\CRUDTrivial\CRUDTrivial-UI\CRUDTrivial-UI.csproj;x86
