@@ -31,7 +31,7 @@ public class ListaEquipos extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_equipos);
-        setListAdapter(new IconicAdapter<Equipo>(this, R.layout.row, R.id.txvEquipo, equipos));
+        setListAdapter(new IconicAdapter<Equipo>(this, R.layout.row, equipos));
     }
 
     public void onListItemClick(ListView parent, View v, int position, long id) {
@@ -43,9 +43,9 @@ public class ListaEquipos extends ListActivity {
 
     class IconicAdapter<T> extends ArrayAdapter<T> {
 
-        IconicAdapter(Context c, int resourceId, int textId, T[] objects)
+        IconicAdapter(Context c, int resourceId, T[] objects)
         {
-            super(c, resourceId, textId, objects);
+            super(c, resourceId, objects);
         }
 
         public View getView(int position, View convertView, ViewGroup parent)

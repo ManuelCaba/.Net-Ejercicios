@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ExamenAndroid</string>
+    <string name="borrar">delete</string>
+    <string name="detalle">detail</string>
+</resources>
