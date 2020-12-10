@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         {
             for(Object elemento : listaAux)
             {
-                if(elemento instanceof Desarrollador)
+                if(elemento instanceof Juego)
                 {
                     listAdapter.remove(elemento);
 
@@ -170,7 +170,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         public int getViewTypeCount()
         {
-
             return 2;
         }
 
