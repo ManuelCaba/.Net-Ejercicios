@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamenAndroid</string>
+    <string name="borrar">borrar</string>
+    <string name="detalle">detalle</string>
+</resources>
