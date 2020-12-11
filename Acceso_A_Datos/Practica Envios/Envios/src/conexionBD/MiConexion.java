@@ -8,7 +8,7 @@ public class MiConexion {
         //Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         
         // Cadena de conexión
-        String url="jdbc:sqlserver://localhost;databaseName=AlmacenesLeo;user=Usuario;password=123;";
+        String url="jdbc:sqlserver://localhost;databaseName=AlmacenesLeo;user=prueba;password=123;";
         // Connection es una interface, no una clase
         Connection conexionBaseDatos = DriverManager.getConnection(url);
         

@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0c371c1-8365-41fa-8668-ea60aa9fb331" name="Default Changelist" comment="" />
+    <list default="true" id="1d2e338a-58be-416f-858b-0b9546118b13" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../ServicioOfertas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ServicioOfertas/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1kplhvG97GtkxUQJY0EveSj6SWg" />
+  <component name="ProjectId" id="1lVHJ12pEAf4dp04tPlFLDBPuJ3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,21 +42,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ejemploRest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c0c371c1-8365-41fa-8668-ea60aa9fb331" name="Default Changelist" comment="" />
-      <created>1606405536439</created>
+      <changelist id="1d2e338a-58be-416f-858b-0b9546118b13" name="Default Changelist" comment="" />
+      <created>1607675263247</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606405536439</updated>
-      <workItem from="1606405537593" duration="1388000" />
-      <workItem from="1606811667812" duration="1373000" />
-      <workItem from="1607178173076" duration="2511000" />
-      <workItem from="1607675248411" duration="13000" />
+      <updated>1607675263247</updated>
+      <workItem from="1607675264361" duration="3614000" />
     </task>
     <servers />
   </component>
@@ -71,16 +70,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="613" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606406050511">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="613" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1606406050511" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1607675259680">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1607675259680" />
   </component>
 </project>
