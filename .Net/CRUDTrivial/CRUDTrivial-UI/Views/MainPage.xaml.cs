@@ -27,8 +27,8 @@ namespace CRUDTrivial_UI
 
         public MainPage()
         {
-            TrivialVM = (TrivialVM)this.DataContext;
             this.InitializeComponent();
+            TrivialVM = (TrivialVM)this.DataContext;
         }
     }
 }

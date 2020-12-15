@@ -23,17 +23,15 @@ namespace CRUDTrivial_UI.ViewModels
         private int contadorPartidas;
         private int respuestasAcertadas;
         private int respuestasIncorrectas;
-        private String uriFoto;
         private String respuesta;
         #endregion
 
         #region Propiedades
-        public List<clsActor> ListadoActoresPartida { get { return listadoActoresPartida; } }
         public ObservableCollection<clsActor> ListadoActoresJugadaActual { get { return listadoActoresJugadaActual; } }
         public clsActor ActorActual { get { return actorActual; } }
         public int RespuestasAcertadas { get { return respuestasAcertadas; } }
         public int RespuestasIncorrectas { get { return respuestasIncorrectas; } }
-        public String URIFoto { get { return uriFoto; } }
+        public String URIFoto { get { return "ms-appx://CRUDTrivial/Assets/Fotos/" + actorActual.ID + ".jpg"; } }
         public int ContadorPartidas { get { return contadorPartidas; } }
         public clsActor RespuestaSeleccionada 
         { 
@@ -65,9 +63,6 @@ namespace CRUDTrivial_UI.ViewModels
             listadoActoresJugadaActual = new ObservableCollection<clsActor>();
             listadoActoresPartida = new List<clsActor>();
             this.generarRespuestas();
-            actorActual = listadoActoresJugadaActual[miAleatorio.Next(0, 4)];
-            uriFoto = "ms-appx://CRUDTrivial/Assets/Fotos/" + actorActual.ID + ".jpg";
-            listadoActoresPartida.Add(actorActual);
         }
         #endregion
 
@@ -104,6 +99,10 @@ namespace CRUDTrivial_UI.ViewModels
                 }
             }
 
+            actorActual = listadoActoresJugadaActual[miAleatorio.Next(0, 4)];
+            NotifyPropertyChanged("URIFoto");
+            listadoActoresPartida.Add(actorActual);
+
         }
 
         /// <summary>
@@ -139,10 +138,6 @@ namespace CRUDTrivial_UI.ViewModels
 
                 listadoActoresJugadaActual.Clear();
                 this.generarRespuestas();
-                actorActual = listadoActoresJugadaActual[miAleatorio.Next(0, 4)];
-                uriFoto = "ms-appx://CRUDTrivial/Assets/Fotos/" + actorActual.ID + ".jpg";
-                NotifyPropertyChanged("URIFoto");
-                listadoActoresPartida.Add(actorActual);
                 contadorPartidas++;
                 NotifyPropertyChanged("ContadorPartidas");
             }
@@ -165,10 +160,6 @@ namespace CRUDTrivial_UI.ViewModels
             contadorPartidas = 1;
             NotifyPropertyChanged("ContadorPartidas");
             this.generarRespuestas();
-            actorActual = listadoActoresJugadaActual[miAleatorio.Next(0, 4)];
-            uriFoto = "ms-appx://CRUDTrivial/Assets/Fotos/" + actorActual.ID + ".jpg";
-            NotifyPropertyChanged("URIFoto");
-            listadoActoresPartida.Add(actorActual);
         }
         #endregion
     }
