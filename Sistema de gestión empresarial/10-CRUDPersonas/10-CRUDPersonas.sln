@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-CRUDPersonas-UI", "10-CR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-CRUDPersonas-Entidades", "10-CRUDPersonas-Entidades\11-CRUDPersonas-Entidades.csproj", "{3512EF27-D26C-44A2-A92C-988D46DE0206}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{D82229DB-7D27-4424-A783-AD4C8016B52A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3512EF27-D26C-44A2-A92C-988D46DE0206}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3512EF27-D26C-44A2-A92C-988D46DE0206}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3512EF27-D26C-44A2-A92C-988D46DE0206}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D82229DB-7D27-4424-A783-AD4C8016B52A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D82229DB-7D27-4424-A783-AD4C8016B52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D82229DB-7D27-4424-A783-AD4C8016B52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D82229DB-7D27-4424-A783-AD4C8016B52A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
