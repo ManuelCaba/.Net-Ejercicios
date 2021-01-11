@@ -26,7 +26,7 @@ namespace API.Controllers
 
             if(listadoPersonas == null || listadoPersonas.Count == 0)
             {
-                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+                throw new HttpResponseException(HttpStatusCode.NoContent);
             }
 
             return listadoPersonas;
@@ -36,24 +36,98 @@ namespace API.Controllers
         // GET: api/Personas/5
         public clsPersona Get(int id)
         {
-            return new _10_CRUDPersonas_BL.Listados.clsListadoPersonasBL().obtenerPersonaPorIDBL(id);
+            clsPersona persona;
+
+            try
+            {
+                persona = new _10_CRUDPersonas_BL.Listados.clsListadoPersonasBL().obtenerPersonaPorIDBL(id);
+            }
+            catch (Exception e)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (persona == null)
+            {
+                throw new HttpResponseException(HttpStatusCode.NoContent);
+            }
+
+            return persona;
         }
 
         // POST: api/Personas
         public void Post([FromBody]clsPersona value)
         {
-            new _10_CRUDPersonas_BL.Manejadoras.clsManejadoraPersonasBL().crearPersonaBL(value);
+            int filasAfectadas;
+
+            try
+            {
+                filasAfectadas = new _10_CRUDPersonas_BL.Manejadoras.clsManejadoraPersonasBL().crearPersonaBL(value);
+            } 
+            catch(Exception e)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+            
+            if(filasAfectadas == 0)
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            else
+            {
+                throw new HttpResponseException(HttpStatusCode.Created);
+            }
         }
 
         // PUT: api/Personas/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]clsPersona persona)
         {
+            int filasAfectadas;
+
+            persona.ID = id;
+
+            try
+            {
+                filasAfectadas = new _10_CRUDPersonas_BL.Manejadoras.clsManejadoraPersonasBL().editarPersonaBL(persona);
+            }
+            catch (Exception e)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (filasAfectadas == 0)
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            else
+            {
+                throw new HttpResponseException(HttpStatusCode.OK);
+            }
         }
 
         // DELETE: api/Personas/5
         public void Delete(int id)
         {
-            new _10_CRUDPersonas_BL.Manejadoras.clsManejadoraPersonasBL().eliminarPersonaBL(id);
+            int filasAfectadas;
+
+            try
+            {
+                filasAfectadas = new _10_CRUDPersonas_BL.Manejadoras.clsManejadoraPersonasBL().eliminarPersonaBL(id);
+            }
+            catch (Exception e)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            if (filasAfectadas == 0)
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+            else
+            {
+                throw new HttpResponseException(HttpStatusCode.NoContent);
+            }
+            
         }
     }
 }

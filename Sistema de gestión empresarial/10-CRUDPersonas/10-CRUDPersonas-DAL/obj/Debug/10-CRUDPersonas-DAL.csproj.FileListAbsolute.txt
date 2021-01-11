@@ -20,3 +20,8 @@ D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPerson
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csproj.CopyComplete
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.dll
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-DAL.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-DAL.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-Entidades.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\bin\Debug\10-CRUDPersonas-Entidades.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\10-CRUDPersonas-DAL\obj\Debug\10-CRUDPersonas-DAL.csproj.CopyComplete
