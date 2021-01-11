@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "smt5iQM0rBxsz89loeWZaei3tl5rlnqiqn6F+Kdm6TZhfxKLTJuom1q0R+iJk3ZzGm+my47qlcA6JVyYwPb9HA==",
+  "dgSpecHash": "QY/6SYZ3pVH5l3tiqh8PGUqQIP/8tzphyAFShvvrp4d1MmX4lVXhB35hkf3gg0iAkAegLfItIpS+JdAXx2s4mA==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\ProyectoCore-UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emane\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

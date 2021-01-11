@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Manuel\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

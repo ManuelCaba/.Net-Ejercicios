@@ -20,7 +20,7 @@ namespace WebApplication1.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(new ProyectoCore_BL.Listados.clsListadoPersonasBL().listadoPersonasBL());
         }
 
         public IActionResult Privacy()

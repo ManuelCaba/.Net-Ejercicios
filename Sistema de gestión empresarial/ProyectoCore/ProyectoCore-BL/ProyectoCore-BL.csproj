@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>ProyectoCore_BL</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoCore-DAL\ProyectoCore-DAL.csproj" />
+    <ProjectReference Include="..\ProyectoCore-Entidades\ProyectoCore-Entidades.csproj" />
+  </ItemGroup>
+
+</Project>

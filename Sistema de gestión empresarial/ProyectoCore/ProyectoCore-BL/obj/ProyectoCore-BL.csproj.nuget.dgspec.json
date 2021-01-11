@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-BL\\ProyectoCore-BL.csproj": {}
+  },
+  "projects": {
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-BL\\ProyectoCore-BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-BL\\ProyectoCore-BL.csproj",
+        "projectName": "ProyectoCore-BL",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-BL\\ProyectoCore-BL.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\ProyectoCore-DAL.csproj": {
+                "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\ProyectoCore-DAL.csproj"
+              },
+              "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj": {
+                "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\ProyectoCore-DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\ProyectoCore-DAL.csproj",
+        "projectName": "ProyectoCore-DAL",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\ProyectoCore-DAL.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj": {
+                "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj",
+        "projectName": "ProyectoCore-Entidades",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\ProyectoCore-Entidades.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\Sistema de gestión empresarial\\ProyectoCore\\ProyectoCore-Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
