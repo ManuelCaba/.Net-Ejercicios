@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class NBAVM extends ViewModel {
 
     //Atributos de la clase
-    private MutableLiveData<ArrayList<Equipo>>  equipos;
+    private MutableLiveData<ArrayList<Equipo>> equipos;
 
     public NBAVM()
     {
