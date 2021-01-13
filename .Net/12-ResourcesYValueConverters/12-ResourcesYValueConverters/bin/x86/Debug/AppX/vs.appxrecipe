@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>7bec62ae-71cb-4d99-8431-987276cf9452</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>FB5E6A69FBEFD5B761E8D64F61AEF92A19E3F6EF7082731273D5439D311B39AB</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>866F73C79874C29FC00F07E3054E40ACB125C05418B07396426AEAA32A7AFEBC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7bec62ae-71cb-4d99-8431-987276cf9452_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7bec62ae-71cb-4d99-8431-987276cf9452_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>7bec62ae-71cb-4d99-8431-987276cf9452</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-12T13:17:43.918</Modified>
+      <Modified>2021-01-13T09:29:10.716</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\12-ResourcesYValueConverters.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\12-ResourcesYValueConverters.exe">
       <PackagePath>entrypoint\12-ResourcesYValueConverters.exe</PackagePath>
-      <Modified>2021-01-12T13:17:43.265</Modified>
+      <Modified>2021-01-13T09:29:06.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-01-12T12:42:16.911</Modified>
+      <Modified>2021-01-13T07:59:50.810</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-01-11T16:38:07.437</Modified>
+      <Modified>2021-01-13T07:59:50.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.448</Modified>
+      <Modified>2021-01-13T07:59:50.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.449</Modified>
+      <Modified>2021-01-13T07:59:50.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.450</Modified>
+      <Modified>2021-01-13T07:59:50.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.451</Modified>
+      <Modified>2021-01-13T07:59:50.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.453</Modified>
+      <Modified>2021-01-13T07:59:50.805</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.454</Modified>
+      <Modified>2021-01-13T07:59:50.806</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\12-ResourcesYValueConverters.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\12-ResourcesYValueConverters.xr.xml">
       <PackagePath>12-ResourcesYValueConverters.xr.xml</PackagePath>
-      <Modified>2021-01-12T13:07:46.808</Modified>
+      <Modified>2021-01-13T07:59:50.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-12T13:01:06.234</Modified>
+      <Modified>2021-01-13T09:29:06.697</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-12T13:17:43.171</Modified>
+      <Modified>2021-01-13T09:29:06.698</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\ResourceDictionary\Dictionary1.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\ResourceDictionary\Dictionary1.xbf">
       <PackagePath>ResourceDictionary\Dictionary1.xbf</PackagePath>
-      <Modified>2021-01-12T13:17:43.171</Modified>
+      <Modified>2021-01-13T09:29:06.697</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-12T13:17:43.404</Modified>
+      <Modified>2021-01-13T09:29:07.736</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\Core\12-ResourcesYValueConverters.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters\bin\x86\Debug\Core\12-ResourcesYValueConverters.exe">
       <PackagePath>12-ResourcesYValueConverters.exe</PackagePath>
-      <Modified>2021-01-12T13:17:43.913</Modified>
+      <Modified>2021-01-13T09:29:10.662</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

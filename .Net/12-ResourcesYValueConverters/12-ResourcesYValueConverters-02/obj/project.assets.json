@@ -8151,18 +8151,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emane\\.nuget\\packages\\": {},
+    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\12-ResourcesYValueConverters-02.csproj",
+      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\12-ResourcesYValueConverters-02.csproj",
       "projectName": "12-ResourcesYValueConverters-02",
-      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\12-ResourcesYValueConverters-02.csproj",
-      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
-      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\obj\\",
+      "projectPath": "D:\\GitHub Manuel\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\12-ResourcesYValueConverters-02.csproj",
+      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub Manuel\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-02\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,7 +8170,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

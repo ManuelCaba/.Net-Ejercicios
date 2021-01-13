@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sLxTAYzEQbD6bgh5HIK94wGcO5npeIeibuKaTX8L5ZoANZDn9e11y1HiQAbGfLq9/ew6tagCV6fJizwK4DbqqQ==",
+  "dgSpecHash": "tCOyZWmHKXL/eiLFcAT8wrL8iYAJ6JWueWE3UMq8oJz7HoDDA7+3rfBlYG3LF97YxiYulLbu7/TZQ+rZ5DTCSQ==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-01.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\.Net\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters\\12-ResourcesYValueConverters-01.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
-    "C:\\Users\\emane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mcaballero\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",

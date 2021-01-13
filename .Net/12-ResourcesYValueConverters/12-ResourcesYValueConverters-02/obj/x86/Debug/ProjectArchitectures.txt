@@ -1,1 +1,1 @@
-D:\Escritorio\.Net-Ejercicios\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters-02\12-ResourcesYValueConverters-02.csproj;x86
+D:\GitHub Manuel\.Net\12-ResourcesYValueConverters\12-ResourcesYValueConverters-02\12-ResourcesYValueConverters-02.csproj;x86
