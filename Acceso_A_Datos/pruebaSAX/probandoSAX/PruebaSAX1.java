@@ -1,16 +1,12 @@
 package probandoSAX;
 
-
-/**
- *
- * @author Leo
- */
-
 import java.io.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.xml.parsers.*;
 import org.xml.sax.*;
 import org.xml.sax.helpers.*;
+
 public class PruebaSAX1 {
     XMLReader procesadorXML;
     GestionContenido gestor;
@@ -19,12 +15,17 @@ public class PruebaSAX1 {
     {
         try 
         {
-            procesadorXML = XMLReaderFactory.createXMLReader();
+            SAXParserFactory parserFactory = SAXParserFactory.newInstance();
+            SAXParser parser = parserFactory.newSAXParser();
+            procesadorXML = parser.getXMLReader();
         } 
         catch (SAXException ex) 
         {
             Logger.getLogger(PruebaSAX1.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        } catch (ParserConfigurationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
         
         gestor = new GestionContenido();
         procesadorXML.setContentHandler(gestor);
