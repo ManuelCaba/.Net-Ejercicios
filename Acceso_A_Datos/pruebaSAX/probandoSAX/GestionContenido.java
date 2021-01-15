@@ -42,7 +42,6 @@ public class GestionContenido extends DefaultHandler {
     			
     			if(jugadorAnterior != null)
     			{
-    				
     				if(jugadorGanador != null)
     				{
     					cantidadGanador = jugadorGanador.getCantidadJugada();
@@ -103,7 +102,7 @@ public class GestionContenido extends DefaultHandler {
         			
         			try
         			{
-        					cantidad = Double.parseDouble(numero);
+        				cantidad = Double.parseDouble(numero);
         			}
         			catch(NumberFormatException e)
         			{
