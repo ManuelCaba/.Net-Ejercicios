@@ -1,0 +1,222 @@
+﻿<Page
+    x:Class="JuegoDiferencias.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:JuegoDiferencias"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Canvas x:Name="myCanvas">
+        <Image Source="/Assets/Imagen.jpg"
+               Width="644"
+               Height="668" Canvas.Left="318" Canvas.Top="26"/>
+
+        <TextBlock Foreground="Green"
+                   FontSize="50"
+                   Text="{x:Bind MainPageVM.ContadorAcierto, Mode=OneWay}" Canvas.Left="1128" Canvas.Top="26"/>
+
+        <Ellipse x:Name="eps1" 
+                 Canvas.Left="574.721"
+                 Canvas.Top="391.762"
+                 Width="86"
+                 Height="50"
+                 StrokeThickness="3"
+                 Opacity="0"
+                 Fill="Transparent"
+                 Tapped="{x:Bind MainPageVM.ChangeOpacity}"  
+                 Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-17.404"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Canvas.Left="571.721"
+            Canvas.Top="54.262"
+            Width="86"
+            Height="50"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps1, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-17.404"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="eps2" 
+            Canvas.Left="617.824"
+            Canvas.Top="503.92"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="618.324"
+            Canvas.Top="167.92"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps2, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps3" 
+            Canvas.Left="698.134"
+            Canvas.Top="198.244"
+            Width="35"
+            Height="23"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-17.404"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse Canvas.Left="696.634"
+            Canvas.Top="531.744"
+            Width="35"
+            Height="23"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps3, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Ellipse.RenderTransform>
+                <CompositeTransform Rotation="-17.404"/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="eps4" 
+            Canvas.Left="729.324"
+            Canvas.Top="221.254"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="727.824"
+            Canvas.Top="554.754"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps4, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps5" 
+            Canvas.Left="512.378"
+            Canvas.Top="647.315"
+            Width="63"
+            Height="35"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="512.378"
+            Canvas.Top="310.315"
+            Width="63"
+            Height="35"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps5, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps6" 
+            Canvas.Left="834.824"
+            Canvas.Top="613.754"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="833.824"
+            Canvas.Top="281.754"
+            Width="25"
+            Height="25"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps6, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps7" 
+            Canvas.Left="842.088"
+            Canvas.Top="673.56"
+            Width="20"
+            Height="19"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="840.588"
+            Canvas.Top="337.56"
+            Width="20"
+            Height="19"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps7, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps8" 
+            Canvas.Left="808.191"
+            Canvas.Top="568.351"
+            Width="27"
+            Height="27"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="806.691"
+            Canvas.Top="232.351"
+            Width="27"
+            Height="27"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps8, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse x:Name="eps9" 
+            Canvas.Left="791.401"
+            Canvas.Top="424.923"
+            Width="61"
+            Height="33"
+            StrokeThickness="3"
+            Opacity="0"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+        <Ellipse Canvas.Left="789.901"
+            Canvas.Top="88.923"
+            Width="61"
+            Height="33"
+            StrokeThickness="3"
+            Opacity="{Binding ElementName=eps9, Path=Opacity, Mode=TwoWay}"
+            Fill="Transparent"
+            Tapped="{x:Bind MainPageVM.ChangeOpacity}"
+            Stroke="LightGreen" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        </Ellipse>
+    </Canvas>
+</Page>
