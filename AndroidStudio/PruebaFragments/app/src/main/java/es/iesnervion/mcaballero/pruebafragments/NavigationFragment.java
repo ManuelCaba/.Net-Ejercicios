@@ -2,21 +2,26 @@ package es.iesnervion.mcaballero.pruebafragments;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.Switch;
 
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link NavigationFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class NavigationFragment extends Fragment {
+public class NavigationFragment extends Fragment implements View.OnClickListener {
 
     MainViewModel vm;
+    Button btn1;
+    Button btn2;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -66,5 +71,33 @@ public class NavigationFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_navigation, container, false);
+    }
+
+    @Override
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+
+        btn1 = getView().findViewById(R.id.btn1);
+        btn2 = getView().findViewById(R.id.btn2);
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId())
+        {
+            case R.id.btn1:
+
+                vm.getNumeroBoton().postValue(new Integer(1));
+
+            break;
+
+            case R.id.btn2:
+
+                vm.getNumeroBoton().postValue(new Integer(2));
+
+            break;
+
+        }
     }
 }

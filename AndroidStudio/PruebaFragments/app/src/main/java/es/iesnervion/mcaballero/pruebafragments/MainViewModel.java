@@ -9,7 +9,7 @@ public class MainViewModel extends ViewModel {
 
     public MainViewModel()
     {
-        numeroBoton.postValue(new Integer(0));
+        numeroBoton = new MutableLiveData<>(new Integer(0));
     }
 
     public MutableLiveData<Integer> getNumeroBoton()
