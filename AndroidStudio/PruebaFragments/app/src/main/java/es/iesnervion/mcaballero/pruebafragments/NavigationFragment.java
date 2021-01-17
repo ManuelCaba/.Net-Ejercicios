@@ -19,9 +19,9 @@ import android.widget.Switch;
  */
 public class NavigationFragment extends Fragment implements View.OnClickListener {
 
-    MainViewModel vm;
-    Button btn1;
-    Button btn2;
+    private MainViewModel vm;
+    private Button btn1;
+    private Button btn2;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -58,8 +58,6 @@ public class NavigationFragment extends Fragment implements View.OnClickListener
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        vm = new ViewModelProvider(this).get(MainViewModel.class);
-
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -70,16 +68,21 @@ public class NavigationFragment extends Fragment implements View.OnClickListener
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_navigation, container, false);
+        View v = inflater.inflate(R.layout.fragment_navigation, container, false);
+
+        btn1 = v.findViewById(R.id.btn1);
+        btn2 = v.findViewById(R.id.btn2);
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+
+        return v;
     }
 
     @Override
-    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
 
-        btn1 = getView().findViewById(R.id.btn1);
-        btn2 = getView().findViewById(R.id.btn2);
-        btn1.setOnClickListener(this);
-        btn2.setOnClickListener(this);
+        vm = new ViewModelProvider(getActivity()).get(MainViewModel.class);
     }
 
     @Override

@@ -2,12 +2,15 @@ package es.iesnervion.mcaballero.pruebafragments;
 
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -16,7 +19,24 @@ import android.view.ViewGroup;
  */
 public class DetailsFragment extends Fragment {
 
-    MainViewModel vm;
+    private MainViewModel vm;
+    private TextView txvDetails;
+
+    final Observer<Integer> observerNumeroBoton = new Observer<Integer>()
+    {
+        @Override
+        public void onChanged(Integer integer)
+        {
+            switch(vm.getNumeroBoton().getValue().intValue())
+            {
+                case 1:
+                    txvDetails.setText("Detalles 1");
+                break;
+                case 2:
+                    txvDetails.setText("Detalles 2");
+            }
+        }
+    };
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -53,8 +73,6 @@ public class DetailsFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        vm = new ViewModelProvider(this).get(MainViewModel.class);
-
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -62,9 +80,21 @@ public class DetailsFragment extends Fragment {
     }
 
     @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        vm = new ViewModelProvider(getActivity()).get(MainViewModel.class);
+        vm.getNumeroBoton().observe(getViewLifecycleOwner(), observerNumeroBoton);
+    }
+
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_details, container, false);
+        View v = inflater.inflate(R.layout.fragment_details, container, false);
+
+        txvDetails = v.findViewById(R.id.txvDetails);
+
+        return v;
     }
 }

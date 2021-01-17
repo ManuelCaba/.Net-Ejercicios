@@ -3,22 +3,24 @@ package es.iesnervion.mcaballero.pruebafragments;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelProviders;
 
 import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    MainViewModel vm;
+    private MainViewModel vm;
+    private View contenedorGeneral;
 
     final Observer<Integer> observerNumeroBoton = new Observer<Integer>()
     {
         @Override
         public void onChanged(Integer integer)
         {
-            if(vm.getNumeroBoton().getValue().intValue() != 0)
+            if(contenedorGeneral != null && vm.getNumeroBoton().getValue().intValue() != 0)
             {
-                getSupportFragmentManager().beginTransaction().replace(R.id.contenedorGeneral, new DetailsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.contenedorGeneral, new DetailsFragment()).addToBackStack(NavigationFragment.class.getName()).commit();
             }
         }
     };
@@ -30,8 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
         vm = new ViewModelProvider(this).get(MainViewModel.class);
 
-        View contenedorGeneral;
-
         contenedorGeneral = findViewById(R.id.contenedorGeneral);
         vm.getNumeroBoton().observe(this, observerNumeroBoton);
 
@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         {
             NavigationFragment frag = new NavigationFragment();
 
-            getSupportFragmentManager().beginTransaction().add(R.id.contenedorGeneral, frag).addToBackStack(frag.getClass().getName()).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.contenedorGeneral, frag).commit();
         }
     }
 }

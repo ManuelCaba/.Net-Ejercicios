@@ -5,15 +5,20 @@ import androidx.lifecycle.ViewModel;
 
 public class MainViewModel extends ViewModel {
 
-    private MutableLiveData<Integer> numeroBoton;
+    private MutableLiveData<Integer> numeroBoton = new MutableLiveData<>();
 
     public MainViewModel()
     {
-        numeroBoton = new MutableLiveData<>(new Integer(0));
+        numeroBoton.setValue(0);
     }
 
     public MutableLiveData<Integer> getNumeroBoton()
     {
         return numeroBoton;
+    }
+
+    public void setNumeroBoton(int numeroBoton)
+    {
+        this.numeroBoton.setValue(numeroBoton);
     }
 }
