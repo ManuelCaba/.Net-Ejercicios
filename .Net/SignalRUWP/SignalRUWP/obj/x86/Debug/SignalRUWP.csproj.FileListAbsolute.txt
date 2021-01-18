@@ -100,3 +100,5 @@ D:\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\resources.en-us.resf
 D:\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\SignalRUWP.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json

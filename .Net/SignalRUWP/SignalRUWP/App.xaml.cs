@@ -46,18 +46,18 @@ namespace SignalRUWP
             proxy = conn.CreateHubProxy("ChatHub");
             conn.Start();
 
-            proxy.On<ChatMessage>("broadcastMessage", OnMessage);
+            proxy.On<String,String>("broadcastMessage", OnMessage);
 
         }
-        public void Broadcast(ChatMessage msg)
+        public void Broadcast(ChatMessage chatMessage)
         {
-            proxy.Invoke("Send", msg);
+            proxy.Invoke("Send", chatMessage.Username, chatMessage.Message);
         }
-        private async void OnMessage(ChatMessage msg)
+        private async void OnMessage(String name, String message)
         {
             await Windows.ApplicationModel.Core.CoreApplication.MainView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
             {
-                ChatVM.Messages.Add(msg);
+                ChatVM.Messages.Add(new ChatMessage { Username = name, Message = message });
             });
         }
 
