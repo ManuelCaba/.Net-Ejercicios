@@ -4289,7 +4289,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -8373,18 +8373,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\emane\\.nuget\\packages\\": {},
+    "C:\\Users\\Manuel\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\SignalRUWP.csproj",
+      "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\SignalRUWP.csproj",
       "projectName": "SignalRUWP",
-      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\SignalRUWP.csproj",
-      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
-      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\obj\\",
+      "projectPath": "D:\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\SignalRUWP.csproj",
+      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+      "outputPath": "D:\\.Net-Ejercicios\\.Net\\SignalRUWP\\SignalRUWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8392,7 +8392,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
