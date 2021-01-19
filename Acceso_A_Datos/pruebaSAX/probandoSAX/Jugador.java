@@ -2,9 +2,11 @@ package probandoSAX;
 
 public class Jugador {
 	
+	//Atributos de la clase
 	String nombre;
 	double cantidadJugada;
 	
+	//Constructores
 	public Jugador()
 	{
 		nombre = "";
@@ -29,6 +31,8 @@ public class Jugador {
 		this.cantidadJugada = jugador.cantidadJugada;
 	}
 
+	//Propiedades
+	
 	public String getNombre() {
 		return nombre;
 	}
