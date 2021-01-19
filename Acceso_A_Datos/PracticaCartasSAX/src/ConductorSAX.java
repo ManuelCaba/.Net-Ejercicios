@@ -1,11 +1,11 @@
-package probandoSAX;
+package src;
 
 
 
 public class ConductorSAX {
 public static void main (String[] args){
 	String nombreArchivo = "sieteymedia01.xml";
-	PruebaSAX1 probando = new PruebaSAX1 (nombreArchivo);
+	LectorSAX probando = new LectorSAX (nombreArchivo);
         probando.andale();
 }// Fin main
 

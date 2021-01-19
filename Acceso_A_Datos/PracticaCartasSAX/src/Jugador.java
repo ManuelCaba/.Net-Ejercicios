@@ -1,4 +1,4 @@
-package probandoSAX;
+package src;
 
 public class Jugador {
 	

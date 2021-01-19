@@ -1,4 +1,4 @@
-package probandoSAX;
+package src;
 
 import java.io.*;
 import java.util.logging.Level;
@@ -6,11 +6,11 @@ import java.util.logging.Logger;
 import javax.xml.parsers.*;
 import org.xml.sax.*;
 
-public class PruebaSAX1 {
+public class LectorSAX {
     XMLReader procesadorXML;
     GestionContenido gestor;
     InputSource archivoXML;
-    public PruebaSAX1 (String nombreArchivo)
+    public LectorSAX (String nombreArchivo)
     {
         try 
         {
@@ -20,7 +20,7 @@ public class PruebaSAX1 {
         } 
         catch (SAXException ex) 
         {
-            Logger.getLogger(PruebaSAX1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LectorSAX.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ParserConfigurationException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -39,11 +39,11 @@ public class PruebaSAX1 {
         } 
         catch (IOException ex) 
         {
-            Logger.getLogger(PruebaSAX1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LectorSAX.class.getName()).log(Level.SEVERE, null, ex);
         } 
         catch (SAXException ex) 
         {
-            Logger.getLogger(PruebaSAX1.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(LectorSAX.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 }
