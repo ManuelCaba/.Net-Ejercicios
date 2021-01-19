@@ -1,1 +1,1 @@
-D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\SignalRUWP.csproj;x86
+D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\SignalRUWP.csproj;x86

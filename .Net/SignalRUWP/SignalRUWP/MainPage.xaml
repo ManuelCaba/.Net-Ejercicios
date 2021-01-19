@@ -10,8 +10,8 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <RelativePanel>
-        <TextBox x:Name="name" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True"></TextBox>
-        <ListView x:Name="lv" ItemsSource="{Binding Messages}" RelativePanel.Above="rp" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="name">
+        <TextBox x:Name="name" Text="{x:Bind ChatMessageViewModel.ActualChatMessage.Username, Mode=TwoWay}" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True"></TextBox>
+        <ListView x:Name="lv" ItemsSource="{x:Bind ChatMessageViewModel.Messages, Mode=TwoWay}" RelativePanel.Above="rp" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="name">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:ChatMessage">
                     <StackPanel Orientation="Horizontal">
@@ -27,8 +27,8 @@
             </ListView.ItemTemplate>
         </ListView>
         <RelativePanel x:Name="rp" RelativePanel.AlignBottomWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True">
-            <TextBox x:Name="text" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="send" ></TextBox>
-            <Button x:Name="send" RelativePanel.AlignRightWithPanel="True" Content="Send" Click="send_Click"></Button>
+            <TextBox x:Name="text" Text="{x:Bind ChatMessageViewModel.ActualChatMessage.Message, Mode=TwoWay}" RelativePanel.AlignLeftWithPanel="True" RelativePanel.LeftOf="send" ></TextBox>
+            <Button x:Name="send" RelativePanel.AlignRightWithPanel="True" Content="Send" Click="{x:Bind ChatMessageViewModel.send_Click}"></Button>
         </RelativePanel>
     </RelativePanel>
     

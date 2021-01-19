@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,25 +10,25 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>558f0931-1744-4b8b-9e35-bb2469b5efe1</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\SignalRUWP.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\SignalRUWP.exe">
       <PackagePath>entrypoint\SignalRUWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\microsoft.aspnet.signalr.client\2.4.1\lib\netstandard2.0\Microsoft.AspNet.SignalR.Client.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\microsoft.aspnet.signalr.client\2.4.1\lib\netstandard2.0\Microsoft.AspNet.SignalR.Client.dll">
       <PackagePath>Microsoft.AspNet.SignalR.Client.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
@@ -40,52 +40,52 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\SignalRUWP.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\SignalRUWP.xr.xml">
       <PackagePath>SignalRUWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\Core\SignalRUWP.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\SignalRUWP\SignalRUWP\bin\x86\Debug\Core\SignalRUWP.exe">
       <PackagePath>SignalRUWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

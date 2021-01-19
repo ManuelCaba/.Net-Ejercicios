@@ -1,4 +1,5 @@
 ﻿using SignalRUWP.Models;
+using SignalRUWP.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -23,15 +24,13 @@ namespace SignalRUWP
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public ChatMessageViewModel ChatMessageViewModel { get; }
+
         public MainPage()
         {
             this.InitializeComponent();
-            this.DataContext = (Application.Current as App).ChatVM;
+            ChatMessageViewModel = new ChatMessageViewModel();
         }
 
-        private void send_Click(object sender, RoutedEventArgs e)
-        {
-            (Application.Current as App).Broadcast(new ChatMessage { Username = name.Text, Message = text.Text });
-        }
     }
 }

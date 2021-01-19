@@ -25,10 +25,7 @@ namespace SignalRUWP
     /// Proporciona un comportamiento específico de la aplicación para complementar la clase Application predeterminada.
     /// </summary>
     sealed partial class App : Application
-    {
-        public ChatMessageViewModel ChatVM { get; set; } = new ChatMessageViewModel();
-        public HubConnection conn { get; set; }
-        public IHubProxy proxy { get; set; }
+    { 
 
         /// <summary>
         /// Inicializa el objeto de aplicación Singleton. Esta es la primera línea de código creado
@@ -38,27 +35,6 @@ namespace SignalRUWP
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
-            SignalR();
-        }
-        public void SignalR()
-        {
-            conn = new HubConnection("https://signalrchatmanucaba.azurewebsites.net");
-            proxy = conn.CreateHubProxy("ChatHub");
-            conn.Start();
-
-            proxy.On<String,String>("broadcastMessage", OnMessage);
-
-        }
-        public void Broadcast(ChatMessage chatMessage)
-        {
-            proxy.Invoke("Send", chatMessage.Username, chatMessage.Message);
-        }
-        private async void OnMessage(String name, String message)
-        {
-            await Windows.ApplicationModel.Core.CoreApplication.MainView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
-            {
-                ChatVM.Messages.Add(new ChatMessage { Username = name, Message = message });
-            });
         }
 
         /// <summary>

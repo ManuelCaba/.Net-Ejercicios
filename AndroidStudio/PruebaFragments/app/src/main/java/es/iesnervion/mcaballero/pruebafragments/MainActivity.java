@@ -20,7 +20,8 @@ public class MainActivity extends AppCompatActivity {
         {
             if(contenedorGeneral != null && vm.getNumeroBoton().getValue().intValue() != 0)
             {
-                getSupportFragmentManager().beginTransaction().replace(R.id.contenedorGeneral, new DetailsFragment()).addToBackStack(NavigationFragment.class.getName()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.contenedorGeneral, new DetailsFragment()).addToBackStack(null).setReorderingAllowed(true).
+                commit();
             }
         }
     };
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         {
             NavigationFragment frag = new NavigationFragment();
 
-            getSupportFragmentManager().beginTransaction().add(R.id.contenedorGeneral, frag).commit();
+            getSupportFragmentManager().beginTransaction().add(R.id.contenedorGeneral, frag).setReorderingAllowed(true).commit();
         }
     }
 }
