@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj": {}
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj": {}
   },
   "projects": {
-    "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj": {
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
         "projectName": "JuegoDiferencias",
-        "projectPath": "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
-        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\obj\\",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

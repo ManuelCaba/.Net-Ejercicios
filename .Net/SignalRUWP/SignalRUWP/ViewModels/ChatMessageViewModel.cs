@@ -14,10 +14,10 @@ namespace SignalRUWP.ViewModels
     public class ChatMessageViewModel
     {
         #region Propiedades
-        public HubConnection conn { get; set; }
-        public IHubProxy proxy { get; set; }
-        public ChatMessage ActualChatMessage { get; set; }
-        public ObservableCollection<ChatMessage> Messages { get; set; } = new ObservableCollection<ChatMessage>();
+        private HubConnection conn;
+        private IHubProxy proxy;
+        public ChatMessage ActualChatMessage { get; }
+        public ObservableCollection<ChatMessage> Messages { get; } = new ObservableCollection<ChatMessage>();
         #endregion
 
         #region Constructores
@@ -29,6 +29,9 @@ namespace SignalRUWP.ViewModels
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// 
+        /// </summary>
         public void SignalR()
         {
             conn = new HubConnection("https://signalrchatmanucaba.azurewebsites.net");
@@ -39,11 +42,19 @@ namespace SignalRUWP.ViewModels
 
         }
 
-        public void Broadcast(ChatMessage chatMessage)
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="chatMessage"></param>
+        private void Broadcast(ChatMessage chatMessage)
         {
             proxy.Invoke("Send", chatMessage);
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="chatMessage"></param>
         private async void OnMessage(ChatMessage chatMessage)
         {
             await Windows.ApplicationModel.Core.CoreApplication.MainView.Dispatcher.RunAsync(CoreDispatcherPriority.Normal, () =>
@@ -55,7 +66,8 @@ namespace SignalRUWP.ViewModels
 
         public void send_Click(object sender, RoutedEventArgs e)
         {
-            Broadcast(ActualChatMessage);
+            proxy.Invoke("Send", ActualChatMessage);
+            //Broadcast(ActualChatMessage);
         }
     }
 }

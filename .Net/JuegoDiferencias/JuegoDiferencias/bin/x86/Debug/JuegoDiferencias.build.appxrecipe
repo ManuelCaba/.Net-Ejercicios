@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>107-14</Machine>
-    <WindowsUser>mcaballero</WindowsUser>
+    <Machine>DESKTOP-7UOCHNI</Machine>
+    <WindowsUser>emane</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>bfa4cfbd-f965-4efa-8676-7b5106612ff2</PackageIdentityName>
     <PackageIdentityPublisher>CN=mcaballero</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\JuegoDiferencias.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\JuegoDiferencias.exe">
       <PackagePath>entrypoint\JuegoDiferencias.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -145,7 +145,7 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x86.runtime.native.system.io.compression\4.0.1\runtimes\win7-x86\native\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7.system.private.uri\4.0.4\runtimes\win\lib\netstandard1.0\System.Private.Uri.dll">
+    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\runtime.win7.system.private.uri\4.0.4\runtimes\win\lib\netstandard1.0\System.Private.Uri.dll">
       <PackagePath>System.Private.Uri.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
@@ -370,58 +370,58 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Imagen.jpg">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Imagen.jpg">
       <PackagePath>Assets\Imagen.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\OIP.jpg">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\OIP.jpg">
       <PackagePath>Assets\OIP.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\JuegoDiferencias.xr.xml">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\JuegoDiferencias.xr.xml">
       <PackagePath>JuegoDiferencias.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\Core\JuegoDiferencias.exe">
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\bin\x86\Debug\Core\JuegoDiferencias.exe">
       <PackagePath>JuegoDiferencias.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

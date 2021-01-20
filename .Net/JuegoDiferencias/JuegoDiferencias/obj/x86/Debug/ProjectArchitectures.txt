@@ -1,1 +1,1 @@
-D:\GitHub Manuel\.Net\JuegoDiferencias\JuegoDiferencias\JuegoDiferencias.csproj;x86
+D:\Escritorio\.Net-Ejercicios\.Net\JuegoDiferencias\JuegoDiferencias\JuegoDiferencias.csproj;x86

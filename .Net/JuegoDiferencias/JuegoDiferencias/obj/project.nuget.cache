@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P3GUycfraqS6uAFiX+R3obDFfnmKbS4aQNM6tFViWhfeufidDTF0NIdUC/J/P/WV+hLd4xYxxobW5jDIVVNytA==",
+  "dgSpecHash": "aUOwBkClFSZJLV3O6I9hoTZa2EhH2m9/NFUhxIY1PeFXtvg+PYF6RX9S6A7MUlyylSFmGxaRTHbyjyL3W+Zcrg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Manuel\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\JuegoDiferencias\\JuegoDiferencias\\JuegoDiferencias.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\1.7.6\\microsoft.net.native.compiler.1.7.6.nupkg.sha512",
@@ -77,7 +77,7 @@
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win7-x86.microsoft.netcore.jit\\1.0.3\\runtime.win7-x86.microsoft.netcore.jit.1.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win7-x86.microsoft.netcore.runtime.coreclr\\1.0.2\\runtime.win7-x86.microsoft.netcore.runtime.coreclr.1.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win7-x86.runtime.native.system.io.compression\\4.0.1\\runtime.win7-x86.runtime.native.system.io.compression.4.0.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win7.system.private.uri\\4.0.4\\runtime.win7.system.private.uri.4.0.4.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\runtime.win7.system.private.uri\\4.0.4\\runtime.win7.system.private.uri.4.0.4.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win8-arm.microsoft.netcore.runtime.coreclr\\1.0.2\\runtime.win8-arm.microsoft.netcore.runtime.coreclr.1.0.2.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win8-arm.runtime.native.system.io.compression\\4.0.1\\runtime.win8-arm.runtime.native.system.io.compression.4.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",

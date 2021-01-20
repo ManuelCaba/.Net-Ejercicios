@@ -11,7 +11,7 @@
 
     <RelativePanel>
         <TextBox x:Name="name" Text="{x:Bind ChatMessageViewModel.ActualChatMessage.Username, Mode=TwoWay}" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignTopWithPanel="True"></TextBox>
-        <ListView x:Name="lv" ItemsSource="{x:Bind ChatMessageViewModel.Messages, Mode=TwoWay}" RelativePanel.Above="rp" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="name">
+        <ListView x:Name="lv" ItemsSource="{x:Bind ChatMessageViewModel.Messages, Mode=OneWay}" RelativePanel.Above="rp" RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.Below="name">
             <ListView.ItemTemplate>
                 <DataTemplate x:DataType="models:ChatMessage">
                     <StackPanel Orientation="Horizontal">
