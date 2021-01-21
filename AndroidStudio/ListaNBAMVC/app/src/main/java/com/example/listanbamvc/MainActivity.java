@@ -20,17 +20,18 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
-    TextView selection;
-    ListView lvwLista;
-    EditText edtEquipo;
+    private TextView selection;
+    private ListView lvwLista;
+    private EditText edtEquipo;
     private static ArrayList<Equipo> equipos;
-    NBAVM mViewModel;
+    private NBAVM mViewModel;
+    private IconicAdapter<Equipo> adapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         mViewModel = new ViewModelProvider(this).get(NBAVM.class);
-        equipos = mViewModel.getEquipos().getValue();
+        equipos = mViewModel.getEquipos();
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -39,7 +40,9 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         selection=(TextView)findViewById(R.id.selection);
         edtEquipo= findViewById(R.id.edtEquipo);
 
-        lvwLista.setAdapter(new IconicAdapter<Equipo>(this, R.layout.row, equipos));
+        adapter = new IconicAdapter<Equipo>(this, R.layout.row, equipos);
+
+        lvwLista.setAdapter(adapter);
         lvwLista.setOnItemClickListener(this);
     }
 
@@ -50,11 +53,10 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     public void addEquipo(View v)
     {
-        String ejemplo = edtEquipo.getText().toString();
-
         if(!edtEquipo.getText().toString().matches(""))
         {
-           mViewModel.getEquipos().getValue().add(new Equipo(edtEquipo.getText().toString(), 0));
+           mViewModel.getEquipos().add(new Equipo(edtEquipo.getText().toString(), 0));
+           adapter.notifyDataSetChanged();
         }
     }
 
