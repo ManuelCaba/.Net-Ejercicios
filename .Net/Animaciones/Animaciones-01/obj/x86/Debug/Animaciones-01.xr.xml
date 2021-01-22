@@ -33,7 +33,6 @@
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Opacity" />
       <RootProperty Name="Fill" />
       <RootEvent Name="Tapped" />
     </RootType>

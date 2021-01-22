@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="Animaciones_Juego.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Animaciones_Juego"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Canvas>
+        <Canvas.Background>
+            <SolidColorBrush Color="Black"></SolidColorBrush>
+        </Canvas.Background>
+        
+        <Image Source="/Assets/starship.png" Width="150" Canvas.Left="885" Canvas.Top="673" />
+
+    </Canvas>
+</Page>
+

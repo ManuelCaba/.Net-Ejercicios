@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>DESKTOP-6F174NU</Machine>
+    <WindowsUser>Manuel</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>241ce7e3-2f60-48f8-9973-bbad8ff957ed</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>746363CA4F6513D67FA6A8C011683BC95BAE1F752903FDEB71DA9990E4099FFF</RegisteredManifestChecksum>
+    <LayoutDir>D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>395A589116CF4661F126974EC7662ED9BFB5BB1CE13155B47E31E7050B30C135</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>241ce7e3-2f60-48f8-9973-bbad8ff957ed_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>241ce7e3-2f60-48f8-9973-bbad8ff957ed_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>241ce7e3-2f60-48f8-9973-bbad8ff957ed</RegisteredPackageID>
@@ -27,86 +27,86 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-20T19:55:30.670</Modified>
+      <Modified>2021-01-22T12:13:53.529</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.exe">
       <PackagePath>entrypoint\Animaciones-01.exe</PackagePath>
-      <Modified>2021-01-20T19:55:30.157</Modified>
+      <Modified>2021-01-22T12:13:52.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T17:16:04.000</Modified>
+      <Modified>2020-02-27T18:16:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-01-20T18:58:05.913</Modified>
+      <Modified>2021-01-21T21:02:24.136</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-01-11T16:38:07.437</Modified>
+      <Modified>2021-01-21T21:02:24.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.448</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.449</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.450</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.451</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.453</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-11T16:38:07.454</Modified>
+      <Modified>2021-01-21T21:02:24.134</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.xr.xml">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.xr.xml">
       <PackagePath>Animaciones-01.xr.xml</PackagePath>
-      <Modified>2021-01-20T19:55:30.055</Modified>
+      <Modified>2021-01-22T12:13:52.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-20T19:51:01.948</Modified>
+      <Modified>2021-01-22T12:13:52.116</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-20T19:55:30.061</Modified>
+      <Modified>2021-01-22T12:13:52.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-20T19:08:45.576</Modified>
+      <Modified>2021-01-22T12:13:52.600</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\Animaciones-01.exe">
+    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\Animaciones-01.exe">
       <PackagePath>Animaciones-01.exe</PackagePath>
-      <Modified>2021-01-20T19:55:30.664</Modified>
+      <Modified>2021-01-22T12:13:53.508</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

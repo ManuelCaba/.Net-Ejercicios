@@ -31,7 +31,7 @@
 
     <Grid>
 
-        <Ellipse x:ConnectionId='3' x:Name="elpCirculo" Height="100" Width="100" Opacity="0.5"                           >
+        <Ellipse x:ConnectionId='3' x:Name="elpCirculo" Height="100" Width="100"                           >
             <Ellipse.Fill>
                 <SolidColorBrush x:ConnectionId='4' x:Name="scbColor" Color="Blue"></SolidColorBrush>
             </Ellipse.Fill>
