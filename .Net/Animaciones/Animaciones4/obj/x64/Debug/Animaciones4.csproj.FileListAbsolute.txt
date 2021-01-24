@@ -1,0 +1,90 @@
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\App.xbf
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\MainPage.xbf
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.xr.xml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.exe
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.pdb
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\resources.pri
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\AppxManifest.xml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Core\Animaciones4.exe
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.build.appxrecipe
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\System.Runtime.dll
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csprojAssemblyReference.cache
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\App.g.i.cs
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\App.g.cs
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\MainPage.g.cs
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\App.xaml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\MainPage.xaml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\App.xbf
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\MainPage.xbf
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csproj.CoreCompileInputs.cache
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csproj.CopyComplete
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.exe
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.pdb
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\priconfig.xml
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\resources.resfiles
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\pri.resfiles
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\qualifiers.txt
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\VYF\Documents\GitHub\DIN\Visual Estudio\Animaciones\Animaciones4\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\App.xbf
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\MainPage.xbf
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.xr.xml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.exe
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.pdb
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\resources.pri
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\AppxManifest.xml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Core\Animaciones4.exe
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Animaciones4.build.appxrecipe
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\System.Runtime.dll
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csprojAssemblyReference.cache
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\App.g.i.cs
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\App.g.cs
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\MainPage.g.cs
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\App.xaml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\MainPage.xaml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\App.xbf
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\MainPage.xbf
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.csproj.CopyComplete
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.exe
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\Animaciones4.pdb
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\priconfig.xml
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\resources.resfiles
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\pri.resfiles
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\qualifiers.txt
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\Manuel\Downloads\Animaciones\Animaciones4\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
