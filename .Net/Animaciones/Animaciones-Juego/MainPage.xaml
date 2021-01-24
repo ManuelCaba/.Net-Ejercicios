@@ -9,13 +9,130 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Border>
-        <Canvas HorizontalAlignment="Center"
-                VerticalAlignment="Center"
+        <Canvas HorizontalAlignment="Left"
+                VerticalAlignment="Top"
                 Width="0"
                 Height="0"
-                RenderTransform="1 0 0 1 0 0">
+                SizeChanged="Canvas_SizeChanged"
+                RenderTransform="1 0 0 1 0 0" Margin="-32,548,0,0">
 
-            <Image x:Name="Nave" Source="/Assets/starship.png" Width="150" Canvas.Left="-71" Canvas.Top="-83"/>
+            <Image x:Name="Nave" Source="/Assets/starship.png" Width="150" Canvas.Left="913" Canvas.Top="5"/>
+
+            <Canvas x:Name="canvasEstrellasGrandes">
+                <Ellipse x:Name="estrella1" Fill="White" Width="20" Height="20" Canvas.Left="177" Canvas.Top="165" Opacity="0.6" />
+                <Ellipse x:Name="estrella2" Fill="White" Width="20" Height="20" Canvas.Left="618" Canvas.Top="252" Opacity="0.6"/>
+                <Ellipse x:Name="estrella3" Fill="White" Width="20" Height="20" Canvas.Left="258" Canvas.Top="687" Opacity="0.6"/>
+                <Ellipse x:Name="estrella4" Fill="White" Width="20" Height="20" Canvas.Left="1014" Canvas.Top="450" Opacity="0.6"/>
+                <Ellipse x:Name="estrella5" Fill="White" Width="20" Height="20" Canvas.Left="1116" Canvas.Top="115" Opacity="0.6"/>
+                <Ellipse x:Name="estrella6" Fill="White" Width="20" Height="20" Canvas.Left="1545" Canvas.Top="302" Opacity="0.6"/>
+                <Ellipse x:Name="estrella7" Fill="White" Width="20" Height="20" Canvas.Left="711" Canvas.Top="876" Opacity="0.6"/>
+                <Ellipse x:Name="estrella8" Fill="White" Width="20" Height="20" Canvas.Left="1341" Canvas.Top="637" Opacity="0.6"/>
+                <Ellipse x:Name="estrella9" Fill="White" Width="20" Height="20" Canvas.Left="1734" Canvas.Top="777" Opacity="0.6"/>
+                <Ellipse x:Name="estrella10" Fill="White" Width="20" Height="20" Canvas.Left="1684" Canvas.Top="65" Opacity="0.6"/>
+                <Ellipse x:Name="estrella11" Fill="White" Width="20" Height="20" Canvas.Left="1545" Canvas.Top="302" Opacity="0.6"/>
+                <Ellipse x:Name="estrella12" Fill="White" Width="20" Height="20" Canvas.Left="57" Canvas.Top="876" Opacity="0.6"/>
+                <Ellipse x:Name="estrella13" Fill="White" Width="20" Height="20" Canvas.Left="668" Canvas.Top="550" Opacity="0.6"/>
+                <Ellipse x:Name="estrella14" Fill="White" Width="20" Height="20" Canvas.Left="1245" Canvas.Top="926" Opacity="0.6"/>
+                <Ellipse x:Name="estrella15" Fill="White" Width="20" Height="20" Canvas.Left="1734" Canvas.Top="500" Opacity="0.6"/>
+                <Ellipse x:Name="estrella16" Fill="White" Width="20" Height="20" Canvas.Left="108" Canvas.Top="500" Opacity="0.6"/>
+                <Ellipse x:Name="estrella17" Fill="White" Width="20" Height="20" Canvas.Left="420" Canvas.Top="398" Opacity="0.6"/>
+
+
+
+            </Canvas>
+            <!--#endregion-->
+
+            <!--#region Estrellas Grandes2-->
+            <Canvas x:Name="canvasEstrellasGrandes2" Canvas.Top="-1100">
+                <Ellipse x:Name="e2strella1" Fill="White" Width="20" Height="20" Canvas.Left="177" Canvas.Top="165" Opacity="0.6" />
+                <Ellipse x:Name="e2strella2" Fill="White" Width="20" Height="20" Canvas.Left="618" Canvas.Top="252" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella3" Fill="White" Width="20" Height="20" Canvas.Left="258" Canvas.Top="687" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella4" Fill="White" Width="20" Height="20" Canvas.Left="1014" Canvas.Top="450" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella5" Fill="White" Width="20" Height="20" Canvas.Left="1116" Canvas.Top="115" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella6" Fill="White" Width="20" Height="20" Canvas.Left="1545" Canvas.Top="302" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella7" Fill="White" Width="20" Height="20" Canvas.Left="711" Canvas.Top="876" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella8" Fill="White" Width="20" Height="20" Canvas.Left="1341" Canvas.Top="637" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella9" Fill="White" Width="20" Height="20" Canvas.Left="1734" Canvas.Top="777" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella10" Fill="White" Width="20" Height="20" Canvas.Left="1684" Canvas.Top="65" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella11" Fill="White" Width="20" Height="20" Canvas.Left="1545" Canvas.Top="302" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella12" Fill="White" Width="20" Height="20" Canvas.Left="57" Canvas.Top="876" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella13" Fill="White" Width="20" Height="20" Canvas.Left="668" Canvas.Top="550" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella14" Fill="White" Width="20" Height="20" Canvas.Left="1245" Canvas.Top="926" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella15" Fill="White" Width="20" Height="20" Canvas.Left="1734" Canvas.Top="500" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella16" Fill="White" Width="20" Height="20" Canvas.Left="108" Canvas.Top="500" Opacity="0.6"/>
+                <Ellipse x:Name="e2strella17" Fill="White" Width="20" Height="20" Canvas.Left="420" Canvas.Top="398" Opacity="0.6"/>
+
+
+            </Canvas>
+            <!--#endregion-->
+
+
+            <!--#region Estrellas Pequenas-->
+            <Canvas x:Name="canvasEstrellasPequenas" Canvas.Left="-50" Canvas.Top="-50">
+                <Ellipse x:Name="e3strella1" Fill="White" Width="10" Height="10" Canvas.Left="177" Canvas.Top="165" Opacity="0.2" />
+                <Ellipse x:Name="e3strella2" Fill="White" Width="10" Height="10" Canvas.Left="618" Canvas.Top="252" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella3" Fill="White" Width="10" Height="10" Canvas.Left="258" Canvas.Top="687" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella4" Fill="White" Width="10" Height="10" Canvas.Left="1014" Canvas.Top="450" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella5" Fill="White" Width="10" Height="10" Canvas.Left="1116" Canvas.Top="115" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella6" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella7" Fill="White" Width="10" Height="10" Canvas.Left="711" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella8" Fill="White" Width="10" Height="10" Canvas.Left="1341" Canvas.Top="637" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella9" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="777" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella10" Fill="White" Width="10" Height="10" Canvas.Left="1684" Canvas.Top="65" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella11" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella12" Fill="White" Width="10" Height="10" Canvas.Left="57" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella13" Fill="White" Width="10" Height="10" Canvas.Left="668" Canvas.Top="550" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella14" Fill="White" Width="10" Height="10" Canvas.Left="1245" Canvas.Top="926" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella15" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella16" Fill="White" Width="10" Height="10" Canvas.Left="108" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e3strella17" Fill="White" Width="10" Height="10" Canvas.Left="420" Canvas.Top="398" Opacity="0.2"/>
+
+            </Canvas>
+            <!--#endregion-->
+
+            <!--#region Estrellas Pequenas2-->
+            <Canvas x:Name="canvasEstrellasPequenas2" Canvas.Left="100" Canvas.Top="-1150">
+                <Ellipse x:Name="e4strella1" Fill="White" Width="10" Height="10" Canvas.Left="177" Canvas.Top="165" Opacity="0.2" />
+                <Ellipse x:Name="e4strella2" Fill="White" Width="10" Height="10" Canvas.Left="618" Canvas.Top="252" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella3" Fill="White" Width="10" Height="10" Canvas.Left="258" Canvas.Top="687" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella4" Fill="White" Width="10" Height="10" Canvas.Left="1014" Canvas.Top="450" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella5" Fill="White" Width="10" Height="10" Canvas.Left="1116" Canvas.Top="115" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella6" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella7" Fill="White" Width="10" Height="10" Canvas.Left="711" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella8" Fill="White" Width="10" Height="10" Canvas.Left="1341" Canvas.Top="637" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella9" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="777" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella10" Fill="White" Width="10" Height="10" Canvas.Left="1684" Canvas.Top="65" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella11" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella12" Fill="White" Width="10" Height="10" Canvas.Left="57" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella13" Fill="White" Width="10" Height="10" Canvas.Left="668" Canvas.Top="550" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella14" Fill="White" Width="10" Height="10" Canvas.Left="1245" Canvas.Top="926" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella15" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella16" Fill="White" Width="10" Height="10" Canvas.Left="108" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e4strella17" Fill="White" Width="10" Height="10" Canvas.Left="420" Canvas.Top="398" Opacity="0.2"/>
+
+            </Canvas>
+
+            <!--#region Estrellas Pequenas3-->
+            <Canvas x:Name="canvasEstrellasPequenas3" Canvas.Left="300" Canvas.Top="-2150">
+                <Ellipse x:Name="e5strella1" Fill="White" Width="10" Height="10" Canvas.Left="177" Canvas.Top="165" Opacity="0.2" />
+                <Ellipse x:Name="e5strella2" Fill="White" Width="10" Height="10" Canvas.Left="618" Canvas.Top="252" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella3" Fill="White" Width="10" Height="10" Canvas.Left="258" Canvas.Top="687" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella4" Fill="White" Width="10" Height="10" Canvas.Left="1014" Canvas.Top="450" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella5" Fill="White" Width="10" Height="10" Canvas.Left="1116" Canvas.Top="115" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella6" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella7" Fill="White" Width="10" Height="10" Canvas.Left="711" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella8" Fill="White" Width="10" Height="10" Canvas.Left="1341" Canvas.Top="637" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella9" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="777" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella10" Fill="White" Width="10" Height="10" Canvas.Left="1684" Canvas.Top="65" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella11" Fill="White" Width="10" Height="10" Canvas.Left="1545" Canvas.Top="302" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella12" Fill="White" Width="10" Height="10" Canvas.Left="57" Canvas.Top="876" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella13" Fill="White" Width="10" Height="10" Canvas.Left="668" Canvas.Top="550" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella14" Fill="White" Width="10" Height="10" Canvas.Left="1245" Canvas.Top="926" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella15" Fill="White" Width="10" Height="10" Canvas.Left="1734" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella16" Fill="White" Width="10" Height="10" Canvas.Left="108" Canvas.Top="500" Opacity="0.2"/>
+                <Ellipse x:Name="e5strella17" Fill="White" Width="10" Height="10" Canvas.Left="420" Canvas.Top="398" Opacity="0.2"/>
+
+            </Canvas>
 
         </Canvas>
 

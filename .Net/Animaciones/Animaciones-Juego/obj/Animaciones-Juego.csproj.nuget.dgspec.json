@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj": {}
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj": {}
   },
   "projects": {
-    "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj": {
+    "D:\\Escritorio\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj",
+        "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj",
         "projectName": "Animaciones-Juego",
-        "projectPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj",
-        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\obj\\",
+        "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\Animaciones-Juego.csproj",
+        "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+        "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones-Juego\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
