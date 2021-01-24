@@ -13,6 +13,6 @@ function saludar() {
 
     let persona = new clsPersona(nombre, apellidos);
 
-    alert("Hola " + persona.getNombre() + " " + persona.getApellidos());
+    alert("Hola " + persona.nombre + " " + persona.apellidos);
 
 }

@@ -8,13 +8,21 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Canvas>
-        <Canvas.Background>
-            <SolidColorBrush Color="Black"></SolidColorBrush>
-        </Canvas.Background>
-        
-        <Image Source="/Assets/starship.png" Width="150" Canvas.Left="885" Canvas.Top="673" />
+    <Border>
+        <Canvas HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Width="0"
+                Height="0"
+                RenderTransform="1 0 0 1 0 0">
 
-    </Canvas>
+            <Image x:ConnectionId='2' x:Name="Nave" Source="/Assets/starship.png" Width="150" Canvas.Left="-71" Canvas.Top="-83"/>
+
+        </Canvas>
+
+        <Border.Background>
+            <SolidColorBrush Color="Black"></SolidColorBrush>
+        </Border.Background>
+    </Border>
+
 </Page>
 
