@@ -19,7 +19,7 @@ function apellido() {
         else if (miLLamada.readyState == 4 && miLLamada.status == 200) {
             var persona = JSON.parse(miLLamada.responseText);
 
-            document.getElementById("persona").innerHTML = persona["Apellidos"];
+            document.getElementById("persona").innerText = persona["Apellidos"];
         }
     };
 
