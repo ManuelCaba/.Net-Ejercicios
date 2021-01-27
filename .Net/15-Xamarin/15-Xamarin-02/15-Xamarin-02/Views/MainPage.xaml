@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:_15_Xamarin_02.ViewModels"
+             x:Class="_15_Xamarin_02.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewModels:MainPageVM></viewModels:MainPageVM>
+    </ContentPage.BindingContext>
+
+    <StackLayout>
+        <Entry Text="{Binding Path = PersonaCambiable.Nombre, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Apellidos, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Direccion, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Telefono, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.FechaNacimiento, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.IDDepartamento, Mode=TwoWay}"></Entry>
+        <Button Text="Datos" Command="{Binding Path=ComandoSaludar}"></Button>
+    </StackLayout>
+
+</ContentPage>

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-09T08:47:15.267</Modified>
+      <Modified>2021-01-27T13:04:00.705</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\11-BindingCommand-01.exe">
       <PackagePath>entrypoint\11-BindingCommand-01.exe</PackagePath>
-      <Modified>2020-12-09T08:47:13.364</Modified>
+      <Modified>2021-01-27T13:03:59.104</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-09T08:47:13.073</Modified>
+      <Modified>2021-01-27T13:03:58.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-12-09T08:47:13.074</Modified>
+      <Modified>2021-01-27T13:03:58.482</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-BindingCommand\11-BindingCommand-01\bin\x86\Debug\Core\11-BindingCommand-01.exe">
       <PackagePath>11-BindingCommand-01.exe</PackagePath>
-      <Modified>2020-12-09T08:47:15.249</Modified>
+      <Modified>2021-01-27T13:04:00.650</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

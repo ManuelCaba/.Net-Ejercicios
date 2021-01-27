@@ -12,19 +12,19 @@
 
         <ResourceDictionary>
             <Style TargetType="Ellipse" x:Key="EstrellasGrandes">
-                <Setter Property="Fill" Value="DarkSlateBlue"/>
+                <Setter Property="Fill" Value="#FFFFD8"/>
                 <Setter Property="Width" Value="20"/>
                 <Setter Property="Height" Value="20"/>
                 <Setter Property="Opacity" Value="0.6"/>
             </Style>
             <Style TargetType="Ellipse" x:Key="EstrellasMedianas">
-                <Setter Property="Fill" Value="DarkSlateBlue"/>
+                <Setter Property="Fill" Value="#FFFFD8"/>
                 <Setter Property="Width" Value="15"/>
                 <Setter Property="Height" Value="15"/>
                 <Setter Property="Opacity" Value="0.4"/>
             </Style>
             <Style TargetType="Ellipse" x:Key="EstrellasPequeñas">
-                <Setter Property="Fill" Value="DarkSlateBlue"/>
+                <Setter Property="Fill" Value="#FFFFD8"/>
                 <Setter Property="Width" Value="10"/>
                 <Setter Property="Height" Value="10"/>
                 <Setter Property="Opacity" Value="0.2"/>

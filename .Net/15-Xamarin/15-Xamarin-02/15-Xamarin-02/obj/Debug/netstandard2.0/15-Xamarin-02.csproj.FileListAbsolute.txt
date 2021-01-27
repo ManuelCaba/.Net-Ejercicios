@@ -1,0 +1,14 @@
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\bin\Debug\netstandard2.0\15-Xamarin-02.deps.json
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\bin\Debug\netstandard2.0\15-Xamarin-02.dll
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\bin\Debug\netstandard2.0\ref\15-Xamarin-02.dll
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\bin\Debug\netstandard2.0\15-Xamarin-02.pdb
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.AssemblyInfoInputs.cache
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.AssemblyInfo.cs
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.dll
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\ref\15-Xamarin-02.dll
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.pdb
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-02\15-Xamarin-02\obj\Debug\netstandard2.0\15-Xamarin-02.csprojAssemblyReference.cache

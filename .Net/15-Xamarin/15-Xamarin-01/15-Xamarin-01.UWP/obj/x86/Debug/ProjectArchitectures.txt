@@ -1,0 +1,1 @@
+D:\GitHub Manuel\.Net\15-Xamarin\15-Xamarin-01\15-Xamarin-01.UWP\15-Xamarin-01.UWP.csproj;x86

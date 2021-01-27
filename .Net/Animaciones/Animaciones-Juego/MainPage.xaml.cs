@@ -64,8 +64,7 @@ namespace Animaciones_Juego
         // the event.
         public void HandleKeyDown(object sender, KeyEventArgs e)
         {
-
-            switch (e.VirtualKey)
+             switch (e.VirtualKey)
             {
                 case Windows.System.VirtualKey.Up:
                     _moveUp = true;

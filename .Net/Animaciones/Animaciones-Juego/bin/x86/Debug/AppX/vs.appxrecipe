@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>6fe9c621-37a8-4f15-8348-b4d280e43708</PackageIdentityName>
     <PackageIdentityPublisher>CN=Manuel</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>3A141288E07CAAF50762E3731337D517B8BE36B8512EA6789108A0A04AC21FC3</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>6A8D340B9FB75640090DA2B4C8AC30913859AE9ACDD982859115647BDCCE5611</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6fe9c621-37a8-4f15-8348-b4d280e43708_1.0.0.0_x86__s29h9fr2p064a</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6fe9c621-37a8-4f15-8348-b4d280e43708_s29h9fr2p064a!App</RegisteredUserModeAppID>
     <RegisteredPackageID>6fe9c621-37a8-4f15-8348-b4d280e43708</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-26T13:43:25.262</Modified>
+      <Modified>2021-01-27T09:33:49.972</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Animaciones-Juego.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Animaciones-Juego.exe">
       <PackagePath>entrypoint\Animaciones-Juego.exe</PackagePath>
-      <Modified>2021-01-26T13:43:24.751</Modified>
+      <Modified>2021-01-27T09:33:49.246</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,73 +44,73 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2019-03-18T16:36:56.000</Modified>
+      <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\starship.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\starship.png">
       <PackagePath>Assets\starship.png</PackagePath>
-      <Modified>2021-01-24T20:20:52.036</Modified>
+      <Modified>2021-01-25T11:52:00.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-01-24T20:20:52.024</Modified>
+      <Modified>2021-01-25T11:52:00.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.024</Modified>
+      <Modified>2021-01-25T11:52:00.543</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.024</Modified>
+      <Modified>2021-01-25T11:52:00.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.024</Modified>
+      <Modified>2021-01-25T11:52:00.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.028</Modified>
+      <Modified>2021-01-25T11:52:00.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.028</Modified>
+      <Modified>2021-01-25T11:52:00.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-24T20:20:52.028</Modified>
+      <Modified>2021-01-25T11:52:00.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-01-24T20:20:52.040</Modified>
+      <Modified>2021-01-25T11:52:00.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Animaciones-Juego.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Animaciones-Juego.xr.xml">
       <PackagePath>Animaciones-Juego.xr.xml</PackagePath>
-      <Modified>2021-01-26T12:57:59.669</Modified>
+      <Modified>2021-01-27T09:21:52.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-26T13:43:24.668</Modified>
+      <Modified>2021-01-27T09:33:49.063</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-26T13:43:24.668</Modified>
+      <Modified>2021-01-27T09:33:49.063</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2019-03-18T15:33:42.000</Modified>
+      <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-24T20:27:30.940</Modified>
+      <Modified>2021-01-27T09:23:06.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Core\Animaciones-Juego.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\bin\x86\Debug\Core\Animaciones-Juego.exe">
       <PackagePath>Animaciones-Juego.exe</PackagePath>
-      <Modified>2021-01-26T13:43:25.258</Modified>
+      <Modified>2021-01-27T09:33:49.965</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
