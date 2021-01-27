@@ -25,21 +25,88 @@ namespace Animaciones_Juego
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        private bool _moveUp;
+        private bool _moveDown;
+        private bool _moveLeft;
+        private bool _moveRight;
+
+        // You can add the Timer in the Winforms Designer instead if you like;
+        // The Interval property can be configured there at the same time, along
+        // with the Tick event handler, simplifying the non-Designer code here.
+        private DispatcherTimer _movementTimer = new DispatcherTimer { Interval = TimeSpan.FromMilliseconds(100) };
+
         public MainPage()
         {
             this.InitializeComponent();
+            AnimacionEstrellas.Begin();
+            _movementTimer.Tick += movementTimer_Tick;
         }
 
-        private void HandleKeyDown(Windows.UI.Core.CoreWindow sender, Windows.UI.Core.KeyEventArgs args)
+        private void movementTimer_Tick(object sender, Object e)
         {
-            if (args.VirtualKey == Windows.System.VirtualKey.Right)
+            doMovement();
+        }
+
+        private void doMovement()
+        {
+            if (_moveRight)
                 Canvas.SetLeft(Nave, Canvas.GetLeft(Nave) + 10);
-            else if (args.VirtualKey == Windows.System.VirtualKey.Left)
+            if (_moveLeft)
                 Canvas.SetLeft(Nave, Canvas.GetLeft(Nave) - 10);
-            else if (args.VirtualKey == Windows.System.VirtualKey.Up)
+            if (_moveUp)
                 Canvas.SetTop(Nave, Canvas.GetTop(Nave) - 10);
-            else if (args.VirtualKey == Windows.System.VirtualKey.Down)
+            if (_moveDown)
                 Canvas.SetTop(Nave, Canvas.GetTop(Nave) + 10);
+        }
+
+        // You could of course override the OnKeyDown() method instead,
+        // assuming the handler is in the Form subclass generating the
+        // the event.
+        public void HandleKeyDown(object sender, KeyEventArgs e)
+        {
+
+            switch (e.VirtualKey)
+            {
+                case Windows.System.VirtualKey.Up:
+                    _moveUp = true;
+                    break;
+                case Windows.System.VirtualKey.Down:
+                    _moveDown = true;
+                    break;
+                case Windows.System.VirtualKey.Left:
+                    _moveLeft = true;
+                    break;
+                case Windows.System.VirtualKey.Right:
+                    _moveRight = true;
+                    break;
+            }
+
+            doMovement();
+            _movementTimer.Start();
+        }
+
+        public void HandleKeyUp(object sender, KeyEventArgs e)
+        {
+            switch (e.VirtualKey)
+            {
+                case Windows.System.VirtualKey.Up:
+                    _moveUp = false;
+                    break;
+                case Windows.System.VirtualKey.Down:
+                    _moveDown = false;
+                    break;
+                case Windows.System.VirtualKey.Left:
+                    _moveLeft = false;
+                    break;
+                case Windows.System.VirtualKey.Right:
+                    _moveRight = false;
+                    break;
+            }
+
+            if (!(_moveUp || _moveDown || _moveLeft || _moveRight))
+            {
+                _movementTimer.Stop();
+            }
         }
 
 
@@ -48,6 +115,7 @@ namespace Animaciones_Juego
             base.OnNavigatedFrom(e);
 
             Window.Current.CoreWindow.KeyDown -= HandleKeyDown;
+            Window.Current.CoreWindow.KeyUp -= HandleKeyUp;
         }
 
         protected override void OnNavigatedTo(NavigationEventArgs e)
@@ -55,6 +123,7 @@ namespace Animaciones_Juego
             base.OnNavigatedTo(e);
 
             Window.Current.CoreWindow.KeyDown += HandleKeyDown;
+            Window.Current.CoreWindow.KeyUp += HandleKeyUp;
         }
 
         private void Canvas_SizeChanged(object sender, SizeChangedEventArgs e)
