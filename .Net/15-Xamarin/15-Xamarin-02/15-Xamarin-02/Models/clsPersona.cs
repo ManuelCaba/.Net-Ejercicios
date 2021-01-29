@@ -69,15 +69,24 @@ namespace _15_Xamarin_02.Models
         {
             bool rest = false;
 
-            if(this == obj)
+            if (this == obj)
             {
                 rest = true;
             }
-            else if(obj != null && typeof(clsPersona).IsInstanceOfType(obj))
+            else if(obj != null && (obj.GetType().Name.CompareTo("clsPersona") == 0))
             {
                 clsPersona persona = (clsPersona) obj;
 
-                if(this.ID == persona.ID)
+                if(this.ID == persona.ID &&
+                    this.Nombre == persona.Nombre &&
+                    this.Apellidos == persona.Apellidos &&
+                    this.Direccion == persona.Direccion &&
+                    this.Telefono == persona.Telefono &&
+                    this.IDDepartamento == persona.IDDepartamento &&
+                    this.FechaNacimiento == persona.FechaNacimiento)
+                {
+                    rest = true;
+                }
             }
 
             return rest;

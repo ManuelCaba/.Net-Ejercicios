@@ -9,12 +9,18 @@
     </ContentPage.BindingContext>
 
     <StackLayout>
-        <Entry Text="{Binding Path = PersonaCambiable.Nombre, Mode=TwoWay}"></Entry>
-        <Entry Text="{Binding Path = PersonaCambiable.Apellidos, Mode=TwoWay}"></Entry>
-        <Entry Text="{Binding Path = PersonaCambiable.Direccion, Mode=TwoWay}"></Entry>
-        <Entry Text="{Binding Path = PersonaCambiable.Telefono, Mode=TwoWay}"></Entry>
-        <Entry Text="{Binding Path = PersonaCambiable.FechaNacimiento, Mode=TwoWay}"></Entry>
-        <Entry Text="{Binding Path = PersonaCambiable.IDDepartamento, Mode=TwoWay}"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Nombre, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Apellidos, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Direccion, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.Telefono, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.FechaNacimiento, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
+        <Entry Text="{Binding Path = PersonaCambiable.IDDepartamento, Mode=TwoWay}"
+               TextChanged="ActualizarSaludar"></Entry>
         <Button Text="Datos" Command="{Binding Path=ComandoSaludar}"></Button>
     </StackLayout>
 

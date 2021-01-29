@@ -6,7 +6,7 @@ using System.Text;
 using Xamarin.Forms;
 
 namespace _15_Xamarin_02.ViewModels {
-    class MainPageVM {
+    public class MainPageVM {
 
         #region Atributos
         private clsPersona personaInmutable;
@@ -17,8 +17,7 @@ namespace _15_Xamarin_02.ViewModels {
         public clsPersona PersonaCambiable 
         { 
             get
-            { 
-                ComandoSaludar.RaiseCanExecuteChanged();
+            {
                 return personaCambiable;
             } 
             set 
@@ -42,11 +41,11 @@ namespace _15_Xamarin_02.ViewModels {
 
         private bool ComandoSaludar_CanExecute()
         {
-            bool canExecute = false;
+            bool canExecute = true;
 
             if(personaInmutable.Equals(personaCambiable))
             {
-                canExecute = true;
+                canExecute = false;
             }
 
             return canExecute;
@@ -61,6 +60,11 @@ namespace _15_Xamarin_02.ViewModels {
                                                                      "Fecha Nacimiento: " + personaCambiable.FechaNacimiento + "\n" +
                                                                      "ID Departamento: " + personaCambiable.IDDepartamento + "\n", "Ok");
             personaInmutable = new clsPersona(personaCambiable);
+        }
+
+        public void ActualizarSaludar(object sender, TextChangedEventArgs e)
+        {
+            ComandoSaludar.RaiseCanExecuteChanged();
         }
 
         #endregion
