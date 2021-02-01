@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _15_Xamarin_02.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace _15_Xamarin_02
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void ActualizarSaludar(object sender, TextChangedEventArgs e)
+        {
+            ((MainPageVM)BindingContext).ActualizarSaludar(sender, e);
         }
     }
 }

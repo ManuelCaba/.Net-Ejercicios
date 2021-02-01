@@ -4434,7 +4434,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -8504,18 +8504,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manuel\\.nuget\\packages\\": {},
+    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\11-CRUDPersonasDepartamentos-UI.csproj",
+      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\11-CRUDPersonasDepartamentos-UI.csproj",
       "projectName": "11-CRUDPersonasDepartamentos-UI",
-      "projectPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\11-CRUDPersonasDepartamentos-UI.csproj",
-      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\obj\\",
+      "projectPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\11-CRUDPersonasDepartamentos-UI.csproj",
+      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-UI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8523,7 +8523,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8537,11 +8537,11 @@
       "frameworks": {
         "uap10.0.18362": {
           "projectReferences": {
-            "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj": {
-              "projectPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj"
+            "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj": {
+              "projectPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-BL\\11-CRUDPersonasDepartamentos-BL.csproj"
             },
-            "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {
-              "projectPath": "D:\\.Net-Ejercicios\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj"
+            "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj": {
+              "projectPath": "D:\\GitHub Manuel\\.Net\\11-CRUDPersonasDepartamentos\\11-CRUDPersonasDepartamentos-Entidades\\11-CRUDPersonasDepartamentos-Entidades.csproj"
             }
           }
         }

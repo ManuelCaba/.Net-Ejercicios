@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-6F174NU</Machine>
-    <WindowsUser>Manuel</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>924370b3-dec0-4121-a827-e5fa00dab710</PackageIdentityName>
     <PackageIdentityPublisher>CN=emane</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>9435CFAFEEABB5F205DCDEC309C4B94A07E1914E8942AF410AC085CEE451582E</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>2AD19927D8E9D0CE21DAF047D7D9CCD7B781FDA7FBE1FB24EEE445744504A343</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>924370b3-dec0-4121-a827-e5fa00dab710_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>924370b3-dec0-4121-a827-e5fa00dab710_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>924370b3-dec0-4121-a827-e5fa00dab710</RegisteredPackageID>
@@ -27,106 +27,106 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-12-04T09:58:41.632</Modified>
+      <Modified>2021-01-29T12:24:57.545</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.exe">
       <PackagePath>entrypoint\11-CRUDPersonasDepartamentos-UI.exe</PackagePath>
-      <Modified>2020-12-04T09:58:40.429</Modified>
+      <Modified>2021-01-29T12:24:53.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T18:16:04.000</Modified>
+      <Modified>2020-02-27T17:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-BL.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-BL.dll</PackagePath>
-      <Modified>2020-12-04T09:10:18.710</Modified>
+      <Modified>2021-01-29T12:24:43.585</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-Entidades\bin\x86\Debug\11-CRUDPersonasDepartamentos-Entidades.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-Entidades.dll</PackagePath>
-      <Modified>2020-12-04T09:10:17.351</Modified>
+      <Modified>2020-12-09T08:38:54.820</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-BL\bin\x86\Debug\11-CRUDPersonasDepartamentos-DAL.dll">
       <PackagePath>11-CRUDPersonasDepartamentos-DAL.dll</PackagePath>
-      <Modified>2020-12-04T09:10:18.112</Modified>
+      <Modified>2021-01-29T12:24:40.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-11-22T00:52:06.855</Modified>
+      <Modified>2020-11-23T07:39:10.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-11-22T00:52:06.853</Modified>
+      <Modified>2020-11-23T07:39:10.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.350</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-22T00:52:06.854</Modified>
+      <Modified>2020-11-23T07:39:10.353</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\11-CRUDPersonasDepartamentos-UI.xr.xml">
       <PackagePath>11-CRUDPersonasDepartamentos-UI.xr.xml</PackagePath>
-      <Modified>2020-12-04T09:58:40.316</Modified>
+      <Modified>2020-12-09T08:38:54.881</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-12-04T09:58:40.327</Modified>
+      <Modified>2021-01-29T12:24:53.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Departamentos.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Departamentos.xbf">
       <PackagePath>Views\Departamentos.xbf</PackagePath>
-      <Modified>2020-12-04T09:58:40.327</Modified>
+      <Modified>2021-01-29T12:24:53.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2020-12-04T09:58:40.327</Modified>
+      <Modified>2021-01-29T12:24:53.073</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Personas.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Views\Personas.xbf">
       <PackagePath>Views\Personas.xbf</PackagePath>
-      <Modified>2020-12-04T09:58:40.327</Modified>
+      <Modified>2021-01-29T12:24:53.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-12-04T09:10:23.496</Modified>
+      <Modified>2021-01-29T12:24:54.403</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\11-CRUDPersonasDepartamentos-UI.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\11-CRUDPersonasDepartamentos\11-CRUDPersonasDepartamentos-UI\bin\x86\Debug\Core\11-CRUDPersonasDepartamentos-UI.exe">
       <PackagePath>11-CRUDPersonasDepartamentos-UI.exe</PackagePath>
-      <Modified>2020-12-04T09:58:41.630</Modified>
+      <Modified>2021-01-29T12:24:57.512</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
