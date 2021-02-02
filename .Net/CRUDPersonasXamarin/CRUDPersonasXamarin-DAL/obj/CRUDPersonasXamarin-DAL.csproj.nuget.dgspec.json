@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj",
+        "projectName": "CRUDPersonasXamarin-DAL",
+        "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj",
+        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj": {
+                "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj",
+        "projectName": "CRUDPersonasXamarin-Entidades",
+        "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj",
+        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

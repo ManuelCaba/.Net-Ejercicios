@@ -4,44 +4,18 @@ var body;
 const llamada = "https://apicrudpersonasmanuel.azurewebsites.net/api/";
 var arrayPersonas;
 
-$(document).ready(function () {
-    table = $('#table').DataTable({
-        "processing": true,
-        "serverSide": true,
-        "type": "GET",
-        "ajax": "https://apicrudpersonasmanuel.azurewebsites.net/api/Personas"
-    });
-
-    ////getting the value of search box
-    //$('.dataTables_filter input').unbind().keyup(function (e) {
-    //    var value = $(this).val();
-    //    if (value.length > 3) {
-    //        alert(value);
-    //        table.search(value).draw();
-    //    } else {
-    //        //optional, reset the search if the phrase 
-    //        //is less then 3 characters long
-    //        table.search('').draw();
-    //    }
-    //});
-});
-
 function inicializaEventos() {
 
     table = document.getElementById("table");
     body = table.getElementsByTagName('tbody')[0];
     getPersonas();
-
-
 }
 
 function getPersonas() {
 
     var miLlamada = new XMLHttpRequest();
 
-    var prueba = llamada + "Personas";
-
-    miLlamada.open("GET", "https://apicrudpersonasmanuel.azurewebsites.net/api/Personas");
+    miLlamada.open("GET", llamada + "Personas");
 
     miLlamada.onreadystatechange = function () {
         if (miLlamada.readyState < 4) {
@@ -67,10 +41,23 @@ function mostrarPersonas() {
 
         for (var property in arrayPersonas[i]) {
             if (property != "Foto") {
+                if (property == "FechaNacimiento") {
+                    arrayPersonas[i][property] = arrayPersonas[i][property].split("T")[0];
+                    var fecha = new Date(arrayPersonas[i][property]);
+                }
                 fila.insertCell(celda).innerHTML = arrayPersonas[i][property];
                 celda++;
             }
-            fila.insertCell(celda).innerHTML = 
         }
+        var btnEditar = document.createElement('button');
+        btnEditar.className = "far fa-edit";
+
+        var btnBorrar = document.createElement('button');
+        btnBorrar.className = "fas fa-trash";
+
+        var celdaBotones = document.createElement('td');
+        celdaBotones.appendChild(btnEditar);
+        celdaBotones.appendChild(btnBorrar);
+        fila.appendChild(celdaBotones);
     }
 }

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         setContentView(R.layout.activity_main);
 
         //Inicialización de las variables
-        victoriasUsuario = victoriasIA = empates = piedrasUsuario = piedrasIA = papelesUsuario = papelesIA = tijerasUsuario = tijerasIA = 0;
+
         sharedPreferences = this.getSharedPreferences("EstadisticasPartida", Context.MODE_PRIVATE);
 
         rdgOpciones = findViewById(R.id.rdgOpciones);
@@ -46,6 +46,12 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
         //Cambio de listener
         rdgOpciones.setOnCheckedChangeListener(this);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        victoriasUsuario = victoriasIA = empates = piedrasUsuario = piedrasIA = papelesUsuario = papelesIA = tijerasUsuario = tijerasIA = 0;
     }
 
     /*
@@ -210,7 +216,7 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
         papelesUsuario = sharedPreferences.getInt("Papeles Usuario", 0);
         papelesIA = sharedPreferences.getInt("Papeles IA", 0);
         tijerasUsuario = sharedPreferences.getInt("Tijeras Usuario", 0);
-        tijerasIA = sharedPreferences.getInt("TijerasIA", 0);
+        tijerasIA = sharedPreferences.getInt("Tijeras  IA", 0);
 
         SharedPreferences.Editor editor = sharedPreferences.edit();
 

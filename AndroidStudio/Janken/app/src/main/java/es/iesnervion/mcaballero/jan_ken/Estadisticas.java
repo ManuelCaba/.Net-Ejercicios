@@ -48,7 +48,7 @@ public class Estadisticas extends AppCompatActivity {
         txvPapelesUsuario.setText(Integer.toString(sharedPreferences.getInt("Papeles Usuario", 0)));
         txvPapelesIA.setText(Integer.toString(sharedPreferences.getInt("Papeles IA", 0)));
         txvTijerasUsuario.setText(Integer.toString(sharedPreferences.getInt("Tijeras Usuario", 0)));
-        txvTijerasIA.setText(Integer.toString(sharedPreferences.getInt("TijerasIA", 0)));
+        txvTijerasIA.setText(Integer.toString(sharedPreferences.getInt("Tijeras IA", 0)));
     }
 
     public void volver(View view) {
