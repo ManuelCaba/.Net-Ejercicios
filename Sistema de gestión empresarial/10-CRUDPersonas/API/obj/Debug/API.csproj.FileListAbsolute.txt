@@ -150,3 +150,27 @@ D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\A
 D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.csproj.CopyComplete
 D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.dll
 D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.pdb
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Antlr3.Runtime.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Microsoft.Web.Infrastructure.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Helpers.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Mvc.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Optimization.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Razor.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Deployment.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Razor.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\WebGrease.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Antlr3.Runtime.pdb
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Helpers.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Mvc.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Optimization.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Razor.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Deployment.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Razor.xml
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Helpers.resources.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Mvc.resources.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Razor.resources.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.resources.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.Razor.resources.dll
