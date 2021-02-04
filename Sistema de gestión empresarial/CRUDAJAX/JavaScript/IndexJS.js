@@ -2,6 +2,7 @@
 var table;
 var body;
 var loader;
+var loaderDepartamentos;
 const llamada = "https://apicrudpersonasmanuel.azurewebsites.net/api/";
 var arrayPersonas;
 var arrayDepartamentos;
@@ -11,6 +12,7 @@ function inicializaEventos() {
     table = document.getElementById("table");
     body = table.getElementsByTagName('tbody')[0];
     loader = document.getElementById('loader');
+    loaderDepartamentos = document.getElementById('loaderDepartamentos');
     loader.className = "loader";
     getPersonas();
 }
@@ -38,7 +40,7 @@ function getPersonas() {
     miLlamada.send();
 }
 
-function getDepartamentos() {
+function getDepartamentos(event) {
 
     var miLlamada = new XMLHttpRequest();
 
@@ -46,10 +48,12 @@ function getDepartamentos() {
 
     miLlamada.onreadystatechange = function () {
         if (miLlamada.readyState < 4) {
+
         }
         else {
             if (miLlamada.readyState == 4 && miLlamada.status == 200) {
                 arrayDepartamentos = JSON.parse(miLlamada.responseText);
+                abrirModal(event);
             }
         }
     }
@@ -91,7 +95,7 @@ function mostrarPersonas() {
 
         var btnEditar = document.createElement('button');
         btnEditar.className = "far fa-edit";
-        btnEditar.onclick = abrirModal;
+        btnEditar.onclick = getDepartamentos;
 
         var btnBorrar = document.createElement('button');
         btnBorrar.className = "fas fa-trash";
@@ -132,10 +136,7 @@ function eliminarPersona(event) {
 
         miLlamada.send();
         
-    } else {
-        userPreference = "Save Canceled!";
-    }
-    
+    }     
 }
 
 function actualizarPagina() {
@@ -145,26 +146,36 @@ function actualizarPagina() {
     getPersonas();
 }
 
-async function abrirModal(event) {
+function abrirModal(event) {
     
     var fila = event.target.closest('tr');
+    var ID;
+    var nombre;
+    var apellidos;
+    var fechaNacimiento;
+    var direccion;
+    var telefono;
+    var IDDepartamento;
+
     if (fila != null) {
-        var ID = fila.cells[0].innerHTML;
-        var nombre = fila.cells[1].innerHTML;
-        var apellidos = fila.cells[2].innerHTML;
-        var fechaNacimiento = new Date(fila.cells[3].innerHTML);
-        var direccion = fila.cells[4].innerHTML;
-        var telefono = fila.cells[5].innerHTML;
-        var IDDepartamento = fila.cells[8].innerHTML;
+        ID = fila.cells[0].innerHTML;
+        nombre = fila.cells[1].innerHTML;
+        apellidos = fila.cells[2].innerHTML;
+        fechaNacimiento = new Date(fila.cells[3].innerHTML);
+        direccion = fila.cells[4].innerHTML;
+        telefono = fila.cells[5].innerHTML;
+        IDDepartamento = fila.cells[8].innerHTML;
     }
 
-    await getDepartamentos();
+    document.getElementById('ID').value = ID;
+    document.getElementById('Nombre').value = nombre;
+    document.getElementById('Apellidos').value = apellidos;
+    $(".datepicker").datepicker('setDate', fechaNacimiento);
+    //document.getElementById('FechaNacimiento').value = fechaNacimiento.getDate();
+    document.getElementById('Direccion').value = direccion;
+    document.getElementById('Telefono').value = telefono;
+    document.getElementById('Departamento');
 
-    document.getElementById('modal').style.visibility = "visible";
+    $('#modal').modal('show');
 
-
-}
-
-function cerrarModal() {
-    document.getElementById('modal').style.visibility = "hidden";
 }
