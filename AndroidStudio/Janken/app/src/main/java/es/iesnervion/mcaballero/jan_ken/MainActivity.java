@@ -266,7 +266,9 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
 
         editor.apply();
 
-        startActivity(intentEstadisticas);
+        //startActivity(intentEstadisticas);
+        EstadisticasDialog estadisticasDialog = new EstadisticasDialog();
+        estadisticasDialog.show(getSupportFragmentManager(), "prueba");
 
     }
 }

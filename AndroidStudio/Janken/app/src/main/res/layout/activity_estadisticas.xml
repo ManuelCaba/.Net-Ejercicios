@@ -16,12 +16,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Victorias Usuario: "></TextView>
 
         <TextView
             android:id="@+id/txvVictoriasUsuario"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -33,12 +35,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Victorias IA: "></TextView>
 
         <TextView
             android:id="@+id/txvVictoriasIA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -50,12 +54,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Empates: "></TextView>
 
         <TextView
             android:id="@+id/txvEmpates"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -67,12 +73,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Piedras Usuario: "></TextView>
 
         <TextView
             android:id="@+id/txvPiedrasUsuario"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -84,12 +92,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Piedras IA: "></TextView>
 
         <TextView
             android:id="@+id/txvPiedrasIA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -101,12 +111,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Papeles Usuario: "></TextView>
 
         <TextView
             android:id="@+id/txvPapelesUsuario"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -118,12 +130,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Papeles IA: "></TextView>
 
         <TextView
             android:id="@+id/txvPapelesIA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -135,12 +149,14 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Tijeras Usuario: "></TextView>
 
         <TextView
             android:id="@+id/txvTijerasUsuario"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
@@ -152,21 +168,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="20dp"
             android:text="Tijeras IA: "></TextView>
 
         <TextView
             android:id="@+id/txvTijerasIA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"></TextView>
+            android:layout_height="wrap_content"
+            android:textSize="20dp"></TextView>
 
     </LinearLayout>
 
-    <Button
+    <!--<Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Volver"
         android:onClick="volver"
-        android:layout_marginTop="20dp"></Button>
+        android:layout_marginTop="20dp"></Button>-->
 
 
 </LinearLayout>
