@@ -5,6 +5,7 @@ var loader;
 var loaderDepartamentos;
 const llamada = "https://apicrudpersonasmanuel.azurewebsites.net/api/";
 var arrayPersonas;
+var persona;
 var arrayDepartamentos;
 
 function inicializaEventos() {
@@ -14,7 +15,9 @@ function inicializaEventos() {
     loader = document.getElementById('loader');
     loaderDepartamentos = document.getElementById('loaderDepartamentos');
     loader.className = "loader";
+    $('#SaveChanges').on("click", saveChanges);
     getPersonas();
+    filtrar();
 }
 
 function getPersonas() {
@@ -140,6 +143,7 @@ function eliminarPersona(event) {
 }
 
 function actualizarPagina() {
+    $('#modal').modal('hide');
     var new_tbody = document.createElement('tbody');
     body.parentNode.replaceChild(new_tbody, body);
     body = new_tbody;
@@ -147,17 +151,19 @@ function actualizarPagina() {
 }
 
 function abrirModal(event) {
-    
-    var fila = event.target.closest('tr');
-    var ID;
-    var nombre;
-    var apellidos;
-    var fechaNacimiento;
-    var direccion;
-    var telefono;
-    var IDDepartamento;
 
-    if (fila != null) {
+    var select = document.getElementById('Departamento');
+    var fechaNacimiento = new Date();
+
+    if (event.target.id != 'btnCrear') {
+        var fila = event.target.closest('tr');
+        var ID;
+        var nombre;
+        var apellidos;
+        var direccion;
+        var telefono;
+        var IDDepartamento;
+
         ID = fila.cells[0].innerHTML;
         nombre = fila.cells[1].innerHTML;
         apellidos = fila.cells[2].innerHTML;
@@ -165,17 +171,130 @@ function abrirModal(event) {
         direccion = fila.cells[4].innerHTML;
         telefono = fila.cells[5].innerHTML;
         IDDepartamento = fila.cells[8].innerHTML;
+
+
+        document.getElementById('ID').value = ID;
+        document.getElementById('Nombre').value = nombre;
+        document.getElementById('Apellidos').value = apellidos;
+        //document.getElementById('FechaNacimiento').value = fechaNacimiento.getDate();
+        document.getElementById('Direccion').value = direccion;
+        document.getElementById('Telefono').value = telefono;
+    }
+    else {
+        document.getElementById('ID').value = "";
+        document.getElementById('Nombre').value = "";
+        document.getElementById('Apellidos').value = "";
+        //document.getElementById('FechaNacimiento').value = fechaNacimiento.getDate();
+        document.getElementById('Direccion').value = "";
+        document.getElementById('Telefono').value = "";
     }
 
-    document.getElementById('ID').value = ID;
-    document.getElementById('Nombre').value = nombre;
-    document.getElementById('Apellidos').value = apellidos;
     $(".datepicker").datepicker('setDate', fechaNacimiento);
-    //document.getElementById('FechaNacimiento').value = fechaNacimiento.getDate();
-    document.getElementById('Direccion').value = direccion;
-    document.getElementById('Telefono').value = telefono;
-    document.getElementById('Departamento');
+
+    select.innerHTML = "";
+
+    arrayDepartamentos.forEach((element, index, array) => {
+
+        prueba = element;
+
+        var opt = document.createElement("option");
+        opt.text = element.Nombre;
+        opt.value = element.ID;
+
+        if (opt.value == IDDepartamento) {
+            opt.selected = 'true';
+        }
+
+        select.appendChild(opt);
+    });
 
     $('#modal').modal('show');
 
+
+}
+
+function saveChanges() {
+
+    var ID = document.getElementById("ID").value;
+    var Nombre = document.getElementById("Nombre").value;
+    var Apellidos = document.getElementById("Apellidos").value;
+    var Direccion = document.getElementById("Direccion").value;
+    var Telefono = document.getElementById("Telefono").value;
+    var FechaNacimiento = document.getElementById("FechaNacimiento").value;
+    var IDDepartamento = document.getElementById("Departamento").value;
+
+    persona = new clsPersona(ID, Nombre, Apellidos, Direccion, Telefono, FechaNacimiento, IDDepartamento, null);
+
+    if (ID == "") {
+        insertarPersona(persona);
+    }
+    else {
+        editarPersona(persona);
+    }
+}
+
+async function insertarPersona(Persona) {
+
+    var miLlamada = new XMLHttpRequest();
+
+    miLlamada.open("POST", llamada + "Personas");
+
+    miLlamada.setRequestHeader('Content-type', "application/json;charset=UTF-8");
+    // Definicion estados
+
+    miLlamada.onreadystatechange = function () {
+
+        if (miLlamada.readyState < 4) {
+
+            loader.className = "loader";
+
+        }
+        else if (miLlamada.readyState == 4 && miLlamada.status == 201) {
+
+            loader.className = "";
+            actualizarPagina();
+        }
+
+    };
+
+    miLlamada.send(JSON.stringify(Persona));
+}
+
+function editarPersona(Persona) {
+    var miLlamada = new XMLHttpRequest();
+
+    miLlamada.open("PUT", llamada + "Personas/"+Persona.ID);
+
+    miLlamada.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+
+    var json = JSON.stringify(Persona);
+
+    // Definicion estados
+
+    miLlamada.onreadystatechange = function () {
+
+        if (miLlamada.readyState < 4) {
+
+            loader.className = "loader";
+
+        }
+        else if (miLlamada.readyState == 4 && miLlamada.status == 200) {
+
+            loader.className = "";
+            actualizarPagina();
+
+        }
+
+    };
+
+    miLlamada.send(json);
+}
+
+function filtrar() {
+    $("#myInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        $("#table tr").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+        });
+    });
 }

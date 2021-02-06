@@ -10,13 +10,12 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-
-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-
-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
     <script src="../JavaScript/IndexJS.js"></script>
+    <script src="../JavaScript/clsPersona.js"></script>
 </head>
 
 <body>
@@ -33,6 +32,15 @@ datepicker/1.4.1/css/bootstrap-datepicker3.css" />
         <h1>
             Listado
         </h1>
+
+
+
+
+        <input class="form-control" id="myInput" type="text" placeholder="Search.."> <br>
+
+        <button id="btnCrear" onclick="getDepartamentos(event)" class="btn btn-primary">Añadir Nuevo</button> <br>
+
+
 
         <table id="table" class="table">
             <thead>
@@ -95,6 +103,7 @@ datepicker/1.4.1/css/bootstrap-datepicker3.css" />
             </tfoot>
         </table>
     </div>
+
     <div id="modal" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -107,7 +116,7 @@ datepicker/1.4.1/css/bootstrap-datepicker3.css" />
                 <div class="modal-body">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Nombre</label>
-                        <input type="text" minlength="3" class="form-control" id="Nombre" placeholder="Nombre">
+                        <input type="text" required minlength="3" class="form-control" id="Nombre" placeholder="Nombre">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Apellidos</label>
@@ -123,16 +132,11 @@ datepicker/1.4.1/css/bootstrap-datepicker3.css" />
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Teléfono</label>
-                        <input type="text" size="9" class="form-control" id="Telefono" placeholder="Teléfono">
+                        <input type="tel" pattern="[0-9]{9}" class="form-control" id="Telefono" placeholder="Teléfono">
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlSelect1">Departamento</label>
                         <select class="form-control" id="Departamento">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -140,11 +144,13 @@ datepicker/1.4.1/css/bootstrap-datepicker3.css" />
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" id="SaveChanges" class="btn btn-primary">Save changes</button>
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
     </div>
+
+  
 </body>
 </html>
