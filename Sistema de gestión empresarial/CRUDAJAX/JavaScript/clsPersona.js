@@ -8,5 +8,6 @@
         this.Telefono = Telefono;
         this.FechaNacimiento = FechaNacimiento;
         this.IDDepartamento = IDDepartamento;
+        this.Foto = Foto;
     }
 }

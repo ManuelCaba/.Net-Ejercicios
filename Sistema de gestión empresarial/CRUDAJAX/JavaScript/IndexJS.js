@@ -8,6 +8,16 @@ var arrayPersonas;
 var persona;
 var arrayDepartamentos;
 
+/*************************************************************
+ * Método que inicializa los eventos utilizados e inicicializa
+ * los atributos necesarios
+ * Signatura = inicializaEventos()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se inicilizará las propiedades necesarias
+ * para el rendimiento de la página
+ ************************************************************/
 function inicializaEventos() {
 
     table = document.getElementById("table");
@@ -16,10 +26,20 @@ function inicializaEventos() {
     loaderDepartamentos = document.getElementById('loaderDepartamentos');
     loader.className = "loader";
     $('#SaveChanges').on("click", saveChanges);
+    $('#btnCrear').on("click", getDepartamentos);
     getPersonas();
     filtrar();
 }
 
+/**************************************************************
+ * Método que recibe un listado de personas de la API
+ * Signatura = getPersonas()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se cargará un listado completo de personas
+ * proporcionado por la API
+ *************************************************************/
 function getPersonas() {
 
     var miLlamada = new XMLHttpRequest();
@@ -43,6 +63,15 @@ function getPersonas() {
     miLlamada.send();
 }
 
+/********************************************************************
+ * Método que recibe un listado de departamentos de la API
+ * Signatura = getPersonas()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se cargará un listado completo de departamentos
+ * proporcionado por la API
+ *******************************************************************/
 function getDepartamentos(event) {
 
     var miLlamada = new XMLHttpRequest();
@@ -64,6 +93,14 @@ function getDepartamentos(event) {
     miLlamada.send();
 }
 
+/********************************************************************
+ * Método que muestra un listado de personas en una tabla
+ * Signatura = mostrarPersonas()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se cargará una tabla con el listado de personas
+ *******************************************************************/
 function mostrarPersonas() {
     for (i = 0; i < arrayPersonas.length; i++) {
 
@@ -112,8 +149,55 @@ function mostrarPersonas() {
 
         fila.appendChild(IDDepartamento);
     }
+
+    pagination();
 }
 
+/****************************************************************
+ * Método que crea una paginación con botones para la tabla de
+ * personas con un límite de 20 filas
+ * Signatura = pagination()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se creará una paginación a partir de botones
+ * con un límite de 20 filas de personas por página
+ ****************************************************************/
+function pagination() {
+    $('#nav').remove();
+    $('#table').after('<div id="nav"></div>');
+    var rowsShown = 20;
+    var rowsTotal = $('#table tbody tr').length;
+    var numPages = rowsTotal / rowsShown;
+    for (i = 0; i < numPages; i++) {
+        var pageNum = i + 1;
+        $('#nav').append('<a href="#" rel="' + i + '">' + pageNum + '</a> ');
+    }
+    $('#table tbody tr').hide();
+    $('#table tbody tr').slice(0, rowsShown).show();
+    $('#nav a:first').addClass('active btn btn-primary');
+    $('#nav a').bind('click', function () {
+
+        $('#nav a').removeClass('active');
+        $(this).addClass('active');
+        var currPage = $(this).attr('rel');
+        var startItem = currPage * rowsShown;
+        var endItem = startItem + rowsShown;
+        $('#table tbody tr').css('opacity', '0.0').hide().slice(startItem, endItem).
+            css('display', 'table-row').animate({ opacity: 1 }, 300);
+    })
+}
+
+/****************************************************************
+ * Método que elimina la persona según la fila del botón pulsado
+ * Signatura = eliminarPersona(event)
+ * Entradas: 
+ *      - event
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se eliminará la persona de la fila donde se 
+ * haya pulsado el botón eliminar
+ ****************************************************************/
 function eliminarPersona(event) {
     if (confirm("Está seguro que desea eliminar el usuario?") == true) {
 
@@ -142,6 +226,14 @@ function eliminarPersona(event) {
     }     
 }
 
+/**********************************************************************
+ * Método que recarga la página y actualiza los datos
+ * Signatura = actualizarPagina()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se recargará la página con los datos actualizados
+ **********************************************************************/
 function actualizarPagina() {
     $('#modal').modal('hide');
     var new_tbody = document.createElement('tbody');
@@ -150,6 +242,17 @@ function actualizarPagina() {
     getPersonas();
 }
 
+/*********************************************************************************
+ * Método que abre el modal de formulario de personas y lo prepara
+ * según la elección del usuario
+ * Signatura = abriModal(event)
+ * Entradas:
+ *      - event
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se abrirá un formulario preparado según la condición, crear
+ * o editar persona
+ ********************************************************************************/
 function abrirModal(event) {
 
     var select = document.getElementById('Departamento');
@@ -213,6 +316,15 @@ function abrirModal(event) {
 
 }
 
+/***************************************************************************************
+ * Método que recoge los datos del formulario y crea o edita una persona
+ * según los requerimientos del usuario
+ * Signatura = saveChanges()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se recogerá los datos del formulario y editará o creará una persona
+ **************************************************************************************/
 function saveChanges() {
 
     var ID = document.getElementById("ID").value;
@@ -233,6 +345,15 @@ function saveChanges() {
     }
 }
 
+/****************************************************************
+ * Método que inserta una persona en la base de datos
+ * Signatura = insertarPersona(Persona)
+ * Entradas:
+ *      - Persona
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se insertará una persona en la base de datos
+ ****************************************************************/
 async function insertarPersona(Persona) {
 
     var miLlamada = new XMLHttpRequest();
@@ -260,6 +381,15 @@ async function insertarPersona(Persona) {
     miLlamada.send(JSON.stringify(Persona));
 }
 
+/****************************************************************
+ * Método que actualiza una persona en la base de datos
+ * Signatura = editarPersona(Persona)
+ * Entradas:
+ *      - Persona
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se actualizará una persona en la base de datos
+ ****************************************************************/
 function editarPersona(Persona) {
     var miLlamada = new XMLHttpRequest();
 
@@ -290,6 +420,14 @@ function editarPersona(Persona) {
     miLlamada.send(json);
 }
 
+/***************************************************************************
+ * Método que filtra una tabla de personas según sus propiedades
+ * Signatura = filtrar()
+ * Entradas: No hay
+ * Precondiciones: No hay
+ * Salidas: No hay
+ * Postcondiciones: Se filtrará una persona según la necesidad del usuario
+ **************************************************************************/
 function filtrar() {
     $("#myInput").on("keyup", function () {
         var value = $(this).val().toLowerCase();
