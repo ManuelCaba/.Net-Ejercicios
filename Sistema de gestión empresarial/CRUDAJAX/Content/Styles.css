@@ -14,6 +14,16 @@
     opacity: 0.2 !important;
 }
 
+.btn {
+    background-color: #222 !important;
+    color: white !important;
+    border-radius: 0px !important;
+}
+
+.buscador{
+    display:inline !important;
+}
+
 @keyframes spin {
     0% {
         transform: rotate(0deg);

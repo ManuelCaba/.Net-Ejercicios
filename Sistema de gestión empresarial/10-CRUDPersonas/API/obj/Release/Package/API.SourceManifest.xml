@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" />
-  <setAcl path="D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="D:\Escritorio\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" />
+  <setAcl path="D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>

@@ -134,11 +134,11 @@ function mostrarPersonas() {
         fila.appendChild(nombreDepartamento);
 
         var btnEditar = document.createElement('button');
-        btnEditar.className = "far fa-edit";
+        btnEditar.className = "far fa-edit btn";
         btnEditar.onclick = getDepartamentos;
 
         var btnBorrar = document.createElement('button');
-        btnBorrar.className = "fas fa-trash";
+        btnBorrar.className = "fas fa-trash btn";
         btnBorrar.name = "btnBorrar"
         btnBorrar.onclick = eliminarPersona;
 
@@ -155,27 +155,27 @@ function mostrarPersonas() {
 
 /****************************************************************
  * Método que crea una paginación con botones para la tabla de
- * personas con un límite de 20 filas
+ * personas con un límite de 10 filas
  * Signatura = pagination()
  * Entradas: No hay
  * Precondiciones: No hay
  * Salidas: No hay
  * Postcondiciones: Se creará una paginación a partir de botones
- * con un límite de 20 filas de personas por página
+ * con un límite de 10 filas de personas por página
  ****************************************************************/
 function pagination() {
     $('#nav').remove();
     $('#table').after('<div id="nav"></div>');
-    var rowsShown = 20;
+    var rowsShown = 10;
     var rowsTotal = $('#table tbody tr').length;
     var numPages = rowsTotal / rowsShown;
     for (i = 0; i < numPages; i++) {
         var pageNum = i + 1;
-        $('#nav').append('<a href="#" rel="' + i + '">' + pageNum + '</a> ');
+        $('#nav').append('<a href="#" class="btn" rel="' + i + '">' + pageNum + '</a> ');
     }
     $('#table tbody tr').hide();
     $('#table tbody tr').slice(0, rowsShown).show();
-    $('#nav a:first').addClass('active btn btn-primary');
+    $('#nav a:first').addClass('active');
     $('#nav a').bind('click', function () {
 
         $('#nav a').removeClass('active');

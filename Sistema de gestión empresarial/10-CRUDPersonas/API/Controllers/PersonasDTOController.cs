@@ -13,7 +13,18 @@ namespace API.Controllers
         // GET: api/PersonasDTO
         public IEnumerable<clsPersonaDTO> Get()
         {
-            return clsListadosPersonasDTO.listadoCompletoPersonas();
+            List<clsPersonaDTO> listadoPersonas;
+
+            try
+            {
+                listadoPersonas = clsListadosPersonasDTO.listadoCompletoPersonas();
+            }
+            catch (Exception e)
+            {
+                throw new HttpResponseException(HttpStatusCode.ServiceUnavailable);
+            }
+
+            return listadoPersonas;
         }
 
         // GET: api/PersonasDTO/5
