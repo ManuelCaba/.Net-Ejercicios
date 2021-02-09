@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fJrId9wqPhXIXYn8506FtL2ntpFlMN6jrkOp27MWCXYD06Z7s0rAVmyDpyy2H013nH2+Mw3RrYlNAz+B2CfjXQ==",
+  "success": true,
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-Entidades\\CRUDPersonasXamarin-Entidades.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

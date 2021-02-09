@@ -978,24 +978,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
+    "C:\\Users\\emane\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\15-Xamarin-01.iOS.csproj",
+      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\15-Xamarin-01.iOS.csproj",
       "projectName": "15-Xamarin-01.iOS",
-      "projectPath": "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\15-Xamarin-01.iOS.csproj",
-      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\obj\\",
+      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\15-Xamarin-01.iOS.csproj",
+      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1009,8 +1009,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01\\15-Xamarin-01.csproj": {
-              "projectPath": "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01\\15-Xamarin-01.csproj"
+            "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01\\15-Xamarin-01.csproj": {
+              "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-01\\15-Xamarin-01\\15-Xamarin-01.csproj"
             }
           }
         }

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "XxiRgxSmBgjmkqXEI6CU163Udy1E+/tsUwAmqm0bJ5RGaTUckOhqSmC/SzZz9znbGFhV/ZqgmZFw9CvLDAeYyg==",
+  "dgSpecHash": "iqw96AZKdyFK4y+xD51Sg4F5POX+r/lBP3yr7GvifzSaEmM7VcNGPSJ6+bknmVBgYnMomUvk4I++vRrhJhzQ8g==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Manuel\\.Net\\15-Xamarin\\15-Xamarin-02\\15-Xamarin-02.iOS\\15-Xamarin-02.iOS.csproj",
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\15-Xamarin\\15-Xamarin-02\\15-Xamarin-02.iOS\\15-Xamarin-02.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "C:\\Users\\emane\\.nuget\\packages\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
   ],
   "logs": []
 }
