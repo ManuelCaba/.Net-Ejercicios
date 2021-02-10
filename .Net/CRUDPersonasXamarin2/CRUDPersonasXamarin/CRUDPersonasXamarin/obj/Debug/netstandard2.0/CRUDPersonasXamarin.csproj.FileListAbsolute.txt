@@ -1,0 +1,14 @@
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\bin\Debug\netstandard2.0\CRUDPersonasXamarin.deps.json
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\bin\Debug\netstandard2.0\CRUDPersonasXamarin.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\bin\Debug\netstandard2.0\ref\CRUDPersonasXamarin.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\bin\Debug\netstandard2.0\CRUDPersonasXamarin.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.AssemblyInfoInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.AssemblyInfo.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\ref\CRUDPersonasXamarin.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin\CRUDPersonasXamarin\obj\Debug\netstandard2.0\CRUDPersonasXamarin.pdb

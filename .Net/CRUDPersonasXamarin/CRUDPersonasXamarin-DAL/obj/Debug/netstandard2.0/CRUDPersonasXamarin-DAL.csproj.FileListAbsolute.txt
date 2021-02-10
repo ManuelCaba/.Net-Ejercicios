@@ -1,0 +1,4 @@
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.csprojAssemblyReference.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfoInputs.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfo.cs
