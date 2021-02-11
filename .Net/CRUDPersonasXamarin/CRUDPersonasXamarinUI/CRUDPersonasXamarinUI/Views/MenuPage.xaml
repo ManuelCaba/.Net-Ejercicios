@@ -2,27 +2,18 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CRUDPersonasXamarinUI.Views.MenuPage"
-             Title="I am master" MasterBehavior="Popover" BackgroundColor="Cyan"
+             Title="CRUD Personas" MasterBehavior="Popover" BackgroundColor="AliceBlue"
+             NavigationPage.HasNavigationBar="False"
              xmlns:pages="clr-namespace:CRUDPersonasXamarinUI.Views">
-    
-<MasterDetailPage.Master>
-        <ContentPage Padding="10" Title="Master">
+
+    <MasterDetailPage.Master>
+        <ContentPage Padding="10" Title="Master" BackgroundColor="AliceBlue">
             <ContentPage.Content>
                 <StackLayout Margin="5,30,5,5">
-                    <Image Source="addusericon.png"></Image>
                     <Button Text="Personas" Clicked="Button_Clicked"></Button>
                     <Button Text="Departamentos" Clicked="Button_Clicked2"></Button>
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>
-    <MasterDetailPage.Detail>
-        <ContentPage Padding="10">
-            <ContentPage.Content>
-                <StackLayout Margin="5,30,5,5">
-                    <Label Text="Página"></Label>
-                </StackLayout>
-            </ContentPage.Content>
-        </ContentPage>
-    </MasterDetailPage.Detail>
 </MasterDetailPage>

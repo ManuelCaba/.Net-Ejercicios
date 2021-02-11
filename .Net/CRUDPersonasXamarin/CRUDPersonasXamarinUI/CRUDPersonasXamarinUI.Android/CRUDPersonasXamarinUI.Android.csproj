@@ -85,7 +85,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\deleteicon.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.csproj">
       <Project>{A5C2CA2C-2CB0-4212-B98F-293DD5065A2B}</Project>
@@ -93,7 +95,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\drawable\addusericon.png" />
+    <AndroidResource Include="Resources\drawable\addusericon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

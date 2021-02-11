@@ -230,6 +230,15 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
         "type": "package",
         "dependencies": {
@@ -377,10 +386,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -620,6 +669,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -936,10 +994,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -1179,6 +1277,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
@@ -1496,10 +1603,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -1739,6 +1886,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -2053,10 +2209,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -2296,6 +2492,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -2612,10 +2817,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -2855,6 +3100,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -3172,10 +3426,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -3415,6 +3709,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -3731,10 +4034,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -3974,6 +4317,15 @@
         },
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.2.8-rel-28605-00": {
@@ -4291,10 +4643,50 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
       "CRUDPersonasXamarinUI/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -4847,6 +5239,37 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.10": {
@@ -9150,6 +9573,21 @@
         "xamarin.forms.4.8.0.1451.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "CRUDPersonasXamarin-BL/1.0.0": {
+      "type": "project",
+      "path": "../../CRUDPersonasXamarin-BL/CRUDPersonasXamarin-BL.csproj",
+      "msbuildProject": "../../CRUDPersonasXamarin-BL/CRUDPersonasXamarin-BL.csproj"
+    },
+    "CRUDPersonasXamarin-DAL/1.0.0": {
+      "type": "project",
+      "path": "../../CRUDPersonasXamarin-DAL/CRUDPersonasXamarin-DAL.csproj",
+      "msbuildProject": "../../CRUDPersonasXamarin-DAL/CRUDPersonasXamarin-DAL.csproj"
+    },
+    "CRUDPersonasXamarin-Entidades/1.0.0": {
+      "type": "project",
+      "path": "../../CRUDPersonasXamarin-Entidades/CRUDPersonasXamarin-Entidades.csproj",
+      "msbuildProject": "../../CRUDPersonasXamarin-Entidades/CRUDPersonasXamarin-Entidades.csproj"
     },
     "CRUDPersonasXamarinUI/1.0.0": {
       "type": "project",

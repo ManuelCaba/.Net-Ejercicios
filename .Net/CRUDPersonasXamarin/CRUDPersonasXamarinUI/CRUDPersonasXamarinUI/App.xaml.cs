@@ -11,7 +11,10 @@ namespace CRUDPersonasXamarinUI
         {
             InitializeComponent();
 
-            MainPage = new MenuPage();
+            MainPage = new NavigationPage(new MenuPage())
+            {
+                BarBackgroundColor = Color.AliceBlue, BackgroundColor = Color.AliceBlue
+            };
         }
 
         protected override void OnStart()

@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.exe">
       <PackagePath>entrypoint\CRUDPersonasXamarinUI.UWP.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
@@ -51,6 +54,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll">
       <PackagePath>CRUDPersonasXamarinUI.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll">
+      <PackagePath>CRUDPersonasXamarin-Entidades.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.dll">
+      <PackagePath>CRUDPersonasXamarin-BL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll">
+      <PackagePath>CRUDPersonasXamarin-DAL.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>

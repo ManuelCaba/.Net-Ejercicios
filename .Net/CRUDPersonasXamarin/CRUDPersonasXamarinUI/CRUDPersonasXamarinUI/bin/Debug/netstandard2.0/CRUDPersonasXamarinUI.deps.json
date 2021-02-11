@@ -9,9 +9,12 @@
     ".NETStandard,Version=v2.0/": {
       "CRUDPersonasXamarinUI/1.0.0": {
         "dependencies": {
+          "CRUDPersonasXamarin-BL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
           "NETStandard.Library": "2.0.3",
           "Xamarin.Essentials": "1.5.3.2",
-          "Xamarin.Forms": "4.8.0.1451"
+          "Xamarin.Forms": "4.8.0.1451",
+          "Windows.Foundation.UniversalApiContract": "8.0.0.0"
         },
         "runtime": {
           "CRUDPersonasXamarinUI.dll": {}
@@ -21,6 +24,14 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -57,6 +68,37 @@
             "fileVersion": "4.8.0.372"
           }
         }
+      },
+      "CRUDPersonasXamarin-BL/1.0.0": {
+        "dependencies": {
+          "CRUDPersonasXamarin-DAL": "1.0.0",
+          "CRUDPersonasXamarin-Entidades": "1.0.0"
+        },
+        "runtime": {
+          "CRUDPersonasXamarin-BL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-DAL/1.0.0": {
+        "dependencies": {
+          "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "CRUDPersonasXamarin-DAL.dll": {}
+        }
+      },
+      "CRUDPersonasXamarin-Entidades/1.0.0": {
+        "runtime": {
+          "CRUDPersonasXamarin-Entidades.dll": {}
+        }
+      },
+      "Windows.Foundation.UniversalApiContract/8.0.0.0": {
+        "runtime": {
+          "Windows.Foundation.UniversalApiContract.winmd": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "10.0.18362.1"
+          }
+        }
       }
     }
   },
@@ -80,6 +122,13 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
     "System.Numerics.Vectors/4.5.0": {
       "type": "package",
       "serviceable": true,
@@ -100,6 +149,26 @@
       "sha512": "sha512-3RUzBpcaBxOjufLLqJnuZRGLhzAbVyfe/Pyp0AFY/H1MkCHYxXIRzgB8h6yC9NTs39NLK2SgGiaMbvC4TJ/zFA==",
       "path": "xamarin.forms/4.8.0.1451",
       "hashPath": "xamarin.forms.4.8.0.1451.nupkg.sha512"
+    },
+    "CRUDPersonasXamarin-BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUDPersonasXamarin-DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CRUDPersonasXamarin-Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Windows.Foundation.UniversalApiContract/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

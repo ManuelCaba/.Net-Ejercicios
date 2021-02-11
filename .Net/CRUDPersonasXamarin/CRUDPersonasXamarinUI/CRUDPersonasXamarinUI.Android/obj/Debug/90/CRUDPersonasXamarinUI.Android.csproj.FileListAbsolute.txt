@@ -51,6 +51,7 @@ D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRU
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\drawable\addusericon.png
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\uploadflags.txt
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\resolvedassemblies.hash
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarinUI.Android.dll
@@ -490,3 +491,17 @@ D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRU
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-Entidades.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-BL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-DAL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-Entidades.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-BL.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\bin\Debug\CRUDPersonasXamarin-DAL.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-BL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-BL.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-DAL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-DAL.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-Entidades.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\CRUDPersonasXamarin-Entidades.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\drawable\deleteicon.png

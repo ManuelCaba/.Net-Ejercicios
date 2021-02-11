@@ -135,5 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\addusericon.png" />
+    <BundleResource Include="Resources\deleteicon.png" />
   </ItemGroup>
 </Project>

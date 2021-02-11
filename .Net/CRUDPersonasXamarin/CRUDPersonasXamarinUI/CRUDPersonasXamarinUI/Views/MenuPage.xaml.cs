@@ -19,6 +19,8 @@ namespace CRUDPersonasXamarinUI.Views
             IsPresented = false;
         }
 
+
+
         private void Button_Clicked(object sender, EventArgs e)
         {
             Detail = new NavigationPage(new MenuPageDetail());

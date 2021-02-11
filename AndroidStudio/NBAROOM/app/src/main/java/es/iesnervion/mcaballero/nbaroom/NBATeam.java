@@ -11,9 +11,15 @@ public class NBATeam {
     @ColumnInfo(name = "Logo")
     private String logo;
 
+    public NBATeam(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getID() {
         return ID;
     }
+
+    public void setID(int ID){ this.ID = ID; }
 
     public String getNombre() {
         return nombre;

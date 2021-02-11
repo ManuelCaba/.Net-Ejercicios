@@ -2,3 +2,15 @@ D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\nets
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.csprojAssemblyReference.cache
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfoInputs.cache
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfo.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.deps.json
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfoInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.AssemblyInfo.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.csproj.CopyComplete
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-DAL\obj\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.pdb
