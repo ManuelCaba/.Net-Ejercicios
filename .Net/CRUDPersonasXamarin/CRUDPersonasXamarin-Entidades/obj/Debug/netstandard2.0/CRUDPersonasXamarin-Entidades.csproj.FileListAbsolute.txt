@@ -7,3 +7,12 @@ D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entid
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.csproj.CoreCompileInputs.cache
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.deps.json
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.csprojAssemblyReference.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.AssemblyInfoInputs.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.AssemblyInfo.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarin-Entidades\obj\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb

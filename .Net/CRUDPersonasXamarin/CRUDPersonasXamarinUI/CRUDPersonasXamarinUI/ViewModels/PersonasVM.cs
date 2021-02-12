@@ -1,13 +1,16 @@
-﻿using CRUDPersonasXamarin.Listados;
+﻿using CRUDPersonasXamarin_BL.Manejadoras;
+using CRUDPersonasXamarin_BL.Listados;
 using CRUDPersonasXamarin_Entidades;
 using CRUDPersonasXamarinUI.Utilidades;
 using CRUDPersonasXamarinUI.ViewModels.Utilidades;
+using CRUDPersonasXamarinUI.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
+using Xamarin.Forms;
 
 namespace CRUDPersonasXamarinUI.ViewModels
 {
@@ -20,10 +23,12 @@ namespace CRUDPersonasXamarinUI.ViewModels
         #endregion
 
         #region Propiedades
+        public INavigation Navigation { get; set; }
         public Task Initialization { get; private set; }
         public String TextoBuscado { get; set; }
         public DelegateCommand BuscarCommand { get; }
         public DelegateCommand EliminarCommand { get; }
+        public DelegateCommand EditarCommand { get; }
         public DelegateCommand CrearCommand { get; }
         public ObservableCollection<clsPersona> ListadoPersonasBuscadas { get; set; }
         public clsPersona PersonaSeleccionada
@@ -40,6 +45,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
                     personaSeleccionada = value;
                     NotifyPropertyChanged("PersonaSeleccionada");
                     EliminarCommand.RaiseCanExecuteChanged();
+                    EditarCommand.RaiseCanExecuteChanged();
                 }
             }
         }
@@ -69,8 +75,9 @@ namespace CRUDPersonasXamarinUI.ViewModels
         public PersonasVM()
         {
             BuscarCommand = new DelegateCommand(BuscarCommand_Executed, BuscarCommand_CanExecute);
-            //EliminarCommand = new DelegateCommand(EliminarCommand_Executed, EliminarCommand_CanExecute);
-            CrearCommand = new DelegateCommand(CrearCommand_Executed);
+            EliminarCommand = new DelegateCommand(EliminarCommand_Executed, EliminarCommand_CanExecute);
+            EditarCommand = new DelegateCommand(EditarCommand_Executed, EditarCommand_CanExecute);
+            CrearCommand = new DelegateCommand(CrearCommand_ExecutedAsync);
             Initialization = InitializeAsync();
 
         }
@@ -79,6 +86,65 @@ namespace CRUDPersonasXamarinUI.ViewModels
         #region Métodos
 
         //Eliminar
+        private async void EliminarCommand_Executed()
+        {
+            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+
+            bool answer = await Application.Current.MainPage.DisplayAlert("Eliminar Persona", "Desea eliminar a la persona?", "Si", "No");
+            if(answer)
+            {
+                // Borrar la persona si el usuario pulsa el botón primario.
+                /// En otro lugar, nada.
+                /*try
+                {
+                    if (clsManejadoraPersonasBL.eliminarPersonaBL(personaInmutable.ID) > 0)
+                    {
+                        listadoPersonasCompleto.Remove(personaSeleccionada);
+                        ListadoPersonasBuscadas.Remove(personaSeleccionada);
+
+                        personaSeleccionada = null;
+
+                        NotifyPropertyChanged("PersonaSeleccionada");
+
+                        personaInmutable = null;
+                    }
+                }
+                catch (SqlException)
+                {
+                    dialogErrorAsync();
+                }*/
+            }  
+        }
+
+        private bool EliminarCommand_CanExecute()
+        {
+            bool canExecute = true;
+
+            if (personaSeleccionada == null)
+            {
+                canExecute = false;
+            }
+
+            return canExecute;
+        }
+
+        //Editar
+        private async void EditarCommand_Executed()
+        {
+            await Navigation.PushAsync(new MenuPageDetail());
+        }
+
+        private bool EditarCommand_CanExecute()
+        {
+            bool canExecute = true;
+
+            if (personaSeleccionada == null)
+            {
+                canExecute = false;
+            }
+
+            return canExecute;
+        }
 
         public async Task InitializeAsync()
         {
@@ -124,24 +190,9 @@ namespace CRUDPersonasXamarinUI.ViewModels
         }
 
         //Crear
-        private void CrearCommand_Executed()
+        private async void CrearCommand_ExecutedAsync()
         {
-            personaSeleccionada = null;
-
-            NotifyPropertyChanged("PersonaSeleccionada");
-
-            personaSeleccionada = new clsPersona();
-
-            personaSeleccionada.ID = 0;
-            personaSeleccionada.Nombre = "";
-            personaSeleccionada.Apellidos = "";
-            personaSeleccionada.FechaNacimiento = new DateTime();
-            personaSeleccionada.Foto = null;
-            personaSeleccionada.Direccion = "";
-            personaSeleccionada.Telefono = "";
-            personaSeleccionada.IDDepartamento = 1;
-
-            NotifyPropertyChanged("PersonaSeleccionada");      
+            await Navigation.PushAsync(new MenuPageDetail());
         }
 
         //Dialog

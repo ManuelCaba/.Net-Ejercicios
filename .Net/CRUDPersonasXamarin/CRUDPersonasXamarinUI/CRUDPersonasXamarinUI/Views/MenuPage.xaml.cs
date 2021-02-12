@@ -23,7 +23,7 @@ namespace CRUDPersonasXamarinUI.Views
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            Detail = new NavigationPage(new MenuPageDetail());
+            Detail = new NavigationPage(new ListadoPersonas());
             IsPresented = false;
         }
         private void Button_Clicked2(object sender, EventArgs e)

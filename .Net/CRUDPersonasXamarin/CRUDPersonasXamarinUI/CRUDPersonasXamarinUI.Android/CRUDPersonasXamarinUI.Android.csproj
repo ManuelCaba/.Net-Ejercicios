@@ -97,6 +97,10 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\addusericon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="addusericon.png" />
+    <AndroidResource Include="Resources\drawable\editpersonicon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>

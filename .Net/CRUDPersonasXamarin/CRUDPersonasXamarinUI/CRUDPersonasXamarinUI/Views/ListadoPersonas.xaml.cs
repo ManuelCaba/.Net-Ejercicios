@@ -22,6 +22,8 @@ namespace CRUDPersonasXamarinUI.Views
         {
             InitializeComponent();
 
+            ((PersonasVM)this.BindingContext).Navigation = Navigation;
+
             ListView = ListadoPersonasBuscadas;
         }
     }

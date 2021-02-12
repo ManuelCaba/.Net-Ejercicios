@@ -13,7 +13,7 @@ namespace CRUDPersonasXamarinUI
 
             MainPage = new NavigationPage(new MenuPage())
             {
-                BarBackgroundColor = Color.AliceBlue, BackgroundColor = Color.AliceBlue
+                BarBackgroundColor = Color.AliceBlue
             };
         }
 

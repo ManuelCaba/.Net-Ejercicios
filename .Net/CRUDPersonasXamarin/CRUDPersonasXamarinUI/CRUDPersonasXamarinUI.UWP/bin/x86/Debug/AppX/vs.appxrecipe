@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DESKTOP-7UOCHNI</Machine>
-    <WindowsUser>emane</WindowsUser>
+    <Machine>107-14</Machine>
+    <WindowsUser>mcaballero</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=f8db74d6-d6b7-40a4-bfd0-1e5380a6842b</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>03BDDA8AF58AD405785061ED9A77E444E79D7CB96F4C6FB198A2F6C8B66F6DE8</RegisteredManifestChecksum>
+    <LayoutDir>D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>84798136874EC1848186FC51579C8E4DE1F76DB123C51571C38DC13F3C033910</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>3a040fba-c659-4b76-a52f-b5444a809a68_1.0.0.0_x86__qja26b571wemw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3a040fba-c659-4b76-a52f-b5444a809a68_qja26b571wemw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3a040fba-c659-4b76-a52f-b5444a809a68</RegisteredPackageID>
@@ -27,66 +27,66 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T18:50:51.861</Modified>
+      <Modified>2021-02-12T12:09:45.623</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.exe">
       <PackagePath>entrypoint\CRUDPersonasXamarinUI.UWP.exe</PackagePath>
-      <Modified>2021-02-10T18:50:49.156</Modified>
+      <Modified>2021-02-12T12:09:40.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
       <Modified>2019-11-08T23:56:44.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
-      <Modified>2020-02-27T18:16:04.000</Modified>
+      <Modified>2020-02-27T17:16:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\win2d.uwp\1.20.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2016-11-30T01:58:38.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.essentials\1.5.3.2\lib\uap10.0.16299\Xamarin.Essentials.dll">
       <PackagePath>Xamarin.Essentials.dll</PackagePath>
-      <Modified>2020-05-11T23:41:08.000</Modified>
+      <Modified>2020-05-11T22:41:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2020-09-14T22:18:38.000</Modified>
+      <Modified>2020-09-14T21:18:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2020-09-14T22:17:58.000</Modified>
+      <Modified>2020-09-14T21:17:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2020-09-14T22:18:08.000</Modified>
+      <Modified>2020-09-14T21:18:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2020-09-14T22:17:48.000</Modified>
+      <Modified>2020-09-14T21:17:48.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll">
       <PackagePath>CRUDPersonasXamarinUI.dll</PackagePath>
-      <Modified>2021-02-11T17:11:23.420</Modified>
+      <Modified>2021-02-12T12:12:17.150</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll">
       <PackagePath>CRUDPersonasXamarin-Entidades.dll</PackagePath>
-      <Modified>2021-02-10T15:55:05.463</Modified>
+      <Modified>2021-02-12T11:34:11.676</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.dll">
       <PackagePath>CRUDPersonasXamarin-BL.dll</PackagePath>
-      <Modified>2021-02-10T16:05:13.841</Modified>
+      <Modified>2021-02-12T11:34:13.934</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll">
       <PackagePath>CRUDPersonasXamarin-DAL.dll</PackagePath>
-      <Modified>2021-02-10T16:05:13.249</Modified>
+      <Modified>2021-02-12T11:34:13.154</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-30T01:58:38.000</Modified>
     </AppxPackagedFile>
@@ -94,164 +94,168 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T17:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\xamarin.forms\4.8.0.1451\lib\uap10.0.16299\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2020-09-14T22:15:58.000</Modified>
+      <Modified>2020-09-14T21:15:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\addusericon.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\addusericon.png">
       <PackagePath>addusericon.png</PackagePath>
-      <Modified>2021-02-10T12:32:23.404</Modified>
+      <Modified>2021-02-12T11:52:49.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.069</Modified>
+      <Modified>2021-02-12T08:01:41.188</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.071</Modified>
+      <Modified>2021-02-12T08:01:41.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.075</Modified>
+      <Modified>2021-02-12T08:01:41.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.131</Modified>
+      <Modified>2021-02-12T08:01:41.189</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.133</Modified>
+      <Modified>2021-02-12T08:01:41.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.135</Modified>
+      <Modified>2021-02-12T08:01:41.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.136</Modified>
+      <Modified>2021-02-12T08:01:41.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.137</Modified>
+      <Modified>2021-02-12T08:01:41.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.196</Modified>
+      <Modified>2021-02-12T08:01:41.191</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.198</Modified>
+      <Modified>2021-02-12T08:01:41.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.201</Modified>
+      <Modified>2021-02-12T08:01:41.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.203</Modified>
+      <Modified>2021-02-12T08:01:41.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.204</Modified>
+      <Modified>2021-02-12T08:01:41.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.264</Modified>
+      <Modified>2021-02-12T08:01:41.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.268</Modified>
+      <Modified>2021-02-12T08:01:41.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.270</Modified>
+      <Modified>2021-02-12T08:01:41.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.271</Modified>
+      <Modified>2021-02-12T08:01:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.273</Modified>
+      <Modified>2021-02-12T08:01:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.335</Modified>
+      <Modified>2021-02-12T08:01:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.338</Modified>
+      <Modified>2021-02-12T08:01:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.340</Modified>
+      <Modified>2021-02-12T08:01:41.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.344</Modified>
+      <Modified>2021-02-12T08:01:41.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.410</Modified>
+      <Modified>2021-02-12T08:01:41.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.412</Modified>
+      <Modified>2021-02-12T08:01:41.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.415</Modified>
+      <Modified>2021-02-12T08:01:41.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.418</Modified>
+      <Modified>2021-02-12T08:01:41.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-10T10:08:48.421</Modified>
+      <Modified>2021-02-12T08:01:41.209</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\deleteicon.png">
+      <PackagePath>deleteicon.png</PackagePath>
+      <Modified>2021-02-12T12:02:38.807</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-02-10T10:08:48.483</Modified>
+      <Modified>2021-02-12T08:01:41.211</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.xr.xml">
       <PackagePath>CRUDPersonasXamarinUI.UWP.xr.xml</PackagePath>
-      <Modified>2021-02-10T10:10:03.031</Modified>
+      <Modified>2021-02-12T08:01:41.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-02-10T18:50:49.048</Modified>
+      <Modified>2021-02-12T12:09:39.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-02-10T18:50:49.049</Modified>
+      <Modified>2021-02-12T12:09:39.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -261,62 +265,62 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T16:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+    <AppxPackagedFile Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2020-05-19T07:27:08.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-02-10T14:53:31.895</Modified>
+      <Modified>2021-02-12T12:09:41.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\CRUDPersonasXamarinUI.UWP.exe">
+    <AppxPackagedFile Include="D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\CRUDPersonasXamarinUI.UWP.exe">
       <PackagePath>CRUDPersonasXamarinUI.UWP.exe</PackagePath>
-      <Modified>2021-02-10T18:50:51.853</Modified>
+      <Modified>2021-02-12T12:09:45.590</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
-    <ResolvedSDKReference Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x86</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>Win32</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>x64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>
-    <ResolvedSDKReference Include="C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
+    <ResolvedSDKReference Include="C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx">
       <Name>Microsoft.UI.Xaml.2.4</Name>
       <Version>2.42005.18002.0</Version>
       <Architecture>arm64</Architecture>
       <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.4, MinVersion = 2.42005.18002.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
-      <AppxLocation>C:\Users\emane\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
+      <AppxLocation>C:\Users\mcaballero\.nuget\packages\microsoft.ui.xaml\2.4.2\buildTransitive\..\tools\AppX\arm64\Release\Microsoft.UI.Xaml.2.4.appx</AppxLocation>
       <MoreInfo>
       </MoreInfo>
     </ResolvedSDKReference>

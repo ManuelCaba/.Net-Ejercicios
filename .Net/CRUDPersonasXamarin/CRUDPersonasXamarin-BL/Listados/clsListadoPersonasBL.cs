@@ -3,7 +3,7 @@ using CRUDPersonasXamarin_Entidades;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CRUDPersonasXamarin.Listados
+namespace CRUDPersonasXamarin_BL.Listados
 {
     public class clsListadoPersonasBL
     {

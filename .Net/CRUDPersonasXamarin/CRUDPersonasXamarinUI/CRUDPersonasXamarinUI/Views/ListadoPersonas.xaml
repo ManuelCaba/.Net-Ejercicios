@@ -10,15 +10,14 @@
 
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="addusericon.png"/>
-        <ToolbarItem IconImageSource="deleteicon.png"/>
+        <ToolbarItem IconImageSource="editpersonicon.png" Command="{Binding EditarCommand}"/>
+        <ToolbarItem IconImageSource="deleteicon.png" Command="{Binding EliminarCommand}"/>
     </ContentPage.ToolbarItems>
 
     <StackLayout>
-        <StackLayout.Background>
-            <SolidColorBrush Color="AliceBlue"></SolidColorBrush>
-        </StackLayout.Background>
         <ListView x:Name="ListadoPersonasBuscadas"
               SeparatorVisibility="Default"
+              SelectedItem="{Binding PersonaSeleccionada}"
               HasUnevenRows="true"
               SeparatorColor="Black"
               ItemsSource="{Binding ListadoPersonasBuscadas}">

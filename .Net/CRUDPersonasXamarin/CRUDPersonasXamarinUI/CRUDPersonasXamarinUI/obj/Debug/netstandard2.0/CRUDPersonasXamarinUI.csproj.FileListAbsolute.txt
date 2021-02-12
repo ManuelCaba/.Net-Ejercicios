@@ -23,3 +23,28 @@ D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRU
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.pdb
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.csproj.CopyComplete
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.deps.json
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\ref\CRUDPersonasXamarinUI.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.pdb
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.csprojAssemblyReference.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\ListadoPersonas.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\MenuPageDetail.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.AssemblyInfoInputs.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.AssemblyInfo.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.csproj.CopyComplete
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\ref\CRUDPersonasXamarinUI.dll
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.pdb
