@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:CRUDPersonasXamarinUI.ViewModels"
+             xmlns:converters="clr-namespace:CRUDPersonasXamarinUI.ViewModels.Converters"
+             x:Class="CRUDPersonasXamarinUI.Views.PersonasDetail">
+
+    <ContentPage.BindingContext>
+        <viewModels:DetallesVM></viewModels:DetallesVM>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:FotoConverter x:Key="FotoConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="saveicon.png"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout x:Name="grdFormulario"
+          Margin="2"
+          BackgroundColor="AliceBlue">
+
+            <Image Margin="20" WidthRequest="100" HeightRequest="100" Source="{Binding Persona.Foto, Converter={StaticResource FotoConverter}}"></Image>
+
+            <Button Margin="20,0,20,20" HeightRequest="50" HorizontalOptions="Center" Text="Foto" Clicked="OnPickPhotoButtonClicked"></Button>
+
+            <Label Margin="20"
+               FontSize="20"
+               Text="Nombre: "/>
+
+            <Entry Margin="20,0,20,20"
+               FontSize="20"
+               Text="{Binding Persona.Nombre}"
+               Background="White"/>
+
+            <Label Margin="20"
+               FontSize="20"
+               Text="Apellidos: "/>
+
+            <Entry Margin="20,0,20,20"
+               FontSize="20"
+               Text="{Binding Persona.Apellidos}"
+               Background="White"/>
+
+            <Label Margin="20"
+               FontSize="20"
+               Text="Fecha de Nacimiento: "/>
+
+            <DatePicker Margin="20,0,20,20"
+               FontSize="20"
+               Date="{Binding Persona.FechaNacimiento}"
+               Background="White"/>
+
+            <Label Margin="20"
+               FontSize="20"
+               Text="Teléfono: "/>
+
+            <Entry Margin="20,0,20,20"
+               FontSize="20"
+               Text="{Binding Persona.Telefono}"
+               Background="White"/>
+
+            <Label Margin="20"
+               FontSize="20"
+               Text="Departamentos: "/>
+
+            <Picker Margin="20,0,20,20"
+                FontSize="20"
+                ItemsSource="{Binding ListadoDepartamentos}"
+                ItemDisplayBinding="{Binding Nombre}"         
+                SelectedItem="{Binding DepartamentoSeleccionado}"
+                Background="White"/>
+
+            <Label Margin="20"
+                   FontSize="20"
+                   Text="Dirección: "/>
+
+            <Editor Margin="20,0,20,20"
+                VerticalOptions="Center" 
+                FontSize="20"
+                Text="{Binding Persona.Direccion}"
+                HeightRequest="100"
+                Background="White"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -1,52 +1,51 @@
-@string/appbar_scrolling_view_behavior;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-@string/appbar_scrolling_view_behavior;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+@string/appbar_scrolling_view_behavior;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 adaptive-icon;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-alpha;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-alpha;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-android.support.design.widget.AppBarLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.AppBarLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.AppBarLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.BottomNavigationView;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-android.support.design.widget.CoordinatorLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.design.widget.CoordinatorLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.design.widget.CoordinatorLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
-android.support.design.widget.TabLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+alpha;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+alpha;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+android.support.design.widget.AppBarLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.AppBarLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.AppBarLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.BottomNavigationView;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.design.widget.CoordinatorLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.design.widget.CoordinatorLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.design.widget.TabLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
 android.support.design.widget.TabLayout;obj\Debug\90\res\layout\tabbar.xml
-android.support.v7.widget.RecyclerView;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
-android.support.v7.widget.Toolbar;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
-android.support.v7.widget.Toolbar;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
+android.support.v7.widget.RecyclerView;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\flyoutcontent.xml
+android.support.v7.widget.Toolbar;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+android.support.v7.widget.Toolbar;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\shellcontent.xml
 android.support.v7.widget.Toolbar;obj\Debug\90\res\layout\toolbar.xml
-attr;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
+attr;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 background;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-cache-path;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\90\res\values\colors.xml
-declare-styleable;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
-external-cache-path;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-font;obj\Debug\90\res\values\styles.xml
+declare-styleable;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
+external-cache-path;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
-FrameLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-item;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+FrameLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+item;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
-LinearLayout;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
-paths;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
-resources;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\strings.xml
-resources;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+LinearLayout;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\bottomtablayout.xml
+paths;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\attrs.xml
+resources;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\strings.xml
+resources;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
-set;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-set;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
-set;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-set;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
-string;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\strings.xml
-style;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
+set;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+set;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+set;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+set;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+string;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\strings.xml
+style;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
-translate;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
-translate;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
-translate;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
-translate;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml
+translate;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromleft.xml
+translate;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\enterfromright.xml
+translate;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoleft.xml
+translate;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\anim\exittoright.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\res\layout\rootlayout.xml

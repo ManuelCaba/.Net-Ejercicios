@@ -2,14 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewModels="clr-namespace:CRUDPersonasXamarinUI.ViewModels"
+             xmlns:converters="clr-namespace:CRUDPersonasXamarinUI.ViewModels.Converters"
              x:Class="CRUDPersonasXamarinUI.Views.ListadoPersonas">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:FotoConverter x:Key="FotoConverter"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
 
     <ContentPage.BindingContext>
         <viewModels:PersonasVM></viewModels:PersonasVM>
     </ContentPage.BindingContext>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="addusericon.png"/>
+        <ToolbarItem IconImageSource="addusericon.png" Command="{Binding CrearCommand}"/>
         <ToolbarItem IconImageSource="editpersonicon.png" Command="{Binding EditarCommand}"/>
         <ToolbarItem IconImageSource="deleteicon.png" Command="{Binding EliminarCommand}"/>
     </ContentPage.ToolbarItems>
@@ -25,14 +32,25 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="15,10" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="20">
+                            
+                            <Frame BorderColor="Black"
+                                   IsClippedToBounds="True"
+                                   CornerRadius="10"
+                                   WidthRequest="20" HeightRequest="20"
+                                   Margin="0,0,10,0">
+                                <Image Aspect="AspectFill" Source="{Binding Foto, Converter={StaticResource FotoConverter}}" Margin="-20"></Image>
+                            </Frame>
+                            
+
                             <Label VerticalOptions="FillAndExpand" 
                         VerticalTextAlignment="Center" 
                         Text="{Binding Nombre}" 
-                        FontSize="24"/>
+                        FontSize="Medium"/>
+                            
                             <Label VerticalOptions="FillAndExpand" 
                         VerticalTextAlignment="Center" 
                         Text="{Binding Apellidos}" 
-                        FontSize="24"/>
+                        FontSize="Medium"/>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

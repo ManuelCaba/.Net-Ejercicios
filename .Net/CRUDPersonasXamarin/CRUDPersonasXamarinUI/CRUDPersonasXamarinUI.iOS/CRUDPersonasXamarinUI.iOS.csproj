@@ -67,6 +67,7 @@
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
+    <Compile Include="PhotoPickerService .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -137,5 +138,6 @@
     <Content Include="Resources\addusericon.png" />
     <BundleResource Include="Resources\deleteicon.png" />
     <BundleResource Include="Resources\editpersonicon.png" />
+    <BundleResource Include="Resources\saveicon.png" />
   </ItemGroup>
 </Project>

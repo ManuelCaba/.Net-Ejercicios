@@ -9604,18 +9604,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
+    "C:\\Users\\emane\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
+      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
       "projectName": "CRUDPersonasXamarinUI.UWP",
-      "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
-      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\obj\\",
+      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
+      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9623,7 +9623,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9637,8 +9637,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
-              "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
+            "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
+              "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
             }
           }
         }

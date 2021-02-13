@@ -38,13 +38,16 @@
     <Compile Update="Views\ListadoPersonas.xaml.cs">
       <DependentUpon>ListadoPersonas.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\PersonasDetail.xaml.cs">
+      <DependentUpon>PersonasDetail.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Views\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Views\MenuPageDetail.xaml">
+    <EmbeddedResource Update="Views\PersonasDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ListadoPersonas.xaml">

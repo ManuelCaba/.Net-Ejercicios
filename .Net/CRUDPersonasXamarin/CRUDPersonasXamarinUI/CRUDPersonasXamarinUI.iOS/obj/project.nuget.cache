@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "agisXsxEmDQnsBvIesHNgcAQnSO5B/u3OMqb+2L5gHWVgxhwxmIqPcvxJH1/+vpQQkN2ViuIOL7XBgW5J1bFXg==",
+  "dgSpecHash": "VbiqP2k+o+FqlP2hpe1EP2srmUNXhK37G1SKqJ8jaGsnrtZwUg5ainAikK+BNUgx0cLaPnXbbbDSV73dMilpcg==",
   "success": true,
-  "projectFilePath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.iOS\\CRUDPersonasXamarinUI.iOS.csproj",
+  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.iOS\\CRUDPersonasXamarinUI.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mcaballero\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\emane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\mcaballero\\.nuget\\packages\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
   ],
   "logs": []
 }

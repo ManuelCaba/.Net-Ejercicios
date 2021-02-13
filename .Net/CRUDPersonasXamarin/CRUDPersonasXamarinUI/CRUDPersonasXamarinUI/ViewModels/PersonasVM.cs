@@ -69,6 +69,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
                 }
             }
         }
+
         #endregion
 
         #region Constructores
@@ -86,6 +87,13 @@ namespace CRUDPersonasXamarinUI.ViewModels
         #region Métodos
 
         //Eliminar
+        public async Task InitializeAsync()
+        {
+            clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
+            listadoPersonasCompleto = await clsListadoPersonasBL.listadoPersonasBLAsync();
+            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
+            NotifyPropertyChanged("ListadoPersonasBuscadas");
+        }
         private async void EliminarCommand_Executed()
         {
             clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
@@ -131,7 +139,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
         //Editar
         private async void EditarCommand_Executed()
         {
-            await Navigation.PushAsync(new MenuPageDetail());
+            await Navigation.PushAsync(new PersonasDetail(personaSeleccionada));
         }
 
         private bool EditarCommand_CanExecute()
@@ -144,14 +152,6 @@ namespace CRUDPersonasXamarinUI.ViewModels
             }
 
             return canExecute;
-        }
-
-        public async Task InitializeAsync()
-        {
-            clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
-            listadoPersonasCompleto = await clsListadoPersonasBL.listadoPersonasBLAsync().ConfigureAwait(false);
-            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
-            NotifyPropertyChanged("ListadoPersonasBuscadas");
         }
 
         //Buscar
@@ -192,7 +192,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
         //Crear
         private async void CrearCommand_ExecutedAsync()
         {
-            await Navigation.PushAsync(new MenuPageDetail());
+            await Navigation.PushAsync(new PersonasDetail(new clsPersona()));
         }
 
         //Dialog

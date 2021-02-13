@@ -8,20 +8,20 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CRUDPersonasXamarinUI.Views.MenuPageDetail.xaml", "Views/MenuPageDetail.xaml", typeof(global::CRUDPersonasXamarinUI.Views.MenuPageDetail))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CRUDPersonasXamarinUI.Views.PersonasDetail.xaml", "Views/PersonasDetail.xaml", typeof(global::CRUDPersonasXamarinUI.Views.PersonasDetail))]
 
 namespace CRUDPersonasXamarinUI.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\MenuPageDetail.xaml")]
-    public partial class MenuPageDetail : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views\\PersonasDetail.xaml")]
+    public partial class PersonasDetail : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout grdFormulario;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(MenuPageDetail));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(PersonasDetail));
             grdFormulario = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "grdFormulario");
         }
     }
