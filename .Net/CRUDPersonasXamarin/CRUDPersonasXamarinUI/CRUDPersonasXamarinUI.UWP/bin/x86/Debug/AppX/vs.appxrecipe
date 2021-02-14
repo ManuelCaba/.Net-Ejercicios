@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-13T01:59:45.706</Modified>
+      <Modified>2021-02-14T16:02:53.409</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\CRUDPersonasXamarinUI.UWP.exe">
       <PackagePath>entrypoint\CRUDPersonasXamarinUI.UWP.exe</PackagePath>
-      <Modified>2021-02-13T01:59:42.978</Modified>
+      <Modified>2021-02-14T16:02:51.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll">
       <PackagePath>CRUDPersonasXamarinUI.dll</PackagePath>
-      <Modified>2021-02-13T02:06:11.547</Modified>
+      <Modified>2021-02-14T16:15:14.425</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll">
       <PackagePath>CRUDPersonasXamarin-Entidades.dll</PackagePath>
@@ -80,11 +80,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-BL.dll">
       <PackagePath>CRUDPersonasXamarin-BL.dll</PackagePath>
-      <Modified>2021-02-12T18:42:29.070</Modified>
+      <Modified>2021-02-14T16:05:02.646</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-DAL.dll">
       <PackagePath>CRUDPersonasXamarin-DAL.dll</PackagePath>
-      <Modified>2021-02-12T18:29:38.483</Modified>
+      <Modified>2021-02-14T16:05:01.908</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\emane\.nuget\packages\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -259,11 +259,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-02-13T01:59:42.874</Modified>
+      <Modified>2021-02-14T16:02:50.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-02-13T01:59:42.875</Modified>
+      <Modified>2021-02-14T16:02:50.938</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -283,7 +283,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.UWP\bin\x86\Debug\Core\CRUDPersonasXamarinUI.UWP.exe">
       <PackagePath>CRUDPersonasXamarinUI.UWP.exe</PackagePath>
-      <Modified>2021-02-13T01:59:45.695</Modified>
+      <Modified>2021-02-14T16:02:53.402</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

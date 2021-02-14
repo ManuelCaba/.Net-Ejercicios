@@ -40,7 +40,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
 
             set
             {
-                if(personaSeleccionada != value && value != null)
+                if (personaSeleccionada != value && value != null)
                 {
                     personaSeleccionada = value;
                     NotifyPropertyChanged("PersonaSeleccionada");
@@ -60,7 +60,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
             set
             {
                 buscar = value;
-                BuscarCommand.RaiseCanExecuteChanged();
+                BuscarCommand_Executed();
 
                 if (String.IsNullOrEmpty(buscar))
                 {
@@ -89,39 +89,38 @@ namespace CRUDPersonasXamarinUI.ViewModels
         //Eliminar
         public async Task InitializeAsync()
         {
-            clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
-            listadoPersonasCompleto = await clsListadoPersonasBL.listadoPersonasBLAsync();
-            ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
-            NotifyPropertyChanged("ListadoPersonasBuscadas");
+            try
+            {
+                clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
+                listadoPersonasCompleto = await clsListadoPersonasBL.listadoPersonasBLAsync();
+                ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
+                NotifyPropertyChanged("ListadoPersonasBuscadas");
+            }
+            catch(Exception e)
+            {
+                error();
+            }
+
         }
         private async void EliminarCommand_Executed()
         {
-            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
-
-            bool answer = await Application.Current.MainPage.DisplayAlert("Eliminar Persona", "Desea eliminar a la persona?", "Si", "No");
-            if(answer)
+            try
             {
-                // Borrar la persona si el usuario pulsa el botón primario.
-                /// En otro lugar, nada.
-                /*try
+                clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+
+                bool answer = await Application.Current.MainPage.DisplayAlert("Eliminar Persona", "Desea eliminar a la persona?", "Si", "No");
+                if (answer)
                 {
-                    if (clsManejadoraPersonasBL.eliminarPersonaBL(personaInmutable.ID) > 0)
-                    {
-                        listadoPersonasCompleto.Remove(personaSeleccionada);
-                        ListadoPersonasBuscadas.Remove(personaSeleccionada);
+                    await clsManejadoraPersonasBL.eliminarPersonaBLAsync(personaSeleccionada.ID);
 
-                        personaSeleccionada = null;
-
-                        NotifyPropertyChanged("PersonaSeleccionada");
-
-                        personaInmutable = null;
-                    }
+                    await Navigation.PushAsync(new ListadoPersonas());
                 }
-                catch (SqlException)
-                {
-                    dialogErrorAsync();
-                }*/
-            }  
+            }
+            catch(Exception ex)
+            {
+                error();
+            }
+
         }
 
         private bool EliminarCommand_CanExecute()
@@ -161,17 +160,11 @@ namespace CRUDPersonasXamarinUI.ViewModels
 
             foreach (clsPersona persona in listadoPersonasCompleto)
             {
-               
-                if (persona.Nombre.ToLower().Contains(buscar.ToLower()))
+                String nombreCompleto = persona.Nombre + " " + persona.Apellidos;
+
+                if (nombreCompleto.ToLower().Contains(buscar.ToLower()))
                 {
                     ListadoPersonasBuscadas.Add(persona);
-                }
-                else if (!String.IsNullOrEmpty(persona.Apellidos))
-                {
-                    if (persona.Apellidos.ToLower().Contains(buscar.ToLower()))
-                    {
-                        ListadoPersonasBuscadas.Add(persona);
-                    }
                 }
 
             }
@@ -195,37 +188,11 @@ namespace CRUDPersonasXamarinUI.ViewModels
             await Navigation.PushAsync(new PersonasDetail(new clsPersona()));
         }
 
-        //Dialog
-        //private async Task dialogErrorAsync()
-        //{
-        //    ContentDialog errorDialog = new ContentDialog
-        //    {
-        //        Title = "Error con la Base de Datos",
-        //        Content = "Ups! Ha ocurrido un error",
-        //        PrimaryButtonText = "Actualizar Pagina",
-        //        CloseButtonText = "Cerrar Aplicacion"
-        //    };
+        private async void error()
+        {
+            await Application.Current.MainPage.DisplayAlert("Error", "Ha ocurrido un error", "Aceptar");
+        }
 
-        //    ContentDialogResult result = await errorDialog.ShowAsync();
-
-        //    if (result == ContentDialogResult.Primary)
-        //    {
-        //        MainPage.GetCurrent().SetNavigationToIndex(0);
-        //    }
-        //    else
-        //    {
-        //        Application.Current.Exit();
-        //    }
-        //}
-
-        #endregion
-
-        #region Eventos
-
-        //public void recargarPagina(object sender, RoutedEventArgs e)
-        //{
-        //    MainPage.GetCurrent().SetNavigationToIndex(0);
-        //}
         #endregion
     }
 }

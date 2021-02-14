@@ -22,6 +22,7 @@
     </ContentPage.ToolbarItems>
 
     <StackLayout>
+        <Entry Margin="20" Placeholder="Buscar..." Text="{Binding Buscar}"></Entry>
         <ListView x:Name="ListadoPersonasBuscadas"
               SeparatorVisibility="Default"
               SelectedItem="{Binding PersonaSeleccionada}"

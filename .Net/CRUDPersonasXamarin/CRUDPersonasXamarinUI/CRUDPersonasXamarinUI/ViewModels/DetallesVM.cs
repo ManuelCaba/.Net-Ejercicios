@@ -1,6 +1,9 @@
 ﻿using CRUDPersonasXamarin_BL.Listados;
+using CRUDPersonasXamarin_BL.Manejadoras;
 using CRUDPersonasXamarin_Entidades;
+using CRUDPersonasXamarinUI.Utilidades;
 using CRUDPersonasXamarinUI.ViewModels.Utilidades;
+using CRUDPersonasXamarinUI.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -18,7 +21,9 @@ namespace CRUDPersonasXamarinUI.ViewModels
         #endregion
 
         #region Propiedades
+        public INavigation Navigation { get; set; }
         public Task Initialization { get; private set; }
+        public DelegateCommand GuardarCommand { get; }
         public clsDepartamento DepartamentoSeleccionado { get; set; }
         public ObservableCollection<clsDepartamento> ListadoDepartamentos { get; private set; }
         public clsPersona Persona { get { return persona; } set { persona = value; NotifyPropertyChanged("Persona"); } }
@@ -28,6 +33,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
         public DetallesVM()
         {
             persona = new clsPersona();
+            GuardarCommand = new DelegateCommand(GuardarCommand_ExecutedAsync);
             Initialization = InitializeAsync();
         }
 
@@ -41,6 +47,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
             NotifyPropertyChanged("ListadoDepartamentos");
             departamentoSeleccionado();
         }
+
         /// <summary>
         /// Método que inicializa el departamento de la persona para luego
         /// ser bindeada al elemento seleccionado del select de la vista
@@ -57,6 +64,23 @@ namespace CRUDPersonasXamarinUI.ViewModels
                     encontrado = true;
                 }
             }
+        }
+
+        private async void GuardarCommand_ExecutedAsync()
+        {
+            clsManejadoraPersonasBL clsManejadoraPersonasBL = new clsManejadoraPersonasBL();
+            persona.IDDepartamento = DepartamentoSeleccionado.ID;
+
+            if(persona.ID == 0)
+            {
+                await clsManejadoraPersonasBL.crearPersonaBLAsync(persona);
+            }
+            else
+            {
+                await clsManejadoraPersonasBL.editarPersonaBLAsync(persona);
+            }
+
+            await Navigation.PushAsync(new ListadoPersonas());
         }
 
         public async void OnPickPhotoButtonClicked(object sender, EventArgs e)

@@ -18,6 +18,7 @@ namespace CRUDPersonasXamarinUI.Views
         {
             InitializeComponent();
             ((DetallesVM)BindingContext).Persona = persona;
+            ((DetallesVM)this.BindingContext).Navigation = Navigation;
         }
 
         private void OnPickPhotoButtonClicked(object sender, EventArgs e)

@@ -54,7 +54,7 @@ namespace CRUDPersonasXamarin_DAL.Manejadoras
 
             String miCadenaUrl = clsUriBase.UriBase();
 
-            Uri miUri = new Uri($"{miCadenaUrl}Personas");
+            Uri miUri = new Uri($"{miCadenaUrl}Personas/"+persona.ID);
 
             //Usaremos el Status de la respuesta para comprobar si ha actualizado
 

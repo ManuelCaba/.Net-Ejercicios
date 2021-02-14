@@ -16,7 +16,7 @@
     </ContentPage.Resources>
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="saveicon.png"></ToolbarItem>
+        <ToolbarItem IconImageSource="saveicon.png" Command="{Binding GuardarCommand}"></ToolbarItem>
     </ContentPage.ToolbarItems>
 
     <ScrollView>
@@ -26,7 +26,7 @@
 
             <Image Margin="20" WidthRequest="100" HeightRequest="100" Source="{Binding Persona.Foto, Converter={StaticResource FotoConverter}}"></Image>
 
-            <Button Margin="20,0,20,20" HeightRequest="50" HorizontalOptions="Center" Text="Foto" Clicked="OnPickPhotoButtonClicked"></Button>
+            <Button Margin="20,0,20,20" HeightRequest="50" HorizontalOptions="Center" TextColor="White" BackgroundColor="#14A4CB" Text="Foto" Clicked="OnPickPhotoButtonClicked"></Button>
 
             <Label Margin="20"
                FontSize="20"

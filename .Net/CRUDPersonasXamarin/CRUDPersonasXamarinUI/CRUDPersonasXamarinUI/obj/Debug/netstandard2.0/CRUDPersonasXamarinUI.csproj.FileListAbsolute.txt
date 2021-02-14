@@ -48,3 +48,4 @@ D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXama
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\ref\CRUDPersonasXamarinUI.dll
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.pdb
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\PersonasDetail.xaml.g.cs
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\ListadoDepartamentos.xaml.g.cs

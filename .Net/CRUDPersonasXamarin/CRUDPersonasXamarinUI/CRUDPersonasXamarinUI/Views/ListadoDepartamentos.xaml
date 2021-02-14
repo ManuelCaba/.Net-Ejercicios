@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:CRUDPersonasXamarinUI.ViewModels"
+             x:Class="CRUDPersonasXamarinUI.Views.ListadoDepartamentos">
+
+    <ContentPage.BindingContext>
+        <viewModels:DepartamentosVM></viewModels:DepartamentosVM>
+    </ContentPage.BindingContext>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="addusericon.png" Command="{Binding CrearCommand}"/>
+        <ToolbarItem IconImageSource="editpersonicon.png"/>
+        <ToolbarItem IconImageSource="deleteicon.png" Command="{Binding EliminarCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <Entry Margin="20" Placeholder="Buscar..." Text="{Binding Buscar}"></Entry>
+        <ListView x:Name="ListadoDepartamentosBuscados"
+              SeparatorVisibility="Default"
+              SelectedItem="{Binding DepartamentoSeleccionado}"
+              HasUnevenRows="true"
+              SeparatorColor="Black"
+              ItemsSource="{Binding ListadoDepartamentosBuscado}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,10" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Margin="20">
+
+                            <Label VerticalOptions="FillAndExpand" 
+                        VerticalTextAlignment="Center" 
+                        Text="{Binding Nombre}" 
+                        FontSize="Medium"/>
+                            
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
