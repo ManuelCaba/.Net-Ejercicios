@@ -12,4 +12,8 @@ export class FormularioPersonasComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  saludar(){
+    alert("Hola "+(<HTMLInputElement>document.getElementById("nombre")).value+" "+(<HTMLInputElement>document.getElementById("apellidos")).value);
+  }
+
 }

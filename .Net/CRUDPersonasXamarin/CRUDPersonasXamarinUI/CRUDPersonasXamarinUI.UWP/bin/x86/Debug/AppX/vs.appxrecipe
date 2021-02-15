@@ -72,7 +72,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarinUI.dll">
       <PackagePath>CRUDPersonasXamarinUI.dll</PackagePath>
-      <Modified>2021-02-14T16:15:14.425</Modified>
+      <Modified>2021-02-15T12:18:14.116</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\bin\Debug\netstandard2.0\CRUDPersonasXamarin-Entidades.dll">
       <PackagePath>CRUDPersonasXamarin-Entidades.dll</PackagePath>
