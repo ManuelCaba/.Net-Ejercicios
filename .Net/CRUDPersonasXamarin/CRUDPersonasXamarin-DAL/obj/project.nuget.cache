@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "mLZYDK0ek3cjhoj46RFdeB3TEwml3pUTdRNjuy04Q5UrhLTFdZUy/vT4uF+eC++xIxnotcvxIeIHCV+oFvMybQ==",
+  "dgSpecHash": "0LJ9TWnhi+crjlKJnDh5zn3p5c1rQOxsKgC7wX6s/Yw6zYlkxn40i87DShwGDsEs1fihy31aWU7g9K8Mn1+xAw==",
   "success": true,
-  "projectFilePath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarin-DAL\\CRUDPersonasXamarin-DAL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\emane\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\emane\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\emane\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\mcaballero\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mcaballero\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mcaballero\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

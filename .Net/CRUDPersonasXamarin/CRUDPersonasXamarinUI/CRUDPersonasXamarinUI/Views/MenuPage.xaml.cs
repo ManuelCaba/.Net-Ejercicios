@@ -21,12 +21,12 @@ namespace CRUDPersonasXamarinUI.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ListadoPersonas());
+            await Detail.Navigation.PushAsync(new ListadoPersonas());
             IsPresented = false;
         }
         private async void Button_Clicked2(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ListadoDepartamentos());
+            await Detail.Navigation.PushAsync(new ListadoDepartamentos());
             IsPresented = false;
         }
     }

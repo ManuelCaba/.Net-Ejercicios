@@ -38,7 +38,6 @@ D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXama
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\ListadoPersonas.xaml.g.cs
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
-D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\MenuPageDetail.xaml.g.cs
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.AssemblyInfoInputs.cache
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.AssemblyInfo.cs
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.csproj.CoreCompileInputs.cache
@@ -49,3 +48,5 @@ D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXama
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\CRUDPersonasXamarinUI.pdb
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\PersonasDetail.xaml.g.cs
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\ListadoDepartamentos.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\ListadoDepartamentos.xaml.g.cs
+D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI\obj\Debug\netstandard2.0\Views\PersonasDetail.xaml.g.cs

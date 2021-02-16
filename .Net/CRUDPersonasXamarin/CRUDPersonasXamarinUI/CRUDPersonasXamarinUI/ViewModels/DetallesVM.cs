@@ -80,7 +80,10 @@ namespace CRUDPersonasXamarinUI.ViewModels
                 await clsManejadoraPersonasBL.editarPersonaBLAsync(persona);
             }
 
-            await Navigation.PushAsync(new ListadoPersonas());
+            App.Current.MainPage = new NavigationPage(new MenuPage())
+            {
+                BarBackgroundColor = Color.AliceBlue
+            };
         }
 
         public async void OnPickPhotoButtonClicked(object sender, EventArgs e)

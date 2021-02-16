@@ -31,6 +31,7 @@ namespace CRUDPersonasXamarinUI.ViewModels
         public DelegateCommand EditarCommand { get; }
         public DelegateCommand CrearCommand { get; }
         public ObservableCollection<clsPersona> ListadoPersonasBuscadas { get; set; }
+        public bool IsLoading { get; private set; }
         public clsPersona PersonaSeleccionada
         {
             get
@@ -91,10 +92,15 @@ namespace CRUDPersonasXamarinUI.ViewModels
         {
             try
             {
+                IsLoading = true;
+                NotifyPropertyChanged("IsLoading");
+                await Task.Delay(1000);
                 clsListadoPersonasBL clsListadoPersonasBL = new clsListadoPersonasBL();
                 listadoPersonasCompleto = await clsListadoPersonasBL.listadoPersonasBLAsync();
                 ListadoPersonasBuscadas = new ObservableCollection<clsPersona>(listadoPersonasCompleto);
                 NotifyPropertyChanged("ListadoPersonasBuscadas");
+                IsLoading = false;
+                NotifyPropertyChanged("IsLoading");
             }
             catch(Exception e)
             {

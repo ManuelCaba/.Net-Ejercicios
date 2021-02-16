@@ -24,6 +24,7 @@
     <StackLayout>
         <Entry Margin="20" Placeholder="Buscar..." Text="{Binding Buscar}"></Entry>
         <ListView x:Name="ListadoPersonasBuscadas"
+                  IsRefreshing="{Binding IsLoading}"
               SeparatorVisibility="Default"
               SelectedItem="{Binding PersonaSeleccionada}"
               HasUnevenRows="true"
