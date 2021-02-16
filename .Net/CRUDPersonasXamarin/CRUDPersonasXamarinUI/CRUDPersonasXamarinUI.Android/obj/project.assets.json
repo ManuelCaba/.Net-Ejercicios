@@ -11,6 +11,33 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Plugin.CurrentActivity/2.1.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid44/Plugin.CurrentActivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Plugin.CurrentActivity": "2.1.0.4"
+        },
+        "frameworkAssemblies": [
+          "Java.Interop"
+        ],
+        "compile": {
+          "lib/monoandroid71/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/monoandroid71/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
         "type": "package",
         "dependencies": {
@@ -837,6 +864,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -879,6 +907,53 @@
         "newtonsoft.json.12.0.3.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
+      ]
+    },
+    "Plugin.CurrentActivity/2.1.0.4": {
+      "sha512": "m8xaXvXUzBSqP6xRe5PeIG347WxsG/VWrZta7MnPpSvNuPf0RLB/S49UCCQyBKSsfu053+apvYm14BC7GU6Zzg==",
+      "type": "package",
+      "path": "plugin.currentactivity/2.1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid44/Plugin.CurrentActivity.dll",
+        "lib/monoandroid44/Plugin.CurrentActivity.xml",
+        "plugin.currentactivity.2.1.0.4.nupkg.sha512",
+        "plugin.currentactivity.nuspec",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "sha512": "tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "type": "package",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.DeviceInfo.dll",
+        "lib/monoandroid71/Plugin.DeviceInfo.pdb",
+        "lib/net45/Plugin.DeviceInfo.dll",
+        "lib/net45/Plugin.DeviceInfo.pdb",
+        "lib/netstandard1.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard1.0/Plugin.DeviceInfo.pdb",
+        "lib/netstandard2.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard2.0/Plugin.DeviceInfo.pdb",
+        "lib/tizen40/Plugin.DeviceInfo.dll",
+        "lib/tizen40/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.dll",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pri",
+        "lib/xamarinios10/Plugin.DeviceInfo.dll",
+        "lib/xamarinios10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinmac20/Plugin.DeviceInfo.dll",
+        "lib/xamarinmac20/Plugin.DeviceInfo.pdb",
+        "lib/xamarintvos10/Plugin.DeviceInfo.dll",
+        "lib/xamarintvos10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.dll",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.pdb",
+        "readme.txt",
+        "xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
+        "xam.plugin.deviceinfo.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.1.1.3": {
@@ -2028,24 +2103,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
+    "C:\\Users\\emane\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\CRUDPersonasXamarinUI.Android.csproj",
+      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\CRUDPersonasXamarinUI.Android.csproj",
       "projectName": "CRUDPersonasXamarinUI.Android",
-      "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\CRUDPersonasXamarinUI.Android.csproj",
-      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\obj\\",
+      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\CRUDPersonasXamarinUI.Android.csproj",
+      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2059,8 +2134,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
-              "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
+            "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
+              "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
             }
           }
         }

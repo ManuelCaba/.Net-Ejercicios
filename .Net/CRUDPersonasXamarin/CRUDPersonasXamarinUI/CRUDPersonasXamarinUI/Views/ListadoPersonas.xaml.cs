@@ -1,4 +1,5 @@
 ﻿using CRUDPersonasXamarinUI.ViewModels;
+using Plugin.DeviceInfo;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,6 +22,11 @@ namespace CRUDPersonasXamarinUI.Views
         public ListadoPersonas()
         {
             InitializeComponent();
+
+            if (Device.RuntimePlatform == Device.iOS || Device.RuntimePlatform == Device.Android)
+            {
+                stkListado.Children.RemoveAt(1);
+            }
 
             ((PersonasVM)this.BindingContext).Navigation = Navigation;
 

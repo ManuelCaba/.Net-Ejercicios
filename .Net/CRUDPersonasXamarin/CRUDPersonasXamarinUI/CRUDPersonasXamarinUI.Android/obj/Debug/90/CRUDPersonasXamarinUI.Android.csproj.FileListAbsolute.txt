@@ -14,17 +14,9 @@ D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRU
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\stamp\_BuildLibraryImportsCache.stamp
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res.flag
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\12\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\13\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\17\jl\files.cache
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\19\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\26\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\30\jl\files.cache
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\32\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\33\jl\files.cache
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\34\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\38\jl\files.cache
-D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\39\jl\files.cache
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\R.txt
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\R.cs.flag
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\CRUDPersonasXamarinUI.Android.csproj.CoreCompileInputs.cache
@@ -1005,3 +997,15 @@ D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXama
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\drawable\editpersonicon.png
 D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\drawable\saveicon.png
 D:\GitHub Manuel\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\res\drawable\saveicon.png
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\14\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\15\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\21\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\28\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\35\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\36\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\40\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\lp\41\jl\files.cache
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\Plugin.DeviceInfo.dll
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\assets\Plugin.DeviceInfo.dll.mdb
+D:\Escritorio\.Net-Ejercicios\.Net\CRUDPersonasXamarin\CRUDPersonasXamarinUI\CRUDPersonasXamarinUI.Android\obj\Debug\90\android\src\crc64435a5ac349fa9fda\ActivityLifecycleContextListener.java

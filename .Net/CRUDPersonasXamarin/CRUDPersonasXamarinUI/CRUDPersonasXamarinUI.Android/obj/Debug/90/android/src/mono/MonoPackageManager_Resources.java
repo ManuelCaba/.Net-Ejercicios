@@ -3,9 +3,14 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "CRUDPersonasXamarinUI.Android.dll" comes first in this list. */
 		"CRUDPersonasXamarinUI.Android.dll",
+		"CRUDPersonasXamarin-Entidades.dll",
+		"CRUDPersonasXamarin-BL.dll",
+		"CRUDPersonasXamarin-DAL.dll",
 		"CRUDPersonasXamarinUI.dll",
 		"FormsViewGroup.dll",
 		"Newtonsoft.Json.dll",
+		"Plugin.CurrentActivity.dll",
+		"Plugin.DeviceInfo.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Core.Runtime.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
@@ -48,9 +53,6 @@ public class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.Android.dll",
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
-		"CRUDPersonasXamarin-Entidades.dll",
-		"CRUDPersonasXamarin-BL.dll",
-		"CRUDPersonasXamarin-DAL.dll",
 	};
 	public static String[] Dependencies = new String[]{
 	};

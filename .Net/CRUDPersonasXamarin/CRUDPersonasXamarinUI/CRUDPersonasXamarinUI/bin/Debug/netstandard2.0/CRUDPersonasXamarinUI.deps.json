@@ -12,6 +12,7 @@
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
           "NETStandard.Library": "2.0.3",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451",
           "Windows.Foundation.UniversalApiContract": "8.0.0.0"
@@ -39,6 +40,14 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {
             "assemblyVersion": "4.1.4.0",
             "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.DeviceInfo.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -135,6 +144,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "hashPath": "xam.plugin.deviceinfo.4.1.1.nupkg.sha512"
     },
     "Xamarin.Essentials/1.5.3.2": {
       "type": "package",

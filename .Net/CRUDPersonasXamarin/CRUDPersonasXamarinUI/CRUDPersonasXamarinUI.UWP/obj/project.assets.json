@@ -351,6 +351,15 @@
           }
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -430,6 +439,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -959,6 +969,15 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -1038,6 +1057,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -1568,6 +1588,15 @@
           "runtimes/win10-arm/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -1647,6 +1676,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -2174,6 +2204,15 @@
           "lib/uap10.0/Microsoft.Graphics.Canvas.winmd": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -2253,6 +2292,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -2782,6 +2822,15 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -2861,6 +2910,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -3391,6 +3441,15 @@
           "runtimes/win10-x64/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -3470,6 +3529,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -3999,6 +4059,15 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -4078,6 +4147,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -4608,6 +4678,15 @@
           "runtimes/win10-x86/native/Microsoft.Graphics.Canvas.dll": {}
         }
       },
+      "Xam.Plugin.DeviceInfo/4.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Plugin.DeviceInfo.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
@@ -4687,6 +4766,7 @@
         "dependencies": {
           "CRUDPersonasXamarin-BL": "1.0.0",
           "CRUDPersonasXamarin-Entidades": "1.0.0",
+          "Xam.Plugin.DeviceInfo": "4.1.1",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.8.0.1451"
         },
@@ -9210,6 +9290,39 @@
         "win2d.uwp.nuspec"
       ]
     },
+    "Xam.Plugin.DeviceInfo/4.1.1": {
+      "sha512": "tBoWE60pwlUDK9f+X3CeFBVTpU+OuMel8Hfp7bxYnJKiGGQ2I3S+8ZF1lJSxvlQf0o8C/IjGnddUeDqwBmWZfg==",
+      "type": "package",
+      "path": "xam.plugin.deviceinfo/4.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid71/Plugin.DeviceInfo.dll",
+        "lib/monoandroid71/Plugin.DeviceInfo.pdb",
+        "lib/net45/Plugin.DeviceInfo.dll",
+        "lib/net45/Plugin.DeviceInfo.pdb",
+        "lib/netstandard1.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard1.0/Plugin.DeviceInfo.pdb",
+        "lib/netstandard2.0/Plugin.DeviceInfo.dll",
+        "lib/netstandard2.0/Plugin.DeviceInfo.pdb",
+        "lib/tizen40/Plugin.DeviceInfo.dll",
+        "lib/tizen40/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.dll",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pdb",
+        "lib/uap10.0.16299/Plugin.DeviceInfo.pri",
+        "lib/xamarinios10/Plugin.DeviceInfo.dll",
+        "lib/xamarinios10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinmac20/Plugin.DeviceInfo.dll",
+        "lib/xamarinmac20/Plugin.DeviceInfo.pdb",
+        "lib/xamarintvos10/Plugin.DeviceInfo.dll",
+        "lib/xamarintvos10/Plugin.DeviceInfo.pdb",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.dll",
+        "lib/xamarinwatchos10/Plugin.DeviceInfo.pdb",
+        "readme.txt",
+        "xam.plugin.deviceinfo.4.1.1.nupkg.sha512",
+        "xam.plugin.deviceinfo.nuspec"
+      ]
+    },
     "Xamarin.Essentials/1.5.3.2": {
       "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
       "type": "package",
@@ -9604,18 +9717,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
+    "C:\\Users\\emane\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
+      "projectUniqueName": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
       "projectName": "CRUDPersonasXamarinUI.UWP",
-      "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
-      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\obj\\",
+      "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\CRUDPersonasXamarinUI.UWP.csproj",
+      "packagesPath": "C:\\Users\\emane\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -9623,7 +9736,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\emane\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9637,8 +9750,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
-              "projectPath": "D:\\GitHub Manuel\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
+            "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj": {
+              "projectPath": "D:\\Escritorio\\.Net-Ejercicios\\.Net\\CRUDPersonasXamarin\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI\\CRUDPersonasXamarinUI.csproj"
             }
           }
         }
