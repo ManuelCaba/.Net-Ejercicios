@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class NumerosAleatorios implements Runnable {
 
-	@Override
+
 	public void run() {
 		Random random = new Random();
 		

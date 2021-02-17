@@ -19,9 +19,13 @@ public class Ejercicio4 {
 		
 		array = utiles.rellenarArrayAleatorio(longitud);
 		
-		utiles.pintarArray(array);
+		//utiles.pintarArray(array);
 		
-		System.out.print(": "+utiles.sumarRepetidosHilos(array));
+		//System.out.print(": "+utiles.sumarRepetidosHilos(array));
+		utiles.sumarRepetidosHilos(array);
+		utiles.sumarRepetidos(array);
+		
+		//2500
 	}
 
 }

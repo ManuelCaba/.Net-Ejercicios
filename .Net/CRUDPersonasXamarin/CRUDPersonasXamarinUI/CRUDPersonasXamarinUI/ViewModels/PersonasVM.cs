@@ -87,7 +87,11 @@ namespace CRUDPersonasXamarinUI.ViewModels
 
         #region Métodos
 
-        //Eliminar
+        /// <summary>
+        /// Método para inicializar los componentes necesarios en la página de 
+        /// manera asíncrona
+        /// </summary>
+        /// <returns></returns>
         public async Task InitializeAsync()
         {
             try
@@ -108,6 +112,8 @@ namespace CRUDPersonasXamarinUI.ViewModels
             }
 
         }
+
+        //Eliminar
         private async void EliminarCommand_Executed()
         {
             try
@@ -194,6 +200,9 @@ namespace CRUDPersonasXamarinUI.ViewModels
             await Navigation.PushAsync(new PersonasDetail(new clsPersona()));
         }
 
+        /// <summary>
+        /// Mensaje de error en un display alert
+        /// </summary>
         private async void error()
         {
             await Application.Current.MainPage.DisplayAlert("Error", "Ha ocurrido un error", "Aceptar");

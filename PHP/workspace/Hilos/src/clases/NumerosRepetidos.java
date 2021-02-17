@@ -9,7 +9,6 @@ public class NumerosRepetidos implements Runnable {
 	private static int hilosTerminados = 0;
 	private static Object hiloPrincipal;
 	
-	@Override
 	public void run() {
 
 			int repetidos = 0;

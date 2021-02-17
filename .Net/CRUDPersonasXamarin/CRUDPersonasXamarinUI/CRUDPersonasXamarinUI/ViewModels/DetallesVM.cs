@@ -40,6 +40,13 @@ namespace CRUDPersonasXamarinUI.ViewModels
         #endregion
 
         #region Métodos
+
+
+        /// <summary>
+        /// Método para inicializar los componentes necesarios en la página de 
+        /// manera asíncrona
+        /// </summary>
+        /// <returns></returns>
         public async Task InitializeAsync()
         {
             clsListadoDepartamentosBL clsListadoDepartamentosBL = new clsListadoDepartamentosBL();
@@ -86,6 +93,12 @@ namespace CRUDPersonasXamarinUI.ViewModels
             };
         }
 
+        /// <summary>
+        /// Método que abre la galería de imágenes para elegir una y
+        /// y transformarla a bytes[]
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         public async void OnPickPhotoButtonClicked(object sender, EventArgs e)
         {
             (sender as Button).IsEnabled = false;

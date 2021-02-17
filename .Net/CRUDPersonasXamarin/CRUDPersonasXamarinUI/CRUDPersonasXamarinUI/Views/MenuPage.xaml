@@ -10,8 +10,8 @@
         <ContentPage Padding="10" Title="Master" BackgroundColor="AliceBlue">
             <ContentPage.Content>
                 <StackLayout Margin="5,30,5,5">
-                    <Button Text="Personas" Clicked="Button_Clicked"></Button>
-                    <Button Text="Departamentos" Clicked="Button_Clicked2"></Button>
+                    <Button Text="Personas" Clicked="navegarListadoPersonas"></Button>
+                    <Button Text="Departamentos" Clicked="navegarListadoDepartamentos"></Button>
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

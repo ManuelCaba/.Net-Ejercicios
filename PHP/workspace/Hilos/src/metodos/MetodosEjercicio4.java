@@ -36,6 +36,8 @@ public class MetodosEjercicio4 {
 	
 	public int sumarRepetidos(int[] array)
 	{
+		long start = System.currentTimeMillis();
+		
 		int repetidos = 0;
 		int primerNumero;
 		int segundoNumero;
@@ -57,12 +59,16 @@ public class MetodosEjercicio4 {
 			}
 		}
 		
+		long end = System.currentTimeMillis();
+		
+		System.out.println("DEBUG: Logic A took " + (end - start) + " MilliSeconds");
+		
 		return repetidos;
 	}
 	
 	public int sumarRepetidosHilos(int[] array)
 	{
-		
+		long start = System.currentTimeMillis();
 		NumerosRepetidos primeraMitad = new NumerosRepetidos();
 		NumerosRepetidos segundaMitad = new NumerosRepetidos();
 		primeraMitad.setHiloPrincipal(this);
@@ -94,6 +100,10 @@ public class MetodosEjercicio4 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		long end = System.currentTimeMillis();
+		
+		System.out.println("DEBUG: Logic A took " + (end - start) + " MilliSeconds");
 		
 		return NumerosRepetidos.getRepetidosTotales();
 	}

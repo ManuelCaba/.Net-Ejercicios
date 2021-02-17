@@ -4,7 +4,6 @@ public class Hola implements Runnable {
 	
 	private static Object monitor = new Object();
 	
-	@Override
 	public void run() {
 		synchronized(monitor)
 		{

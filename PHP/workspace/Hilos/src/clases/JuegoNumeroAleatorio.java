@@ -8,7 +8,6 @@ public class JuegoNumeroAleatorio implements Runnable {
 	private int numeroActual;
 	
 
-	@Override
 	public void run() {
 		// TODO Auto-generated method stub
 		Random random = new Random();
