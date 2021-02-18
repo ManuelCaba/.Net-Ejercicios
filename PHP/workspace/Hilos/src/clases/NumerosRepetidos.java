@@ -14,6 +14,7 @@ public class NumerosRepetidos implements Runnable {
 			int repetidos = 0;
 			int primerNumero;
 			int segundoNumero;
+
 			
 			for(int i = indiceInicio; i <= indiceFinal; i++)
 			{

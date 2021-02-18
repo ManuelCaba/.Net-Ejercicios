@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Router, RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-tabla-personas',
@@ -7,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TablaPersonasComponent implements OnInit {
 
-  constructor() { }
+  constructor(private route:Router) { 
+  }
+
+  navegarListado(){
+    this.route.navigate(['/listado']);
+  }
 
   ngOnInit(): void {
   }

@@ -7,6 +7,8 @@ import { TablaPersonasComponent } from './components/tabla-personas/tabla-person
 import { FormularioPersonasComponent } from './components/formulario-personas/formulario-personas.component';
 import { ListaPersonasComponent } from './components/lista-personas/lista-personas.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
