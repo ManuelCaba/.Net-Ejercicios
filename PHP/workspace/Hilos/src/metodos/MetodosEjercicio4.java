@@ -73,13 +73,6 @@ public class MetodosEjercicio4 {
 		NumerosRepetidos segundaMitad = new NumerosRepetidos();
 		primeraMitad.setHiloPrincipal(this);
 		segundaMitad.setHiloPrincipal(this);
-		
-		int[] primeraMitadArray = new int[array.length/2];
-		int[] segundaMitadArray = new int[array.length - primeraMitadArray.length];
-	    for (int i = 0; i < primeraMitadArray.length; i++) {
-	        primeraMitadArray[i] = array[2 * i];
-	        segundaMitadArray[i] = array[2 * i + 1];
-	    }
 	    
 	    NumerosRepetidos.setArray(array);
 	    primeraMitad.setIndices(0, (array.length / 2) - 1);

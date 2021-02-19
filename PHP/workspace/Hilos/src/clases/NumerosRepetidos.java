@@ -35,13 +35,13 @@ public class NumerosRepetidos implements Runnable {
 			
 			synchronized(hiloPrincipal)
 			{
-			repetidosTotales += repetidos;
-			hilosTerminados++;
-			if(hilosTerminados == 2)
-			{
-				hiloPrincipal.notifyAll();
+				repetidosTotales += repetidos;
+				hilosTerminados++;
+				if(hilosTerminados == 2)
+				{
+					hiloPrincipal.notifyAll();
+				}
 			}
-		}
 	}
 	
 	public static void setArray(int[] arrayNumeros)

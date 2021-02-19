@@ -21,9 +21,10 @@ public class Ejercicio4 {
 		
 		//utiles.pintarArray(array);
 		
-		//System.out.print(": "+utiles.sumarRepetidosHilos(array));
-		utiles.sumarRepetidosHilos(array);
-		utiles.sumarRepetidos(array);
+		System.out.print(": "+utiles.sumarRepetidosHilos(array));
+		System.out.print(": "+utiles.sumarRepetidos(array));
+		//utiles.sumarRepetidosHilos(array);
+		//utiles.sumarRepetidos(array);
 		
 		//2500
 	}
