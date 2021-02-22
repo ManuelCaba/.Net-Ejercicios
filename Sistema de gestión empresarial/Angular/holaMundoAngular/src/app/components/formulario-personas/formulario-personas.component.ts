@@ -19,8 +19,11 @@ export class FormularioPersonasComponent implements OnInit {
   }
 
   saludar(){
-    //alert("Hola "+(<HTMLInputElement>document.getElementById("nombre")).value+" "+(<HTMLInputElement>document.getElementById("apellidos")).value);
-    alert('Hola ' + this.formulario.controls.nombre.value + ' ' + this.formulario.controls.apellidos.value);
+    if(this.formulario.valid)
+    {
+      //alert("Hola "+(<HTMLInputElement>document.getElementById("nombre")).value+" "+(<HTMLInputElement>document.getElementById("apellidos")).value);
+      alert('Hola ' + this.formulario.controls.nombre.value + ' ' + this.formulario.controls.apellidos.value);
+    }
   }
 
 }
