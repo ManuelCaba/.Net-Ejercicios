@@ -113,6 +113,7 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Pages\index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

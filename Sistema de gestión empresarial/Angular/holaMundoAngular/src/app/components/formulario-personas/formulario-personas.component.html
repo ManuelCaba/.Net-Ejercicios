@@ -1,11 +1,31 @@
-<form>
+<form [formGroup]="formulario">
     <div>
         <label>Nombre: </label>
-        <input id="nombre" type="text" placeholder="Nombre">
+        <input id="nombre" formControlName ="nombre" type="text" placeholder="Nombre">
+        <div *ngIf="(formulario.controls.nombre.dirty || formulario.controls.nombre.touched)">
+            <div *ngIf="this.formulario.controls.nombre.errors?.required">
+                Name is required.
+            </div>
+            <div *ngIf="this.formulario.controls.nombre.errors?.minlength">
+                Name must be at least 3 characters long.
+            </div>
+        </div>
     </div>
     <div>
         <label>Apellidos: </label>
-        <input id="apellidos" type="text" placeholder="Apellidos">
+        <input id="apellidos" formControlName ="apellidos" type="text" placeholder="Apellidos">
+    </div>
+    <div>
+        <label>Fecha de Nacimiento: </label>
+        <input id="fechaNacimiento" formControlName ="fechaNacimiento" type="date">
+    </div>
+    <div>
+        <label>Teléfono: </label>
+        <input id="telefono" formControlName ="telefono" type="phonenumber">
+    </div>
+    <div>
+        <label>Dirección: </label>
+        <input id="direccion" formControlName ="direccion" type="text">
     </div>
     <div>
         <input type="button" value="Guardar Cambios" (click)="saludar()">

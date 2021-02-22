@@ -274,3 +274,27 @@ D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.csproj.CopyComplete
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.dll
 D:\.Net-Ejercicios\Sistema de gestión empresarial\10-CRUDPersonas\API\obj\Debug\API.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Antlr3.Runtime.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Helpers.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Mvc.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Optimization.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Razor.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Razor.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\WebGrease.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\Antlr3.Runtime.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Helpers.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Mvc.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Optimization.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.Razor.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\System.Web.WebPages.Razor.xml
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Helpers.resources.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Mvc.resources.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.Razor.resources.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.resources.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\10-CRUDPersonas\API\bin\es\System.Web.WebPages.Razor.resources.dll
