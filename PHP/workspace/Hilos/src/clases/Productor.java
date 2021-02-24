@@ -9,13 +9,10 @@ public class Productor implements Runnable {
 	
 	public void run() {
 		
-		while(ProductorConsumidor.numerosPrimos.size() <= 10)
+		while(true)
 		{
-			numero = generarProximoPrimo(numero);
-			ProductorConsumidor.numerosPrimos.add(numero);
 			synchronized(hiloPrincipal)
 			{
-				hiloPrincipal.notify();
 				if(ProductorConsumidor.numerosPrimos.size() == 10)
 				{
 					try {
@@ -27,6 +24,16 @@ public class Productor implements Runnable {
 				}
 
 			}
+			
+			synchronized(hiloPrincipal)
+			{
+				ProductorConsumidor.numerosPrimos.addFirst(numero);
+				hiloPrincipal.notify();
+
+			}
+			
+			numero = generarProximoPrimo(numero);
+
 		}
 
 	}

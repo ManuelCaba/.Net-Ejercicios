@@ -8,13 +8,10 @@ public class Consumidor implements Runnable {
 	
 	public void run() {
 		
-		while(!ProductorConsumidor.numerosPrimos.isEmpty())
+		while(true)
 		{
-			System.out.println(ProductorConsumidor.numerosPrimos.getFirst());
-			ProductorConsumidor.numerosPrimos.removeFirst();
 			synchronized(hiloPrincipal)
 			{
-				hiloPrincipal.notify();
 				if(ProductorConsumidor.numerosPrimos.isEmpty())
 				{
 					try {
@@ -26,6 +23,14 @@ public class Consumidor implements Runnable {
 				}
 
 			}
+			
+			synchronized(hiloPrincipal)
+			{
+				System.out.println(ProductorConsumidor.numerosPrimos.getFirst());
+				ProductorConsumidor.numerosPrimos.removeFirst();
+				hiloPrincipal.notify();
+			}
+
 		}
 
 	}

@@ -22,12 +22,9 @@ public class Ejercicio4 {
 		utiles.pintarArray(array);
 		
 		System.out.print(": "+utiles.sumarRepetidosHilos(array));
-<<<<<<< Updated upstream
 		System.out.print(": "+utiles.sumarRepetidos(array));
 		//utiles.sumarRepetidosHilos(array);
 		//utiles.sumarRepetidos(array);
-=======
->>>>>>> Stashed changes
 		
 		//2500 para que el método con hilos sea mas eficiente
 	}
