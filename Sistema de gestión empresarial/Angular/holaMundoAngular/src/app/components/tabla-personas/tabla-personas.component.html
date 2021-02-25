@@ -20,4 +20,19 @@
 </table>
 <a routerLink="formulario">Ir a formulario</a> <p></p>
 <input type="button" value="Abrir Listado" (click)="navegarListado()" id="btnListado"/>
-<mat-progress-spinner></mat-progress-spinner>
+<mat-spinner></mat-spinner>
+<mat-radio-group aria-label="Select an option">
+    <mat-radio-button value="1">Option 1</mat-radio-button>
+    <mat-radio-button value="2">Option 2</mat-radio-button>
+</mat-radio-group>
+<div>
+    <mat-slider></mat-slider>
+</div>
+<div>
+    <mat-chip-list aria-label="Fish selection">
+        <mat-chip>One fish</mat-chip>
+        <mat-chip>Two fish</mat-chip>
+        <mat-chip color="primary" selected>Primary fish</mat-chip>
+        <mat-chip color="accent" selected>Accent fish</mat-chip>
+      </mat-chip-list>
+</div>

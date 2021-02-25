@@ -8,6 +8,16 @@ import { FormularioPersonasComponent } from './components/formulario-personas/fo
 import { ListaPersonasComponent } from './components/lista-personas/lista-personas.component';
 
 import { ReactiveFormsModule } from '@angular/forms';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatRadioModule} from '@angular/material/radio';
+import {MatSliderModule} from '@angular/material/slider';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatFormFieldModule} from '@angular/material/form-field'; 
+import { MatCardModule } from '@angular/material/card'; 
+import { MatInputModule } from '@angular/material/input';
+
+//API
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,7 +29,15 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatSliderModule,
+    MatChipsModule,
+    MatFormFieldModule,
+    MatCardModule,
+    MatInputModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
