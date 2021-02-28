@@ -31,5 +31,10 @@ namespace Animaciones_01
         {
             this.miStoryboard.Begin();
         }
+
+        private void elpCirculo_Loaded(object sender, RoutedEventArgs e)
+        {
+            this.miStoryboard.Begin();
+        }
     }
 }

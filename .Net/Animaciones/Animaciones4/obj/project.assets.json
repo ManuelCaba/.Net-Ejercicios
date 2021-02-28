@@ -8158,11 +8158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones4\\Animaciones4.csproj",
+      "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones4\\Animaciones4.csproj",
       "projectName": "Animaciones4",
-      "projectPath": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones4\\Animaciones4.csproj",
+      "projectPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones4\\Animaciones4.csproj",
       "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones4\\obj\\",
+      "outputPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones2\\Animaciones2.csproj": {}
+    "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones2\\Animaciones2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones2\\Animaciones2.csproj": {
+    "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones2\\Animaciones2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones2\\Animaciones2.csproj",
+        "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones2\\Animaciones2.csproj",
         "projectName": "Animaciones2",
-        "projectPath": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones2\\Animaciones2.csproj",
+        "projectPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones2\\Animaciones2.csproj",
         "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones2\\obj\\",
+        "outputPath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones2\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

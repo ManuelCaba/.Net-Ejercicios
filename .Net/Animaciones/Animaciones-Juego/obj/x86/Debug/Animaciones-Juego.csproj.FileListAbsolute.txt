@@ -134,3 +134,5 @@ D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\MultipleQualif
 D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\ProjectArchitectures.txt
 D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json
 D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\Animaciones-Juego.csprojAssemblyReference.cache
+D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885238160000000.json

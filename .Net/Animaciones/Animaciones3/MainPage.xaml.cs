@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.System.Threading;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -27,10 +29,28 @@ namespace Animaciones3
             this.InitializeComponent();
         }
 
-        private void btnLanzamiento_Click(object sender, RoutedEventArgs e)
+        private async void btnLanzamiento_Click(object sender, RoutedEventArgs e)
         {
+            btnLanzamiento.IsEnabled = false;
+
             storyBoard.Begin();
-            sbHumo.Begin();
+
+            for (int i = 10; i >= 0; i--)
+            {
+                countdown.Text = i.ToString();
+
+                //cuentaAtras.Begin();
+
+                await Task.Delay(1000);
+            }
+
+            countdown.Text = "";  
+        }
+
+        private void DoubleAnimation_Completed(object sender, object e)
+        {
+            btnLanzamiento.IsEnabled = true;
+            Canvas.SetTop(nave, 363);
         }
     }
 }

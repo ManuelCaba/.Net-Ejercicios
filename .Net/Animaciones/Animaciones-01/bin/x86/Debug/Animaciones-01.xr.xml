@@ -20,11 +20,15 @@
       <RootProperty Name="To" />
       <RootProperty Name="Duration" />
       <RootProperty Name="EnableDependentAnimation" />
+      <RootProperty Name="AutoReverse" />
+      <RootProperty Name="RepeatBehavior" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.ColorAnimation">
       <RootProperty Name="From" />
       <RootProperty Name="To" />
       <RootProperty Name="Duration" />
+      <RootProperty Name="AutoReverse" />
+      <RootProperty Name="RepeatBehavior" />
       <RootProperty Name="EnableDependentAnimation" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -34,6 +38,7 @@
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
       <RootProperty Name="Fill" />
+      <RootEvent Name="Loaded" />
       <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.SolidColorBrush">

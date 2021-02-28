@@ -17,31 +17,39 @@
                             Storyboard.TargetProperty="(Canvas.Top)"
                             From="363"
                             To="-1000"
-                            BeginTime="0:0:3"
+                            BeginTime="0:0:10"
+                             Completed="DoubleAnimation_Completed"
                             Duration="0:0:5"/>
-
-        </Storyboard>
-
-        <Storyboard x:Name="sbHumo">
 
             <DoubleAnimation EnableDependentAnimation="True"
                             Storyboard.TargetName="humo"
                             Storyboard.TargetProperty="(Canvas.Opacity)"
                             AutoReverse="True"
-                            BeginTime="0:0:0"
-                            Duration="0:0:3"
+                            BeginTime="0:0:5"
+                            Duration="0:0:5"
                             From="0"
                             To="1"/>
-
         </Storyboard>
 
+        <Storyboard x:Name="cuentaAtras">
+            <DoubleAnimation EnableDependentAnimation="True"
+                            Storyboard.TargetName="countdown"
+                            Storyboard.TargetProperty="Opacity"
+                            BeginTime="0:0:0"
+                            Duration="0:0:1"
+                             AutoReverse="True"
+                            From="1"
+                            To="0"/>
+        </Storyboard>
 
     </Page.Resources>
 
 
-    <Canvas>
+    <Canvas x:Name="canvas">
+            <TextBlock x:Name="countdown" FontSize="30"></TextBlock>
 
-        <Image x:Name="humo" Source="Assets/Humo.jpg" Canvas.Top="432" Opacity="0" Height="97" Width="200"/>
+
+            <Image x:Name="humo" Source="Assets/Humo.jpg" Canvas.Top="432" Opacity="0" Height="97" Width="200"/>
 
         <Image x:Name="nave" Source="Assets/Nave.png" Canvas.Left="32" Canvas.Top="363" Height="137" Width="137"/>
 

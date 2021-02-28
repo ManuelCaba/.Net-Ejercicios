@@ -16,14 +16,14 @@
             <DoubleAnimation Storyboard.TargetName="elpCirculo" 
                              Storyboard.TargetProperty="Width"
                              From="100" To="300" Duration="0:0:2" 
-                             EnableDependentAnimation="True"/>
+                             EnableDependentAnimation="True" AutoReverse="True" RepeatBehavior="Forever"/>
             <DoubleAnimation Storyboard.TargetName="elpCirculo" 
                              Storyboard.TargetProperty="Height"
-                             From="100" To="300" Duration="0:0:2"
+                             From="100" To="300" Duration="0:0:2" AutoReverse="True" RepeatBehavior="Forever"
                              EnableDependentAnimation="True"/>
             <ColorAnimation  Storyboard.TargetName="scbColor" 
                              Storyboard.TargetProperty="Color"
-                             From="Blue" To="Yellow" Duration="0:0:3"
+                             From="Blue" To="Yellow" Duration="0:0:3" AutoReverse="True" RepeatBehavior="Forever"
                              EnableDependentAnimation="True"/>
         </Storyboard>
 
@@ -31,7 +31,7 @@
 
     <Grid>
 
-        <Ellipse x:Name="elpCirculo" Height="100" Width="100" Tapped="elpCirculo_Tapped">
+        <Ellipse Loaded="elpCirculo_Loaded" x:Name="elpCirculo" Height="100" Width="100" Tapped="elpCirculo_Tapped">
             <Ellipse.Fill>
                 <SolidColorBrush x:Name="scbColor" Color="Blue"></SolidColorBrush>
             </Ellipse.Fill>
