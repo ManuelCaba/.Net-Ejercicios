@@ -42,3 +42,4 @@ D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\obj\x86\Debug\qualifiers.txt.in
 D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\obj\x86\Debug\ProjectArchitectures.txt
 D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885274160000000.json
+D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\obj\x86\Debug\Animaciones3.csprojAssemblyReference.cache

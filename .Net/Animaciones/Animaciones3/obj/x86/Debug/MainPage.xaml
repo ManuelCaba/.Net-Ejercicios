@@ -12,7 +12,7 @@
 
         <Storyboard x:ConnectionId='2' x:Name="storyBoard">
 
-            <DoubleAnimation x:ConnectionId='4' EnableDependentAnimation="True"
+            <DoubleAnimation x:ConnectionId='5' EnableDependentAnimation="True"
                             Storyboard.TargetName="nave"
                             Storyboard.TargetProperty="(Canvas.Top)"
                             From="363"
@@ -42,19 +42,42 @@
                             To="0"/>
         </Storyboard>
 
+        <Storyboard x:ConnectionId='4' x:Name="circuloAnimation">
+            <DoubleAnimation Storyboard.TargetName="circulo"
+                             Storyboard.TargetProperty="(Canvas.Top)"
+                             BeginTime="0:0:0"
+                             Duration="0:0:10"
+                             AutoReverse="True"
+                             RepeatBehavior="Forever"
+                             From="628"
+                             To="900"
+                             EnableDependentAnimation="True"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="circulo"
+                             Storyboard.TargetProperty="(Canvas.Left)"
+                             BeginTime="0:0:0"
+                             Duration="0:0:1"
+                             AutoReverse="True"
+                             RepeatBehavior="Forever"
+                             From="304"
+                             To="500"
+                             EnableDependentAnimation="True"></DoubleAnimation>
+        </Storyboard>
+
     </Page.Resources>
 
 
-    <Canvas x:ConnectionId='5' x:Name="canvas">
-            <TextBlock x:ConnectionId='6' x:Name="countdown" FontSize="30"></TextBlock>
+    <Canvas x:ConnectionId='6' x:Name="canvas">
+        <TextBlock x:ConnectionId='7' x:Name="countdown" FontSize="30"></TextBlock>
 
 
-            <Image x:ConnectionId='7' x:Name="humo" Source="Assets/Humo.jpg" Canvas.Top="432" Opacity="0" Height="97" Width="200"/>
+        <Image x:ConnectionId='8' x:Name="humo" Source="Assets/Humo.jpg" Canvas.Top="432" Opacity="0" Height="97" Width="200"/>
 
-        <Image x:ConnectionId='8' x:Name="nave" Source="Assets/Nave.png" Canvas.Left="32" Canvas.Top="363" Height="137" Width="137"/>
+        <Image x:ConnectionId='9' x:Name="nave" Source="Assets/Nave.png" Canvas.Left="32" Canvas.Top="363" Height="137" Width="137"/>
 
-        <Button x:ConnectionId='9' x:Name="btnLanzamiento" Content="Lanzamiento" FontSize="40"
+        <Button x:ConnectionId='10' x:Name="btnLanzamiento" Content="Lanzamiento" FontSize="40"
                         Canvas.Left="181" Canvas.Top="221"                             />
+
+        <Ellipse x:ConnectionId='11'                         x:Name="circulo" Width="50" Height="50" Fill="Blue" Canvas.Left="304" Canvas.Top="628"></Ellipse>
 
     </Canvas>
 </Page>

@@ -16,12 +16,13 @@
       <RootMethod Name="SetTargetProperty" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.Animation.DoubleAnimation">
-      <RootProperty Name="EnableDependentAnimation" />
       <RootProperty Name="BeginTime" />
       <RootProperty Name="Duration" />
       <RootProperty Name="AutoReverse" />
+      <RootProperty Name="RepeatBehavior" />
       <RootProperty Name="From" />
       <RootProperty Name="To" />
+      <RootProperty Name="EnableDependentAnimation" />
       <RootEvent Name="Completed" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
@@ -44,6 +45,12 @@
       <RootProperty Name="Content" />
       <RootProperty Name="FontSize" />
       <RootEvent Name="Click" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Fill" />
+      <RootEvent Name="Loaded" />
     </RootType>
     <RootType FullName="Animaciones3.MainPage" />
   </Roots.RootTypes>

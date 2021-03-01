@@ -52,5 +52,10 @@ namespace Animaciones3
             btnLanzamiento.IsEnabled = true;
             Canvas.SetTop(nave, 363);
         }
+
+        private void circulo_Loaded(object sender, RoutedEventArgs e)
+        {
+            circuloAnimation.Begin();
+        }
     }
 }

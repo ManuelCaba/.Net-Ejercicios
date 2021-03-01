@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-28T01:13:37.928</Modified>
+      <Modified>2021-03-01T14:53:50.414</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\Animaciones3.exe">
       <PackagePath>entrypoint\Animaciones3.exe</PackagePath>
-      <Modified>2021-02-28T01:13:37.643</Modified>
+      <Modified>2021-03-01T14:53:50.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -94,15 +94,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\Animaciones3.xr.xml">
       <PackagePath>Animaciones3.xr.xml</PackagePath>
-      <Modified>2021-02-28T01:12:22.708</Modified>
+      <Modified>2021-03-01T14:52:33.714</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-02-28T01:13:37.602</Modified>
+      <Modified>2021-03-01T14:50:50.057</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-02-28T01:13:37.602</Modified>
+      <Modified>2021-03-01T14:53:50.088</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -114,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones3\bin\x86\Debug\Core\Animaciones3.exe">
       <PackagePath>Animaciones3.exe</PackagePath>
-      <Modified>2021-02-28T01:13:37.925</Modified>
+      <Modified>2021-03-01T14:53:50.412</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
