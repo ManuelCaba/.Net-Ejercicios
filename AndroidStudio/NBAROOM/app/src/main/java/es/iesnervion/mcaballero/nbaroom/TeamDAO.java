@@ -16,4 +16,7 @@ public interface TeamDAO {
 
     @Query("SELECT * FROM Teams")
     public LiveData<List<NBATeam>> obtenerListaEquiposCompleta();
+
+    @Query("SELECT * FROM Teams WHERE ID IN (:id)")
+    public LiveData<List<NBATeam>> obtenerListaEquiposPorID(int[] id);
 }

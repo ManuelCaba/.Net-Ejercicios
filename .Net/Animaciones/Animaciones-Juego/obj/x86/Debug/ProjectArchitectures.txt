@@ -1,1 +1,1 @@
-D:\GitHub Manuel\.Net\Animaciones\Animaciones-Juego\Animaciones-Juego.csproj;x86
+D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-Juego\Animaciones-Juego.csproj;x86

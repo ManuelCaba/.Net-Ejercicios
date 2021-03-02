@@ -13,7 +13,7 @@
         <Storyboard x:Name="storyRectangulo">
 
             <ColorAnimation From="Blue" To="Yellow" Duration="0:0:3"
-                            Storyboard.TargetProperty="(Rectangle.Fill).(SolidColorBrush.Color)"
+                            Storyboard.TargetProperty="Rectangle.Fill.SolidColorBrush.Color"
                             Storyboard.TargetName="MiRectangulo"/>
 
         </Storyboard>

@@ -17,29 +17,58 @@
                             Storyboard.TargetProperty="(Canvas.Top)"
                             From="363"
                             To="-1000"
-                            BeginTime="0:0:3"
+                            BeginTime="0:0:10"
+                             Completed="DoubleAnimation_Completed"
                             Duration="0:0:5"/>
-
-        </Storyboard>
-
-        <Storyboard x:Name="sbHumo">
 
             <DoubleAnimation EnableDependentAnimation="True"
                             Storyboard.TargetName="humo"
                             Storyboard.TargetProperty="(Canvas.Opacity)"
                             AutoReverse="True"
-                            BeginTime="0:0:0"
-                            Duration="0:0:3"
+                            BeginTime="0:0:5"
+                            Duration="0:0:5"
                             From="0"
                             To="1"/>
-
         </Storyboard>
 
+        <Storyboard x:Name="cuentaAtras">
+            <DoubleAnimation EnableDependentAnimation="True"
+                            Storyboard.TargetName="countdown"
+                            Storyboard.TargetProperty="Opacity"
+                            BeginTime="0:0:0"
+                            Duration="0:0:1"
+                             AutoReverse="True"
+                            From="1"
+                            To="0"/>
+        </Storyboard>
+
+        <Storyboard x:Name="circuloAnimation">
+            <DoubleAnimation Storyboard.TargetName="circulo"
+                             Storyboard.TargetProperty="(Canvas.Top)"
+                             BeginTime="0:0:0"
+                             Duration="0:0:10"
+                             AutoReverse="True"
+                             RepeatBehavior="Forever"
+                             From="628"
+                             To="900"
+                             EnableDependentAnimation="True"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="circulo"
+                             Storyboard.TargetProperty="(Canvas.Left)"
+                             BeginTime="0:0:0"
+                             Duration="0:0:1"
+                             AutoReverse="True"
+                             RepeatBehavior="Forever"
+                             From="304"
+                             To="500"
+                             EnableDependentAnimation="True"></DoubleAnimation>
+        </Storyboard>
 
     </Page.Resources>
 
 
-    <Canvas>
+    <Canvas x:Name="canvas">
+        <TextBlock x:Name="countdown" FontSize="30"></TextBlock>
+
 
         <Image x:Name="humo" Source="Assets/Humo.jpg" Canvas.Top="432" Opacity="0" Height="97" Width="200"/>
 
@@ -47,6 +76,8 @@
 
         <Button x:Name="btnLanzamiento" Content="Lanzamiento" FontSize="40"
                         Canvas.Left="181" Canvas.Top="221" Click="btnLanzamiento_Click"/>
+
+        <Ellipse Loaded="circulo_Loaded" x:Name="circulo" Width="50" Height="50" Fill="Blue" Canvas.Left="304" Canvas.Top="628"></Ellipse>
 
     </Canvas>
 </Page>

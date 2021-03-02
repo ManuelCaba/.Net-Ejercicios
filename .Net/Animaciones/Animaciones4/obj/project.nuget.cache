@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P41bBAwSpZe6cW0hkb8OV6hsBgVOCtm5gR9rw+JsWQteGWJ7iRK+Y/bQLse4l/h+rj4mOM8abf7xJTEa3Ddzfg==",
+  "dgSpecHash": "FDdhUIcsPkyyBJS9AjLjaUS6LY7wWFyBBEL9aDQqBbmjutlABbg+IuYGclvrTZefIrC9R8bjxf/H+MdLI09LMw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Manuel\\Downloads\\Animaciones\\Animaciones4\\Animaciones4.csproj",
+  "projectFilePath": "D:\\.Net-Ejercicios\\.Net\\Animaciones\\Animaciones4\\Animaciones4.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",

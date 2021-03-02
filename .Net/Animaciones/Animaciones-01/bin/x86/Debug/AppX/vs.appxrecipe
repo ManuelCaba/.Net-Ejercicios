@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>395A589116CF4661F126974EC7662ED9BFB5BB1CE13155B47E31E7050B30C135</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>8DFAA19F42F5E754492C825EF6E2D4FBCD20247A4FBC2C80A3E560F53D595F28</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>241ce7e3-2f60-48f8-9973-bbad8ff957ed_1.0.0.0_x86__rda62evpacxtw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>241ce7e3-2f60-48f8-9973-bbad8ff957ed_rda62evpacxtw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>241ce7e3-2f60-48f8-9973-bbad8ff957ed</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-22T12:13:53.529</Modified>
+      <Modified>2021-02-28T00:17:41.812</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.exe">
       <PackagePath>entrypoint\Animaciones-01.exe</PackagePath>
-      <Modified>2021-01-22T12:13:52.240</Modified>
+      <Modified>2021-02-28T00:17:41.521</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,15 +86,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Animaciones-01.xr.xml">
       <PackagePath>Animaciones-01.xr.xml</PackagePath>
-      <Modified>2021-01-22T12:13:52.095</Modified>
+      <Modified>2021-02-28T00:16:41.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-01-22T12:13:52.116</Modified>
+      <Modified>2021-02-28T00:17:41.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-01-22T12:13:52.116</Modified>
+      <Modified>2021-02-28T00:17:41.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -102,11 +102,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-01-22T12:13:52.600</Modified>
+      <Modified>2021-02-28T00:11:19.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\.Net-Ejercicios\.Net\Animaciones\Animaciones-01\bin\x86\Debug\Core\Animaciones-01.exe">
       <PackagePath>Animaciones-01.exe</PackagePath>
-      <Modified>2021-01-22T12:13:53.508</Modified>
+      <Modified>2021-02-28T00:17:41.810</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
