@@ -1,0 +1,5 @@
+D:\GitHub Manuel\.Net\ExamenUWP\ExamenUWPBL\ExamenUWPBL.csproj;x86
+D:\GitHub Manuel\.Net\ExamenUWP\ExamenUWPDAL\ExamenUWPDAL.csproj;x86
+D:\GitHub Manuel\.Net\ExamenUWP\ExamenUWPEntidades\ExamenUWPEntidades.csproj;x86
+D:\GitHub Manuel\.Net\ExamenUWP\ExamenUWPEntidades\ExamenUWPEntidades.csproj;x86
+D:\GitHub Manuel\.Net\ExamenUWP\ExamenUWPUI\ExamenUWPUI.csproj;x86

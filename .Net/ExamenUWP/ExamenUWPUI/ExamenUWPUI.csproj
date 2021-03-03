@@ -119,6 +119,8 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\DateConverter.cs" />
+    <Compile Include="ViewModels\MainPageVM.cs" />
     <Compile Include="ViewModels\Utilidades\clsVMBase.cs" />
     <Compile Include="ViewModels\Utilidades\DelegateCommand.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
@@ -156,7 +158,16 @@
       <Version>6.2.10</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenUWPBL\ExamenUWPBL.csproj">
+      <Project>{6a6603e8-67bb-4e6a-be46-f46bf299e94e}</Project>
+      <Name>ExamenUWPBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamenUWPEntidades\ExamenUWPEntidades.csproj">
+      <Project>{21DD95E3-510E-4905-BFB7-2D20C832FECE}</Project>
+      <Name>ExamenUWPEntidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

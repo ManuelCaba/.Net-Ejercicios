@@ -36,7 +36,7 @@ namespace ExamenUWPDAL.Conexion
         {
             
             this.server = "localhost";
-            this.dataBase = "ManuCaba"; //TODO
+            this.dataBase = "Temperaturas"; //TODO
             this.user = "prueba";            
             this.pass = "123";
 

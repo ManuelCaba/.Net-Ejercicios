@@ -5,10 +5,94 @@
     xmlns:local="using:ExamenUWPUI"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:converters="using:ExamenUWPUI.Converters"
+    xmlns:viewmodel="using:ExamenUWPUI.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Page.DataContext>
+        <viewmodel:MainPageVM></viewmodel:MainPageVM>
+    </Page.DataContext>
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Rectangle" x:Key="RectangleStyle">
+                <Setter Property="Rectangle.Fill">
+                    <Setter.Value>
+                        <LinearGradientBrush>
+                            <GradientStop Offset="0" Color="Blue"></GradientStop>
+                            <GradientStop Offset="0.30" Color="Green"></GradientStop>
+                            <GradientStop Offset="0.70" Color="Yellow"></GradientStop>
+                            <GradientStop Offset="1" Color="Red"></GradientStop>
+                        </LinearGradientBrush>
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Rectangle.Width" Value="150"/>
+                <Setter Property="Rectangle.Height" Value="20"/>
+            </Style>
+            <Style TargetType="ProgressBar" x:Key="ProgressBarStyle">
+                <Setter Property="ProgressBar.Height" Value="10"/>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources>
 
-    </Grid>
+
+    <RelativePanel>
+        <ListView x:Name="lvwAulas"
+                  ItemsSource="{Binding Path=ListadoCompletoAulas, Mode=OneWay}"
+                  SelectedItem="{Binding Path=AulaSeleccionada, Mode=TwoWay}"
+                  RelativePanel.AlignLeftWithPanel="True"
+                  RelativePanel.AlignTopWithPanel="True"
+                  RelativePanel.AlignBottomWithPanel="True">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Nombre}"
+                               FontSize="30"
+                               Margin="20"
+                               HorizontalAlignment="Center"></TextBlock>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <StackPanel x:Name="spTemperaturas" Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                  RelativePanel.AlignTopWithPanel="True"
+                  RelativePanel.AlignBottomWithPanel="True"
+                    RelativePanel.RightOf="lvwAulas"
+                    Margin="50">
+            <StackPanel.Resources>
+                <converters:DateConverter x:Name="dateConverter"></converters:DateConverter>
+            </StackPanel.Resources>
+            <StackPanel Orientation="Horizontal">
+                <DatePicker SelectedDate="{Binding SelectedDate, Converter={StaticResource dateConverter} ,Mode=TwoWay}"></DatePicker>
+                <Button Margin="20,0,0,0" Content="Buscar" Command="{Binding BuscarCommand, Mode=OneWay}" Click="BuscarTemperaturas">
+                </Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,50,0,0">
+                <StackPanel Orientation="Vertical">
+                    <ProgressBar Height="10" Maximum="50" Value="{Binding Temperatura.Temp1}"></ProgressBar>
+                    <Rectangle Style="{StaticResource RectangleStyle}">
+                    </Rectangle>
+                </StackPanel>
+                <TextBlock Text="{Binding Temperatura.Temp1}"></TextBlock>
+                <TextBlock Text="º"></TextBlock>
+                <StackPanel Orientation="Vertical">
+                    <ProgressBar Height="10" Maximum="50" Value="{Binding Temperatura.Temp2}"></ProgressBar>
+                    <Rectangle Style="{StaticResource RectangleStyle}">
+                    </Rectangle>
+                </StackPanel>
+                <TextBlock Text="{Binding Temperatura.Temp2}"></TextBlock>
+                <TextBlock Text="º"></TextBlock>
+                <StackPanel Orientation="Vertical">
+                    <ProgressBar Height="10" Maximum="50" Value="{Binding Temperatura.Temp3}"></ProgressBar>
+                    <Rectangle Style="{StaticResource RectangleStyle}">
+                    </Rectangle>
+                </StackPanel>
+                <TextBlock Text="{Binding Temperatura.Temp3}"></TextBlock>
+                <TextBlock Text="º"></TextBlock>
+            </StackPanel>
+        </StackPanel>
+
+    </RelativePanel>
 </Page>

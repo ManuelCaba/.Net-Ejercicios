@@ -26,5 +26,11 @@ namespace ExamenUWPUI
         {
             this.InitializeComponent();
         }
+
+        public void BuscarTemperaturas(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }

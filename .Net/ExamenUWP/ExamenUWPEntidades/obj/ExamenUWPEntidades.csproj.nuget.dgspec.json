@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj": {}
+    "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj": {}
   },
   "projects": {
-    "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj": {
+    "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
+        "projectUniqueName": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
         "projectName": "ExamenUWPEntidades",
-        "projectPath": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
-        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-        "outputPath": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\obj\\",
+        "projectPath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
+        "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -19,7 +19,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

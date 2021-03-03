@@ -306,6 +306,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm": {
@@ -791,6 +804,19 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
         }
       }
     },
@@ -1279,6 +1305,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-arm64-aot": {
@@ -1766,6 +1805,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x64": {
@@ -2251,6 +2303,19 @@
         "build": {
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
+        }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
         }
       }
     },
@@ -2739,6 +2804,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        }
       }
     },
     "UAP,Version=v10.0.17763/win10-x86": {
@@ -3224,6 +3302,19 @@
         },
         "native": {
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
+        }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
         }
       }
     },
@@ -3712,6 +3803,19 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.props": {},
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
+      },
+      "ExamenUWPEntidades/1.0.0": {
+        "type": "project",
+        "framework": "UAP,Version=v10.0.17763",
+        "dependencies": {
+          "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.10"
+        },
+        "compile": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExamenUWPEntidades.dll": {}
+        }
       }
     }
   },
@@ -4098,7 +4202,7 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
@@ -8143,26 +8247,32 @@
         "runtimes/win10-x86/lib/uap10.0.15138/netstandard.dll",
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
+    },
+    "ExamenUWPEntidades/1.0.0": {
+      "type": "project",
+      "path": "../ExamenUWPEntidades/ExamenUWPEntidades.csproj",
+      "msbuildProject": "../ExamenUWPEntidades/ExamenUWPEntidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.17763": [
+      "ExamenUWPEntidades >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Manuel\\.nuget\\packages\\": {},
+    "C:\\Users\\mcaballero\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPDAL\\ExamenUWPDAL.csproj",
+      "projectUniqueName": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPDAL\\ExamenUWPDAL.csproj",
       "projectName": "ExamenUWPDAL",
-      "projectPath": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPDAL\\ExamenUWPDAL.csproj",
-      "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPDAL\\obj\\",
+      "projectPath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPDAL\\ExamenUWPDAL.csproj",
+      "packagesPath": "C:\\Users\\mcaballero\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPDAL\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8170,7 +8280,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mcaballero\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8183,7 +8293,11 @@
       },
       "frameworks": {
         "uap10.0.17763": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj": {
+              "projectPath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj"
+            }
+          }
         }
       }
     },
