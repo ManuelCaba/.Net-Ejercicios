@@ -121,8 +121,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Excepciones\DepartmentContainsPeopleException.cs" />
-    <Compile Include="Listados\clsListadoPersonasBL.cs" />
-    <Compile Include="Manejadoras\clsManejadoraPersonasBL.cs" />
+    <Compile Include="Listados\clsListadoAulasBL.cs" />
+    <Compile Include="Listados\clsListadoTemperaturasBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\ExamenUWPBL.rd.xml" />
   </ItemGroup>

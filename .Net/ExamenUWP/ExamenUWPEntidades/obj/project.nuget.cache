@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "sG1zB5XS0TIU/VkDpW5JvQvEVACruq8yF22bB1p/QRV1waPX0JWUiO07hkLdSFeLrFRr8k5nhHgs8Wjf539rcw==",
+  "dgSpecHash": "IosZzA55SOkkFO69LNYUYm6CvOD7puH/c5zGVyVE6AIfwvnId0PpX6ALxWFdeke6RoDrBCB7o2Sm/09m64g67Q==",
   "success": true,
-  "projectFilePath": "D:\\.Net-Ejercicios\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
+  "projectFilePath": "D:\\GitHub Manuel\\.Net\\ExamenUWP\\ExamenUWPEntidades\\ExamenUWPEntidades.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.8-rel-28605-00\\microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.10\\microsoft.net.uwpcoreruntimesdk.2.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.netcore.universalwindowsplatform\\6.2.10\\microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\mcaballero\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform\\6.2.10\\runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.2.10.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.compiler\\2.2.8-rel-28605-00\\runtime.win10-arm.microsoft.net.native.compiler.2.2.8-rel-28605-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\runtime.win10-arm.microsoft.net.native.sharedlibrary\\2.2.7-rel-28605-00\\runtime.win10-arm.microsoft.net.native.sharedlibrary.2.2.7-rel-28605-00.nupkg.sha512",

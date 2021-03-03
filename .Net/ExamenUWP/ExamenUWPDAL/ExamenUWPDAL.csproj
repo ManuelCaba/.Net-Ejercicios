@@ -120,10 +120,9 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="Conexion\clsMyConnection.cs" />
-    <Compile Include="Listados\clsListadoPersonasDAL.cs" />
-    <Compile Include="Manejadoras\clsManejadoraPersonasDAL.cs" />
+    <Compile Include="Listados\clsListadoAulasDAL.cs" />
+    <Compile Include="Listados\clsListadoTemperaturasDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\ExamenUWPDAL.rd.xml" />
   </ItemGroup>

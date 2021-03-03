@@ -1,0 +1,4 @@
+Me ha faltado bindear las temperaturas con el progressbar.
+La animación estaba planteada al lanzar el evento click del botón. (No parecía muy difícil)
+También me ha faltado la imagen.
+Me he retrasado demasiado, es una pena porque sabía hacerlo. Lo terminaré en casa.

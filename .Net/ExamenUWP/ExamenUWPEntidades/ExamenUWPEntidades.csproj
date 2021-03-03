@@ -120,6 +120,8 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="clsAula.cs" />
+    <Compile Include="clsTemperatura.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\ExamenUWPEntidades.rd.xml" />
   </ItemGroup>
