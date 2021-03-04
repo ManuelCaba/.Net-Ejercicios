@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentInsertBug">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RadioGroup
+        android:id="@+id/rdgPrioridades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdbAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alta"></RadioButton>
+        <RadioButton
+            android:id="@+id/rdbBaja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baja"></RadioButton>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etxDNIProgramdorBug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DNI Programador"></EditText>
+
+    <Button
+        android:id="@+id/btnAceptarBug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"></Button>
+
+</LinearLayout>

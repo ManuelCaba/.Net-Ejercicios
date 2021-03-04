@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FragmentListado">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/spnProgramadores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/rdgFiltroPrioridades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rdbFiltroAlta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alta"></RadioButton>
+        <RadioButton
+            android:id="@+id/rdbFiltroBaja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baja"></RadioButton>
+        <RadioButton
+            android:id="@+id/rdbFiltroTodos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Todos"></RadioButton>
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/lvwBugsProgramador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
