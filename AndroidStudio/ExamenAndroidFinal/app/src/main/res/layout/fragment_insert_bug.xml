@@ -27,7 +27,7 @@
         android:id="@+id/etxDNIProgramdorBug"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="DNI Programador"></EditText>
+        android:hint="DNI Programador"></EditText>
 
     <Button
         android:id="@+id/btnAceptarBug"

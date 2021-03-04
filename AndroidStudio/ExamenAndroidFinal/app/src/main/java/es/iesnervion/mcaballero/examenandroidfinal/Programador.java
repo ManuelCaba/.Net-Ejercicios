@@ -38,4 +38,9 @@ public class Programador {
     public void setDNI(String DNI) {
         this.DNI = DNI;
     }
+
+    @Override
+    public String toString() {
+        return nombre;
+    }
 }

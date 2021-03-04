@@ -31,4 +31,9 @@ public class ProgramadorConBugs {
     public void setBugs(List<Bug> bugs) {
         this.bugs = bugs;
     }
+
+    @Override
+    public String toString() {
+        return programador.getNombre();
+    }
 }

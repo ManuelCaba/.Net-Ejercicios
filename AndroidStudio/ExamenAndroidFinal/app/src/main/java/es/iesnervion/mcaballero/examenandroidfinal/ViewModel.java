@@ -12,6 +12,7 @@ import java.util.List;
 public class ViewModel extends AndroidViewModel {
 
     private LiveData<List<Programador>> programadores;
+    private LiveData<List<ProgramadorConBugs>> programadoresConBugs;
     private Repositorio repositorio;
     private MutableLiveData<Integer> opcion;
 
@@ -19,11 +20,16 @@ public class ViewModel extends AndroidViewModel {
         super(application);
         repositorio = new Repositorio(application);
         programadores = repositorio.getListadoProgramadores();
+        programadoresConBugs = repositorio.getListadoProgramadorConBugs();
         opcion = new MutableLiveData<>(0);
     }
 
     public LiveData<List<Programador>> getProgramadores() {
         return programadores;
+    }
+
+    public LiveData<List<ProgramadorConBugs>> getProgramadoresConBugs() {
+        return programadoresConBugs;
     }
 
     public void insertarBug(Bug bug)

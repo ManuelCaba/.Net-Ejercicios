@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
 public class Repositorio {
     private ProgramadorDAO programadorDAO;
     private BugDAO bugDAO;
-    //private LiveData<List<ProgramadorConBugs>> listadoProgramadorConBugs;
+    private LiveData<List<ProgramadorConBugs>> listadoProgramadorConBugs;
     private LiveData<List<Programador>> listadoProgramadores;
 
     public Repositorio(Application application) {
@@ -18,10 +18,22 @@ public class Repositorio {
         programadorDAO = db.ProgramadorDAO();
         bugDAO = db.BugDao();
         listadoProgramadores = programadorDAO.listadoProgramadores();
+        try
+        {
+            listadoProgramadorConBugs = programadorDAO.listadoProgramadoresConBugs();
+        } catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
     }
 
     public LiveData<List<Programador>> getListadoProgramadores() {
         return listadoProgramadores;
+    }
+
+    public LiveData<List<ProgramadorConBugs>> getListadoProgramadorConBugs() {
+        return listadoProgramadorConBugs;
     }
 
     public void insertarBug(Bug bug)

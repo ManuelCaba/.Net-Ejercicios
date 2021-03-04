@@ -10,6 +10,6 @@ public class PrioridadConverter {
 
         @TypeConverter
         public static Prioridad StringToEnum(String value) {
-            return value == null ? null : Prioridad.valueOf("value");
+            return value == null ? null : Prioridad.valueOf(value);
         }
 }

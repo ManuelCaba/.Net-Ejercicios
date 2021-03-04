@@ -1,0 +1,6 @@
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\bin\Debug\ExamenAJAXEntidades.dll
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\bin\Debug\ExamenAJAXEntidades.pdb
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.csprojAssemblyReference.cache
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.csproj.CoreCompileInputs.cache
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.dll
+D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.pdb

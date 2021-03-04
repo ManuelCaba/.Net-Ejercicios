@@ -32,17 +32,21 @@ public class FragmentListado extends Fragment {
 
     private Spinner spnProgramadores;
     private LiveData<List<Programador>> listadoProgramadores;
+    private LiveData<List<ProgramadorConBugs>> listadoProgramadoresConBugs;
     private ViewModel vm;
-    private IconicAdapter<Programador> adapter;
+    private ArrayAdapter<ProgramadorConBugs> adapter;
 
-    final Observer<List<Programador>> observarProgramadores = new Observer<List<Programador>>()
+    final Observer<List<ProgramadorConBugs>> observarProgramadoresConBugs = new Observer<List<ProgramadorConBugs>>()
     {
         @Override
-        public void onChanged(List<Programador> listado)
+        public void onChanged(List<ProgramadorConBugs> listado)
         {
-            adapter.setListado((ArrayList<Programador>) listado);
+            adapter.clear();
+            adapter.addAll(listado);
         }
     };
+
+
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -78,7 +82,8 @@ public class FragmentListado extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
         vm = new ViewModelProvider(getActivity()).get(ViewModel.class);
-        listadoProgramadores = vm.getProgramadores();
+        listadoProgramadoresConBugs = vm.getProgramadoresConBugs();
+        listadoProgramadoresConBugs.observe(getActivity(), observarProgramadoresConBugs);
     }
 
     @Override
@@ -87,9 +92,8 @@ public class FragmentListado extends Fragment {
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_listado, container, false);
         spnProgramadores = v.findViewById(R.id.spnProgramadores);
-        listadoProgramadores = vm.getProgramadores();
-        listadoProgramadores.observe(getActivity(), observarProgramadores);
-        adapter = new IconicAdapter<Programador>(getActivity(), R.layout.row, new ArrayList<Programador>());
+        //adapter = new IconicAdapter<Programador>(getActivity(), R.layout.row, new ArrayList<Programador>());
+        adapter = new ArrayAdapter<ProgramadorConBugs>(getActivity(), android.R.layout.simple_spinner_dropdown_item, new ArrayList<ProgramadorConBugs>());
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spnProgramadores.setAdapter(adapter);
         return v;
@@ -107,8 +111,8 @@ public class FragmentListado extends Fragment {
         }
         public void setListado(ArrayList<Programador> listado)
         {
-            this.clear();
-            this.addAll((T) listado);
+            this.programador.clear();
+            this.programador.addAll(listado);
             notifyDataSetChanged();
         }
 
@@ -131,7 +135,7 @@ public class FragmentListado extends Fragment {
             else{
                 holder = (ViewHolderProgramador) row.getTag();
             }
-
+                TextView prueba = holder.getNombre();
                 holder.getNombre().setText(programador.get(position).getNombre());
 
 
