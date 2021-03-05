@@ -1,0 +1,9 @@
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\bin\Debug\ExamenAJAXDAL.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\bin\Debug\ExamenAJAXDAL.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\bin\Debug\ExamenAJAXEntidades.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\bin\Debug\ExamenAJAXEntidades.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\obj\Debug\ExamenAJAXDAL.csprojAssemblyReference.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\obj\Debug\ExamenAJAXDAL.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\obj\Debug\ExamenAJAXDAL.csproj.CopyComplete
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\obj\Debug\ExamenAJAXDAL.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXDAL\obj\Debug\ExamenAJAXDAL.pdb

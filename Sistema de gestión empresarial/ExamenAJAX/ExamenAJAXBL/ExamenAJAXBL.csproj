@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Excepciones\DepartmentContainsPeopleException.cs" />
-    <Compile Include="Listados\clsListadoPersonasBL.cs" />
+    <Compile Include="Listados\clsListadoMisionesBL.cs" />
     <Compile Include="Manejadoras\clsManejadoraPersonasBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

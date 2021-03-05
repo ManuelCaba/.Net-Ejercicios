@@ -4,3 +4,9 @@ D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\Exam
 D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.csproj.CoreCompileInputs.cache
 D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.dll
 D:\Escritorio\.Net-Ejercicios\.Net\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\bin\Debug\ExamenAJAXEntidades.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\bin\Debug\ExamenAJAXEntidades.pdb
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.csprojAssemblyReference.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.csproj.CoreCompileInputs.cache
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.dll
+D:\GitHub Manuel\Sistema de gestión empresarial\ExamenAJAX\ExamenAJAXEntidades\obj\Debug\ExamenAJAXEntidades.pdb

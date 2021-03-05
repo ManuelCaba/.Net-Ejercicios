@@ -3,8 +3,58 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <link href="/Views/Content/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/Views/Content/Site.css" rel="stylesheet" type="text/css">
+    <link href="/Views/Content/Styles.css" rel="stylesheet" type="text/css" />
+    <script src="IndexJavaScript.js"></script>
 </head>
 <body>
-    <h1>hola</h1>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header"></div>
+    </div>
+
+    <div id="loader"></div>
+
+    <div class="container body-content">
+
+        <h1>
+            Examen AJAX
+        </h1>
+
+        <table id="table" class="table" style="border-collapse:collapse" border="1">
+            <thead>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                    <th>
+                        Créditos
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>
+                        Nombre
+                    </th>
+                    <th>
+                        Descripción
+                    </th>
+                    <th>
+                        Créditos
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </div> 
+    <div>
+        <input id="btnGuardar" class="btn btn-primary" type="button" value="Guardar" />
+    </div>
+        
 </body>
 </html>

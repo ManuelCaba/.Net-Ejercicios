@@ -36,7 +36,7 @@ namespace ExamenAJAXDAL.Conexion
         {
             
             this.server = "localhost";
-            this.dataBase = "ManuCaba";
+            this.dataBase = "Mandalorian";
             this.user = "prueba";            
             this.pass = "123";
 

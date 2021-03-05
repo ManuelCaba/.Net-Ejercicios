@@ -81,14 +81,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Views\Content\bootstrap-theme.css" />
+    <Content Include="Views\Content\bootstrap-theme.min.css" />
+    <Content Include="Views\Content\bootstrap.css" />
+    <Content Include="Views\Content\bootstrap.min.css" />
+    <Content Include="Views\Content\Site.css" />
+    <Content Include="Views\Content\Styles.css" />
     <Content Include="Views\index.html" />
-    <Content Include="Views\JavaScript\clsPersona.js" />
-    <Content Include="Views\JavaScript\IndexJS.js" />
-    <Content Include="Views\Views\Index.html" />
+    <Content Include="Views\IndexJavaScript.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\MisionesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -96,6 +101,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Views\Content\bootstrap-theme.css.map" />
+    <Content Include="Views\Content\bootstrap-theme.min.css.map" />
+    <Content Include="Views\Content\bootstrap.css.map" />
+    <Content Include="Views\Content\bootstrap.min.css.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,8 +114,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExamenAJAXBL\ExamenAJAXBL.csproj">
+      <Project>{16721c0c-7027-4e94-bfe4-a9652609dce9}</Project>
+      <Name>ExamenAJAXBL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExamenAJAXEntidades\ExamenAJAXEntidades.csproj">
+      <Project>{fca76f7a-931e-4b9c-bf53-e7591a8714e0}</Project>
+      <Name>ExamenAJAXEntidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -2,42 +2,19 @@
 
 namespace ExamenAJAXBL.Manejadoras
 {
-    public class clsManejadoraPersonasBL
+    public class clsManejadoraMisionesBL
     {
-        /// <summary>
-        /// Elimina una persona en la base de datos a partir de su ID
-        /// </summary>
-        /// <param name="IDPersona"></param>
-        /// <returns></returns>
-        public int eliminarPersonaBL(int IDPersona)
-        {
-            clsManejadoraPersonasDAL clsManejadoraPersonas = new clsManejadoraPersonasDAL();
-
-            return clsManejadoraPersonas.eliminarPersonaDAL(IDPersona);
-        }
+        private clsManejadoraMisionesDAL clsManejadoraMisiones = new clsManejadoraMisionesDAL();
 
         /// <summary>
-        /// Edita una persona en la base de datos a partir de un objeto persona
+        /// Modifica el precio de una misión
         /// </summary>
-        /// <param name="persona"></param>
+        /// <param name="IDMision"></param>
+        /// <param name="precio"></param>
         /// <returns></returns>
-        public int editarPersonaBL(clsPersona persona)
+        public int modificarPrecioBL(int IDMision, int precio)
         {
-            clsManejadoraPersonasDAL clsManejadoraPersonas = new clsManejadoraPersonasDAL();
-
-            return clsManejadoraPersonas.editarPersonaDAL(persona);
-        }
-
-        /// <summary>
-        /// Crear una persona en la base de datos a partir de un objeto persona
-        /// </summary>
-        /// <param name="persona"></param>
-        /// <returns></returns>
-        public int crearPersonaBL(clsPersona persona)
-        {
-            clsManejadoraPersonasDAL clsManejadoraPersonas = new clsManejadoraPersonasDAL();
-
-            return clsManejadoraPersonas.crearPersonaDAL(persona);
+            return clsManejadoraMisiones.modificarPrecioDAL(IDMision, precio);
         }
     }
 }
