@@ -126,6 +126,28 @@ public abstract class TrivialDataBase extends RoomDatabase {
                                     opciones.add(new Opcion("Venom", "https://drive.google.com/uc?id=1SBtGxLNTtmPG9ajOahZfCvEeDaNTT5HQ",3));
                                     opciones.add(new Opcion("Vision", "https://drive.google.com/uc?id=1kCWCE_nPNMJ5bIhpjdo5uKphBegCTAiQ",3));
 
+                                    //Categoria Disney
+                                    opciones.add(new Opcion("Ariel", "https://drive.google.com/uc?id=126vnfpdYmDNWK3GkVAHzAqfoAEbe2Z2W",4));
+                                    opciones.add(new Opcion("Bagheera", "https://drive.google.com/uc?id=1KH2xdpfL06ah9mP3n3XkjZ_ExlW9jyCJ",4));
+                                    opciones.add(new Opcion("Clopi Trouillefou", "https://drive.google.com/uc?id=1iO5kMYghKDMMNyW2w_alQkCgthm92Byu",4));
+                                    opciones.add(new Opcion("Flor", "https://drive.google.com/uc?id=1bU7iQRYR8QfFImm-Tc7tvbORSOo0kyWr",4));
+                                    opciones.add(new Opcion("Gus Gus", "https://drive.google.com/uc?id=1hGfuhdEPjJSiM-KA7kZ9JyGsFNBKypdg",4));
+                                    opciones.add(new Opcion("Mirage", "https://drive.google.com/uc?id=1RFc9xIQcdKKTv5B4dq065jDSv7ufYrNg",4));
+                                    opciones.add(new Opcion("Pepe Grillo", "https://drive.google.com/uc?id=1EhzX68-NRkUcR2nWUqBkORDMR50l903i",4));
+                                    opciones.add(new Opcion("Piglet", "https://drive.google.com/uc?id=1RdA5Eu1uOVmgmjAYaLiseOveMEVUVCEv",4));
+                                    opciones.add(new Opcion("Tia Dalma", "https://drive.google.com/uc?id=1deC3h3HhBO12bZlr5HIYLvkGYllF5mQN",4));
+                                    opciones.add(new Opcion("Bella", "https://drive.google.com/uc?id=122TLUXo-jB6VB6KSGu5EaXmgFU_NJerX",4));
+                                    opciones.add(new Opcion("Cenicienta", "https://drive.google.com/uc?id=12dZ7TkLxx74uoO4fy2lua-hEqkatkhpY",4));
+                                    opciones.add(new Opcion("Destiny", "https://drive.google.com/uc?id=14NFuggHRxy_BR7GI3aNc77X_qmvmH3wG",4));
+                                    opciones.add(new Opcion("Golfo", "https://drive.google.com/uc?id=1s7T-63KL209D6ykejlJyVdO0xupQmenV",4));
+                                    opciones.add(new Opcion("Little John", "https://drive.google.com/uc?id=1yhAmTzqv3hsvjPWwyPstkFf5yVQopZG2",4));
+                                    opciones.add(new Opcion("Periwinkle", "https://drive.google.com/uc?id=1Wt1RBS_S6zoKYdR8UwYjQqAvUsB_MI-b",4));
+                                    opciones.add(new Opcion("Scuttle", "https://drive.google.com/uc?id=1zlWY_z1To7BWZLjq5uHMyeejlHI__ode",4));
+                                    opciones.add(new Opcion("Sombrerero Loco", "https://drive.google.com/uc?id=1EAlF0EgU3DYYdqQjPtk1mAuvIBYhKARX",4));
+                                    opciones.add(new Opcion("Yzma", "https://drive.google.com/uc?id=1-miRAgRE3lWya3Jy_H72_GydRv5se7iA",4));
+                                    opciones.add(new Opcion("Zazu", "https://drive.google.com/uc?id=1lC9A8trn2GkglUIvrNEU-LAnQN-QX90R",4));
+                                    opciones.add(new Opcion("Zeus", "https://drive.google.com/uc?id=151e9qugZdNSWisbgWFrFecxIrpgG553j",4));
+
                                     String insertarOpcion = "INSERT INTO Opciones(Nombre, Imagen, IDCategoria) VALUES ";
 
                                     for(Opcion opcion : opciones)
