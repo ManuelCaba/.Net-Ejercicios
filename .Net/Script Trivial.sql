@@ -1,5 +1,7 @@
-CREATE DATABASE Opciones
+CREATE DATABASE Trivial
 GO
+
+USE Trivial
 
 
 CREATE TABLE Categorias(
