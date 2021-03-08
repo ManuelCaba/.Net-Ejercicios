@@ -4,7 +4,14 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/rowSpinner"
+        android:id="@+id/IDBugRow"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:id="@+id/PrioridadBugRow"
+        android:layout_marginLeft="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></TextView>
 

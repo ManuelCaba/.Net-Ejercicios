@@ -2,7 +2,7 @@ import { Byte } from "@angular/compiler/src/util";
 
 export interface Persona {
 
-    ID: BigInt;
+    ID: number;
 
     Nombre: String;
 
@@ -16,7 +16,7 @@ export interface Persona {
 
     Telefono: String;
 
-    IDDepartamento: BigInt;
+    IDDepartamento: number;
 
     NombreDepartamento: String;
 }

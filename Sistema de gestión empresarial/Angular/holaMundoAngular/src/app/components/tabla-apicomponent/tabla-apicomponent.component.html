@@ -1,0 +1,29 @@
+<p>Listado de Personas</p>
+
+<table width="100%" border="1">
+
+    <th>Id</th>
+
+    <th>Nombre</th>
+
+    <th>Apellidos</th>
+
+    <th>Fecha de Nacimiento</th>
+
+    <tbody>
+
+        <tr *ngFor="let persona of listadoPersonas">
+
+            <td>{{persona.ID}}</td>
+
+            <td>{{persona.Nombre}}</td>
+
+            <td>{{persona.Apellidos}}</td>
+
+            <td>{{persona.FechaNacimiento | date: "dd/MM/YYYY"}}</td>
+
+        </tr>
+
+    </tbody>
+
+</table>

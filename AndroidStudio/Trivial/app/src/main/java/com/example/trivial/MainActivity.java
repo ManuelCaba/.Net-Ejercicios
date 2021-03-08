@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
             if(!listado.isEmpty())
             {
                 ivImagen = findViewById(R.id.ivFoto);
-                Glide.with(getApplicationContext()).load(listado.get(0).getOpciones().get(19).getImagen()).into(ivImagen);
+
+                Glide.with(getApplicationContext()).load(listado.get(2).getOpciones().get(18).getImagen()).into(ivImagen);
             }
         }
     };

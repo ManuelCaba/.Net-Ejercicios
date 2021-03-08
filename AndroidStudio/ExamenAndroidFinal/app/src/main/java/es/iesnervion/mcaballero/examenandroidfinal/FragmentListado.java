@@ -11,7 +11,9 @@ import androidx.lifecycle.ViewModelProvider;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -23,7 +25,7 @@ import java.util.List;
  * Use the {@link FragmentListado#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentListado extends Fragment {
+public class FragmentListado extends Fragment implements AdapterView.OnItemClickListener, AdapterView.OnItemSelectedListener {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,18 +33,26 @@ public class FragmentListado extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     private Spinner spnProgramadores;
-    private LiveData<List<Programador>> listadoProgramadores;
+    private ListView lvBugs;
+    private List<Bug> listadoBugsProgramador;
     private LiveData<List<ProgramadorConBugs>> listadoProgramadoresConBugs;
     private ViewModel vm;
-    private ArrayAdapter<ProgramadorConBugs> adapter;
+    private ArrayAdapter<ProgramadorConBugs> programadoresAdapter;
+    private IconicAdapter<Bug> bugsadapter;
 
     final Observer<List<ProgramadorConBugs>> observarProgramadoresConBugs = new Observer<List<ProgramadorConBugs>>()
     {
         @Override
         public void onChanged(List<ProgramadorConBugs> listado)
         {
-            adapter.clear();
-            adapter.addAll(listado);
+            programadoresAdapter.clear();
+            programadoresAdapter.addAll(listado);
+            programadoresAdapter.notifyDataSetChanged();
+
+            if(listadoBugsProgramador != null)
+            {
+                bugsadapter.setListado((ArrayList<Bug>) listado.get(vm.getPosicionProgramadorSeleccionado()).getBugs());
+            }
         }
     };
 
@@ -93,50 +103,79 @@ public class FragmentListado extends Fragment {
         View v = inflater.inflate(R.layout.fragment_listado, container, false);
         spnProgramadores = v.findViewById(R.id.spnProgramadores);
         //adapter = new IconicAdapter<Programador>(getActivity(), R.layout.row, new ArrayList<Programador>());
-        adapter = new ArrayAdapter<ProgramadorConBugs>(getActivity(), android.R.layout.simple_spinner_dropdown_item, new ArrayList<ProgramadorConBugs>());
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spnProgramadores.setAdapter(adapter);
+        programadoresAdapter = new ArrayAdapter<ProgramadorConBugs>(getActivity(), android.R.layout.simple_spinner_dropdown_item, new ArrayList<ProgramadorConBugs>());
+        programadoresAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spnProgramadores.setAdapter(programadoresAdapter);
+        spnProgramadores.setOnItemSelectedListener(this);
+
+        lvBugs = v.findViewById(R.id.lvwBugsProgramador);
+        bugsadapter = new IconicAdapter<Bug>(getActivity(), R.layout.row, new ArrayList<Bug>());
+        lvBugs.setAdapter(bugsadapter);
+
         return v;
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        listadoBugsProgramador = listadoProgramadoresConBugs.getValue().get(position).getBugs();
+
+        bugsadapter.setListado((ArrayList<Bug>) listadoBugsProgramador);
+        bugsadapter.notifyDataSetChanged();
+
+        vm.setPosicionProgramadorSeleccionado(position);
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 
     //Adaptador ListView
     class IconicAdapter<T> extends ArrayAdapter<T> {
 
-        private ArrayList<Programador> programador;
+        private ArrayList<Bug> bugs;
 
         IconicAdapter(Context c, int resourceId, ArrayList objects)
         {
             super(c, resourceId, objects);
-            programador = objects;
+            bugs = objects;
         }
-        public void setListado(ArrayList<Programador> listado)
+        public void setListado(ArrayList<Bug> listado)
         {
-            this.programador.clear();
-            this.programador.addAll(listado);
+            this.bugs.clear();
+            this.bugs.addAll(listado);
             notifyDataSetChanged();
         }
 
         public View getView(int position, View convertView, ViewGroup parent)
         {
             View row = convertView;
-            ViewHolderProgramador holder;
-            TextView nombre;
+            ViewHolderBug holder;
+            TextView ID;
+            TextView prioridad;
 
             if (row == null){
                 LayoutInflater inflater = getLayoutInflater();
                 row = inflater.inflate(R.layout.row, parent, false);
 
-                nombre = (TextView) row.findViewById(R.id.rowSpinner);
-                holder = new ViewHolderProgramador(nombre);
+                ID = (TextView) row.findViewById(R.id.IDBugRow);
+                prioridad = (TextView) row.findViewById(R.id.PrioridadBugRow);
+                holder = new ViewHolderBug(ID, prioridad);
 
 
                 row.setTag(holder);
             }
             else{
-                holder = (ViewHolderProgramador) row.getTag();
+                holder = (ViewHolderBug) row.getTag();
             }
-                TextView prueba = holder.getNombre();
-                holder.getNombre().setText(programador.get(position).getNombre());
+
+            holder.getID().setText(Integer.toString(bugs.get(position).getID()));
+            holder.getPrioridad().setText(bugs.get(position).getPrioridad().name());
 
 
             return(row);
@@ -144,15 +183,21 @@ public class FragmentListado extends Fragment {
     }
 
     //ViewHolder
-    class ViewHolderProgramador {
-        private TextView nombre;
+    class ViewHolderBug {
+        private TextView ID;
+        private TextView prioridad;
 
-        public ViewHolderProgramador(TextView nombre) {
-            this.nombre = nombre;
+        public ViewHolderBug(TextView ID, TextView prioridad) {
+            this.ID = ID;
+            this.prioridad = prioridad;
         }
 
-        public TextView getNombre() {
-            return nombre;
+        public TextView getID() {
+            return ID;
+        }
+
+        public TextView getPrioridad() {
+            return prioridad;
         }
     }
 }

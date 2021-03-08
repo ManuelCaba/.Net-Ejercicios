@@ -15,6 +15,7 @@ public class ViewModel extends AndroidViewModel {
     private LiveData<List<ProgramadorConBugs>> programadoresConBugs;
     private Repositorio repositorio;
     private MutableLiveData<Integer> opcion;
+    private Integer posicionProgramadorSeleccionado;
 
     public ViewModel(@NonNull Application application) {
         super(application);
@@ -48,5 +49,13 @@ public class ViewModel extends AndroidViewModel {
 
     public void setOpcion(int opcion) {
         this.opcion.postValue(opcion);
+    }
+
+    public Integer getPosicionProgramadorSeleccionado() {
+        return posicionProgramadorSeleccionado;
+    }
+
+    public void setPosicionProgramadorSeleccionado(Integer posicionProgramadorSeleccionado) {
+        this.posicionProgramadorSeleccionado = posicionProgramadorSeleccionado;
     }
 }

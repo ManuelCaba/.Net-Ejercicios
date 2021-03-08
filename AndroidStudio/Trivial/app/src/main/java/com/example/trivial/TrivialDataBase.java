@@ -104,6 +104,28 @@ public abstract class TrivialDataBase extends RoomDatabase {
                                     opciones.add(new Opcion("Weezing", "https://drive.google.com/uc?id=1T_tZh--0wkMkNifUZZ4-yvfHANsmdarK",2));
                                     opciones.add(new Opcion("Zekrom", "https://drive.google.com/uc?id=1mUNlLXTDWc1U3pdFOnEZJq_UEUuz3cGW",2));
 
+                                    //Categoria Super Héroes
+                                    opciones.add(new Opcion("Ciclope", "https://drive.google.com/uc?id=1sIQcccbFqMg_XmTzhGf8oovwFlz8WGL7",3));
+                                    opciones.add(new Opcion("Cyborg", "https://drive.google.com/uc?id=1fR9u22HB2wpEUQeqYfPhmrsmoSrcFwst",3));
+                                    opciones.add(new Opcion("Dr.Manhattan", "https://drive.google.com/uc?id=1M6FdCVCNTlXGSlFbSme8SjILFei7ybM6",3));
+                                    opciones.add(new Opcion("Dr.Strange", "https://drive.google.com/uc?id=13qtZBpliRATYo5jSCzPgh7emAzSw5jum",3));
+                                    opciones.add(new Opcion("Flash", "https://drive.google.com/uc?id=1AWdycI4M4ccowEAZL4mCd-FWnqu4tgEQ",3));
+                                    opciones.add(new Opcion("Ghost Rider", "https://drive.google.com/uc?id=1fchUQjKmUK4CCQUJ4eEyUHeuYg16DkHt",3));
+                                    opciones.add(new Opcion("Green Arrow", "https://drive.google.com/uc?id=1SLkBykzTQu8Zq_1vDEuosPf1-jzTeBLn",3));
+                                    opciones.add(new Opcion("Harley Queen", "https://drive.google.com/uc?id=1CLADe5LCLf7QPWvk4yzelGdNZIRed4u8",3));
+                                    opciones.add(new Opcion("Luke Cage", "https://drive.google.com/uc?id=1OsfSlE_WdeuuAgiZefJpO5d8hUdlrc2G",3));
+                                    opciones.add(new Opcion("War Machine", "https://drive.google.com/uc?id=1qc32MkUVvtIkHayUy1mpkAIWGQzCrwS9",3));
+                                    opciones.add(new Opcion("Optimus Prime", "https://drive.google.com/uc?id=1D7lG17CV3SvWTi54f_HH93BQCoNzWaHD",3));
+                                    opciones.add(new Opcion("Punisher", "https://drive.google.com/uc?id=1TyLcy8ffHM5OMkWSewsZETPPLFqutFH4",3));
+                                    opciones.add(new Opcion("Rayo Negro", "https://drive.google.com/uc?id=1naSMzCGhpf0nze4p8Hc-v4S2yAQoTbD6",3));
+                                    opciones.add(new Opcion("Robin", "https://drive.google.com/uc?id=1MBY6h8QFsi-uaJnNva53ANcopwHr7K7f",3));
+                                    opciones.add(new Opcion("Rorschach", "https://drive.google.com/uc?id=1Rj8f15g8PH84K7AtLnSqZn8f20cd5zH3",3));
+                                    opciones.add(new Opcion("Silver Surfer", "https://drive.google.com/uc?id=1pG_ZtBTTG4TZjpUOOgxdhHYkLjta2vd7",3));
+                                    opciones.add(new Opcion("Supergirl", "https://drive.google.com/uc?id=1JOcdVtdgEVtzQ0U-v_M3naj0j6LR17vl",3));
+                                    opciones.add(new Opcion("Tormenta", "https://drive.google.com/uc?id=1AXr2Qj5xJIbNIpLjXCiwNZo9q4GkgQdT",3));
+                                    opciones.add(new Opcion("Venom", "https://drive.google.com/uc?id=1SBtGxLNTtmPG9ajOahZfCvEeDaNTT5HQ",3));
+                                    opciones.add(new Opcion("Vision", "https://drive.google.com/uc?id=1kCWCE_nPNMJ5bIhpjdo5uKphBegCTAiQ",3));
+
                                     String insertarOpcion = "INSERT INTO Opciones(Nombre, Imagen, IDCategoria) VALUES ";
 
                                     for(Opcion opcion : opciones)

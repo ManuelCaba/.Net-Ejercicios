@@ -18,13 +18,15 @@ import { MatInputModule } from '@angular/material/input';
 
 //API
 import { HttpClientModule } from '@angular/common/http';
+import { TablaAPIComponentComponent } from './components/tabla-apicomponent/tabla-apicomponent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TablaPersonasComponent,
     FormularioPersonasComponent,
-    ListaPersonasComponent
+    ListaPersonasComponent,
+    TablaAPIComponentComponent
   ],
   imports: [
     BrowserModule,
